@@ -1,0 +1,4059 @@
+[
+  {
+    "id": "pharmacy-10617",
+    "longitude": 16.8601,
+    "latitude": 52.3498,
+    "locality": "Luboń",
+    "address": "pl. Edmunda Bojanowskiego 3",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-10618",
+    "longitude": 16.8498,
+    "latitude": 52.3444,
+    "locality": "Luboń",
+    "address": "ul. 11 Listopada 141",
+    "openingTimes": [
+      "Pon.-Sob. 08:00-20:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-10619",
+    "longitude": 16.8723,
+    "latitude": 52.3457,
+    "locality": "Luboń",
+    "address": "ul. 11 Listopada 28",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-10620",
+    "longitude": 16.8837,
+    "latitude": 52.3524,
+    "locality": "Luboń",
+    "address": "ul. Aleksandra Puszkina 38b",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-10621",
+    "longitude": 16.8683,
+    "latitude": 52.3521,
+    "locality": "Luboń",
+    "address": "ul. gen. Władysława Sikorskiego 44",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-10622",
+    "longitude": 16.8613,
+    "latitude": 52.3494,
+    "locality": "Luboń",
+    "address": "ul. Józefa Poniatowskiego 24",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Wt. 08:00-21;0",
+      "Sob. 08:00-14:00",
+      "Niedz. 09:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-10623",
+    "longitude": 16.881,
+    "latitude": 52.3211,
+    "locality": "Luboń",
+    "address": "ul. Kręta 9",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-18:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-10624",
+    "longitude": 16.8909,
+    "latitude": 52.3478,
+    "locality": "Luboń",
+    "address": "ul. ks. Streicha 27",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-18:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-10625",
+    "longitude": 16.8823,
+    "latitude": 52.3404,
+    "locality": "Luboń",
+    "address": "ul. Stefana Żeromskiego 1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-10626",
+    "longitude": 16.8707,
+    "latitude": 52.3503,
+    "locality": "Luboń",
+    "address": "ul. Tadeusza Kościuszki 51",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-10627",
+    "longitude": 16.8731,
+    "latitude": 52.3427,
+    "locality": "Luboń",
+    "address": "ul. Wojska Polskiego 5a",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-18:00",
+      "Sob.-Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-10628",
+    "longitude": 16.8828,
+    "latitude": 52.3437,
+    "locality": "Luboń",
+    "address": "ul. Wschodnia 25",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-10629",
+    "longitude": 16.8753,
+    "latitude": 52.3434,
+    "locality": "Luboń",
+    "address": "ul. Żabikowska 16",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-22:00",
+      "Sob. 09:00-18:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-10630",
+    "longitude": 16.8823,
+    "latitude": 52.3493,
+    "locality": "Luboń",
+    "address": "ul. Żabikowska 53b",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-18:00",
+      "Niedz. 09:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-10631",
+    "longitude": 16.8806,
+    "latitude": 52.3488,
+    "locality": "Luboń",
+    "address": "ul. Żabikowska 62",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-10632",
+    "longitude": 16.8795,
+    "latitude": 52.3501,
+    "locality": "Luboń",
+    "address": "ul. Żabikowska 66",
+    "openingTimes": [
+      "Pon.-Sob. 09:00-21:00",
+      "Niedz. 10:00-19:00"
+    ]
+  },
+  {
+    "id": "pharmacy-11726",
+    "longitude": 16.9748,
+    "latitude": 52.5173,
+    "locality": "Owińska",
+    "address": "ul. Bydgoska 14",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-18:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-11727",
+    "longitude": 16.9802,
+    "latitude": 52.5127,
+    "locality": "Owińska",
+    "address": "ul. Poprzeczna 4",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-18:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-11757",
+    "longitude": 17.159,
+    "latitude": 52.3993,
+    "locality": "Paczkowo",
+    "address": "ul. Zapłocie 6",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-11966",
+    "longitude": 16.816,
+    "latitude": 52.3708,
+    "locality": "Plewiska",
+    "address": "ul. Grunwaldzka 508",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-11967",
+    "longitude": 16.8118,
+    "latitude": 52.3683,
+    "locality": "Plewiska",
+    "address": "ul. Grunwaldzka 517c",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-11968",
+    "longitude": 16.8144,
+    "latitude": 52.3723,
+    "locality": "Plewiska",
+    "address": "ul. Miętowa 5/8",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-1205",
+    "longitude": 16.9283,
+    "latitude": 52.41018333,
+    "locality": "Poznań",
+    "address": "23-go Lutego 18",
+    "openingTimes": [
+      "Pon.-Pt. 00:00-24:00",
+      "Sob. 00:00-24:00",
+      "Niedz. 00:00-24:00"
+    ]
+  },
+  {
+    "id": "pharmacy-1206",
+    "longitude": 16.9748018,
+    "latitude": 52.3872621,
+    "locality": "Poznań",
+    "address": "Os. Lecha 120",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. 08:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-1207",
+    "longitude": 16.90645833,
+    "latitude": 52.37167778,
+    "locality": "Poznań",
+    "address": "Św. Szczepana 7",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob. 09:00-14:00",
+      "Niedz. 09:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-1208",
+    "longitude": 16.88726667,
+    "latitude": 52.41630556,
+    "locality": "Poznań",
+    "address": "Dąbrowskiego 140/142",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. 08:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-1209",
+    "longitude": 16.96413056,
+    "latitude": 52.37485,
+    "locality": "Poznań",
+    "address": "Os. Orła Białego 75",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. 08:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-12095",
+    "longitude": 16.9519,
+    "latitude": 52.3833,
+    "locality": "Poznań",
+    "address": "os. Bohaterów II Wojny Światowej 33",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-17:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12096",
+    "longitude": 16.976,
+    "latitude": 52.3867,
+    "locality": "Poznań",
+    "address": "os. Lecha 121",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12097",
+    "longitude": 16.8649,
+    "latitude": 52.4229,
+    "locality": "Poznań",
+    "address": "os. Lotnictwa Polskiego 109",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12098",
+    "longitude": 16.9136,
+    "latitude": 52.4501,
+    "locality": "Poznań",
+    "address": "ul. Kurpińskiego 10/L4",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-17:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12099",
+    "longitude": 16.985,
+    "latitude": 52.3927,
+    "locality": "Poznań",
+    "address": "ul. Bliźniąt 12/4",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-1210",
+    "longitude": 16.892368,
+    "latitude": 52.409253,
+    "locality": "Poznań",
+    "address": "Gorczyczewskiego 1",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. 08:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-12100",
+    "longitude": 16.9482,
+    "latitude": 52.4554,
+    "locality": "Poznań",
+    "address": "ul. Budzisława 1/2",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12101",
+    "longitude": 16.9046079,
+    "latitude": 52.3697499,
+    "locality": "Poznań",
+    "address": "ul. Czechosłowacka 46",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. 09:30-14:30"
+    ]
+  },
+  {
+    "id": "pharmacy-12102",
+    "longitude": 16.8953,
+    "latitude": 52.3942,
+    "locality": "Poznań",
+    "address": "ul. Krańcowa 62/U5",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12103",
+    "longitude": 16.9121,
+    "latitude": 52.4111,
+    "locality": "Poznań",
+    "address": "ul. Jana Henryka Dąbrowskiego 7",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12104",
+    "longitude": 16.9009,
+    "latitude": 52.4141,
+    "locality": "Poznań",
+    "address": "ul. Jana Henryka Dąbrowskiego 77a",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-12105",
+    "longitude": 16.8711,
+    "latitude": 52.3974,
+    "locality": "Poznań",
+    "address": "ul. Konfederacka 2",
+    "openingTimes": [
+      "Pon.-Sob. 08:00-21:00",
+      "Niedz. 10:00-18:00"
+    ]
+  },
+  {
+    "id": "pharmacy-12106",
+    "longitude": 16.9289,
+    "latitude": 52.4,
+    "locality": "Poznań",
+    "address": "ul. Królowej Jadwigi 58a",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 10:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12107",
+    "longitude": 16.9055,
+    "latitude": 52.3655,
+    "locality": "Poznań",
+    "address": "ul. Limbowa 3",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12108",
+    "longitude": 16.8848,
+    "latitude": 52.3885,
+    "locality": "Poznań",
+    "address": "ul. Macieja Palacza 36",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-12109",
+    "longitude": 16.9081,
+    "latitude": 52.4478,
+    "locality": "Poznań",
+    "address": "ul. Obornicka 260/a",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-20:30",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-1211",
+    "longitude": 16.90602222,
+    "latitude": 52.41217222,
+    "locality": "Poznań",
+    "address": "Dąbrowskiego 44",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. 08:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-12110",
+    "longitude": 16.9193,
+    "latitude": 52.4612,
+    "locality": "Poznań",
+    "address": "ul. Opieńskiego 1/36",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-12111",
+    "longitude": 16.9303,
+    "latitude": 52.4034,
+    "locality": "Poznań",
+    "address": "ul. Półwiejska 17",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-21:00",
+      "Sob. 09:00-17:00",
+      "Niedz. 10:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-12112",
+    "longitude": 16.9182,
+    "latitude": 52.3417,
+    "locality": "Poznań",
+    "address": "ul. Starołęcka 235",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-18:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12113",
+    "longitude": 16.922,
+    "latitude": 52.3949,
+    "locality": "Poznań",
+    "address": "ul. Wierzbięcice 36/38",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-19:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12114",
+    "longitude": 16.9129,
+    "latitude": 52.3864,
+    "locality": "Poznań",
+    "address": "ul. Hetmańska 91",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-20:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12115",
+    "longitude": 16.9565,
+    "latitude": 52.3968,
+    "locality": "Poznań",
+    "address": "ul. Pleszewska 1",
+    "openingTimes": [
+      "Pon.-Sob. 10:00-22:00",
+      "Pt. 10:00-22:00",
+      "Niedz. 10:00-21:00"
+    ]
+  },
+  {
+    "id": "pharmacy-1212",
+    "longitude": 16.904888,
+    "latitude": 52.367222,
+    "locality": "Poznań",
+    "address": "Jaworowa 66",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. 08:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-1213",
+    "longitude": 16.9226927,
+    "latitude": 52.4357566,
+    "locality": "Poznań",
+    "address": "Al. Solidarności  47",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. 09:00-21:00"
+    ]
+  },
+  {
+    "id": "pharmacy-1214",
+    "longitude": 16.86473611,
+    "latitude": 52.38094722,
+    "locality": "Poznań",
+    "address": "Mrągowska 4",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. 09:00-21:00"
+    ]
+  },
+  {
+    "id": "pharmacy-12214",
+    "longitude": 16.7761,
+    "latitude": 52.4323,
+    "locality": "Przeźmierowo",
+    "address": "ul. Ogrodowa 14",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-12215",
+    "longitude": 16.7878,
+    "latitude": 52.4214,
+    "locality": "Przeźmierowo",
+    "address": "ul. Rynkowa 105",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12216",
+    "longitude": 16.7848,
+    "latitude": 52.4282,
+    "locality": "Przeźmierowo",
+    "address": "ul. Rynkowa 63",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12217",
+    "longitude": 16.7861,
+    "latitude": 52.4262,
+    "locality": "Przeźmierowo",
+    "address": "ul. Rynkowa 75c",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12299",
+    "longitude": 16.8696,
+    "latitude": 52.2633,
+    "locality": "Puszczykowo",
+    "address": "ul.  Józefa Ignacego Kraszewskiego 11",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12300",
+    "longitude": 16.8612,
+    "latitude": 52.2725,
+    "locality": "Puszczykowo",
+    "address": "ul. Dworcowa 22",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-12301",
+    "longitude": 16.8566,
+    "latitude": 52.286,
+    "locality": "Puszczykowo",
+    "address": "ul. Kościelna 7",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. 09:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-12302",
+    "longitude": 16.8583,
+    "latitude": 52.2894,
+    "locality": "Puszczykowo",
+    "address": "ul. Poznańska 56",
+    "openingTimes": [
+      "Pon.-Sob. 08:00-20:00",
+      "Niedz. 09:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-12303",
+    "longitude": 16.8557,
+    "latitude": 52.2866,
+    "locality": "Puszczykowo",
+    "address": "ul. Poznanska 74a",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-12304",
+    "longitude": 16.8571,
+    "latitude": 52.2872,
+    "locality": "Puszczykowo",
+    "address": "ul. Poznańska 75",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12508",
+    "longitude": 17.0572,
+    "latitude": 52.3008,
+    "locality": "Robakowo",
+    "address": "ul. Szkolna 18",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12527",
+    "longitude": 16.7417,
+    "latitude": 52.5042,
+    "locality": "Rokietnica",
+    "address": "Kalinowe 14c/9,14a/9",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-12530",
+    "longitude": 16.7546,
+    "latitude": 52.5108,
+    "locality": "Rokietnica",
+    "address": "ul. Pocztowa 7",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-18:00",
+      "Sob. 08:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-127",
+    "longitude": 16.9351102000001,
+    "latitude": 52.3999232,
+    "locality": "Poznań",
+    "address": "ul. Strzelecka 48A",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-18:00",
+      "Sob. 08:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-12724",
+    "longitude": 16.7252,
+    "latitude": 52.4501,
+    "locality": "Sady",
+    "address": "ul. Kobylnicka 2a",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-12958",
+    "longitude": 16.7834,
+    "latitude": 52.3911,
+    "locality": "Skórzewo",
+    "address": "ul. Kwiatowa 37",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob.-Niedz. 09:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-12959",
+    "longitude": 16.802,
+    "latitude": 52.3966,
+    "locality": "Skórzewo",
+    "address": "ul. Malwowa 162",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. 10:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-12960",
+    "longitude": 16.7829,
+    "latitude": 52.3885,
+    "locality": "Skórzewo",
+    "address": "ul. Poznańska 4",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-12961",
+    "longitude": 16.7961,
+    "latitude": 52.393,
+    "locality": "Skórzewo",
+    "address": "ul. Poznańska 74",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13370",
+    "longitude": 16.8794,
+    "latitude": 52.4748,
+    "locality": "Suchy Las",
+    "address": "ul. Nowy Rynek 6",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13371",
+    "longitude": 16.8755,
+    "latitude": 52.473,
+    "locality": "Suchy Las",
+    "address": "ul. Obornicka 85",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13372",
+    "longitude": 16.8785,
+    "latitude": 52.4734,
+    "locality": "Suchy Las",
+    "address": "ul. Wojciecha Bogusławskiego 8",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13410",
+    "longitude": 16.765,
+    "latitude": 52.4399,
+    "locality": "Swadzim",
+    "address": "ul. św. Antoniego 2",
+    "openingTimes": [
+      "Pon.-Sob. 09:00-21:00",
+      "Niedz. 09:30-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-13411",
+    "longitude": 17.0852170000001,
+    "latitude": 52.415222,
+    "locality": "Swarzędz",
+    "address": "os. Dąbrowszczaków 26",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-13412",
+    "longitude": 17.0577,
+    "latitude": 52.3998,
+    "locality": "Swarzędz",
+    "address": "os. Edwarda Raczyńskiego 1/1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13413",
+    "longitude": 17.0642,
+    "latitude": 52.4,
+    "locality": "Swarzędz",
+    "address": "os. Hipolita Cegielskiego 32a",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-21:00",
+      "Sob.-Niedz. 08:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-13414",
+    "longitude": 17.0784,
+    "latitude": 52.4205,
+    "locality": "Swarzędz",
+    "address": "os. Kościuszkowców 13",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13415",
+    "longitude": 17.0807,
+    "latitude": 52.4218,
+    "locality": "Swarzędz",
+    "address": "os. Kościuszkowców 34",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-22:00",
+      "Sob. 08:00-22:00",
+      "Niedz. 10:00-18:00"
+    ]
+  },
+  {
+    "id": "pharmacy-13416",
+    "longitude": 17.0652,
+    "latitude": 52.3994,
+    "locality": "Swarzędz",
+    "address": "os. Tytusa  Działyńskiego 1j",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-15:00",
+      "Niedz. 09:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-13417",
+    "longitude": 17.0681,
+    "latitude": 52.3989,
+    "locality": "Swarzędz",
+    "address": "os. Tytusa Działyńskiego 39",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-20:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-13419",
+    "longitude": 17.0765,
+    "latitude": 52.4102,
+    "locality": "Swarzędz",
+    "address": "rynek Rynek 18",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13420",
+    "longitude": 17.0575,
+    "latitude": 52.4018,
+    "locality": "Swarzędz",
+    "address": "ul.  Graniczna 63/19",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-20:00",
+      "Sob. 09:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-13421",
+    "longitude": 17.0698,
+    "latitude": 52.3956,
+    "locality": "Swarzędz",
+    "address": "ul.  Kupiecka 29",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-21:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-13422",
+    "longitude": 17.083,
+    "latitude": 52.4198,
+    "locality": "Swarzędz",
+    "address": "ul. A. Cieszkowskiego 39",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13423",
+    "longitude": 17.0840774,
+    "latitude": 52.4200751,
+    "locality": "Swarzędz",
+    "address": "ul. Cieszkowskiego 100/102/4",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13424",
+    "longitude": 17.0842,
+    "latitude": 52.4098,
+    "locality": "Swarzędz",
+    "address": "ul. Cieszkowskiego 5/7",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13425",
+    "longitude": 17.0723,
+    "latitude": 52.4067,
+    "locality": "Swarzędz",
+    "address": "ul. Dworcowa 4",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-13426",
+    "longitude": 17.0597,
+    "latitude": 52.4015,
+    "locality": "Swarzędz",
+    "address": "ul. Graniczna 55/2",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13427",
+    "longitude": 17.0706,
+    "latitude": 52.3967,
+    "locality": "Swarzędz",
+    "address": "ul. Kupiecka 15",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-13428",
+    "longitude": 17.0751,
+    "latitude": 52.4095,
+    "locality": "Swarzędz",
+    "address": "ul. Piaski 8",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-13429",
+    "longitude": 17.0768,
+    "latitude": 52.41,
+    "locality": "Swarzędz",
+    "address": "ul. Rynek 16",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13430",
+    "longitude": 17.0777,
+    "latitude": 52.413,
+    "locality": "Swarzędz",
+    "address": "ul. Zamkowa 17c",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-19:00",
+      "Sob.-Niedz. 09:00-13:00"
+    ]
+  },
+  {
+    "id": "pharmacy-13949",
+    "longitude": 17.0636,
+    "latitude": 52.3453,
+    "locality": "Tulce",
+    "address": "ul. Fiołkowa 1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-13950",
+    "longitude": 17.0768,
+    "latitude": 52.3429,
+    "locality": "Tulce",
+    "address": "ul. Poznańska 21",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-14408",
+    "longitude": 16.8543,
+    "latitude": 52.3194,
+    "locality": "Wiry",
+    "address": "ul. Komornicka 192",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-14998",
+    "longitude": 16.8559,
+    "latitude": 52.4794,
+    "locality": "Złotniki",
+    "address": "pl. Grzybowy 7",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-18:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-15108",
+    "longitude": 16.9124,
+    "latitude": 52.4018,
+    "locality": "Poznań",
+    "address": "ul. Stanisława Matyi 2",
+    "openingTimes": [
+      "Pon.-Sob. 09:00-21:00",
+      "Niedz. 09:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-15212",
+    "longitude": 16.924744,
+    "latitude": 52.402686,
+    "locality": "Poznań",
+    "address": "ul. Półwiejska 42 lokal 232 (Stary Browar)",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. 10:00-18:00"
+    ]
+  },
+  {
+    "id": "pharmacy-15336",
+    "longitude": 17.0174818531915,
+    "latitude": 52.30207505,
+    "locality": "Szczytniki",
+    "address": "ul. Jeziorna 9",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-19:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-15366",
+    "longitude": 16.757169,
+    "latitude": 52.39673,
+    "locality": "Dąbrowa k. Poznania",
+    "address": "ul. Szafirowa 1A",
+    "openingTimes": [
+      "Sob. 09:00-14:00",
+      "Wt.-Czw. 08:00-19:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-216",
+    "longitude": 16.895848,
+    "latitude": 52.391292,
+    "locality": "Poznań",
+    "address": "ul. Głogowska 107/109",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 09:00-17:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-217",
+    "longitude": 16.9244679999999,
+    "latitude": 52.3968549,
+    "locality": "Poznań",
+    "address": "ul. Górna Wilda 82",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2170",
+    "longitude": 16.985633,
+    "latitude": 52.342046,
+    "locality": "Poznań",
+    "address": "ul. Jarosławska 4",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-18:00",
+      "Sob. 09:00-12:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2172",
+    "longitude": 16.928895,
+    "latitude": 52.4007839,
+    "locality": "Poznań",
+    "address": "ul. Krakowska 32/2",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-20:00",
+      "Niedz. 11:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2178",
+    "longitude": 16.94979,
+    "latitude": 52.3796229,
+    "locality": "Poznań",
+    "address": "os. Armii Krajowej 105",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2179",
+    "longitude": 16.952046,
+    "latitude": 52.3799379,
+    "locality": "Poznań",
+    "address": "os. Armii Krajowej 98",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-18:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2180",
+    "longitude": 16.9519852,
+    "latitude": 52.3838616,
+    "locality": "Poznań",
+    "address": "os. Boh. Ii Wojny Światowej 31",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2181",
+    "longitude": 16.9122045,
+    "latitude": 52.458761,
+    "locality": "Poznań",
+    "address": "os. Bolesława Chrobrego 101/7",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2182",
+    "longitude": 16.915157,
+    "latitude": 52.4578558,
+    "locality": "Poznań",
+    "address": "os. Bolesława Chrobrego 11 110",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2183",
+    "longitude": 16.9165065,
+    "latitude": 52.4492769,
+    "locality": "Poznań",
+    "address": "os. Bolesława Chrobrego 118",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2184",
+    "longitude": 16.9237733,
+    "latitude": 52.4526554,
+    "locality": "Poznań",
+    "address": "os. Bolesława Śmiałego 104",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2185",
+    "longitude": 16.9240743,
+    "latitude": 52.4502399,
+    "locality": "Poznań",
+    "address": "os. Bolesława Śmiałego 31",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2186",
+    "longitude": 16.977406,
+    "latitude": 52.3859252,
+    "locality": "Poznań",
+    "address": "os. Czecha 73",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-20:00",
+      "Sob. 08:00-20:00",
+      "Niedz. 09:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2189",
+    "longitude": 16.9795322,
+    "latitude": 52.3873671,
+    "locality": "Poznań",
+    "address": "os. Czecha 79",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2192",
+    "longitude": 16.904977,
+    "latitude": 52.3618056,
+    "locality": "Poznań",
+    "address": "os. Dębina 14",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2193",
+    "longitude": 16.8971433,
+    "latitude": 52.4563217,
+    "locality": "Poznań",
+    "address": "os. J. III Sobieskiego Paw. 52",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2196",
+    "longitude": 16.949944,
+    "latitude": 52.3933369,
+    "locality": "Poznań",
+    "address": "os. Jagiellońskie 12",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2199",
+    "longitude": 16.9529094,
+    "latitude": 52.3910384,
+    "locality": "Poznań",
+    "address": "os. Jagiellońskie 121D",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2200",
+    "longitude": 16.9062193,
+    "latitude": 52.463068,
+    "locality": "Poznań",
+    "address": "os. Jana III Sobieskiego 103 9",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-15:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2204",
+    "longitude": 16.941584,
+    "latitude": 52.437801,
+    "locality": "Poznań",
+    "address": "os. Kosmonautów 104",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-21:00",
+      "Sob. 08:00-21:00",
+      "Niedz. 09:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2205",
+    "longitude": 16.943683,
+    "latitude": 52.4382419,
+    "locality": "Poznań",
+    "address": "os. Kosmonautów 15",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2206",
+    "longitude": 16.9750277,
+    "latitude": 52.3906781,
+    "locality": "Poznań",
+    "address": "os. Lecha 43",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2207",
+    "longitude": 16.9029114,
+    "latitude": 52.460036,
+    "locality": "Poznań",
+    "address": "os. Marysieńki 25",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2208",
+    "longitude": 16.9699649,
+    "latitude": 52.3817869,
+    "locality": "Poznań",
+    "address": "os. Orła Białego 103",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2209",
+    "longitude": 16.9680002,
+    "latitude": 52.3780373,
+    "locality": "Poznań",
+    "address": "os. Orła Białego 245",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2210",
+    "longitude": 16.962946,
+    "latitude": 52.375932,
+    "locality": "Poznań",
+    "address": "os. Orła Białego 45",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2211",
+    "longitude": 16.958123,
+    "latitude": 52.3904349,
+    "locality": "Poznań",
+    "address": "os. Oświecenia 57",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2212",
+    "longitude": 16.945035,
+    "latitude": 52.396474,
+    "locality": "Poznań",
+    "address": "os. Piastowskie 17",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2213",
+    "longitude": 16.944943,
+    "latitude": 52.3947439,
+    "locality": "Poznań",
+    "address": "os. Piastowskie 22",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2214",
+    "longitude": 16.9433871,
+    "latitude": 52.3919146,
+    "locality": "Poznań",
+    "address": "os. Piastowskie 58",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-18:00",
+      "Sob. zamknięta",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2215",
+    "longitude": 16.946623,
+    "latitude": 52.3907139,
+    "locality": "Poznań",
+    "address": "os. Piastowskie 74",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob. 08:00-14:00",
+      "Niedz. 09:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2216",
+    "longitude": 16.946623,
+    "latitude": 52.3907139,
+    "locality": "Poznań",
+    "address": "os. Piastowskie 74",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2217",
+    "longitude": 16.9456634,
+    "latitude": 52.3895309,
+    "locality": "Poznań",
+    "address": "os. Piastowskie 75",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. 09:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2218",
+    "longitude": 16.9448347,
+    "latitude": 52.3902786,
+    "locality": "Poznań",
+    "address": "os. Piastowskie 77/14",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-19:00",
+      "Sob. 08:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2219",
+    "longitude": 16.9415255,
+    "latitude": 52.4298257,
+    "locality": "Poznań",
+    "address": "os. Pod Lipami 104",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2220",
+    "longitude": 16.9601489,
+    "latitude": 52.383793,
+    "locality": "Poznań",
+    "address": "os. Polan 100",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2221",
+    "longitude": 16.9538249,
+    "latitude": 52.388652,
+    "locality": "Poznań",
+    "address": "os. Powstań Narodowych 35",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2222",
+    "longitude": 17.0026729,
+    "latitude": 52.3898129,
+    "locality": "Poznań",
+    "address": "os. Przemysława 8C",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-19:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2223",
+    "longitude": 16.9298307,
+    "latitude": 52.4315535,
+    "locality": "Poznań",
+    "address": "os. Przyjaźni 125B",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2224",
+    "longitude": 16.9257,
+    "latitude": 52.42962,
+    "locality": "Poznań",
+    "address": "os. Przyjaźni 132 B",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2225",
+    "longitude": 16.9211779,
+    "latitude": 52.430149,
+    "locality": "Poznań",
+    "address": "os. Przyjaźni 141B",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2226",
+    "longitude": 16.982786,
+    "latitude": 52.3928189,
+    "locality": "Poznań",
+    "address": "os. Rusa 12",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2227",
+    "longitude": 16.950857,
+    "latitude": 52.3887749,
+    "locality": "Poznań",
+    "address": "os. Rzeczypospolitej 6A",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-19:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2228",
+    "longitude": 16.9210513,
+    "latitude": 52.4623064,
+    "locality": "Poznań",
+    "address": "os. S. Batorego 79-79A U4-U1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2229",
+    "longitude": 16.9674892,
+    "latitude": 52.3836751,
+    "locality": "Poznań",
+    "address": "os. Stare Żegrze 110",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2230",
+    "longitude": 16.957542,
+    "latitude": 52.380162,
+    "locality": "Poznań",
+    "address": "os. Stare Żegrze 34",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2231",
+    "longitude": 16.9225063,
+    "latitude": 52.4571186,
+    "locality": "Poznań",
+    "address": "os. Stefana Batorego 17",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2232",
+    "longitude": 16.9775991,
+    "latitude": 52.3932685,
+    "locality": "Poznań",
+    "address": "os. Tysiąclecia 30 box P",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2233",
+    "longitude": 16.9398916,
+    "latitude": 52.4385526,
+    "locality": "Poznań",
+    "address": "os. Wichrowe Wzgórze 104",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2234",
+    "longitude": 16.9315019,
+    "latitude": 52.438767,
+    "locality": "Poznań",
+    "address": "os. Wichrowe Wzgórze 121A",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-21:00",
+      "Sob. 08:00-18:00",
+      "Niedz. 09:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2235",
+    "longitude": 16.9328359,
+    "latitude": 52.438607,
+    "locality": "Poznań",
+    "address": "os. Wichrowe Wzgórze 122",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2236",
+    "longitude": 16.9107197,
+    "latitude": 52.4335841,
+    "locality": "Poznań",
+    "address": "os. Winiary 54",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2237",
+    "longitude": 16.905592,
+    "latitude": 52.456629,
+    "locality": "Poznań",
+    "address": "os. Władysława Jagiełły 17",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2238",
+    "longitude": 16.94292,
+    "latitude": 52.448608,
+    "locality": "Poznań",
+    "address": "os. Władysława Łokietka 115",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2239",
+    "longitude": 16.922722,
+    "latitude": 52.441437,
+    "locality": "Poznań",
+    "address": "os. Zwycięstwa 108",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2240",
+    "longitude": 16.9227067,
+    "latitude": 52.4381624,
+    "locality": "Poznań",
+    "address": "os. Zwycięstwa 110",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-21:00",
+      "Sob. 08:00-18:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2241",
+    "longitude": 16.9234443,
+    "latitude": 52.409864,
+    "locality": "Poznań",
+    "address": "pl. Cyryla Ratajskiego 4",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2242",
+    "longitude": 16.8954258,
+    "latitude": 52.4133527,
+    "locality": "Poznań",
+    "address": "pl. Galla 4",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2245",
+    "longitude": 16.9308309,
+    "latitude": 52.410905,
+    "locality": "Poznań",
+    "address": "pl. Wielkopolski 3A",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2250",
+    "longitude": 16.9077994,
+    "latitude": 52.3776535,
+    "locality": "Poznań",
+    "address": "ul. 28 Czerwca 1956 261",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2251",
+    "longitude": 16.9200768,
+    "latitude": 52.3916156,
+    "locality": "Poznań",
+    "address": "ul. 28 Czerwca 1956 r. 122",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2252",
+    "longitude": 16.9182798,
+    "latitude": 52.3896958,
+    "locality": "Poznań",
+    "address": "ul. 28 Czerwca 1956 r. 138/140",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2253",
+    "longitude": 16.9177645,
+    "latitude": 52.3891695,
+    "locality": "Poznań",
+    "address": "ul. 28 Czerwca 1956 r. 144/1",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-21:00",
+      "Sob. 08:00-16:00",
+      "Niedz. 10:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2254",
+    "longitude": 16.9177266,
+    "latitude": 52.388434,
+    "locality": "Poznań",
+    "address": "ul. 28 Czerwca 1956 r. 151",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2255",
+    "longitude": 16.9155419,
+    "latitude": 52.3865249,
+    "locality": "Poznań",
+    "address": "ul. 28 Czerwca 1956 r. 168",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2256",
+    "longitude": 16.9123789,
+    "latitude": 52.3832339,
+    "locality": "Poznań",
+    "address": "ul. 28 Czerwca 1956 r. 194",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-18:30",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2257",
+    "longitude": 16.9030231,
+    "latitude": 52.3692204,
+    "locality": "Poznań",
+    "address": "ul. 28 Czerwca 1956 r. 330",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2258",
+    "longitude": 16.9042721,
+    "latitude": 52.366899,
+    "locality": "Poznań",
+    "address": "ul. 28 Czerwca 1956 r. 349 (wejście od Racjonalizatorów)",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2259",
+    "longitude": 16.901973,
+    "latitude": 52.3629061,
+    "locality": "Poznań",
+    "address": "ul. 28 Czerwca 1956 r. 384/19",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2263",
+    "longitude": 16.8933003,
+    "latitude": 52.4117011,
+    "locality": "Poznań",
+    "address": "ul. A. Szamarzewskiego 44 3A",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2264",
+    "longitude": 16.8822539,
+    "latitude": 52.4132827,
+    "locality": "Poznań",
+    "address": "ul. A. Szamarzewskiego 82/84",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2265",
+    "longitude": 16.9005314999999,
+    "latitude": 52.4060579,
+    "locality": "Poznań",
+    "address": "ul. Szylinga 1",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-18:00",
+      "Sob. zamknięta",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2266",
+    "longitude": 16.9339368,
+    "latitude": 52.4334391,
+    "locality": "Poznań",
+    "address": "Aleje Solidarności 36",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2267",
+    "longitude": 16.8977664,
+    "latitude": 52.4013826,
+    "locality": "Poznań",
+    "address": "ul. Artura Grottgera 5",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2269",
+    "longitude": 16.9045447,
+    "latitude": 52.4303601,
+    "locality": "Poznań",
+    "address": "ul. Błękitna 7",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2271",
+    "longitude": 16.9928119,
+    "latitude": 52.3624352,
+    "locality": "Poznań",
+    "address": "ul. Bolesława Krzywoustego 114",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2272",
+    "longitude": 16.878611,
+    "latitude": 52.407215,
+    "locality": "Poznań",
+    "address": "ul. Brzask 10A 206",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2273",
+    "longitude": 16.904855,
+    "latitude": 52.3653988,
+    "locality": "Poznań",
+    "address": "ul. Bukowa 2A",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2274",
+    "longitude": 16.8828189,
+    "latitude": 52.41007,
+    "locality": "Poznań",
+    "address": "ul. Bukowska 100",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2275",
+    "longitude": 16.8615168,
+    "latitude": 52.41082,
+    "locality": "Poznań",
+    "address": "ul. Bukowska 156",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. 10:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2276",
+    "longitude": 16.7823446,
+    "latitude": 52.4777852,
+    "locality": "Poznań",
+    "address": "ul. Chojnicka 50",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2277",
+    "longitude": 16.7822229,
+    "latitude": 52.477621,
+    "locality": "Poznań",
+    "address": "ul. Chojnicka 51 1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2278",
+    "longitude": 16.7847039,
+    "latitude": 52.47752,
+    "locality": "Poznań",
+    "address": "ul. Chojnicka 58",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2281",
+    "longitude": 16.8744519,
+    "latitude": 52.3993929,
+    "locality": "Poznań",
+    "address": "ul. Cześnikowska 2",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2283",
+    "longitude": 16.85757,
+    "latitude": 52.4263823,
+    "locality": "Poznań",
+    "address": "ul. Dąbrowskiego 294",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2284",
+    "longitude": 16.9046163,
+    "latitude": 52.4126837,
+    "locality": "Poznań",
+    "address": "ul. Dąbrowskiego 49A",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2285",
+    "longitude": 16.8968281,
+    "latitude": 52.4139867,
+    "locality": "Poznań",
+    "address": "ul. Dąbrowskiego 86",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2286",
+    "longitude": 16.93566,
+    "latitude": 52.403644,
+    "locality": "Poznań",
+    "address": "ul. Długa 1/2",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2287",
+    "longitude": 16.9015526,
+    "latitude": 52.4369806,
+    "locality": "Poznań",
+    "address": "ul. Dojazd 34",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-18:00",
+      "Sob. 09:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2288",
+    "longitude": 16.9072523,
+    "latitude": 52.4506913,
+    "locality": "Poznań",
+    "address": "ul. Drobnika 47",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2289",
+    "longitude": 16.889758,
+    "latitude": 52.446556,
+    "locality": "Poznań",
+    "address": "ul. Druskienicka 12A",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2290",
+    "longitude": 16.9190339,
+    "latitude": 52.4406227,
+    "locality": "Poznań",
+    "address": "ul. ks. Drużbickiego 2",
+    "openingTimes": [
+      "Pon.-Sob. 09:00-21:00",
+      "Niedz. 10:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2294",
+    "longitude": 16.9031579,
+    "latitude": 52.4632019,
+    "locality": "Poznań",
+    "address": "ul. F. Stróżyńskiego 29",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2295",
+    "longitude": 16.9478247,
+    "latitude": 52.3693071,
+    "locality": "Poznań",
+    "address": "ul. Falista 4A 5N",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2296",
+    "longitude": 16.924916,
+    "latitude": 52.408529,
+    "locality": "Poznań",
+    "address": "ul. Franciszka Ratajczaka 45",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2297",
+    "longitude": 16.8621655,
+    "latitude": 52.3874373,
+    "locality": "Poznań",
+    "address": "ul. Galileusza 8",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2298",
+    "longitude": 16.8621654999999,
+    "latitude": 52.3874373,
+    "locality": "Poznań",
+    "address": "ul. Galileusza 8/13",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-20:00",
+      "Sob. 08:00-20:00",
+      "Niedz. 09:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2299",
+    "longitude": 16.936887,
+    "latitude": 52.402414,
+    "locality": "Poznań",
+    "address": "ul. Garbary 16",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2300",
+    "longitude": 16.9375459,
+    "latitude": 52.406726,
+    "locality": "Poznań",
+    "address": "ul. Garbary 51",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2301",
+    "longitude": 16.938053,
+    "latitude": 52.4069239,
+    "locality": "Poznań",
+    "address": "ul. Garbary 52",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2302",
+    "longitude": 16.937901,
+    "latitude": 52.4090439,
+    "locality": "Poznań",
+    "address": "ul. Garbary 71",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2303",
+    "longitude": 16.9138617,
+    "latitude": 52.4237794,
+    "locality": "Poznań",
+    "address": "ul. Gen. Stanisława Maczka 12",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2304",
+    "longitude": 16.895483,
+    "latitude": 52.390982,
+    "locality": "Poznań",
+    "address": "ul. Głogowska 111",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-14:00",
+      "Niedz. 10:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2305",
+    "longitude": 16.8906048,
+    "latitude": 52.3876093,
+    "locality": "Poznań",
+    "address": "ul. Głogowska 132 140",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2306",
+    "longitude": 16.8902119,
+    "latitude": 52.386835,
+    "locality": "Poznań",
+    "address": "ul. Głogowska 146",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2307",
+    "longitude": 16.906274,
+    "latitude": 52.3999869,
+    "locality": "Poznań",
+    "address": "ul. Głogowska 29",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2308",
+    "longitude": 16.835237,
+    "latitude": 52.3542549,
+    "locality": "Poznań",
+    "address": "ul. Głogowska 432",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2309",
+    "longitude": 16.8410659,
+    "latitude": 52.353141,
+    "locality": "Poznań",
+    "address": "ul. Głogowska 440 i 442",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. 09:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2310",
+    "longitude": 16.9738009,
+    "latitude": 52.4220679,
+    "locality": "Poznań",
+    "address": "ul. Główna 53",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2311",
+    "longitude": 16.966728,
+    "latitude": 52.313187,
+    "locality": "Poznań",
+    "address": "ul. Głuszyna 206",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2312",
+    "longitude": 16.9218547,
+    "latitude": 52.3936912,
+    "locality": "Poznań",
+    "address": "ul. Górna Wilda 107",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2314",
+    "longitude": 16.8757129,
+    "latitude": 52.407421,
+    "locality": "Poznań",
+    "address": "ul. Grochowska 116",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2315",
+    "longitude": 16.8762416,
+    "latitude": 52.4008655,
+    "locality": "Poznań",
+    "address": "ul. Grochowska 48",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2316",
+    "longitude": 16.875422,
+    "latitude": 52.4000129,
+    "locality": "Poznań",
+    "address": "ul. Grochowska 49",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2317",
+    "longitude": 16.875061,
+    "latitude": 52.4049181,
+    "locality": "Poznań",
+    "address": "ul. Grochowska 83/85",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2318",
+    "longitude": 16.9339146,
+    "latitude": 52.4294954,
+    "locality": "Poznań",
+    "address": "ul. Gronowa 61",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2319",
+    "longitude": 16.863284,
+    "latitude": 52.3954718,
+    "locality": "Poznań",
+    "address": "ul. Grunwaldzka 138",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-232",
+    "longitude": 16.8946854000001,
+    "latitude": 52.3943513,
+    "locality": "Poznań",
+    "address": "ul. Franciszka Morawskiego 2B",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2320",
+    "longitude": 16.8988239,
+    "latitude": 52.405325,
+    "locality": "Poznań",
+    "address": "ul. Grunwaldzka 15",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2321",
+    "longitude": 16.8496929,
+    "latitude": 52.388216,
+    "locality": "Poznań",
+    "address": "ul. Grunwaldzka 244",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2322",
+    "longitude": 16.894779,
+    "latitude": 52.404227,
+    "locality": "Poznań",
+    "address": "ul. Grunwaldzka 31C",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2323",
+    "longitude": 16.830965,
+    "latitude": 52.381298,
+    "locality": "Poznań",
+    "address": "ul. Grunwaldzka 374",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2324",
+    "longitude": 16.870264,
+    "latitude": 52.397835,
+    "locality": "Poznań",
+    "address": "ul. Grunwaldzka 99",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2325",
+    "longitude": 16.9209665999999,
+    "latitude": 52.4076192,
+    "locality": "Poznań",
+    "address": "ul. Gwarna 5/2",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2328",
+    "longitude": 16.9154558,
+    "latitude": 52.4490965,
+    "locality": "Poznań",
+    "address": "ul. Henryka Łowmiańskiego 2",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2329",
+    "longitude": 16.9182299,
+    "latitude": 52.383717,
+    "locality": "Poznań",
+    "address": "ul. Hetmańska 104",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-233",
+    "longitude": 16.9043449000001,
+    "latitude": 52.4553139,
+    "locality": "Poznań",
+    "address": "ul. Stróżyńskiego 13",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2330",
+    "longitude": 16.8900559,
+    "latitude": 52.3913439,
+    "locality": "Poznań",
+    "address": "ul. Hetmańska 26",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2331",
+    "longitude": 16.8729501,
+    "latitude": 52.394463,
+    "locality": "Poznań",
+    "address": "ul. Heweliusza 1E",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-22:00",
+      "Sob. 08:00-18:00",
+      "Niedz. 09:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2332",
+    "longitude": 16.877495,
+    "latitude": 52.4483927,
+    "locality": "Poznań",
+    "address": "ul. Horacego 27A",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2334",
+    "longitude": 16.8327935,
+    "latitude": 52.432568,
+    "locality": "Poznań",
+    "address": "ul. J. H. Dąbrowskiego 399",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2335",
+    "longitude": 16.9042292,
+    "latitude": 52.4127669,
+    "locality": "Poznań",
+    "address": "ul. J. H. Dąbrowskiego 51",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2336",
+    "longitude": 16.903854,
+    "latitude": 52.4127856,
+    "locality": "Poznań",
+    "address": "ul. J. H. Dąbrowskiego 57",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-21:00",
+      "Sob. 08:00-18:00",
+      "Niedz. 10:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2337",
+    "longitude": 16.9011356,
+    "latitude": 52.4130336,
+    "locality": "Poznań",
+    "address": "ul. Dąbrowskiego 66",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2338",
+    "longitude": 16.8997998,
+    "latitude": 52.4139317,
+    "locality": "Poznań",
+    "address": "ul. J. H. Dąbrowskiego 79",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2339",
+    "longitude": 16.864244,
+    "latitude": 52.390592,
+    "locality": "Poznań",
+    "address": "ul. Jana Keplera 1/2B",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. 09:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-234",
+    "longitude": 16.9684469,
+    "latitude": 52.420428,
+    "locality": "Poznań",
+    "address": "ul. Blacharska 2",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2340",
+    "longitude": 16.9002126,
+    "latitude": 52.4052328,
+    "locality": "Poznań",
+    "address": "ul. Jana Matejki 2",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2341",
+    "longitude": 16.88097,
+    "latitude": 52.404136,
+    "locality": "Poznań",
+    "address": "ul. Jana Ostroroga 36",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2342",
+    "longitude": 16.8962779,
+    "latitude": 52.367406,
+    "locality": "Poznań",
+    "address": "ul. Jesionowa 25",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2343",
+    "longitude": 16.9117849,
+    "latitude": 52.4146969,
+    "locality": "Poznań",
+    "address": "ul. Jeżycka 44",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2344",
+    "longitude": 16.903017,
+    "latitude": 52.3902834,
+    "locality": "Poznań",
+    "address": "ul. Józefa Łukaszewicza 43",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2345",
+    "longitude": 16.9037593,
+    "latitude": 52.4114987,
+    "locality": "Poznań",
+    "address": "ul. Juliusza Słowackiego 50",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2346",
+    "longitude": 16.8455619,
+    "latitude": 52.3853796,
+    "locality": "Poznań",
+    "address": "ul. Junikowska 13",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2347",
+    "longitude": 16.9085335,
+    "latitude": 52.4401403,
+    "locality": "Poznań",
+    "address": "ul. Juraszów 7",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2348",
+    "longitude": 16.9020077,
+    "latitude": 52.3936963,
+    "locality": "Poznań",
+    "address": "ul. Kącik 5",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-235",
+    "longitude": 16.9625012,
+    "latitude": 52.3959195,
+    "locality": "Poznań",
+    "address": "ul. Milczańska 1",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2352",
+    "longitude": 16.9113988,
+    "latitude": 52.4502105,
+    "locality": "Poznań",
+    "address": "ul. Karola Kurpińskiego paw. L",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2354",
+    "longitude": 16.9622038,
+    "latitude": 52.3980585,
+    "locality": "Poznań",
+    "address": "ul. Katowicka 35",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2355",
+    "longitude": 16.9620587,
+    "latitude": 52.3976393,
+    "locality": "Poznań",
+    "address": "ul. Katowicka 55",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2357",
+    "longitude": 16.864489,
+    "latitude": 52.390483,
+    "locality": "Poznań",
+    "address": "ul. Keplera 1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2359",
+    "longitude": 16.9501294,
+    "latitude": 52.399597,
+    "locality": "Poznań",
+    "address": "ul. Kórnicka 24",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-236",
+    "longitude": 16.9250509999999,
+    "latitude": 52.427906,
+    "locality": "Poznań",
+    "address": "ul. Słowiańska 36",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2361",
+    "longitude": 16.9056464,
+    "latitude": 52.4163005,
+    "locality": "Poznań",
+    "address": "ul. Kościelna 39C 19",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2362",
+    "longitude": 16.9159784999999,
+    "latitude": 52.388913,
+    "locality": "Poznań",
+    "address": "ul. Kosińskiego 28",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2363",
+    "longitude": 16.9863603,
+    "latitude": 52.4105292,
+    "locality": "Poznań",
+    "address": "ul. Kostrzyńska 5",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2364",
+    "longitude": 16.8884036,
+    "latitude": 52.3857919,
+    "locality": "Poznań",
+    "address": "ul. Kosynierska 6 8",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2365",
+    "longitude": 16.930537,
+    "latitude": 52.3669109,
+    "locality": "Poznań",
+    "address": "ul. Książęca 1A",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2369",
+    "longitude": 16.8810895,
+    "latitude": 52.3595886,
+    "locality": "Poznań",
+    "address": "ul. Leszczyńska 170",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-237",
+    "longitude": 16.9835611,
+    "latitude": 52.4122897,
+    "locality": "Poznań",
+    "address": "ul. Toruńska 23",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. 09:30-13:30"
+    ]
+  },
+  {
+    "id": "pharmacy-2370",
+    "longitude": 16.8804099,
+    "latitude": 52.3771689,
+    "locality": "Poznań",
+    "address": "ul. Leszczyńska 3-5",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2372",
+    "longitude": 16.874279,
+    "latitude": 52.4451114,
+    "locality": "Poznań",
+    "address": "ul. Literacka 43",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2374",
+    "longitude": 16.985691,
+    "latitude": 52.409095,
+    "locality": "Poznań",
+    "address": "ul. Łomżyńska 3",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. 09:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2375",
+    "longitude": 16.9072768999999,
+    "latitude": 52.3645981,
+    "locality": "Poznań",
+    "address": "ul. Łozowa 92",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2376",
+    "longitude": 16.9460433,
+    "latitude": 52.3824011,
+    "locality": "Poznań",
+    "address": "ul. Ludwika Zamenhofa 133 6B",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2377",
+    "longitude": 16.8763436,
+    "latitude": 52.3920758,
+    "locality": "Poznań",
+    "address": "ul. M. Palacza 96",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2378",
+    "longitude": 16.9597988,
+    "latitude": 52.4132691,
+    "locality": "Poznań",
+    "address": "ul. Małachowskiego 27 1N",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2379",
+    "longitude": 16.9597142,
+    "latitude": 52.4016408,
+    "locality": "Poznań",
+    "address": "ul. Maltańska 1",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-22:00",
+      "Sob. 09:00-22:00",
+      "Niedz. 10:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-238",
+    "longitude": 16.9923189,
+    "latitude": 52.408893,
+    "locality": "Poznań",
+    "address": "ul. Mogileńska 10/35",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 09:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2380",
+    "longitude": 16.858877,
+    "latitude": 52.4045105,
+    "locality": "Poznań",
+    "address": "ul. Marcelińska 102/200",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2381",
+    "longitude": 16.8908241,
+    "latitude": 52.4057496,
+    "locality": "Poznań",
+    "address": "ul. Marcelińska 23",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2382",
+    "longitude": 16.8948799,
+    "latitude": 52.3936038,
+    "locality": "Poznań",
+    "address": "ul. Marcina Kasprzaka 16",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2385",
+    "longitude": 16.8999452,
+    "latitude": 52.4003044,
+    "locality": "Poznań",
+    "address": "ul. Matejki 56",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2387",
+    "longitude": 16.8776825,
+    "latitude": 52.4062423,
+    "locality": "Poznań",
+    "address": "ul. Międzychodzka 7 101",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2388",
+    "longitude": 16.8773722,
+    "latitude": 52.4128793,
+    "locality": "Poznań",
+    "address": "ul. Miodowa 4",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2389",
+    "longitude": 16.8954766,
+    "latitude": 52.3940791,
+    "locality": "Poznań",
+    "address": "ul. Morawskiego 1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-239",
+    "longitude": 17.080546,
+    "latitude": 52.413723,
+    "locality": "Swarzędz",
+    "address": "ul. Grudzińskiego 7/3",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2390",
+    "longitude": 17.0151329,
+    "latitude": 52.4072039,
+    "locality": "Poznań",
+    "address": "ul. Mścibora 67",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2391",
+    "longitude": 16.8265721,
+    "latitude": 52.4341486,
+    "locality": "Poznań",
+    "address": "ul. Muszkowska 1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2392",
+    "longitude": 16.9486142,
+    "latitude": 52.4503802,
+    "locality": "Poznań",
+    "address": "ul. Naramowicka 164",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-18:00",
+      "Niedz. 09:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2393",
+    "longitude": 16.9476137,
+    "latitude": 52.4479234,
+    "locality": "Poznań",
+    "address": "ul. Naramowicka 172",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2394",
+    "longitude": 16.9481778,
+    "latitude": 52.4524321,
+    "locality": "Poznań",
+    "address": "ul. Naramowicka 176",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2395",
+    "longitude": 16.8652746,
+    "latitude": 52.3848132,
+    "locality": "Poznań",
+    "address": "ul. Newtona 14",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2396",
+    "longitude": 16.8992118,
+    "latitude": 52.395256,
+    "locality": "Poznań",
+    "address": "ul. Niegolewskich 7",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2400",
+    "longitude": 16.8694076,
+    "latitude": 52.4067208,
+    "locality": "Poznań",
+    "address": "ul. Ognik 18",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2401",
+    "longitude": 16.8992359,
+    "latitude": 52.3690469,
+    "locality": "Poznań",
+    "address": "ul. Opolska 17",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2402",
+    "longitude": 16.900932,
+    "latitude": 52.370784,
+    "locality": "Poznań",
+    "address": "ul. Opolska 24",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2403",
+    "longitude": 16.8824435,
+    "latitude": 52.399278,
+    "locality": "Poznań",
+    "address": "ul. Orężna 13",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2404",
+    "longitude": 16.9098275,
+    "latitude": 52.3676055,
+    "locality": "Poznań",
+    "address": "ul. Osinowa 14/16",
+    "openingTimes": [
+      "Pon.-Pt. 08:30-18:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2405",
+    "longitude": 16.8749527,
+    "latitude": 52.3718053,
+    "locality": "Poznań",
+    "address": "ul. Ostatnia 45 1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2406",
+    "longitude": 16.831698,
+    "latitude": 52.381859,
+    "locality": "Poznań",
+    "address": "ul. Paczkowska 2A",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2407",
+    "longitude": 16.869895,
+    "latitude": 52.395111,
+    "locality": "Poznań",
+    "address": "ul. Palacza 141 143",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2409",
+    "longitude": 16.9180011,
+    "latitude": 52.4308268,
+    "locality": "Poznań",
+    "address": "ul. Piątkowska 94",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2411",
+    "longitude": 16.8775886,
+    "latitude": 52.3885461,
+    "locality": "Poznań",
+    "address": "ul. Piotra Ściegiennego 50",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2412",
+    "longitude": 16.9613297,
+    "latitude": 52.4126684,
+    "locality": "Poznań",
+    "address": "ul. Piotra Tomickiego 35",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2416",
+    "longitude": 16.927945,
+    "latitude": 52.401375,
+    "locality": "Poznań",
+    "address": "ul. Półwiejska 42 lokal 226 (ATRIUM)",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. 10:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2419",
+    "longitude": 16.931106,
+    "latitude": 52.4045488,
+    "locality": "Poznań",
+    "address": "ul. Półwiejska 5",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-18:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2421",
+    "longitude": 16.922086,
+    "latitude": 52.40448,
+    "locality": "Poznań",
+    "address": "ul. Powstańców Wlkp. 14B",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2425",
+    "longitude": 16.864105,
+    "latitude": 52.386812,
+    "locality": "Poznań",
+    "address": "ul. Promienista 160",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2427",
+    "longitude": 16.887139,
+    "latitude": 52.4034276,
+    "locality": "Poznań",
+    "address": "ul. Przybyszewskiego 49",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2429",
+    "longitude": 16.9385601,
+    "latitude": 52.4675035,
+    "locality": "Poznań",
+    "address": "ul. Romana Drewsa 1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2430",
+    "longitude": 16.9499116,
+    "latitude": 52.4480162,
+    "locality": "Poznań",
+    "address": "ul. Rubież 14 40",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2431",
+    "longitude": 16.8329105,
+    "latitude": 52.4105332,
+    "locality": "Poznań",
+    "address": "ul. Rumcajsa 2A",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2432",
+    "longitude": 16.9841842,
+    "latitude": 52.3880222,
+    "locality": "Poznań",
+    "address": "ul. Rusa 57",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2433",
+    "longitude": 16.871599,
+    "latitude": 52.402879,
+    "locality": "Poznań",
+    "address": "ul. Rycerska 35A",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2435",
+    "longitude": 16.8998059,
+    "latitude": 52.394529,
+    "locality": "Poznań",
+    "address": "ul. Rynek Łazarski 1 18",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2436",
+    "longitude": 16.900111,
+    "latitude": 52.394583,
+    "locality": "Poznań",
+    "address": "ul. Rynek Łazarski 2 1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2437",
+    "longitude": 16.9022517,
+    "latitude": 52.3949278,
+    "locality": "Poznań",
+    "address": "ul. Rynek Łazarski 7",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2438",
+    "longitude": 16.8505447,
+    "latitude": 52.4532646,
+    "locality": "Poznań",
+    "address": "ul. Rzeszowska 1A",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2439",
+    "longitude": 16.887139,
+    "latitude": 52.4034276,
+    "locality": "Poznań",
+    "address": "ul. S. Przybyszewskiego 49",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2440",
+    "longitude": 16.940376,
+    "latitude": 52.4455449,
+    "locality": "Poznań",
+    "address": "ul. Sarmacka 15",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2441",
+    "longitude": 16.874691,
+    "latitude": 52.3899767,
+    "locality": "Poznań",
+    "address": "ul. Ściegiennego 65",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2444",
+    "longitude": 16.9505716,
+    "latitude": 52.4314015,
+    "locality": "Poznań",
+    "address": "ul. Serbska 7",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-21:00",
+      "Niedz. 10:00-18:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2445",
+    "longitude": 16.8095282,
+    "latitude": 52.4349238,
+    "locality": "Poznań",
+    "address": "ul. Sianowska 151A",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2446",
+    "longitude": 16.8843676,
+    "latitude": 52.3860334,
+    "locality": "Poznań",
+    "address": "ul. Sielska 32",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2447",
+    "longitude": 17.008242,
+    "latitude": 52.3636319,
+    "locality": "Poznań",
+    "address": "ul. Skibowa 11",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2448",
+    "longitude": 17.010217,
+    "latitude": 52.3650619,
+    "locality": "Poznań",
+    "address": "ul. Skibowa 15C",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2449",
+    "longitude": 17.009718,
+    "latitude": 52.3638009,
+    "locality": "Poznań",
+    "address": "ul. Skibowa 16",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2450",
+    "longitude": 16.907406,
+    "latitude": 52.410761,
+    "locality": "Poznań",
+    "address": "ul. Słowackiego 26/28",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2451",
+    "longitude": 16.9117536,
+    "latitude": 52.4098001,
+    "locality": "Poznań",
+    "address": "ul. Słowackiego 8",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2452",
+    "longitude": 16.9262551,
+    "latitude": 52.428294,
+    "locality": "Poznań",
+    "address": "ul. Słowiańska 38H",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-22:00",
+      "Sob. 09:00-18:00",
+      "Niedz. 09:00-18:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2453",
+    "longitude": 16.9342927,
+    "latitude": 52.4313954,
+    "locality": "Poznań",
+    "address": "ul. Słowiańska 53B L1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2454",
+    "longitude": 16.9046797,
+    "latitude": 52.3996939,
+    "locality": "Poznań",
+    "address": "ul. Śniadeckich 1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2455",
+    "longitude": 16.9121186,
+    "latitude": 52.4258624,
+    "locality": "Poznań",
+    "address": "ul. Sokoła 24",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2456",
+    "longitude": 16.9117623,
+    "latitude": 52.4263224,
+    "locality": "Poznań",
+    "address": "ul. Sokoła 26",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-19:00",
+      "Niedz. 09:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2457",
+    "longitude": 16.927449,
+    "latitude": 52.435125,
+    "locality": "Poznań",
+    "address": "Aleje Solidarności 42",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-21:00",
+      "Sob. 08:00-21:00",
+      "Niedz. 09:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2458",
+    "longitude": 16.924591,
+    "latitude": 52.412625,
+    "locality": "Poznań",
+    "address": "ul. Solna 21",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2461",
+    "longitude": 16.92106,
+    "latitude": 52.4149495,
+    "locality": "Poznań",
+    "address": "ul. Sporna 16",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2462",
+    "longitude": 16.9703549,
+    "latitude": 52.4216766,
+    "locality": "Poznań",
+    "address": "ul. Średnia 1",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2467",
+    "longitude": 16.914074,
+    "latitude": 52.402447,
+    "locality": "Poznań",
+    "address": "ul. Stanisława Matyi 2",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-21:00",
+      "Sob. 08:00-21:00",
+      "Niedz. 09:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2468",
+    "longitude": 16.933129,
+    "latitude": 52.3698703,
+    "locality": "Poznań",
+    "address": "ul. Starołęcka 42",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2469",
+    "longitude": 16.9334271,
+    "latitude": 52.40767,
+    "locality": "Poznań",
+    "address": "ul. Stary Rynek 42 43",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2470",
+    "longitude": 16.9325209,
+    "latitude": 52.4081399,
+    "locality": "Poznań",
+    "address": "ul. Stary Rynek 75",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2471",
+    "longitude": 16.9313839,
+    "latitude": 52.4047829,
+    "locality": "Poznań",
+    "address": "ul. Strzelecka 2 6",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2472",
+    "longitude": 16.8848511,
+    "latitude": 52.4537646,
+    "locality": "Poznań",
+    "address": "ul. Strzeszyńska 139",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2474",
+    "longitude": 16.8940959,
+    "latitude": 52.4488077,
+    "locality": "Poznań",
+    "address": "ul. Strzeszyńska 63",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2475",
+    "longitude": 16.9225649,
+    "latitude": 52.3916793,
+    "locality": "Poznań",
+    "address": "ul. Św. Jerzego 7 9",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2476",
+    "longitude": 16.9277632,
+    "latitude": 52.4061501,
+    "locality": "Poznań",
+    "address": "ul. Św. Marcin 24",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-21:00",
+      "Sob. 10:00-20:00",
+      "Niedz. 10:00-19:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2477",
+    "longitude": 16.9262878,
+    "latitude": 52.4061839,
+    "locality": "Poznań",
+    "address": "ul. Święty Marcin 23",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2478",
+    "longitude": 16.9216593,
+    "latitude": 52.4067446,
+    "locality": "Poznań",
+    "address": "ul. Święty Marcin 61",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-2479",
+    "longitude": 16.8723025,
+    "latitude": 52.4093405,
+    "locality": "Poznań",
+    "address": "ul. Swoboda 22 24",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2480",
+    "longitude": 16.9013397,
+    "latitude": 52.4103436,
+    "locality": "Poznań",
+    "address": "ul. Szamarzewskiego 8",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2481",
+    "longitude": 16.8869646,
+    "latitude": 52.46266,
+    "locality": "Poznań",
+    "address": "ul. Szarych Szeregów 12",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2482",
+    "longitude": 17.0017499,
+    "latitude": 52.368784,
+    "locality": "Poznań",
+    "address": "ul. Szczepankowo 57",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2485",
+    "longitude": 16.8822504,
+    "latitude": 52.4172254,
+    "locality": "Poznań",
+    "address": "ul. Szpitalna 2",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2487",
+    "longitude": 16.9946909,
+    "latitude": 52.3825512,
+    "locality": "Poznań",
+    "address": "ul. Szwajcarska 14",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. 10:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2488",
+    "longitude": 16.995682,
+    "latitude": 52.3897676,
+    "locality": "Poznań",
+    "address": "ul. Szwajcarska 3",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2489",
+    "longitude": 16.9880864,
+    "latitude": 52.3830864,
+    "locality": "Poznań",
+    "address": "ul. Szwedzka 6",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2491",
+    "longitude": 16.8497229,
+    "latitude": 52.4295468,
+    "locality": "Poznań",
+    "address": "ul. Tatrzańska 1 5",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2492",
+    "longitude": 16.8671559,
+    "latitude": 52.3701269,
+    "locality": "Poznań",
+    "address": "ul. Trzebawska 22",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2493",
+    "longitude": 16.9275021,
+    "latitude": 52.4517236,
+    "locality": "Poznań",
+    "address": "ul. Umultowska 32",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2494",
+    "longitude": 16.968296,
+    "latitude": 52.4094429,
+    "locality": "Poznań",
+    "address": "ul. Warszawska 47",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2495",
+    "longitude": 16.874896,
+    "latitude": 52.445588,
+    "locality": "Poznań",
+    "address": "ul. Wergiliusza 2C",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2496",
+    "longitude": 16.8088549,
+    "latitude": 52.43141,
+    "locality": "Poznań",
+    "address": "ul. Wichrowa 1A",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2499",
+    "longitude": 16.920991,
+    "latitude": 52.396539,
+    "locality": "Poznań",
+    "address": "ul. Wierzbięcice 25",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2501",
+    "longitude": 16.950416,
+    "latitude": 52.4288869,
+    "locality": "Poznań",
+    "address": "ul. Wilczak 12",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2503",
+    "longitude": 16.9087019,
+    "latitude": 52.4247979,
+    "locality": "Poznań",
+    "address": "ul. Wojska Polskiego 6 8",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2504",
+    "longitude": 16.892578,
+    "latitude": 52.400464,
+    "locality": "Poznań",
+    "address": "ul. Wojskowa 3B",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2505",
+    "longitude": 16.939633,
+    "latitude": 52.429718,
+    "locality": "Poznań",
+    "address": "ul. Wójtowska 34A",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2506",
+    "longitude": 16.9325847,
+    "latitude": 52.4058797,
+    "locality": "Poznań",
+    "address": "ul. Wrocławska 20",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 10:00-18:00",
+      "Niedz. 10:00-18:00"
+    ]
+  },
+  {
+    "id": "pharmacy-2508",
+    "longitude": 16.8854839,
+    "latitude": 52.4491275,
+    "locality": "Poznań",
+    "address": "ul. Zakopiańska 37",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2509",
+    "longitude": 16.883387,
+    "latitude": 52.451411,
+    "locality": "Poznań",
+    "address": "ul. Zakopiańska 66",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2510",
+    "longitude": 16.9545305,
+    "latitude": 52.4373552,
+    "locality": "Poznań",
+    "address": "ul. Zdobywców Monte Cassino 54",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2511",
+    "longitude": 16.8800059,
+    "latitude": 52.381651,
+    "locality": "Poznań",
+    "address": "ul. Zgoda 30B",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2512",
+    "longitude": 16.8443841,
+    "latitude": 52.384186,
+    "locality": "Poznań",
+    "address": "ul. Ziębicka 19",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-2513",
+    "longitude": 16.8283567,
+    "latitude": 52.4112664,
+    "locality": "Poznań",
+    "address": "ul. Złotowska 21",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-4214",
+    "longitude": 16.902846,
+    "latitude": 52.3975439,
+    "locality": "Poznań",
+    "address": "ul. Głogowska 53",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-453",
+    "longitude": 16.8718878,
+    "latitude": 52.4041894,
+    "locality": "Poznań",
+    "address": "ul. Marcelińska 80",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-454",
+    "longitude": 16.9285607,
+    "latitude": 52.4065485,
+    "locality": "Poznań",
+    "address": "ul. Marcinkowskiego 14",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. 10:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-455",
+    "longitude": 16.8933145,
+    "latitude": 52.3893842,
+    "locality": "Poznań",
+    "address": "ul. Głogowska 120",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-456",
+    "longitude": 16.91633,
+    "latitude": 52.4284644,
+    "locality": "Poznań",
+    "address": "ul. Piątkowska 87a",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-457",
+    "longitude": 16.921059,
+    "latitude": 52.4079211,
+    "locality": "Poznań",
+    "address": "ul. Gwarna 9",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-458",
+    "longitude": 16.9358699,
+    "latitude": 52.401345,
+    "locality": "Poznań",
+    "address": "ul. Garbary 5",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-19:00",
+      "Sob. 08:00-13:00"
+    ]
+  },
+  {
+    "id": "pharmacy-459",
+    "longitude": 16.9278109,
+    "latitude": 52.3645409,
+    "locality": "Poznań",
+    "address": "ul. Starołęcka 79",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-460",
+    "longitude": 16.902682,
+    "latitude": 52.391541,
+    "locality": "Poznań",
+    "address": "ul. Łukaszewicza 34/36",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob. 08:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-461",
+    "longitude": 16.9112933,
+    "latitude": 52.4107079,
+    "locality": "Poznań",
+    "address": "ul. Mickiewicza 22",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-16:00"
+    ]
+  },
+  {
+    "id": "pharmacy-54",
+    "longitude": 16.8973412,
+    "latitude": 52.380383,
+    "locality": "Poznań",
+    "address": "ul. Górecka 30 (CH Panorama)",
+    "openingTimes": [
+      "Pon.-Sob. 10:00-21:00",
+      "Niedz. 10:00-19:00"
+    ]
+  },
+  {
+    "id": "pharmacy-55",
+    "longitude": 16.9035352999999,
+    "latitude": 52.4121547,
+    "locality": "Poznań",
+    "address": "ul. Kraszewskiego 3",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-6102",
+    "longitude": 16.9550859,
+    "latitude": 52.3041379,
+    "locality": "Daszewice",
+    "address": "ul. Poznańska 5A",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-6136",
+    "longitude": 16.964209,
+    "latitude": 52.40149,
+    "locality": "Poznań",
+    "address": "ul. abpa. A. Baraniaka 88",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-6352",
+    "longitude": 16.9919966,
+    "latitude": 52.4446769,
+    "locality": "Poznański",
+    "address": "ul. Poznańska 28A, Koziegłowy",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-16:00",
+      "Niedz. 08:30-13:30"
+    ]
+  },
+  {
+    "id": "pharmacy-641",
+    "longitude": 16.931793,
+    "latitude": 52.405488,
+    "locality": "Poznań",
+    "address": "pl. Wiosny Ludów 2",
+    "openingTimes": [
+      "Pon.-Sob. 08:00-21:00",
+      "Niedz. 11:00-19:00"
+    ]
+  },
+  {
+    "id": "pharmacy-6562",
+    "longitude": 16.943617,
+    "latitude": 52.431915,
+    "locality": "Poznań",
+    "address": "ul. Naramowicka 47 (lok. 112-113)",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-6563",
+    "longitude": 16.877351,
+    "latitude": 52.410702,
+    "locality": "Poznań",
+    "address": "ul. Jutrzenka 8 (lok. H1, wejście od ul. Grochowskiej)",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-6585",
+    "longitude": 16.940123,
+    "latitude": 52.438763,
+    "locality": "Poznań",
+    "address": "Os. Wichrowe Wzgórze 105",
+    "openingTimes": [
+      "Pon.-Pt. 07:30-20:00",
+      "Sob. 08:00-17:00",
+      "Niedz. 09:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-6604",
+    "longitude": 16.8758969,
+    "latitude": 52.3343859,
+    "locality": "Luboń",
+    "address": "ul. Jana III Sobieskiego 55A",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-662",
+    "longitude": 16.9050118,
+    "latitude": 52.4125483,
+    "locality": "Poznań",
+    "address": "ul. Dąbrowskiego 47",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-6633",
+    "longitude": 16.895295,
+    "latitude": 52.410953,
+    "locality": "Poznań",
+    "address": "ul. Polna 40",
+    "openingTimes": [
+      "Pon.-Pt. 07:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-6634",
+    "longitude": 16.8027079999999,
+    "latitude": 52.3965697,
+    "locality": "Poznań",
+    "address": "ul. Malwowa 162",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. 10:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-6658",
+    "longitude": 16.8615168,
+    "latitude": 52.41082,
+    "locality": "Poznań",
+    "address": "ul. Bukowska 156 lok. B604 (CH King Cross)",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-21:00",
+      "Sob. 09:00-21:00",
+      "Niedz. 10:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-666",
+    "longitude": 16.8996019,
+    "latitude": 52.394644,
+    "locality": "Poznań",
+    "address": "ul. Głogowska 83",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-6861",
+    "longitude": 16.9799001,
+    "latitude": 52.4731669,
+    "locality": "Czerwonak",
+    "address": "ul. Gdyńska 74",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. 09:00-13:00"
+    ]
+  },
+  {
+    "id": "pharmacy-7056",
+    "longitude": 16.9382770164122,
+    "latitude": 52.31237785,
+    "locality": "Babki",
+    "address": "ul. Babki 4c",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-712",
+    "longitude": 16.9225122,
+    "latitude": 52.4071021,
+    "locality": "Poznań",
+    "address": "ul. Święty Marcin 58/64",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-723",
+    "longitude": 16.921644,
+    "latitude": 52.394965,
+    "locality": "Poznań",
+    "address": "ul. Wierzbięcice 36",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-7239",
+    "longitude": 16.9445,
+    "latitude": 52.5409,
+    "locality": "Biedrusko",
+    "address": "ul. Poznańska 39",
+    "openingTimes": [
+      "Pon.-Pt. 08:30-19:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-7461",
+    "longitude": 17.0431,
+    "latitude": 52.2797,
+    "locality": "Borówiec",
+    "address": "ul. Szkolna 1c",
+    "openingTimes": [
+      "Pon.-Pt. 08:30-19:30",
+      "Sob. 10:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-7890",
+    "longitude": 16.9115,
+    "latitude": 52.3151,
+    "locality": "Czapury",
+    "address": "ul. Poznańska 76",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-7976",
+    "longitude": 16.9822,
+    "latitude": 52.4654,
+    "locality": "Czerwonak",
+    "address": "ul. Leśna 1",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-16:00",
+      "Niedz. 09:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-8035",
+    "longitude": 16.7445,
+    "latitude": 52.3847,
+    "locality": "Dąbrówka",
+    "address": "ul. Parkowa 9",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-8036",
+    "longitude": 16.7441,
+    "latitude": 52.3831,
+    "locality": "Dąbrówka",
+    "address": "ul. Poznańska 31",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-8550",
+    "longitude": 16.819,
+    "latitude": 52.5349,
+    "locality": "Golęczewo",
+    "address": "ul. Dworcowa 55",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-8670",
+    "longitude": 17.1419,
+    "latitude": 52.3664,
+    "locality": "Gowarzewo",
+    "address": "ul.  Siekierecka 24a",
+    "openingTimes": [
+      "Pon.-Pt. 09:00-18:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-8756",
+    "longitude": 17.076,
+    "latitude": 52.4413,
+    "locality": "Gruszczyn",
+    "address": "ul. Swarzędzka 23",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-9016",
+    "longitude": 17.0976,
+    "latitude": 52.405,
+    "locality": "Jasin",
+    "address": "ul. Poznańska 6",
+    "openingTimes": []
+  },
+  {
+    "id": "pharmacy-9265",
+    "longitude": 16.9992,
+    "latitude": 52.2873,
+    "locality": "Kamionki",
+    "address": "ul. Mostowa 12",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-18:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-9266",
+    "longitude": 16.9795,
+    "latitude": 52.2901,
+    "locality": "Kamionki",
+    "address": "ul. Poznańska 150/2",
+    "openingTimes": [
+      "Pon.-Sob. 08:00-21:00",
+      "Niedz. 09:00-20:00"
+    ]
+  },
+  {
+    "id": "pharmacy-9359",
+    "longitude": 16.78,
+    "latitude": 52.4841,
+    "locality": "Kiekrz",
+    "address": "ul. Kierska 2f",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-16:00",
+      "Niedz. 09:00-14:00"
+    ]
+  },
+  {
+    "id": "pharmacy-9485",
+    "longitude": 17.0798,
+    "latitude": 52.4473,
+    "locality": "Kobylnica",
+    "address": "ul. Poznańska 113",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-18:00",
+      "Sob. 09:00-14:00",
+      "Niedz. 09:00-13:00"
+    ]
+  },
+  {
+    "id": "pharmacy-9486",
+    "longitude": 17.0761,
+    "latitude": 52.4456,
+    "locality": "Kobylnica",
+    "address": "ul. Swarzędzka 2",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-16:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-9569",
+    "longitude": 16.8001,
+    "latitude": 52.3399,
+    "locality": "Komorniki",
+    "address": "ul. Ks. Malinowskiego 9/6",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob.-Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-9570",
+    "longitude": 16.8069,
+    "latitude": 52.3364,
+    "locality": "Komorniki",
+    "address": "ul. Pocztowa 6",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:30-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-9571",
+    "longitude": 16.8072,
+    "latitude": 52.3334,
+    "locality": "Komorniki",
+    "address": "ul. Stawna 7",
+    "openingTimes": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob.-Niedz. zamknięta"
+    ]
+  }
+]

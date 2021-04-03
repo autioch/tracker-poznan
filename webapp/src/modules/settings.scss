@@ -1,0 +1,41 @@
+.tp-settings-group {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  height: 48px;
+  border-top: solid 1px #ddd;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.tp-settings-group__img {
+  width: 32px;
+  max-height: 48px;
+  flex: none;
+  margin-right: 12px;
+}
+
+.tp-settings-group__cell {
+  display: flex;
+  align-items: center;
+  flex: 1 1 10px;
+}
+
+.tp-settings-group__info {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 10px;
+}
+
+label.tp-settings-group__cell {
+  cursor: pointer;
+}
+
+.tp-settings-group__text {
+  margin-left: 4px;
+}
+
+.tp-settings__detail {
+  color: #999;
+}

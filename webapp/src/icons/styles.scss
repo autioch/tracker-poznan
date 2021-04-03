@@ -1,0 +1,39 @@
+.source-commune_tram {
+  fill: url('#tram');
+  // background-size: 16px 16px;
+}
+
+.source-commune_bus {
+  background-image: url('./bus.png');
+  background-size: 16px 16px;
+}
+
+.source-commune_bus-other {
+  background-image: url('./otherBus.png');
+  background-size: 16px 16px;
+}
+
+.source-lidl {
+  background-image: url('./lidl.png');
+  background-size: 32px 32px;
+}
+
+.source-biedronka {
+  background-image: url('./biedronka.png');
+  background-size: 32px 48px;
+}
+
+.source-zabka {
+  background-image: url('./zabka.png');
+  background-size: 18px 24px;
+}
+
+.source-inpost {
+  background-image: url('./inpost.png');
+  background-size: 36px 24px;
+}
+
+.source-pharmacy {
+  background-image: url('./pharmacy.png');
+  background-size: 24px 24px;
+}

@@ -1,0 +1,97 @@
+html,
+body,
+#tpMap {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html {
+  font-size: 12px;
+  font-family: Verdana, Arial;
+}
+
+
+.tp-bar {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  display: flex;
+  z-index: 1001;
+}
+
+.tp-bar__button {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  height: 32px;
+  width: 32px;
+  padding: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 0 4px #555;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+
+  &.is-active {
+    background-color: #09f;
+    color: #f1f1f1;
+  }
+
+  &.is-hidden {
+    display: none;
+  }
+
+  > img {
+    max-width: 24px;
+    max-height: 24px;
+  }
+}
+
+
+.tp-panel {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  max-height: calc(100% - 80px);
+  left: 16px;
+  background: rgba(255,255,255,0.5);
+  z-index: 1000;
+  transition: top 300ms;
+  border-radius: 4px;
+  box-shadow: 0 0 4px #555;
+  box-sizing: border-box;
+  padding: 10px;
+  overflow: auto;
+  backdrop-filter: blur(5px);
+
+  &.is-hidden {
+    top: 100%;
+  }
+}
+
+.tp-panel__header {
+  font-size: 20px;
+
+  &:not(:first-child) {
+    margin-top: 40px;
+  }
+}
+
+.tp-panel__close {
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+
+  &::after {
+    content: 'X';
+  }
+}
