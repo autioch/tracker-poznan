@@ -1,11 +1,11 @@
 import icons from '../icons';
-import biedronkaShops from './data/biedronkaShops.json';
-import inposts from './data/inposts.json';
-import lidlShops from './data/lidlShops.json';
-import pharmacies from './data/pharmacies.json';
+import biedronka from './data/biedronka.json';
+import inpost from './data/inpost.json';
+import lidl from './data/lidl.json';
+import pharmacy from './data/pharmacy.json';
 import routeLines from './data/routeLines.json';
 import stops from './data/stops.json';
-import zabkaShops from './data/zabkaShops.json';
+import zabka from './data/zabka.json';
 
 const forTram = ({ isForTram }) => isForTram;
 const forMpkBus = ({ isForMpkBus }) => isForMpkBus;
@@ -50,7 +50,7 @@ export const shops = [
   {
     id: 'lidl',
     label: 'Lidl',
-    items: lidlShops,
+    items: lidl,
     measureCount: 2,
     color: '#0050AA',
     iconRound: icons.lidl
@@ -58,7 +58,7 @@ export const shops = [
   {
     id: 'biedronka',
     label: 'Biedronka',
-    items: biedronkaShops,
+    items: biedronka,
     measureCount: 2,
     color: '#E30713',
     iconRound: icons.biedronka
@@ -69,7 +69,7 @@ export const misc = [
   {
     id: 'zabka',
     label: 'Żabka',
-    items: zabkaShops,
+    items: zabka,
     measureCount: 2,
     color: '#01672C',
     iconRound: icons.zabka,
@@ -78,7 +78,7 @@ export const misc = [
   {
     id: 'inpost',
     label: 'Inpost',
-    items: inposts,
+    items: inpost,
     measureCount: 1,
     color: '#000000',
     iconRound: icons.inpost
@@ -86,7 +86,7 @@ export const misc = [
   {
     id: 'pharmacy',
     label: 'Pharmacy',
-    items: pharmacies,
+    items: pharmacy,
     measureCount: 2,
     color: '#007F0E',
     iconRound: icons.pharmacy

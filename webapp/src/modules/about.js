@@ -47,7 +47,8 @@ export default function about() {
     tag('div.tp-panel__header', 'Potential next features'),
     tag('ul',
         tag('li', 'Search by address'),
-        tag('li', 'Translating current location to an address')
+        tag('li', 'Translating current location to an address'),
+        tag('li', 'Button to reset to see all items (selected or not)')
     ),
     tag('div.tp-panel__header', 'Have fun!')
   );

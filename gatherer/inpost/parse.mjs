@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 /* eslint-disable max-len */
 
-import { isAtMost25kmFromPoznanCenter, require, saveOutput } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { require, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
 
 const data = require('./inpost/db/points.json');
 
@@ -21,7 +21,6 @@ const data = require('./inpost/db/points.json');
 // t - ?
 
 const itemList = data.items
-  .filter(({ l: { a: lat, o: lng } }) => isAtMost25kmFromPoznanCenter(lat, lng))
   .map(({ b, c, d, e, g, h, l, n }) => ({
     id: n,
     label: d,
@@ -32,6 +31,4 @@ const itemList = data.items
     description: [h]
   }));
 
-console.log(`Found ${itemList.length} inposts.`);
-
-saveOutput('inposts', itemList, true);
+saveOutputItems('inpost', itemList);

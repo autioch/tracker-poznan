@@ -2,7 +2,7 @@ import cheerio from 'cheerio';
 import fs from 'fs/promises';
 
 // import { createRequire } from 'module';
-import { forwardGeocode, joinFromCurrentDir, saveOutput } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { forwardGeocode, joinFromCurrentDir, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
 
 // const require = createRequire(import.meta.url); // eslint-disable-line no-shadow
 const join = joinFromCurrentDir(import.meta, 'db');
@@ -62,7 +62,5 @@ async function geoLocateShop(shop) {
 
   shopList.sort((a, b) => a.id.localeCompare(b.id));
 
-  console.log(`Found ${shopList.length} Biedronka shops.`);
-
-  saveOutput('biedronkaShops', shopList, true);
+  saveOutputItems('biedronka', shopList);
 })();

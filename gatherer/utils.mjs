@@ -7,6 +7,21 @@ import { fileURLToPath } from 'url';
 
 import apikey from './opencagekey.mjs';
 
+const degToRad = (deg) => deg / 180.0 * Math.PI;
+const EARTH_RADIUS_KM = 6372.8; // km, optionally 6367, 6378.1370
+const POZNAN_CENTER_LAT = degToRad(52.409538);
+const POZNAN_CENTER_LNG = degToRad(16.931992);
+const sqrSinHalf = (val) => Math.sin(val / 2) * Math.sin(val / 2);
+const MAX_DISTANCE = 20; // distance from poznan center;
+
+export function isNearPoznanCenter(lat, lng) { // haversine
+  const latRad = degToRad(lat);
+  const halfLapsAroundGlobe = sqrSinHalf(POZNAN_CENTER_LAT - latRad) + (sqrSinHalf(POZNAN_CENTER_LNG - degToRad(lng)) * Math.cos(latRad) * Math.cos(POZNAN_CENTER_LAT));
+  const c = 2 * Math.asin(Math.sqrt(halfLapsAroundGlobe));
+
+  return EARTH_RADIUS_KM * c < MAX_DISTANCE;
+}
+
 export function joinFromCurrentDir(importMeta, ...subfolders) {
   const baseDir = dirname(fileURLToPath(importMeta.url));
   const basePath = join(baseDir, ...subfolders);
@@ -19,6 +34,14 @@ export const require = createRequire(import.meta.url); // eslint-disable-line no
 
 export function saveOutput(fileName, fileContent, debug = false) {
   return fs.writeFile(outputJoin(`${fileName}.json`), JSON.stringify(fileContent, null, debug ? 2 : undefined)); // eslint-disable-line no-undefined
+}
+
+export function saveOutputItems(fileName, items) {
+  const nearCenter = items.filter((item) => isNearPoznanCenter(item.latitude, item.longitude)); // eslint-disable-line no-use-before-define
+
+  console.log(`${fileName}: ${items.length} found, ${nearCenter.length} saved.`);
+
+  return saveOutput(fileName, nearCenter);
 }
 
 export function getPage(url) {
@@ -67,18 +90,4 @@ export async function forwardGeocode(address, city) {
   }
 
   return results[0].geometry;
-}
-
-const degToRad = (deg) => deg / 180.0 * Math.PI;
-const EARTH_RADIUS_KM = 6372.8; // km, optionally 6367, 6378.1370
-const POZNAN_CENTER_LAT = degToRad(52.409538);
-const POZNAN_CENTER_LNG = degToRad(16.931992);
-const sqrSinHalf = (val) => Math.sin(val / 2) * Math.sin(val / 2);
-
-export function isAtMost25kmFromPoznanCenter(lat, lng) { // haversine
-  const latRad = degToRad(lat);
-  const halfLapsAroundGlobe = sqrSinHalf(POZNAN_CENTER_LAT - latRad) + (sqrSinHalf(POZNAN_CENTER_LNG - degToRad(lng)) * Math.cos(latRad) * Math.cos(POZNAN_CENTER_LAT));
-  const c = 2 * Math.asin(Math.sqrt(halfLapsAroundGlobe));
-
-  return EARTH_RADIUS_KM * c < 25;
 }

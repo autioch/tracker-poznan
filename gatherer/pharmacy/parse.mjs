@@ -1,7 +1,7 @@
 import cheerio from 'cheerio';
 import fs from 'fs/promises';
 
-import { joinFromCurrentDir, saveOutput } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { joinFromCurrentDir, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
 
 const join = joinFromCurrentDir(import.meta, 'db');
 
@@ -39,7 +39,5 @@ function getItemList(html) {
 
   itemList.sort((a, b) => a.id.localeCompare(b.id));
 
-  console.log(`Found ${itemList.length} pharmacies.`);
-
-  saveOutput('pharmacies', itemList, true);
+  saveOutputItems('pharmacy', itemList);
 })();
