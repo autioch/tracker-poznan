@@ -1,4 +1,6 @@
 /* eslint-disable max-len */
+import './pin.png'; // marker background
+
 import about from './about.png';
 import biedronka from './biedronka.png';
 import bus from './bus.png';

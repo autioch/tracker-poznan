@@ -12,10 +12,12 @@ import zabkaShops from './data/zabkaShops.json';
 const forTram = ({ isForTram }) => isForTram;
 const forMpkBus = ({ isForMpkBus }) => isForMpkBus;
 const forOtherBus = ({ isForOtherBus }) => isForOtherBus;
-const makeIcon = (img, width, height) => L.icon({
+const makeIcon = (img) => L.icon({
   iconUrl: img,
-  iconSize: [width, height],
-  popupAnchor: [0, -Math.ceil(height / 2)]
+  iconSize: [32, 40],
+  iconAnchor: [16, 40],
+  popupAnchor: [0, -40],
+  className: 'tp-marker'
 });
 
 export const transport = [

@@ -8,7 +8,7 @@ import createPanel from '../panel';
 import { bigShops, misc, saveSettings, transport } from '../store';
 
 export default function settings(mapInstance) {
-  const { contentEl, panelEl } = createPanel('Settings', closePanel); // eslint-disable-line no-use-before-define
+  const { contentEl, panelEl } = createPanel('Settings', closePanel, { style: { width: 'calc(100% - 20px)' } }); // eslint-disable-line no-use-before-define
   const buttonEl = createBarButton(icons.settings, togglePanel); // eslint-disable-line no-use-before-define
 
   function closePanel() {

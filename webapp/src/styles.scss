@@ -40,3 +40,17 @@ html {
   display: flex;
   z-index: 1001;
 }
+
+.leaflet-popup-content > p {
+  margin: 0;
+}
+
+
+.tp-marker {
+  background: url('./icons/pin.png');
+  // opacity: .5;
+  // border-top-left-radius: 16px;
+  // border-top-right-radius: 16px;
+  // border-radius: 16px;
+  // box-shadow: 0 0 3px #000;
+}
