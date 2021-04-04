@@ -49,7 +49,7 @@ function showDistances(sources, mapInstance, latlng) {
     sources
       .filter((group) => !group.isVisible)
       .flatMap((group) => group.closest.map(([, item]) => L.marker([item.latitude, item.longitude], {
-        icon: item.group.icon
+        icon: group.iconLayer
       })))
   );
 

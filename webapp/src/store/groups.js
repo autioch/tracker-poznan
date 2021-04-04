@@ -1,5 +1,3 @@
-import L from 'leaflet';
-
 import icons from '../icons';
 import biedronkaShops from './data/biedronkaShops.json';
 import inposts from './data/inposts.json';
@@ -12,13 +10,6 @@ import zabkaShops from './data/zabkaShops.json';
 const forTram = ({ isForTram }) => isForTram;
 const forMpkBus = ({ isForMpkBus }) => isForMpkBus;
 const forOtherBus = ({ isForOtherBus }) => isForOtherBus;
-const makeIcon = (img) => L.icon({
-  iconUrl: img,
-  iconSize: [32, 40],
-  iconAnchor: [16, 40],
-  popupAnchor: [0, -40],
-  className: 'tp-marker'
-});
 
 export const transport = [
   {
@@ -28,7 +19,6 @@ export const transport = [
     measureCount: 4,
     color: '#F0F',
     iconRound: icons.tram,
-    icon: makeIcon(icons.tram, 16, 16, 'tram'),
     rangesKey: 'trams',
     routeLines: routeLines.filter(forTram),
     isMeasured: true
@@ -40,7 +30,6 @@ export const transport = [
     measureCount: 4,
     color: '#FA0',
     iconRound: icons.bus,
-    icon: makeIcon(icons.bus, 16, 16, 'bus'),
     rangesKey: 'mpkBuses',
     routeLines: routeLines.filter(forMpkBus),
     isMeasured: true
@@ -52,7 +41,6 @@ export const transport = [
     measureCount: 4,
     color: '#333',
     iconRound: icons.otherBus,
-    icon: makeIcon(icons.otherBus, 16, 16, 'otherBus'),
     rangesKey: 'otherBuses',
     routeLines: routeLines.filter(forOtherBus)
   }
@@ -66,8 +54,7 @@ export const bigShops = [
     items: lidlShops,
     measureCount: 2,
     color: '#0050AA',
-    iconRound: icons.lidl,
-    icon: makeIcon(icons.lidl, 32, 32, 'lidl')
+    iconRound: icons.lidl
   },
   {
     id: 'biedronka',
@@ -75,8 +62,7 @@ export const bigShops = [
     items: biedronkaShops,
     measureCount: 2,
     color: '#E30713',
-    iconRound: icons.biedronka,
-    icon: makeIcon(icons.biedronka, 32, 48, 'biedronka')
+    iconRound: icons.biedronka
   }
 ];
 
@@ -88,7 +74,6 @@ export const misc = [
     measureCount: 2,
     color: '#01672C',
     iconRound: icons.zabka,
-    icon: makeIcon(icons.zabka, 18, 24, 'zabka'),
     isMeasured: true
   },
   {
@@ -97,8 +82,7 @@ export const misc = [
     items: inposts,
     measureCount: 1,
     color: '#000000',
-    iconRound: icons.inpost,
-    icon: makeIcon(icons.inpost, 36, 24, 'inpost')
+    iconRound: icons.inpost
   },
   {
     id: 'pharmacy',
@@ -106,7 +90,6 @@ export const misc = [
     items: pharmacies,
     measureCount: 2,
     color: '#007F0E',
-    iconRound: icons.pharmacy,
-    icon: makeIcon(icons.pharmacy, 24, 24, 'pharmacy')
+    iconRound: icons.pharmacy
   }
 ];

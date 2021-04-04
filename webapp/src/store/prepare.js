@@ -20,6 +20,8 @@ function renderRange(polygon, color) {
   });
 }
 
+const ICON_SIZE = 24;
+
 export default function prepare(serialized, transport, bigShops, misc) {
   const defaultSettings = {
     isVisible: false,
@@ -38,15 +40,27 @@ export default function prepare(serialized, transport, bigShops, misc) {
     group.items.forEach((item) => {
       item.group = group;
     });
+    group.iconLayer = L.icon({
+      iconUrl: group.iconRound,
+      iconSize: [ICON_SIZE, ICON_SIZE],
+      iconAnchor: [ICON_SIZE / 2, ICON_SIZE],
+      popupAnchor: [0, -ICON_SIZE]
+    });
   });
 
   transport.forEach((group) => {
     group.layer = L.layerGroup(
-      group.items
+      [...group.items
         .map((item) => L
-          .marker([item.latitude, item.longitude], { icon: group.icon }) // eslint-disable-line object-curly-newline
+          .marker([item.latitude, item.longitude], { icon: group.iconLayer }) // eslint-disable-line object-curly-newline
           .bindPopup(getStopPopup(item))
-        )
+        ),
+      L.polyline(group.routeLines.map(({ points }) => points), {
+        color: group.color,
+        weight: 2,
+        dashArray: [3, 3]
+      })
+      ]
     );
 
     group.rangeLayers = {
@@ -62,7 +76,7 @@ export default function prepare(serialized, transport, bigShops, misc) {
   [...bigShops, ...misc].forEach((group) => {
     group.layer = L.layerGroup(
       group.items.map((item) => L
-        .marker([item.latitude, item.longitude], { icon: group.icon }) // eslint-disable-line object-curly-newline
+        .marker([item.latitude, item.longitude], { icon: group.iconLayer }) // eslint-disable-line object-curly-newline
         .bindPopup(`<h3>${item.address}</h3>${item.openingTimes.map((time) => `<p>${time}</p>`).join('')}`)
       )
     );

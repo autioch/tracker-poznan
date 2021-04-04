@@ -9,6 +9,7 @@ module.exports = {
     'no-inline-comments': ['off'],
     'no-magic-numbers': ['off'],
     'no-console': ['off'],
+    'max-len': ['off'],
 
     'simple-import-sort/imports': ['warn', {
       groups: [

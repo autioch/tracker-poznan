@@ -1,6 +1,4 @@
 /* eslint-disable max-len */
-import './pin.png'; // marker background
-
 import about from './about.png';
 import biedronka from './biedronka.png';
 import bus from './bus.png';
@@ -14,21 +12,26 @@ import otherBus from './otherBus.png';
 import pharmacy from './pharmacy.png';
 import settings from './settings.png';
 import tram from './tram.png';
+import unknown from './unknown.png';
 import zabka from './zabka.png';
 
 export default {
-  about, // 32x48
-  biedronka, // 32x48
-  bus, // 16x16
+  // UI
+  about,
+  custom,
+  currentLocation,
+  settings,
   closeIcon,
-  currentLocation, // 32x32
-  custom, // 32x32
-  inpost, // 36x24
-  lidl, // 32x32
-  settings, // 32x32
+
+  // Items
+  biedronka,
+  bus,
+  inpost,
+  lidl,
   netto,
-  otherBus, // 16x16
-  pharmacy, // 24x24
-  tram, // 16x16
-  zabka // 18x24
+  otherBus,
+  pharmacy,
+  tram,
+  unknown,
+  zabka
 };
