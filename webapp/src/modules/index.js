@@ -4,6 +4,7 @@ import locate from './locate';
 import persistence from './persistence';
 import settings from './settings';
 
+// order defines buttons in the bar
 const modules = [
   persistence,
   settings,

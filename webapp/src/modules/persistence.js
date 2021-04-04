@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
-import boundaries from 'data/boundaries.json';
 import debounce from 'lodash.debounce';
+
+import { boundaries } from '../store';
 
 const LS_KEY = 'tracker-poznan-viewport1';
 

@@ -1,0 +1,4682 @@
+[
+  {
+    "id": "BID01A",
+    "longitude": 16.9456,
+    "latitude": 52.54565,
+    "locality": "Biedrusko",
+    "address": "Zjednoczenia 12 Przy sklepie Chata Polska",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "BKP01M",
+    "longitude": 17.17082,
+    "latitude": 52.46772,
+    "locality": "Biskupice",
+    "address": "Mieszka I 2 Przy Polskim Sklepie",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "BNN01M",
+    "longitude": 17.08914,
+    "latitude": 52.22435,
+    "locality": "Bnin",
+    "address": "Śremska 22 Przy stacji paliw Lotos.",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "BNN01N",
+    "longitude": 17.09107,
+    "latitude": 52.22529,
+    "locality": "Bnin",
+    "address": "Śremska 15 Przy sklepie Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "BOW01G",
+    "longitude": 16.98219,
+    "latitude": 52.53768,
+    "locality": "Bolechowo",
+    "address": "Poznańska 3 Na stacji Shell",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "BOW01M",
+    "longitude": 17.04676,
+    "latitude": 52.28671,
+    "locality": "Borówiec",
+    "address": "Poznańska 47 Przy Sklepie",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "BOW01N",
+    "longitude": 17.04045,
+    "latitude": 52.28038,
+    "locality": "Borówiec",
+    "address": "Główna 2A Przy parkingu Biedronki",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "BOW02N",
+    "longitude": 17.02356,
+    "latitude": 52.28094,
+    "locality": "Borówiec",
+    "address": "Główna 28C Parking przed Sklepem Familijnym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "BWO01M",
+    "longitude": 16.78706,
+    "latitude": 52.44631,
+    "locality": "Baranowo",
+    "address": "Szamotulska 26 Na terenie Parku Handlowego",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "CDO01E",
+    "longitude": 16.8385,
+    "latitude": 52.55353,
+    "locality": "Chludowo",
+    "address": "Golęczewska 14B Na terenie myjni",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "CDO01M",
+    "longitude": 16.84185,
+    "latitude": 52.55852,
+    "locality": "Chludowo",
+    "address": "Dworcowa nr działki 396 przy Restauracji Ogród Przysmaków",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "CPR01M",
+    "longitude": 16.914,
+    "latitude": 52.32123,
+    "locality": "Czapury",
+    "address": "Poznańska 79 Narożnik niezabudowanej działki od ul. Poznańskiej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "CPR02M",
+    "longitude": 16.91097,
+    "latitude": 52.32724,
+    "locality": "Czapury",
+    "address": "Poznańska 43 A Na parkingu marketu Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "CWC01M",
+    "longitude": 16.69222,
+    "latitude": 52.52147,
+    "locality": "Cerekwica",
+    "address": "Szamotulska 28 Za budynkiem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "CZK01A",
+    "longitude": 16.98174,
+    "latitude": 52.465,
+    "locality": "Czerwonak",
+    "address": "Leśna 1 Parking Czerwona Torebka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "CZK01N",
+    "longitude": 16.97936,
+    "latitude": 52.47722,
+    "locality": "Czerwonak",
+    "address": "Krótka 1 Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "DAB01L",
+    "longitude": 16.74423,
+    "latitude": 52.38276,
+    "locality": "Dąbrówka",
+    "address": "Lipowa 20 Przy prywatnej posesji",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "DAB01M",
+    "longitude": 16.74201,
+    "latitude": 52.37487,
+    "locality": "Dąbrówka",
+    "address": "Kolejowa 3 Naprzeciwko wjazdu na parking P+R przy dworcu PKP Palędzie",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "DAB01N",
+    "longitude": 16.74479,
+    "latitude": 52.37889,
+    "locality": "Dąbrówka",
+    "address": "Kolejowa 67 Przy sklepie Freshmarket",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "DIN01M",
+    "longitude": 16.72494,
+    "latitude": 52.28965,
+    "locality": "Dębienko",
+    "address": "Generała Sikorskiego 78A Przy budynku handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "DOP01A",
+    "longitude": 16.67328,
+    "latitude": 52.36234,
+    "locality": "Dopiewo",
+    "address": "Stawna 17 Przy sklepie budowlanym Modernika",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "DOP01M",
+    "longitude": 16.67008,
+    "latitude": 52.36541,
+    "locality": "Dopiewo",
+    "address": "Więckowska 30 Na działce",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "DOP01N",
+    "longitude": 16.67625,
+    "latitude": 52.35811,
+    "locality": "Dopiewo",
+    "address": "Poznańska 13 Przy sklepie Lewiatan",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "DOP02M",
+    "longitude": 16.67428,
+    "latitude": 52.35647,
+    "locality": "Dopiewo",
+    "address": "Bukowska 9 Na parkingu marketu Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "DPC01M",
+    "longitude": 16.70792,
+    "latitude": 52.35999,
+    "locality": "Dopiewiec",
+    "address": "Szkolna 13 Przy sklepie spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "DWA01M",
+    "longitude": 16.7567,
+    "latitude": 52.3969,
+    "locality": "Dąbrowa",
+    "address": "Szafirowa 1A Po prawej stronie parkingu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "GRT01N",
+    "longitude": 17.1044,
+    "latitude": 52.42687,
+    "locality": "Gortatowo",
+    "address": "Fabryczna 1 Prywatna posesja",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "GWW01A",
+    "longitude": 17.125,
+    "latitude": 52.3645,
+    "locality": "Gowarzewo",
+    "address": "Rabowicka 1 Przy sklepie Chata Polska",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "GWW01M",
+    "longitude": 17.13325,
+    "latitude": 52.35992,
+    "locality": "Gowarzewo",
+    "address": "Kleszczewska 1 Na parkingu marketu Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "JEK01A",
+    "longitude": 17.1717,
+    "latitude": 52.46943,
+    "locality": "Jerzykowo",
+    "address": "pl. Piastowski 25 Przy sklepie Groszek",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "JEL01M",
+    "longitude": 16.85644,
+    "latitude": 52.48654,
+    "locality": "Jelonek",
+    "address": "Obornicka 10 Przy firmie JELIMEX - wjazd od ulicy Czołgowej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KCA01M",
+    "longitude": 17.07994,
+    "latitude": 52.447232,
+    "locality": "Kobylnica",
+    "address": "Poznańska 113 Parking przy aptece",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KCA02M",
+    "longitude": 17.07611,
+    "latitude": 52.44534,
+    "locality": "Kobylnica",
+    "address": "Swarzędzka 2 Przy Pawilonie Handlowym.",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KCI01M",
+    "longitude": 17.01453,
+    "latitude": 52.45586,
+    "locality": "Kicin",
+    "address": "Poznańska 8 Na Parkingu obiektu Noclegi pod Orzechem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KCO01G",
+    "longitude": 17.17075,
+    "latitude": 52.33395,
+    "locality": "Kleszczewo",
+    "address": "Poznańska 33 Parking przy sklepie spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KIR01M",
+    "longitude": 16.77956,
+    "latitude": 52.48476,
+    "locality": "Kiekrz",
+    "address": "Kierska 2G Na parkingu marketu Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KMN01N",
+    "longitude": 16.97966,
+    "latitude": 52.28957,
+    "locality": "Kamionki",
+    "address": "Platanowa 2 Naprzeciwko galerii",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KMN02N",
+    "longitude": 16.99838,
+    "latitude": 52.2873,
+    "locality": "Kamionki",
+    "address": "Mostowa 12 Przy sklepie Delikatesy Centrum",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOG01A",
+    "longitude": 16.98961,
+    "latitude": 52.44552,
+    "locality": "Koziegłowy",
+    "address": "Piasko 19 Na tylnej ścianie (południowej) sklepu \"Pepco\"",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOG02M",
+    "longitude": 16.98537,
+    "latitude": 52.453,
+    "locality": "Koziegłowy",
+    "address": "Gdyńska 66 Na parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOG03M",
+    "longitude": 16.9967,
+    "latitude": 52.44718,
+    "locality": "Koziegłowy",
+    "address": "Krótka 1A Przy sklepie Spec-Market.",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOM01A",
+    "longitude": 16.80033,
+    "latitude": 52.33985,
+    "locality": "Komorniki",
+    "address": "Malinowskiego 9 Przy pasażu Czerwona Torebka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOM01M",
+    "longitude": 16.80668,
+    "latitude": 52.33451,
+    "locality": "Komorniki",
+    "address": "Młyńska 4 Przy sklepie Tesco",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOM01N",
+    "longitude": 16.815,
+    "latitude": 52.33805,
+    "locality": "Komorniki",
+    "address": "Nizinna 10 Przy sklepie Netto",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOM02M",
+    "longitude": 16.81429,
+    "latitude": 52.3403,
+    "locality": "Komorniki",
+    "address": "Nowa 2 Przy wjeździe na parking sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOM03M",
+    "longitude": 16.79606,
+    "latitude": 52.33584,
+    "locality": "Komorniki",
+    "address": "Świętego Rocha 1 Na działce przy skrzyżowaniu ulic Św. Rocha i Rosnowskiej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOM04M",
+    "longitude": 16.8332,
+    "latitude": 52.33898,
+    "locality": "Komorniki",
+    "address": "Żabikowska 37 Przy Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOR01M",
+    "longitude": 17.08389,
+    "latitude": 52.25292,
+    "locality": "Kórnik",
+    "address": "Poznańska 52 Przy sklepie Lidla.",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOR02N",
+    "longitude": 17.07737,
+    "latitude": 52.2559,
+    "locality": "Kórnik",
+    "address": "Poznańska 87 Przy markecie Netto",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KOR03N",
+    "longitude": 17.07773,
+    "latitude": 52.25388,
+    "locality": "Kórnik",
+    "address": "Woźniaka 5 Na parkingu Max Market Chiński",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KST01M",
+    "longitude": 17.22793,
+    "latitude": 52.40002,
+    "locality": "Kostrzyn",
+    "address": "Mickiewicza 21D Przy kwiaciarni Artis.",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KST02M",
+    "longitude": 17.22343,
+    "latitude": 52.39115,
+    "locality": "Kostrzyn",
+    "address": "Wyszyńskiego 3 Przy sklepie ABC",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KST02N",
+    "longitude": 17.2243,
+    "latitude": 52.39382,
+    "locality": "Kostrzyn",
+    "address": "Warszawska 13 Przy sklepie Pepco",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KST03M",
+    "longitude": 17.22432,
+    "latitude": 52.39409,
+    "locality": "Kostrzyn",
+    "address": "Dworcowa 31 Przy sklepie Tesco",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KST03N",
+    "longitude": 17.21959,
+    "latitude": 52.39776,
+    "locality": "Kostrzyn",
+    "address": "Poznańska 37 Przy supermarkecie Chata Polska",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KXS01M",
+    "longitude": 16.82914,
+    "latitude": 52.22836,
+    "locality": "Krosno",
+    "address": "Boczna 36 Parking przy budynku usłługowo-mieszkalnym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KXS02M",
+    "longitude": 16.83195,
+    "latitude": 52.22361,
+    "locality": "Krosno",
+    "address": "Główna 48 Za sklepem spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO01A",
+    "longitude": 16.88731,
+    "latitude": 52.35371,
+    "locality": "Luboń",
+    "address": "Dębiecka 1 Przy Centrum Handlowym Factory Outlet",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO01M",
+    "longitude": 16.87095,
+    "latitude": 52.35009,
+    "locality": "Luboń",
+    "address": "Kościuszki 47 Przy sklepie Społem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO01N",
+    "longitude": 16.87196,
+    "latitude": 52.34282,
+    "locality": "Luboń",
+    "address": "Wojska Polskiego 7 Przy sklepie ogrodniczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO02A",
+    "longitude": 16.87584,
+    "latitude": 52.33476,
+    "locality": "Luboń",
+    "address": "Jana III Sobieskiego 53 Przy sklepie warzywnym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO02B",
+    "longitude": 16.88071,
+    "latitude": 52.35052,
+    "locality": "Luboń",
+    "address": "Żabikowska 66 Przy Centrum Handlowym Pajo",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO02M",
+    "longitude": 16.87191,
+    "latitude": 52.34568,
+    "locality": "Luboń",
+    "address": "11 Listopada 30 Przy prywatnej posesji",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO03A",
+    "longitude": 16.882,
+    "latitude": 52.34903,
+    "locality": "Luboń",
+    "address": "Żabikowska 53B Przy sklepie Intermarche",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO03M",
+    "longitude": 16.87235,
+    "latitude": 52.32574,
+    "locality": "Luboń",
+    "address": "Polna 42 Przy parkingu sklepu Lewiatan",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO04M",
+    "longitude": 16.88022,
+    "latitude": 52.34695,
+    "locality": "Luboń",
+    "address": "Żabikowska 45 Przy sklepie Skrzat.",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO05A",
+    "longitude": 16.8899,
+    "latitude": 52.3337,
+    "locality": "Luboń",
+    "address": "Armii Poznań 51B Przy myjni bezdotykowej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO05M",
+    "longitude": 16.85518,
+    "latitude": 52.34547,
+    "locality": "Luboń",
+    "address": "Poniatowskiego 66 Przy myjni bezdotykowej.",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO06M",
+    "longitude": 16.89496,
+    "latitude": 52.34686,
+    "locality": "Luboń",
+    "address": "Armii Poznań 58 Przy stacji Lotos.",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO07M",
+    "longitude": 16.8878,
+    "latitude": 52.32504,
+    "locality": "Luboń",
+    "address": "Armii Poznań 103 Przy sklepie wędkarskim",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO08M",
+    "longitude": 16.87721,
+    "latitude": 52.32903,
+    "locality": "Luboń",
+    "address": "Sobieskiego 88c Parking przy Pawilonie Handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO094",
+    "longitude": 16.84979,
+    "latitude": 52.34452,
+    "locality": "Luboń",
+    "address": "11 Listopada 141 Przy sklepie Społem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO249",
+    "longitude": 16.86587,
+    "latitude": 52.3522,
+    "locality": "Luboń",
+    "address": "Kościuszki 102 Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LCC01M",
+    "longitude": 16.87851,
+    "latitude": 52.31146,
+    "locality": "Łęczyca",
+    "address": "Poznańska 29 boczna (lewa) ściana Lidla",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LUW01M",
+    "longitude": 16.70171,
+    "latitude": 52.43484,
+    "locality": "Lusowo",
+    "address": "Poznańska 5 Na parkingu marketu Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MOS01A",
+    "longitude": 16.8573,
+    "latitude": 52.24183,
+    "locality": "Mosina",
+    "address": "Sowiniecka 9B Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MOS01M",
+    "longitude": 16.84361,
+    "latitude": 52.24429,
+    "locality": "Mosina",
+    "address": "Harcerska 3-5 boczna, prawa ściana Lidla",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MOS01ML",
+    "longitude": 16.8497,
+    "latitude": 52.25029,
+    "locality": "Mosina",
+    "address": "Poniatowskiego 1B Przy sklepie Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MOS01N",
+    "longitude": 16.84259,
+    "latitude": 52.24494,
+    "locality": "Mosina",
+    "address": "Konopnickiej 33 Przy markecie Tesco",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MOS02M",
+    "longitude": 16.85205,
+    "latitude": 52.22902,
+    "locality": "Mosina",
+    "address": "Śremska 61 Przy sklepie spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MOS02N",
+    "longitude": 16.85478,
+    "latitude": 52.24499,
+    "locality": "Mosina",
+    "address": "Farbiarska 30 Przy aptece Mosińskie Centrum Zdrowia",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MOS03M",
+    "longitude": 16.82998,
+    "latitude": 52.23359,
+    "locality": "Mosina",
+    "address": "Stryjeńskiej 1 Parking przy budynku usługowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MOS04M",
+    "longitude": 16.85007,
+    "latitude": 52.24389,
+    "locality": "Mosina",
+    "address": "Niezłomnych 3 Przy budynku MOSINOVA",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MOS05M",
+    "longitude": 16.85341,
+    "latitude": 52.24304,
+    "locality": "Mosina",
+    "address": "Kolejowa 33 Parking przy Netto",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MOS06M",
+    "longitude": 16.85278,
+    "latitude": 52.25958,
+    "locality": "Mosina",
+    "address": "Leśna 21 Przy sklepie spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MUG01M",
+    "longitude": 17.00901,
+    "latitude": 52.57411,
+    "locality": "Murowana Goślina",
+    "address": "Poznańska 10B przy księgarni Grześ",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MUG01N",
+    "longitude": 17.00814,
+    "latitude": 52.57372,
+    "locality": "Murowana Goślina",
+    "address": "Poznańska 16 Przy Urzędzie Gminy",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MUG02M",
+    "longitude": 17.00024,
+    "latitude": 52.56676,
+    "locality": "Murowana Goślina",
+    "address": "Długa 7 Przy piekarni",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "MUG02N",
+    "longitude": 16.9998,
+    "latitude": 52.56538,
+    "locality": "Murowana Goślina",
+    "address": "Akacjowa 17 Przy sklepie spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "NPW01N",
+    "longitude": 16.60394,
+    "latitude": 52.38741,
+    "locality": "Niepruszewo",
+    "address": "Poznańska 32 Na parkingu sklepu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "OWN01M",
+    "longitude": 16.97369,
+    "latitude": 52.51414,
+    "locality": "Owińska",
+    "address": "Plac Przemysława 1C Za sklepem Chata Polska",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "OWN01N",
+    "longitude": 16.98699,
+    "latitude": 52.51163,
+    "locality": "Owińska",
+    "address": "Dworcowa 1 Przy sklepie ABC",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PAD01M",
+    "longitude": 16.73927,
+    "latitude": 52.37236,
+    "locality": "Palędzie",
+    "address": "Nowa 3 Przy Warsztacie",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PBD01G",
+    "longitude": 17.01515,
+    "latitude": 52.58606,
+    "locality": "Przebędowo",
+    "address": "Przebędowo nr działki 92/2 Przy sklepie spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PKW01M",
+    "longitude": 17.15904,
+    "latitude": 52.39917,
+    "locality": "Paczkowo",
+    "address": "Zapłocie 6A przy sklepie ABC",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PLW01A",
+    "longitude": 16.81387,
+    "latitude": 52.36965,
+    "locality": "Plewiska",
+    "address": "Grunwaldzka 507 Przy budynku handlowo - usługowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PLW01M",
+    "longitude": 16.81299,
+    "latitude": 52.36903,
+    "locality": "Plewiska",
+    "address": "Grunwaldzka 513 Na Myjni",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PLW01N",
+    "longitude": 16.82434,
+    "latitude": 52.37828,
+    "locality": "Poznań",
+    "address": "Szarotkowa 21 Przy Netto",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PLW02M",
+    "longitude": 16.8163,
+    "latitude": 52.36019,
+    "locality": "Plewiska",
+    "address": "Poranna 6 W płocie od strony ulicy Porannej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PLW02N",
+    "longitude": 16.81379,
+    "latitude": 52.36375,
+    "locality": "Plewiska",
+    "address": "Kolejowa 85 Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PLW03M",
+    "longitude": 16.80827,
+    "latitude": 52.36504,
+    "locality": "Plewiska",
+    "address": "Grunwaldzka 610A Na parkingu żabki",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PMO01M",
+    "longitude": 16.68281,
+    "latitude": 52.55427,
+    "locality": "Pamiątkowo",
+    "address": "Dworcowa 1 Na terenie Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POB01G",
+    "longitude": 17.24037,
+    "latitude": 52.47379,
+    "locality": "Pobiedziska",
+    "address": "Gajowa 5 Przy sklepie Groszek",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POB01M",
+    "longitude": 17.27993,
+    "latitude": 52.47947,
+    "locality": "Pobiedziska",
+    "address": "Dworcowa 2B Parking przy budynku handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POB01N",
+    "longitude": 17.28257,
+    "latitude": 52.47544,
+    "locality": "Pobiedziska",
+    "address": "Królowej Jadwigi 4 Przy Galerii Różanej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POB02M",
+    "longitude": 17.2826,
+    "latitude": 52.47474,
+    "locality": "Pobiedziska",
+    "address": "Różana 1 Przy myjni bezdotykowej Banieczka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POI01M",
+    "longitude": 16.96265,
+    "latitude": 52.54749,
+    "locality": "Promnice",
+    "address": "Północna 49 Przy sklepie spożywczym |MILI|",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POP-DAB3",
+    "longitude": 16.7448087,
+    "latitude": 52.3813889,
+    "locality": "Dąbrówka",
+    "address": "Poznańska 31 PAKERSI DĄBRÓWKA",
+    "openingTimes": [
+      "PN-PT 09-18"
+    ]
+  },
+  {
+    "id": "POP-DAS1",
+    "longitude": 16.9550054,
+    "latitude": 52.3046,
+    "locality": "Daszewice",
+    "address": "Poznańska 5 SKLEP OGÓLNOSPOŻYWCZY RABAT",
+    "openingTimes": [
+      "PN-PT 06-20 SB 07-20"
+    ]
+  },
+  {
+    "id": "POP-DOP2",
+    "longitude": 16.6746166,
+    "latitude": 52.3576804,
+    "locality": "Dopiewo",
+    "address": "Młyńska 4 SKLEP PINEZKA",
+    "openingTimes": [
+      "PN-PT 08-20 SB 09-14"
+    ]
+  },
+  {
+    "id": "POP-DOP3",
+    "longitude": 16.67630734,
+    "latitude": 52.35675074,
+    "locality": "Dopiewo",
+    "address": "Wyzwolenia 3 EPAKA DOPIEWO",
+    "openingTimes": [
+      "PN-PT 09-17 SB 09-13"
+    ]
+  },
+  {
+    "id": "POP-KMN2",
+    "longitude": 16.9794273,
+    "latitude": 52.2899364,
+    "locality": "Kamionki",
+    "address": "Platanowa 2 PUNKT KURIERSKI",
+    "openingTimes": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-KOG2",
+    "longitude": 16.9966889,
+    "latitude": 52.4487191,
+    "locality": "Koziegłowy",
+    "address": "Os. Leśne 24 DROGERIA STYL",
+    "openingTimes": [
+      "PN-PT 09-19 SB 09-14"
+    ]
+  },
+  {
+    "id": "POP-KOR4",
+    "longitude": 17.0887772,
+    "latitude": 52.2486885,
+    "locality": "Kórnik",
+    "address": "Wojska Polskiego 23 MARILYN SALON FRYZJERSKI",
+    "openingTimes": [
+      "PN-PT 09-18 SB 09-14"
+    ]
+  },
+  {
+    "id": "POP-KOR5",
+    "longitude": 17.091933,
+    "latitude": 52.2287733,
+    "locality": "Kórnik",
+    "address": "Zwierzyniecka 5 SKLEP SPOŻYWCZY",
+    "openingTimes": [
+      "PN-PT 06-18 SB 08-14 ND 08-12"
+    ]
+  },
+  {
+    "id": "POP-KOT2",
+    "longitude": 17.2300026,
+    "latitude": 52.3891955,
+    "locality": "Kostrzyn",
+    "address": "Grunwaldzka 24 MATTEO SKLEP POLSKI",
+    "openingTimes": [
+      "PN-SB 06-22 ND 10-20"
+    ]
+  },
+  {
+    "id": "POP-KOT3",
+    "longitude": 17.2277539,
+    "latitude": 52.4009589,
+    "locality": "Kostrzyn",
+    "address": "Mickiewicza 21D HURTOWNIA KWIATÓW ARTIS FLOWER",
+    "openingTimes": [
+      "PN-PT 09-17"
+    ]
+  },
+  {
+    "id": "POP-LBO1",
+    "longitude": 16.874027,
+    "latitude": 52.348969,
+    "locality": "Luboń",
+    "address": "Sikorskiego 8/4 SKLEP ODZIEŻOWY",
+    "openingTimes": [
+      "PN-PT 10-18 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-LBO4",
+    "longitude": 16.897326969658,
+    "latitude": 52.348783058766,
+    "locality": "Luboń",
+    "address": "Armii Poznań 23B SKLEP MOTORYZACYJNY",
+    "openingTimes": [
+      "PN-PT 09-17 SB 09-13"
+    ]
+  },
+  {
+    "id": "POP-LBO5",
+    "longitude": 16.88130288,
+    "latitude": 52.34330502,
+    "locality": "Luboń",
+    "address": "Wschodnia 21B EXPRESS-PACZKA",
+    "openingTimes": [
+      "PN-PT 10-20 SB 10-16"
+    ]
+  },
+  {
+    "id": "POP-LUN1",
+    "longitude": 16.88767,
+    "latitude": 52.32436,
+    "locality": "Luboń",
+    "address": "Armii Poznań 111A SKLEP METALOWY",
+    "openingTimes": [
+      "PN-PT 07-17 SB 09-14"
+    ]
+  },
+  {
+    "id": "POP-MOS3",
+    "longitude": 16.8463915,
+    "latitude": 52.2400025,
+    "locality": "Mosina",
+    "address": "Leszczyńska 5 TANI KURIER.INFO",
+    "openingTimes": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-MOS5",
+    "longitude": 16.8495404,
+    "latitude": 52.2451586,
+    "locality": "Mosina",
+    "address": "Pl. 20 października 17 ALKOSHOP",
+    "openingTimes": [
+      "PN-SB 08-22 ND 09-20"
+    ]
+  },
+  {
+    "id": "POP-MOS6",
+    "longitude": 16.8361263,
+    "latitude": 52.2285515,
+    "locality": "Mosina",
+    "address": "Leszczyńska 86 SKLEP PRZĄDKA",
+    "openingTimes": [
+      "PN-SB 06-22 ND 09-20"
+    ]
+  },
+  {
+    "id": "POP-MOS7",
+    "longitude": 16.8529736,
+    "latitude": 52.259578,
+    "locality": "Mosina",
+    "address": "Leśna 21 SKLEP PRZĄDKA",
+    "openingTimes": [
+      "PN-SB 06-22 ND 09-20"
+    ]
+  },
+  {
+    "id": "POP-MUG1",
+    "longitude": 16.9972728,
+    "latitude": 52.5761851,
+    "locality": "Murowana Goślina",
+    "address": "Mściszewska 19 SKLEP SPOŻYWCZO-PRZEMYSŁOWY",
+    "openingTimes": [
+      "PN-PT 06-18 SB 07-14"
+    ]
+  },
+  {
+    "id": "POP-MUG2",
+    "longitude": 17.0079932,
+    "latitude": 52.5717556,
+    "locality": "Murowana Goślina",
+    "address": "Poznańska 34 UBEZPIECZENIA MARIETTA ŻUROWSKA",
+    "openingTimes": [
+      "PN-PT 09-17 SB 09-14"
+    ]
+  },
+  {
+    "id": "POP-PAI1",
+    "longitude": 16.681921813418,
+    "latitude": 52.553847574905,
+    "locality": "Pamiątkowo",
+    "address": "Szkolna 27 SKLEP LIVIO",
+    "openingTimes": [
+      "PN-PT 10-20 SB 10-18 ND 10-14"
+    ]
+  },
+  {
+    "id": "POP-PCK1",
+    "longitude": 17.158962813459,
+    "latitude": 52.399164346617,
+    "locality": "Paczkowo",
+    "address": "Zapłocie 6A DELIKATESY ABC",
+    "openingTimes": [
+      "PN-PT 06-22 SB 06-19 ND 09-14"
+    ]
+  },
+  {
+    "id": "POP-PLW2",
+    "longitude": 16.8120891,
+    "latitude": 52.3688765,
+    "locality": "Plewiska",
+    "address": "Grunwaldzka 517A SALON AVON",
+    "openingTimes": [
+      "PN-PT 10-18 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-PLW3",
+    "longitude": 16.8078806,
+    "latitude": 52.3671942,
+    "locality": "Plewiska",
+    "address": "Kolejowa 36/3 PAKERSI PLEWISKA",
+    "openingTimes": [
+      "PN-PT 09-18 SB 09-13"
+    ]
+  },
+  {
+    "id": "POP-POB1",
+    "longitude": 17.281905253991,
+    "latitude": 52.475306174597,
+    "locality": "Pobiedziska",
+    "address": "Królowej Jadwigi 4 ICENTRE SERWIS TELEFONÓW I KOMPUTERÓW",
+    "openingTimes": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POI4",
+    "longitude": 16.9631443,
+    "latitude": 52.5486793,
+    "locality": "Promnice",
+    "address": "Północna 56 ABC SKLEP SPOŻYWCZY",
+    "openingTimes": [
+      "PN-SB 08-20 ND 08-18"
+    ]
+  },
+  {
+    "id": "POP-POZ15",
+    "longitude": 16.9499997,
+    "latitude": 52.3926898,
+    "locality": "Poznań",
+    "address": "Piłsudskiego 2B SALONIK PRASOWY E PAPIEROSY",
+    "openingTimes": [
+      "PN-PT 07-18 SB 08-13"
+    ]
+  },
+  {
+    "id": "POP-POZ24",
+    "longitude": 16.907794,
+    "latitude": 52.401339,
+    "locality": "Poznań",
+    "address": "Głogowska 16 MBE MAIL BOX",
+    "openingTimes": [
+      "PN-PT 09-18 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-POZ3",
+    "longitude": 16.8738,
+    "latitude": 52.39033,
+    "locality": "Poznań",
+    "address": "Promienista 104 PUNKT OPŁAT",
+    "openingTimes": [
+      "PN-PT 09-17"
+    ]
+  },
+  {
+    "id": "POP-POZ30",
+    "longitude": 16.946602,
+    "latitude": 52.386733,
+    "locality": "Poznań",
+    "address": "Os. Rzeczpospolitej 14 PUNKT OPŁAT",
+    "openingTimes": [
+      "PN-PT 09-18"
+    ]
+  },
+  {
+    "id": "POP-POZ31",
+    "longitude": 17.0233087,
+    "latitude": 52.4078192,
+    "locality": "Poznań",
+    "address": "Leszka 17 AGENCJA BANKOWA",
+    "openingTimes": [
+      "PN-PT 10-18 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-POZ32",
+    "longitude": 16.92716,
+    "latitude": 52.40992,
+    "locality": "Poznań",
+    "address": "23 Lutego 14 P.H. MYSZKA",
+    "openingTimes": [
+      "PN-PT 09-18 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-POZ33",
+    "longitude": 16.895709,
+    "latitude": 52.366844,
+    "locality": "Poznań",
+    "address": "Jesionowa 20/4 UBEZPIECZENIA BLISKO CIEBIE",
+    "openingTimes": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ47",
+    "longitude": 16.8975215,
+    "latitude": 52.4138145,
+    "locality": "Poznań",
+    "address": "Polna 2 BIURO TURYSTYCZNE KANION",
+    "openingTimes": [
+      "PN-PT 10-18 SB 09-13"
+    ]
+  },
+  {
+    "id": "POP-POZ55",
+    "longitude": 16.92523509,
+    "latitude": 52.33430141,
+    "locality": "Poznań",
+    "address": "Głuszyna 58B MER-CARS",
+    "openingTimes": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ56",
+    "longitude": 17.002673,
+    "latitude": 52.389813,
+    "locality": "Poznań",
+    "address": "Os. Przemysława 8C SALONIK PRASOWY",
+    "openingTimes": [
+      "PN-PT 09-18 SB 08-13"
+    ]
+  },
+  {
+    "id": "POP-POZ60",
+    "longitude": 16.903773,
+    "latitude": 52.412881,
+    "locality": "Poznań",
+    "address": "Kościelna/Dąbrowskiego 1 KIOSK SZEWC KOŚCIELNA",
+    "openingTimes": [
+      "PN-PT 10-18 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-POZ65",
+    "longitude": 16.8517124,
+    "latitude": 52.4083161,
+    "locality": "Poznań",
+    "address": "Gałczyńskiego 46 MAIL BOXES ETC.2659",
+    "openingTimes": [
+      "PN-PT 08-18"
+    ]
+  },
+  {
+    "id": "POP-POZ66",
+    "longitude": 16.9614987,
+    "latitude": 52.3771118,
+    "locality": "Poznań",
+    "address": "Os. Orła Białego PAW.3 SKLEP WIELOBRANŻOWY INWAZJA",
+    "openingTimes": [
+      "PN-PT 10-18 SB 08-13"
+    ]
+  },
+  {
+    "id": "POP-POZ67",
+    "longitude": 16.7844297,
+    "latitude": 52.477661,
+    "locality": "Poznań",
+    "address": "Chojnicka 60 STIHL KIEKRZ",
+    "openingTimes": [
+      "PN-PT 09-17 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-POZ68",
+    "longitude": 16.917374,
+    "latitude": 52.3878222,
+    "locality": "Poznań",
+    "address": "Langiewicza 23/U1 HURTOWNIA KOMETYKÓW MADRIC",
+    "openingTimes": [
+      "PN-PT 11-20"
+    ]
+  },
+  {
+    "id": "POP-POZ69",
+    "longitude": 16.8943551,
+    "latitude": 52.3903351,
+    "locality": "Poznań",
+    "address": "Głogowska 117 SKLEP LEWIATAN",
+    "openingTimes": [
+      "PN-ND 06-00"
+    ]
+  },
+  {
+    "id": "POP-POZ70",
+    "longitude": 16.9468398,
+    "latitude": 52.3693278,
+    "locality": "Poznań",
+    "address": "Falista 4A SKLEP LEWIATAN",
+    "openingTimes": [
+      "PN-SB 06-22 ND 08-22"
+    ]
+  },
+  {
+    "id": "POP-POZ71",
+    "longitude": 16.8370408,
+    "latitude": 52.4369118,
+    "locality": "Poznań",
+    "address": "Trzebiatowska 18C SKLEP SPOŻYWCZY",
+    "openingTimes": [
+      "PN-PT 06-22 SB 07-22 ND 16-22"
+    ]
+  },
+  {
+    "id": "POP-POZ72",
+    "longitude": 16.949397,
+    "latitude": 52.3972775,
+    "locality": "Poznań",
+    "address": "Na Miasteczku 12/LOK 8 SKLEP UKRAINOCZKA",
+    "openingTimes": [
+      "PN-PT 09-22 SB 09-20"
+    ]
+  },
+  {
+    "id": "POP-POZ74",
+    "longitude": 16.9736789,
+    "latitude": 52.3902438,
+    "locality": "Poznań",
+    "address": "Os. Lecha 43 SKLEP ZOOLOGICZNY",
+    "openingTimes": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ75",
+    "longitude": 16.908214518493,
+    "latitude": 52.414796209354,
+    "locality": "Poznań",
+    "address": "Mylna 23 PARTER UBEZPIECZENIA AUTOPLATFORMA",
+    "openingTimes": [
+      "PN-PT 10-18 SB 09-14"
+    ]
+  },
+  {
+    "id": "POP-POZ76",
+    "longitude": 16.9368307,
+    "latitude": 52.4510391,
+    "locality": "Poznań",
+    "address": "Os. Łokietka 1 LEWIATAN MAŁGOSIA",
+    "openingTimes": [
+      "PN-SB 08-22 ND 10-20"
+    ]
+  },
+  {
+    "id": "POP-POZ77",
+    "longitude": 16.9397836,
+    "latitude": 52.4385603,
+    "locality": "Poznań",
+    "address": "Os. Wichrowe Wzgórze PAW.103 SKLEP ODIDO",
+    "openingTimes": [
+      "PN-PT 07-20 SB 07-19 ND 10-16"
+    ]
+  },
+  {
+    "id": "POP-POZ79",
+    "longitude": 16.8311561,
+    "latitude": 52.3834688,
+    "locality": "Poznań",
+    "address": "Malwowa 11 PAKERSI MALWOWA",
+    "openingTimes": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ80",
+    "longitude": 16.9241143,
+    "latitude": 52.4385708,
+    "locality": "Poznań",
+    "address": "Os. Zwycięstwa 113 XPRESSION-IT SERWIS KOMPUTEROWY",
+    "openingTimes": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ85",
+    "longitude": 16.8817154,
+    "latitude": 52.4005531,
+    "locality": "Poznań",
+    "address": "Ostroroga 1/4 PAKERSI ARENA",
+    "openingTimes": [
+      "PN-PT 09-18"
+    ]
+  },
+  {
+    "id": "POP-POZ86",
+    "longitude": 16.96409668609,
+    "latitude": 52.375951076571,
+    "locality": "Poznań",
+    "address": "Os. Orła Białego 44A LEWIATAN ORŁA BIAŁEGO",
+    "openingTimes": [
+      "PN-SB 06-22 ND 10-20"
+    ]
+  },
+  {
+    "id": "POP-POZ87",
+    "longitude": 16.92360350356,
+    "latitude": 52.410467760441,
+    "locality": "Poznań",
+    "address": "Karola Libelta 6 LEWIATAN LIBELTA",
+    "openingTimes": [
+      "PN-SB 06-22 ND 10-20"
+    ]
+  },
+  {
+    "id": "POP-POZ88",
+    "longitude": 16.930586653639,
+    "latitude": 52.364272332963,
+    "locality": "Poznań",
+    "address": "Św. Antoniego 32 POLSKI DOM FINANSOWY",
+    "openingTimes": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ89",
+    "longitude": 16.91489864,
+    "latitude": 52.43006258,
+    "locality": "Poznań",
+    "address": "Koronna 1A EPAKA KORONNA",
+    "openingTimes": [
+      "PN-PT 08-18"
+    ]
+  },
+  {
+    "id": "POP-POZ90",
+    "longitude": 16.857888138433,
+    "latitude": 52.425342847045,
+    "locality": "Poznań",
+    "address": "Przelot 10 EPAKA WOLA",
+    "openingTimes": [
+      "PN-PT 09-17"
+    ]
+  },
+  {
+    "id": "POP-POZ91",
+    "longitude": 16.922230252539,
+    "latitude": 52.393828907909,
+    "locality": "Poznań",
+    "address": "Górna Wilda 105 BELECO CENTRUM KOSMETYCZNE",
+    "openingTimes": [
+      "PN-PT 09-18"
+    ]
+  },
+  {
+    "id": "POP-POZ92",
+    "longitude": 16.897316,
+    "latitude": 52.3814505,
+    "locality": "Poznań",
+    "address": "Górecka 30A BRICOMARCHE POZNAŃ GÓRECKA",
+    "openingTimes": [
+      "PN-SB 08-20 ND 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ93",
+    "longitude": 16.9169425,
+    "latitude": 52.4369944,
+    "locality": "Poznań",
+    "address": "Al. Solidarności 47 BRICOMARCHE PESTKA",
+    "openingTimes": [
+      "PN-SB 08-21 ND 10-20"
+    ]
+  },
+  {
+    "id": "POP-POZ94",
+    "longitude": 17.0094523,
+    "latitude": 52.3641157,
+    "locality": "Poznań",
+    "address": "Skibowa 13A EPAKA POZNAŃ NOWE MIASTO",
+    "openingTimes": [
+      "PN-PT 09-17"
+    ]
+  },
+  {
+    "id": "POP-POZ95",
+    "longitude": 16.910460839546,
+    "latitude": 52.459424104012,
+    "locality": "Poznań",
+    "address": "Zygmunta Starego 14 PAKERSI PIĄTKOWO",
+    "openingTimes": [
+      "PN-PT 10-18 SB 09-13"
+    ]
+  },
+  {
+    "id": "POP-ROK1",
+    "longitude": 16.754808,
+    "latitude": 52.5103862,
+    "locality": "Rokietnica",
+    "address": "Gminna 3 OBOK URZĘDU GMINY SKLEP KOMPUTEROWY",
+    "openingTimes": [
+      "PN-PT 09-17"
+    ]
+  },
+  {
+    "id": "POP-ROK2",
+    "longitude": 16.75541756,
+    "latitude": 52.50653391,
+    "locality": "Rokietnica",
+    "address": "Golecińska 15 SKLEP SPOŻYWCZY",
+    "openingTimes": [
+      "PN-PT 06-18 SB 07-16"
+    ]
+  },
+  {
+    "id": "POP-SLS4",
+    "longitude": 16.8794595,
+    "latitude": 52.4750416,
+    "locality": "Suchy Las",
+    "address": "Nowy Rynek 4 MBE MAILBOX",
+    "openingTimes": [
+      "PN-PT 09-17"
+    ]
+  },
+  {
+    "id": "POP-SLS5",
+    "longitude": 16.86735594,
+    "latitude": 52.47239773,
+    "locality": "Suchy Las",
+    "address": "Osiedle Jagodowe 5 REDAKCJA AGROPROFIL",
+    "openingTimes": [
+      "PN-PT 08-18"
+    ]
+  },
+  {
+    "id": "POP-STE2",
+    "longitude": 16.7041457,
+    "latitude": 52.2810338,
+    "locality": "Stęszew",
+    "address": "Poznańska 16D ABC FOTO",
+    "openingTimes": [
+      "PN-PT 10-18 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-SWD11",
+    "longitude": 17.07732599,
+    "latitude": 52.410674,
+    "locality": "Swarzędz",
+    "address": "Rynek 28 SKLEP LATYNKA",
+    "openingTimes": [
+      "PN-PT 10-18 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-TRW4",
+    "longitude": 16.6658284,
+    "latitude": 52.4673337,
+    "locality": "Tarnowo Podgórne",
+    "address": "Ks. Zbigniewa Sasa 4/U3 PUNKT INPOST OSIEDLE TARNOWO CENTRUM",
+    "openingTimes": [
+      "PN-PT 09-18 SB 09-13"
+    ]
+  },
+  {
+    "id": "POP-ZAS2",
+    "longitude": 17.07046,
+    "latitude": 52.3898666,
+    "locality": "Zalasewo",
+    "address": "Planetarna 15A JULANDO SKLEP Z ART DZIECIĘCYMI",
+    "openingTimes": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-ZLN1",
+    "longitude": 16.8489952,
+    "latitude": 52.4948418,
+    "locality": "Złotniki",
+    "address": "Łagiewnicka 28 SKLEP OGÓLNOSPOŻYWCZY",
+    "openingTimes": [
+      "PN-SB 06-18 ND 09-13"
+    ]
+  },
+  {
+    "id": "POZ01A",
+    "longitude": 16.89353,
+    "latitude": 52.44772,
+    "locality": "Poznań",
+    "address": "Strzeszyńska 61A Przy Fitness Club Podolany",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ01HO",
+    "longitude": 16.9275,
+    "latitude": 52.40174,
+    "locality": "Poznań",
+    "address": "Półwiejska 42 poziom -3 przy schodach ruchomych",
+    "openingTimes": [
+      "PN-SB 09-21"
+    ]
+  },
+  {
+    "id": "POZ01M",
+    "longitude": 16.9869,
+    "latitude": 52.39128,
+    "locality": "Poznań",
+    "address": "os. Rusa 54 Przy pasażu handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ01N",
+    "longitude": 16.84755,
+    "latitude": 52.38172,
+    "locality": "Poznań",
+    "address": "Wieruszowska 20 Stacja paliw Watis",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ02A",
+    "longitude": 16.96652,
+    "latitude": 52.37717,
+    "locality": "Poznań",
+    "address": "Os. Orła Białego 58 Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ02B",
+    "longitude": 16.83406,
+    "latitude": 52.4133,
+    "locality": "Poznań",
+    "address": "Bukowska 285 Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ02M",
+    "longitude": 16.975,
+    "latitude": 52.39052,
+    "locality": "Poznań",
+    "address": "os. Lecha 43 Przy Osiedlowym Domu Kultury Orle Gniazdo",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ02N",
+    "longitude": 16.98243,
+    "latitude": 52.41253,
+    "locality": "Poznań",
+    "address": "Łabiszyńska 2 Przy markecie Rabat",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ03A",
+    "longitude": 16.89551,
+    "latitude": 52.37424,
+    "locality": "Poznań",
+    "address": "Czeremchowa 3-5 Przy markecie Netto",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ03B",
+    "longitude": 16.99138,
+    "latitude": 52.39374,
+    "locality": "Poznań",
+    "address": "Szwajcarska 1 Parking pasażu Czerwona Torebka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ03L",
+    "longitude": 16.8679,
+    "latitude": 52.40988,
+    "locality": "Poznań",
+    "address": "Bułgarska 117 Przy myjni bezdotykowej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ03M",
+    "longitude": 16.88113,
+    "latitude": 52.41762,
+    "locality": "Poznań",
+    "address": "Dąbrowskiego 154B Przy prywatnej posesji na ulicy Dąbrowskiego 154B",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ03N",
+    "longitude": 16.82384,
+    "latitude": 52.43111,
+    "locality": "Poznań",
+    "address": "Pniewska 15 Przy markecie Rabat",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ04A",
+    "longitude": 16.86814,
+    "latitude": 52.41052,
+    "locality": "Poznań",
+    "address": "Bułgarska 119 Stacja paliw Shell",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ04B",
+    "longitude": 16.95335,
+    "latitude": 52.40515,
+    "locality": "Poznań",
+    "address": "Jana Pawła II 12 Stacja paliw Shell",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ04L",
+    "longitude": 16.8913,
+    "latitude": 52.41574,
+    "locality": "Poznań",
+    "address": "Żeromskiego 3 Stacja paliw Lotos",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ04M",
+    "longitude": 16.88928,
+    "latitude": 52.40524,
+    "locality": "Poznań",
+    "address": "Przybyszewskiego 39 Przy parkingu DS Eskulap",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ05A",
+    "longitude": 16.91461,
+    "latitude": 52.43599,
+    "locality": "Poznań",
+    "address": "Al. Solidarności 55 Stacja paliw Shell",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ05B",
+    "longitude": 16.84914,
+    "latitude": 52.42978,
+    "locality": "Poznań",
+    "address": "Tatrzańska 1/5 Przy Centrum Handlowym 24",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ05M",
+    "longitude": 16.94683,
+    "latitude": 52.47502,
+    "locality": "Poznań",
+    "address": "Naramowicka 342 Przy budynku usługowo handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ05N",
+    "longitude": 16.96114,
+    "latitude": 52.38632,
+    "locality": "Poznań",
+    "address": "Piłsudskiego 110 Stacja paliw Circle K",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ06A",
+    "longitude": 16.91042,
+    "latitude": 52.4429,
+    "locality": "Poznań",
+    "address": "Lechicka 2 Stacja paliw Shell",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ06L",
+    "longitude": 16.99442,
+    "latitude": 52.35682,
+    "locality": "Poznań",
+    "address": "Krzywoustego 309 Stacja paliw Shell",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ06M",
+    "longitude": 16.90478,
+    "latitude": 52.36652,
+    "locality": "Poznań",
+    "address": "Racjonalizatorów 3 Na dziedzińcu pawilonu handlowego",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ06N",
+    "longitude": 16.78218,
+    "latitude": 52.47749,
+    "locality": "Poznań",
+    "address": "Chojnicka 53 Przy markecie Lewiatan",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ07B",
+    "longitude": 16.86899,
+    "latitude": 52.37494,
+    "locality": "Poznań",
+    "address": "Głogowska 268 Stacja paliw AMIC ENERGY",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ07L",
+    "longitude": 16.84901,
+    "latitude": 52.35777,
+    "locality": "Poznań",
+    "address": "Głogowska 422 Przy sklepie Agata Meble",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ07M",
+    "longitude": 16.93657,
+    "latitude": 52.39996,
+    "locality": "Poznań",
+    "address": "Strzelecka 49 Przy biurowcu Victoria",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ08A",
+    "longitude": 16.86869,
+    "latitude": 52.39652,
+    "locality": "Poznań",
+    "address": "Grunwaldzka 108 Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ08L",
+    "longitude": 16.92731,
+    "latitude": 52.40572,
+    "locality": "Poznań",
+    "address": "św. Marcin 24 Na podziemnym parkingu Galerii MM",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ08M",
+    "longitude": 16.98704,
+    "latitude": 52.34097,
+    "locality": "Poznań",
+    "address": "Jarosławska 10 Przy sklepie spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ08N",
+    "longitude": 16.86551,
+    "latitude": 52.42284,
+    "locality": "Poznań",
+    "address": "os. Lotnictwa Polskiego 9 Przy zakładzie mięsnym Bystry",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ09B",
+    "longitude": 16.80237,
+    "latitude": 52.39692,
+    "locality": "Poznań",
+    "address": "Malwowa 162 Parking Galerii Malwowej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ09M",
+    "longitude": 16.94642,
+    "latitude": 52.45565,
+    "locality": "Poznań",
+    "address": "Błażeja 3 Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ09ML",
+    "longitude": 16.92298,
+    "latitude": 52.4519,
+    "locality": "Poznań",
+    "address": "Bolesława Śmiałego 109 Przy markecie Biedronka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ09N",
+    "longitude": 16.94823,
+    "latitude": 52.45154,
+    "locality": "Poznań",
+    "address": "Naramowicka 172 Przy Aptece",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ100M",
+    "longitude": 16.96423,
+    "latitude": 52.40084,
+    "locality": "Poznań",
+    "address": "Baraniaka 88a Przy wjeździe od ul. Lwowskiej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ101M",
+    "longitude": 16.94201,
+    "latitude": 52.4025,
+    "locality": "Poznań",
+    "address": "Kazimierza Wielkiego 23 parking przy hotelu IBIS",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ103M",
+    "longitude": 16.925041,
+    "latitude": 52.456227,
+    "locality": "Poznań",
+    "address": "Os. Stefana Batorego 101 Przy pływalni Atlantis",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ104M",
+    "longitude": 16.943888,
+    "latitude": 52.393152,
+    "locality": "Poznań",
+    "address": "Os. Piastowskie 55a Przy pływalni miejskiej Rataje",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ105M",
+    "longitude": 16.927344,
+    "latitude": 52.394693,
+    "locality": "Poznań",
+    "address": "Jana Spychalskiego 34 Parking przy basenie Chwiałka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ106M",
+    "longitude": 16.928997,
+    "latitude": 52.391722,
+    "locality": "Poznań",
+    "address": "o. Mariana Żelazka 1 Przy Lodowisku Chwiałka od strony giełdy kwiatowej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ108M",
+    "longitude": 16.881976,
+    "latitude": 52.383581,
+    "locality": "Poznań",
+    "address": "Ostrobramska 20 front prywatnej posesji",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ10A",
+    "longitude": 16.93151,
+    "latitude": 52.36694,
+    "locality": "Poznań",
+    "address": "Książęca 3 Przy markecie Biedronka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ10B",
+    "longitude": 16.92752,
+    "latitude": 52.43531,
+    "locality": "Poznań",
+    "address": "Al. Solidarności 42 Przy sklepie Kaufland",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ10M",
+    "longitude": 16.86683,
+    "latitude": 52.39151,
+    "locality": "Poznań",
+    "address": "Jugosłowiańska 33 Na parkingu przy markecie ALDI",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ10ML",
+    "longitude": 16.9222,
+    "latitude": 52.38415,
+    "locality": "Poznań",
+    "address": "Dolna Wilda 109 Przy markecie Biedronka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ10N",
+    "longitude": 16.88732,
+    "latitude": 52.36757,
+    "locality": "Poznań",
+    "address": "Kwiatkowskiego 55 Paczkomat umieszczony na bocznej ścianie sklepu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ110M",
+    "longitude": 16.859168,
+    "latitude": 52.391786,
+    "locality": "Poznań",
+    "address": "Babimojska 1 teren zielony przy kontenerze spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ118M",
+    "longitude": 16.772344,
+    "latitude": 52.476961,
+    "locality": "Poznań",
+    "address": "Admiralska 25 Na parkingu sklepu Lewiatan",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ11A",
+    "longitude": 16.96886,
+    "latitude": 52.39987,
+    "locality": "Poznań",
+    "address": "Abp.Baraniaka 100 Stacja paliw Shell",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ11M",
+    "longitude": 16.89715,
+    "latitude": 52.45681,
+    "locality": "Poznań",
+    "address": "Obornicka 309 Na parkingu budynku Usługowo-Handlowego",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ11ML",
+    "longitude": 16.97684,
+    "latitude": 52.38627,
+    "locality": "Poznań",
+    "address": "Czecha 73 Przy markecie Biedronka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ12A",
+    "longitude": 16.95995,
+    "latitude": 52.40092,
+    "locality": "Poznań",
+    "address": "Maltańska 1 Przy Galerii Malta",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ12B",
+    "longitude": 16.80133,
+    "latitude": 52.4337,
+    "locality": "Poznań",
+    "address": "Dąbrowskiego 543 Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ12M",
+    "longitude": 16.94879,
+    "latitude": 52.42884,
+    "locality": "Poznań",
+    "address": "Wilczak 3 Przy Cukierni Expresowa",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ12ML",
+    "longitude": 16.87585,
+    "latitude": 52.36978,
+    "locality": "Poznań",
+    "address": "Pszczyńska 40 Przy sklepie Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ12N",
+    "longitude": 16.83661,
+    "latitude": 52.40884,
+    "locality": "Poznań",
+    "address": "Ezopa 2 Przy sklepie spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ13A",
+    "longitude": 16.82706,
+    "latitude": 52.43463,
+    "locality": "Poznań",
+    "address": "Muszkowska 2 Przy markecie Chata Polska",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ13M",
+    "longitude": 16.87394,
+    "latitude": 52.37862,
+    "locality": "Poznań",
+    "address": "Głogowska 228-234 Przy Lidlu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ13N",
+    "longitude": 16.89575,
+    "latitude": 52.45699,
+    "locality": "Poznań",
+    "address": "Omańkowskiej 108 Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ14A",
+    "longitude": 16.90312,
+    "latitude": 52.46326,
+    "locality": "Poznań",
+    "address": "Stróżyńskiego 29 Przy markecie Chata Polska",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ14B",
+    "longitude": 16.89423,
+    "latitude": 52.37517,
+    "locality": "Poznań",
+    "address": "Czechosłowacka 102 Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ14M",
+    "longitude": 16.91462,
+    "latitude": 52.45026,
+    "locality": "Poznań",
+    "address": "Chrobrego 119 Przy Chacie Polskiej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ14N",
+    "longitude": 16.93655,
+    "latitude": 52.42691,
+    "locality": "Poznań",
+    "address": "Murawa 2 Przy sklepie Bio Family",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ15A",
+    "longitude": 16.99347,
+    "latitude": 52.44875,
+    "locality": "Koziegłowy",
+    "address": "os. Leśne 21A Przy markecie Chata Polska",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ15B",
+    "longitude": 16.90797,
+    "latitude": 52.44796,
+    "locality": "Poznań",
+    "address": "Obornicka 262 Przy Zakładzie Opieki Zdrowotnej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ15M",
+    "longitude": 16.94385,
+    "latitude": 52.4359,
+    "locality": "Poznań",
+    "address": "Żytnia 17A przy hurtowni GRACJA",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ15N",
+    "longitude": 17.01712,
+    "latitude": 52.36114,
+    "locality": "Poznań",
+    "address": "Szczepankowo 99A Na parkingu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ16A",
+    "longitude": 16.90322,
+    "latitude": 52.36281,
+    "locality": "Poznań",
+    "address": "28 Czerwca 1956 roku 384 Na parkingu Galerii Dębiec",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ16B",
+    "longitude": 16.9731,
+    "latitude": 52.40979,
+    "locality": "Poznań",
+    "address": "Warszawska 67 Stacja paliw AMIC ENERGY",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ16M",
+    "longitude": 16.90893,
+    "latitude": 52.38664,
+    "locality": "Poznań",
+    "address": "Fabryczna 23 Na parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ16N",
+    "longitude": 16.91823,
+    "latitude": 52.34176,
+    "locality": "Poznań",
+    "address": "Głuszyna 2 Przy sklepie Freshmarket",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ17A",
+    "longitude": 16.85809,
+    "latitude": 52.39154,
+    "locality": "Poznań",
+    "address": "Grunwaldzka 182 Przy PIXEL Allegro",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ17B",
+    "longitude": 16.86549,
+    "latitude": 52.40565,
+    "locality": "Poznań",
+    "address": "Kolorowa 2 Na terenie Business Garden",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ17M",
+    "longitude": 16.90844,
+    "latitude": 52.42472,
+    "locality": "Poznań",
+    "address": "Wojska Polskiego 6/8 Przy sklepie Chata Polska",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ17N",
+    "longitude": 16.98522,
+    "latitude": 52.4088,
+    "locality": "Poznań",
+    "address": "Nowogrodzka 13/15 Przy sklepie Carrefour",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ18B",
+    "longitude": 16.90052,
+    "latitude": 52.37,
+    "locality": "Poznań",
+    "address": "Czechosłowacka 53A Przy sklepie Społem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ18M",
+    "longitude": 16.91506,
+    "latitude": 52.43036,
+    "locality": "Poznań",
+    "address": "Piątkowska 105 Przy budynku usługowo-handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ18N",
+    "longitude": 16.94781,
+    "latitude": 52.46131,
+    "locality": "Poznań",
+    "address": "Naramowicka 234 Przy sklepie Chata Polska",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ19A",
+    "longitude": 16.948,
+    "latitude": 52.439,
+    "locality": "Poznań",
+    "address": "Naramowicka 104 Przy sklepie Biedronka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ19M",
+    "longitude": 16.97237,
+    "latitude": 52.3831,
+    "locality": "Poznań",
+    "address": "Bobrzańska 19 Przy sklepie Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ19N",
+    "longitude": 16.84078,
+    "latitude": 52.35382,
+    "locality": "Poznań",
+    "address": "Głogowska 440 Przy Galerii A2",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ20A",
+    "longitude": 16.8095,
+    "latitude": 52.43495,
+    "locality": "Poznań",
+    "address": "Sianowska 151A Parking Apteki Krzyżowniki",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ20M",
+    "longitude": 16.90379,
+    "latitude": 52.3576,
+    "locality": "Poznań",
+    "address": "28 Czerwca 1956 r. 418 Na parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ21A",
+    "longitude": 16.87917,
+    "latitude": 52.47441,
+    "locality": "Suchy Las",
+    "address": "Bogusławskiego 16 W pobliżu marketu Biedronka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ21M",
+    "longitude": 16.9343,
+    "latitude": 52.41521,
+    "locality": "Poznań",
+    "address": "Ku Cytadeli 2 Na Parkingu przy markecie Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ21N",
+    "longitude": 16.91308,
+    "latitude": 52.38684,
+    "locality": "Poznań",
+    "address": "Hetmańska 91 Przy sklepie Green Point",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ22A",
+    "longitude": 16.88914,
+    "latitude": 52.40656,
+    "locality": "Poznań",
+    "address": "Przybyszewskiego 39A Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ22M",
+    "longitude": 16.86759,
+    "latitude": 52.40884,
+    "locality": "Poznań",
+    "address": "Bułgarska 113 Parking Lidla",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ22N",
+    "longitude": 16.95897,
+    "latitude": 52.39017,
+    "locality": "Poznań",
+    "address": "Os. Oświecenia 59 Przy sklepie Społem PSS",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ23A",
+    "longitude": 16.94844,
+    "latitude": 52.39657,
+    "locality": "Poznań",
+    "address": "Rondo Rataje  Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ23N",
+    "longitude": 16.88109,
+    "latitude": 52.3775,
+    "locality": "Poznań",
+    "address": "Leszczyńska 3 Przy Centrum Handlowym Świerczewo",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ24M",
+    "longitude": 16.92726,
+    "latitude": 52.45904,
+    "locality": "Poznań",
+    "address": "Umultowska 67 Przy sklepie Aldi",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ25A",
+    "longitude": 16.9516,
+    "latitude": 52.43367,
+    "locality": "Poznań",
+    "address": "Serbska 7 Przy sklepie Tesco EXTRA 24H",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ25M",
+    "longitude": 16.89019,
+    "latitude": 52.41695,
+    "locality": "Poznań",
+    "address": "Wilkońskich 1 Przy parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ25N",
+    "longitude": 16.9665,
+    "latitude": 52.31248,
+    "locality": "Poznań",
+    "address": "Aleksandra Gabszewicza 6 Na parkingu przy budynku mieszkalnym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ26A",
+    "longitude": 16.97776,
+    "latitude": 52.42669,
+    "locality": "Poznań",
+    "address": "Bałtycka 37 Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ26M",
+    "longitude": 16.87518,
+    "latitude": 52.38919,
+    "locality": "Poznań",
+    "address": "Raszyńska 4 Na terenie zielonym przy ulicy Raszyńskej 4",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ26N",
+    "longitude": 16.98259,
+    "latitude": 52.38673,
+    "locality": "Poznań",
+    "address": "Czecha 111 Przy markecie Biedronka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ27A",
+    "longitude": 16.94669,
+    "latitude": 52.431,
+    "locality": "Poznań",
+    "address": "Serbska 24 Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ27M",
+    "longitude": 16.90768,
+    "latitude": 52.43075,
+    "locality": "Poznań",
+    "address": "Bonin  Na terenie Spółdzielni Mieszkaniowej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ27N",
+    "longitude": 16.86306,
+    "latitude": 52.40998,
+    "locality": "Poznań",
+    "address": "Bukowska 156 Przy wejściu do Galerii od ulicy Łubieńskiej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ28A",
+    "longitude": 16.89106,
+    "latitude": 52.38777,
+    "locality": "Poznań",
+    "address": "Winklera 1 Przy markecie E.Leclerc",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ28N",
+    "longitude": 16.86405,
+    "latitude": 52.38652,
+    "locality": "Poznań",
+    "address": "Promienista 160 Przy markecie Eurospar",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ29A",
+    "longitude": 16.91328,
+    "latitude": 52.4025,
+    "locality": "Poznań",
+    "address": "Dworcowa 1 Hol główny dworca PKP - Poznań",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ29M",
+    "longitude": 16.90588,
+    "latitude": 52.45105,
+    "locality": "Poznań",
+    "address": "Obornicka 282-284 Przy budynku obok parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ29N",
+    "longitude": 16.88474,
+    "latitude": 52.41369,
+    "locality": "Poznań",
+    "address": "Szamarzewskiego 89 Przy wejściu głównym do budynku",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ30M",
+    "longitude": 16.91841,
+    "latitude": 52.42542,
+    "locality": "Poznań",
+    "address": "Piątkowska 64 Przy sklepie Lidl, od strony stacji paliw Orlen",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ30N",
+    "longitude": 16.91721,
+    "latitude": 52.42844,
+    "locality": "Poznań",
+    "address": "Piątkowska 80 Przy domach studenckich",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ31A",
+    "longitude": 16.92987,
+    "latitude": 52.44375,
+    "locality": "Poznań",
+    "address": "Umultowska 2 Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ31M",
+    "longitude": 16.99361,
+    "latitude": 52.39305,
+    "locality": "Poznań",
+    "address": "Dymka 212 Na parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ32A",
+    "longitude": 16.92134,
+    "latitude": 52.43871,
+    "locality": "Poznań",
+    "address": "Mieszka I 28 Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ32M",
+    "longitude": 16.9602,
+    "latitude": 52.38636,
+    "locality": "Poznań",
+    "address": "Piłsudskiego 116 Na parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ32N",
+    "longitude": 16.94085,
+    "latitude": 52.46279,
+    "locality": "Poznań",
+    "address": "Krygowskiego 10 Parking przy UAM",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ33A",
+    "longitude": 16.9298,
+    "latitude": 52.436,
+    "locality": "Poznań",
+    "address": "os. Zwycięstwa 13 Przy lokalu wolnostojącym Sprzedaż okien",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ33M",
+    "longitude": 16.99312,
+    "latitude": 52.36693,
+    "locality": "Poznań",
+    "address": "Ostrowska 340 Przy sklepie Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ33N",
+    "longitude": 16.92876,
+    "latitude": 52.46685,
+    "locality": "Poznań",
+    "address": "Umultowska 85 Przy Wydziale Fizyki Uniwersytetu im. Adama Mickiewicza",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ34A",
+    "longitude": 16.95758,
+    "latitude": 52.37651,
+    "locality": "Poznań",
+    "address": "Kurlandzka 2 Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ34M",
+    "longitude": 16.92463,
+    "latitude": 52.3579,
+    "locality": "Poznań",
+    "address": "Starołęcka 109B Na parkingu przy sklepie Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ34N",
+    "longitude": 16.93984,
+    "latitude": 52.41111,
+    "locality": "Poznań",
+    "address": "Piaskowa 2/3 Przy markecie Biedronka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ35A",
+    "longitude": 16.95471,
+    "latitude": 52.39832,
+    "locality": "Poznań",
+    "address": "Pleszewska 1 Galeria Handlowa Posnania, poziom -1, strefa Premium Lounge PN-SB 10:00-22:00 ND 10:00-21:00",
+    "openingTimes": [
+      "PN-SB 10:00-22:00 ND 10:00-21:00"
+    ]
+  },
+  {
+    "id": "POZ35M",
+    "longitude": 16.84585,
+    "latitude": 52.36865,
+    "locality": "Poznań",
+    "address": "Fabianowo 12 Przy sklepie spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ35N",
+    "longitude": 16.89641,
+    "latitude": 52.38181,
+    "locality": "Poznań",
+    "address": "Górecka 30 Przy Centrum Handlowym Panorama",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ36A",
+    "longitude": 16.91585,
+    "latitude": 52.38422,
+    "locality": "Poznań",
+    "address": "Hetmańska 98 Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ36M",
+    "longitude": 16.82427,
+    "latitude": 52.43125,
+    "locality": "Poznań",
+    "address": "Wejherowska 4 Przy parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ36N",
+    "longitude": 16.91034,
+    "latitude": 52.40726,
+    "locality": "Poznań",
+    "address": "Zwierzyniecka 7 Przy Domu Studenckim Jowita",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ37M",
+    "longitude": 16.88449,
+    "latitude": 52.45989,
+    "locality": "Poznań",
+    "address": "Szarych Szeregów 42 Na parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ38A",
+    "longitude": 16.97537,
+    "latitude": 52.42229,
+    "locality": "Poznań",
+    "address": "Główna 65 Przy prywatnej posesji",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ38M",
+    "longitude": 16.92115,
+    "latitude": 52.4439,
+    "locality": "Poznań",
+    "address": "Księcia Mieszka I 38 Na parkingu za sklepem Lidl, od strony CH Plaza",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ38N",
+    "longitude": 16.92467,
+    "latitude": 52.41522,
+    "locality": "Poznań",
+    "address": "Al. Niepodległości 53 Przy Uniwersytecie im. Adama Mickiewicza - Wydział Prawa i Administracji",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ393",
+    "longitude": 16.96673,
+    "latitude": 52.38357,
+    "locality": "Poznań",
+    "address": "os. Stare Żegrze 109 Przy markecie Netto",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ39A",
+    "longitude": 16.94989,
+    "latitude": 52.38853,
+    "locality": "Poznań",
+    "address": "Jastrzębia 4 Przy sklepie Stokrotka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ39M",
+    "longitude": 16.96869,
+    "latitude": 52.41975,
+    "locality": "Poznań",
+    "address": "Główna 28 Na parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ39N",
+    "longitude": 16.90417,
+    "latitude": 52.45182,
+    "locality": "Poznań",
+    "address": "Obornicka 288 Przy Auto Serwisie",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ406",
+    "longitude": 16.91032,
+    "latitude": 52.44339,
+    "locality": "Poznań",
+    "address": "RONDO OBORNICKIE  Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ40A",
+    "longitude": 16.88859,
+    "latitude": 52.38824,
+    "locality": "Poznań",
+    "address": "Palacza 18 Przy sklepie Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ40M",
+    "longitude": 16.8851,
+    "latitude": 52.38826,
+    "locality": "Poznań",
+    "address": "Palacza 30/34 Przy sklepie Lewiatan",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ40N",
+    "longitude": 16.88226,
+    "latitude": 52.45851,
+    "locality": "Poznań",
+    "address": "Szarych Szeregów 24 Przy bloku mieszkalnym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ412",
+    "longitude": 16.99457,
+    "latitude": 52.38252,
+    "locality": "Poznań",
+    "address": "Szwajcarska 14 Przy markecie M1",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ41A",
+    "longitude": 16.94344,
+    "latitude": 52.38503,
+    "locality": "Poznań",
+    "address": "Zamenhofa 132 Przy sklepie Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ41M",
+    "longitude": 16.90832,
+    "latitude": 52.41565,
+    "locality": "Poznań",
+    "address": "Kościelna 40 Parking przy sklepie Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ41N",
+    "longitude": 16.83779,
+    "latitude": 52.43204,
+    "locality": "Poznań",
+    "address": "Olsztyńska 2 Przy sklepie Wielkie Wina",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ42A",
+    "longitude": 16.81028,
+    "latitude": 52.36748,
+    "locality": "Plewiska",
+    "address": "Grunwaldzka 533-541 Przy sklepie Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ42M",
+    "longitude": 16.94804,
+    "latitude": 52.44276,
+    "locality": "Poznań",
+    "address": "Naramowicka 142 parking Lidla",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ42N",
+    "longitude": 17.02432,
+    "latitude": 52.40777,
+    "locality": "Poznań",
+    "address": "Leszka 13 Przy sklepie Stokrotka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ43A",
+    "longitude": 16.86576,
+    "latitude": 52.3977,
+    "locality": "Poznań",
+    "address": "Podkomorska 2 Przy sklepie Społem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ43M",
+    "longitude": 16.85681,
+    "latitude": 52.42255,
+    "locality": "Poznań",
+    "address": "Przelot 39 Niezabudowana posesja od strony ul. Skalskiego",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ43N",
+    "longitude": 16.94634,
+    "latitude": 52.39063,
+    "locality": "Poznań",
+    "address": "Obrzyca 7 Przy parkingu strzeżonym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ44M",
+    "longitude": 16.95252,
+    "latitude": 52.39116,
+    "locality": "Poznań",
+    "address": "os. Jagiellońskie 121b 121B Przy Pasażu Handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ45A",
+    "longitude": 16.96734,
+    "latitude": 52.38358,
+    "locality": "Poznań",
+    "address": "os. Stare Żegrze 110A Przy Aptece",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ45M",
+    "longitude": 16.94562,
+    "latitude": 52.38082,
+    "locality": "Poznań",
+    "address": "Pawia 16 Przy Żabce",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ45N",
+    "longitude": 16.84392,
+    "latitude": 52.38678,
+    "locality": "Poznań",
+    "address": "Grunwaldzka 279 Przy sklepie Społem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ46M",
+    "longitude": 16.91703,
+    "latitude": 52.38762,
+    "locality": "Poznań",
+    "address": "Langiewicza 23 Teren zielony przed sklepem Stokrotka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ46N",
+    "longitude": 16.92761,
+    "latitude": 52.40565,
+    "locality": "Poznań",
+    "address": "Piekary 1 Na parkingu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ47A",
+    "longitude": 16.97356,
+    "latitude": 52.3822,
+    "locality": "Poznań",
+    "address": "Bobrzańska 21 Na stacji paliw Circle K",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ47N",
+    "longitude": 16.83204,
+    "latitude": 52.41251,
+    "locality": "Poznań",
+    "address": "Złotowska 6-8 Myjnia samochodowa F1 CarWash",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ48M",
+    "longitude": 16.86607,
+    "latitude": 52.46158,
+    "locality": "Poznań",
+    "address": "Zakopiańska 239 Na Terenie firmy |Ferrodo| od strony ul. Biskupińskiej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ48N",
+    "longitude": 16.98116,
+    "latitude": 52.39182,
+    "locality": "Poznań",
+    "address": "Chartowo 21 Na tyłach stacji paliw Circle K",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ49A",
+    "longitude": 16.87005,
+    "latitude": 52.39646,
+    "locality": "Poznań",
+    "address": "Grunwaldzka 104 Przy sklepie Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ49M",
+    "longitude": 16.89319,
+    "latitude": 52.3991,
+    "locality": "Poznań",
+    "address": "Stanisława Wyspiańskiego 29 Przy Hotelu Dorrian",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ49N",
+    "longitude": 16.9433,
+    "latitude": 52.37853,
+    "locality": "Poznań",
+    "address": "Starołęcka 1 Na parkingu przy sklepie Biedronka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ50A",
+    "longitude": 16.90846,
+    "latitude": 52.45956,
+    "locality": "Poznań",
+    "address": "Szymanowskiego 13 Na parkingu przy sklepie Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ50M",
+    "longitude": 17.02659,
+    "latitude": 52.35066,
+    "locality": "Poznań",
+    "address": "Gminna 3 Teren zielony przy pawilonie handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ50N",
+    "longitude": 16.91797,
+    "latitude": 52.43717,
+    "locality": "Poznań",
+    "address": "Aleje Solidarności 47 Na parkingu naziemnym przy Galerii Pestka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ51A",
+    "longitude": 16.86187,
+    "latitude": 52.38195,
+    "locality": "Poznań",
+    "address": "Kacza 15 Na terenie myjni samoobsługowej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ51M",
+    "longitude": 16.91072,
+    "latitude": 52.43358,
+    "locality": "Poznań",
+    "address": "Winiary 54 Przy sklepie Lewiatan",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ51N",
+    "longitude": 16.92924,
+    "latitude": 52.45161,
+    "locality": "Poznań",
+    "address": "Umultowska 32 Przy supermarkecie Intermarche po prawej stronie",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ52A",
+    "longitude": 16.92319,
+    "latitude": 52.44873,
+    "locality": "Poznań",
+    "address": "Wachowiaka 15 Niezabudowana działka od strony ul. Wachowiaka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ52M",
+    "longitude": 16.92407,
+    "latitude": 52.34159,
+    "locality": "Poznań",
+    "address": "Andrychowska 27 Parking przy sklepie Społem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ52N",
+    "longitude": 16.88434,
+    "latitude": 52.44512,
+    "locality": "Poznań",
+    "address": "Rabczańska 1 przy parkingu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ53M",
+    "longitude": 16.90519,
+    "latitude": 52.47561,
+    "locality": "Poznań",
+    "address": "Morasko  Skrzyżowanie ulic Morasko/Hodowlana",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ53N",
+    "longitude": 16.88573,
+    "latitude": 52.36008,
+    "locality": "Poznań",
+    "address": "Lelewela 8 Przy sklepie Społem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ54M",
+    "longitude": 16.89363,
+    "latitude": 52.41193,
+    "locality": "Poznań",
+    "address": "Szamarzewskiego 53 wzdłuż bocznej ściany budynku",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ54N",
+    "longitude": 16.93595,
+    "latitude": 52.44628,
+    "locality": "Poznań",
+    "address": "Skwierzyńska 1 Przy prywatnej posesji",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ55M",
+    "longitude": 16.92434,
+    "latitude": 52.39291,
+    "locality": "Poznań",
+    "address": "Dolina 11 Teren zielony przed blokIem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ56M",
+    "longitude": 16.95071,
+    "latitude": 52.38137,
+    "locality": "Poznań",
+    "address": "os. Armii Krajowej 94A Przy Sklepie spożywczo-monopolowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ56N",
+    "longitude": 16.85046,
+    "latitude": 52.45345,
+    "locality": "Poznań",
+    "address": "Rzeszowska 2 Przy sklepie Ecomark",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ57M",
+    "longitude": 17.00318,
+    "latitude": 52.38794,
+    "locality": "Poznań",
+    "address": "os. Przemysława 21 Przy budynku administarcji osiedla",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ58M",
+    "longitude": 16.88521,
+    "latitude": 52.39392,
+    "locality": "Poznań",
+    "address": "Chociszewskiego 49 Stacja paliw Lotos",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ59M",
+    "longitude": 16.89302,
+    "latitude": 52.39199,
+    "locality": "Poznań",
+    "address": "Bogusławskiego 31 Teren zielony przed budynkiem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ59N",
+    "longitude": 16.90985,
+    "latitude": 52.37706,
+    "locality": "Poznań",
+    "address": "Wspólna 32 Przy Delikatesach Szymex",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ60M",
+    "longitude": 16.90596,
+    "latitude": 52.41388,
+    "locality": "Poznań",
+    "address": "Poznańska 11-17 Parking przy skrzyżowaniu ulic Poznańska i Wąska",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ60N",
+    "longitude": 16.90326,
+    "latitude": 52.3899,
+    "locality": "Poznań",
+    "address": "Łukaszewicza 43 na parkingu za centrum handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ61M",
+    "longitude": 16.93995,
+    "latitude": 52.43837,
+    "locality": "Poznań",
+    "address": "Os. Wichrowe Wzgórze 105 Przy Aptece GEMINI",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ62M",
+    "longitude": 16.95225,
+    "latitude": 52.4116,
+    "locality": "Poznań",
+    "address": "Ostrówek 8 Przy budynku produkcyjnym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ62N",
+    "longitude": 16.93139,
+    "latitude": 52.40317,
+    "locality": "Poznań",
+    "address": "Strzałowa 6 Parking samochodowy",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ63M",
+    "longitude": 16.88082,
+    "latitude": 52.44471,
+    "locality": "Poznań",
+    "address": "Teokryta 34 Pensjonat Akropol od ul. Wegiliusza",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ63N",
+    "longitude": 16.82822,
+    "latitude": 52.37622,
+    "locality": "Poznań",
+    "address": "Wołczyńska 50 Na stacji paliw Poztel",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ64M",
+    "longitude": 16.95141,
+    "latitude": 52.39949,
+    "locality": "Poznań",
+    "address": "Kórnicka 28 Niezabudowana działka przy pawilonie handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ65M",
+    "longitude": 16.91208,
+    "latitude": 52.4244,
+    "locality": "Poznań",
+    "address": "Sokoła 5a Na parkingu samochodowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ65N",
+    "longitude": 16.96979,
+    "latitude": 52.42101,
+    "locality": "Poznań",
+    "address": "Główna 35 Przy sklepie Społem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ66M",
+    "longitude": 16.92128,
+    "latitude": 52.4298,
+    "locality": "Poznań",
+    "address": "Os. Przyjaźni 142 Przy Administracji Osiedla",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ66N",
+    "longitude": 16.98341,
+    "latitude": 52.37738,
+    "locality": "Poznań",
+    "address": "Franowo 1 Na parkingu sklepu Zaopatrzenie Ogrodnicze",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ67M",
+    "longitude": 16.87953,
+    "latitude": 52.40693,
+    "locality": "Poznań",
+    "address": "Zorza 3 Paczkomat umieszczony wzdłuż chodnika, na pasie zieleni",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ67N",
+    "longitude": 16.94816,
+    "latitude": 52.36998,
+    "locality": "Poznań",
+    "address": "Falista 4 Teren zielony przed budynkiem nr 4",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ68M",
+    "longitude": 16.82367,
+    "latitude": 52.41004,
+    "locality": "Poznań",
+    "address": "Ławica 2 Parking przy budynku usługowo-handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ68N",
+    "longitude": 16.9312,
+    "latitude": 52.43919,
+    "locality": "Poznań",
+    "address": "Os. Wichrowe Wzgórze 121 Przy sklepie Duży Ben od strony ul. Połabskiej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ69M",
+    "longitude": 16.90557,
+    "latitude": 52.37507,
+    "locality": "Poznań",
+    "address": "28 Czerwca 1956 r. 283 Parking warsztatu samochodowego",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ69N",
+    "longitude": 16.84568,
+    "latitude": 52.38953,
+    "locality": "Poznań",
+    "address": "Budziszyńska 23/27 Przy Centrum Fitness",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ70M",
+    "longitude": 16.93646,
+    "latitude": 52.42925,
+    "locality": "Poznań",
+    "address": "Murawa 26a Przy posesji",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ71M",
+    "longitude": 16.90705,
+    "latitude": 52.36298,
+    "locality": "Poznań",
+    "address": "Łozowa 101 Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ72M",
+    "longitude": 16.90768,
+    "latitude": 52.42793,
+    "locality": "Poznań",
+    "address": "Wołyńska 42 Przy punkcie ksero",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ73M",
+    "longitude": 16.91869,
+    "latitude": 52.34413,
+    "locality": "Poznań",
+    "address": "Starołęcka 219 Na parkingu marketu Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ74M",
+    "longitude": 16.7823,
+    "latitude": 52.4784,
+    "locality": "Poznań",
+    "address": "Chojnicka 72/74 Przy supermarkecie",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ76M",
+    "longitude": 16.92341,
+    "latitude": 52.43533,
+    "locality": "Poznań",
+    "address": "Al.Solidarności 48 Stacja paliw Lotos",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ77M",
+    "longitude": 16.8689,
+    "latitude": 52.37391,
+    "locality": "Poznań",
+    "address": "Głogowska 267 Przy wypożyczalni Ramirent",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ78M",
+    "longitude": 16.96803,
+    "latitude": 52.38698,
+    "locality": "Poznań",
+    "address": "Bobrzańska 11 Ściana frontowa ALDI",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ79M",
+    "longitude": 16.92485,
+    "latitude": 52.40189,
+    "locality": "Poznań",
+    "address": "Andersa 1 Pod schodami od ulicy Kościuszki",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ80M",
+    "longitude": 16.86799,
+    "latitude": 52.39046,
+    "locality": "Poznań",
+    "address": "Junacka 2 Trawnik przy bloku mieszkalnym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ81M",
+    "longitude": 16.86334,
+    "latitude": 52.39398,
+    "locality": "Poznań",
+    "address": "Jugosłowiańska 22 Przy biurowcu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ82M",
+    "longitude": 16.90296,
+    "latitude": 52.40274,
+    "locality": "Poznań",
+    "address": "Śniadeckich 40 Przy wjeździe na posesję",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ84M",
+    "longitude": 16.91244,
+    "latitude": 52.43502,
+    "locality": "Poznań",
+    "address": "Piątkowska 149 Parking samochodowy",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ85M",
+    "longitude": 16.96133,
+    "latitude": 52.44456,
+    "locality": "Poznań",
+    "address": "Karpia 31 Parking przed Mleczarnią Naramowice",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ86M",
+    "longitude": 16.9295,
+    "latitude": 52.43086,
+    "locality": "Poznań",
+    "address": "Os. Przyjaźni 125A Przy pasażu handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ87M",
+    "longitude": 16.89308,
+    "latitude": 52.45994,
+    "locality": "Poznań",
+    "address": "Obornicka 337 Przy stacji paliwowej Shell",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ88M",
+    "longitude": 16.90425,
+    "latitude": 52.43051,
+    "locality": "Poznań",
+    "address": "Błękitna 1-7 Za Apteką Wrzosowa, od strony ul. Turkusowej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ89M",
+    "longitude": 16.88337,
+    "latitude": 52.36383,
+    "locality": "Poznań",
+    "address": "Okulickiego 68 Przy sklepie Społem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ90M",
+    "longitude": 16.92875,
+    "latitude": 52.42789,
+    "locality": "Poznań",
+    "address": "Warzywna 17 Parking przed kościołem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ91M",
+    "longitude": 16.89277,
+    "latitude": 52.39031,
+    "locality": "Poznań",
+    "address": "Hetmańska 42 Prywatna posesja od ul. Kasprzaka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ92M",
+    "longitude": 16.89415,
+    "latitude": 52.38378,
+    "locality": "Poznań",
+    "address": "Dmowskiego 105 Na parkingu myjni Banieczka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ93M",
+    "longitude": 16.88136,
+    "latitude": 52.38655,
+    "locality": "Poznań",
+    "address": "Kordeckiego 8A Kompleks garaży od ulicy Kordeckiego",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ94M",
+    "longitude": 16.9114,
+    "latitude": 52.41198,
+    "locality": "Poznań",
+    "address": "Mickiewicza 11 Przy parkingu samochodowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ95M",
+    "longitude": 16.89493,
+    "latitude": 52.37349,
+    "locality": "Poznań",
+    "address": "Czechosłowacka 98 teren zielony przy bloku mieszkalnym ul. Czeremchowa 2",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ96M",
+    "longitude": 16.90322,
+    "latitude": 52.45744,
+    "locality": "Poznań",
+    "address": "Stróżyńskiego 19 na tyłach posesji od strony stacji paliw Orlen",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ97M",
+    "longitude": 16.91081,
+    "latitude": 52.4085,
+    "locality": "Poznań",
+    "address": "Roosevelta 20 Parking hotelowy od ulicy Zwierzynieckiej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ989",
+    "longitude": 16.95368,
+    "latitude": 52.37945,
+    "locality": "Poznań",
+    "address": "Osiedle Armii Krajowej 125 Przy Delikatesach Centrum",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ98M",
+    "longitude": 16.876281,
+    "latitude": 52.390882,
+    "locality": "Poznań",
+    "address": "Kargowska 7 Przy biurowcu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ99M",
+    "longitude": 16.88774,
+    "latitude": 52.45118,
+    "locality": "Poznań",
+    "address": "Druskienicka 32 Przy boisku Szkoły Podstawowej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PRM01A",
+    "longitude": 16.78622,
+    "latitude": 52.42614,
+    "locality": "Przeźmierowo",
+    "address": "Rynkowa 75 C Przy pasażu Przeźmierowo",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PRM01M",
+    "longitude": 16.7817265824,
+    "latitude": 52.4328928748,
+    "locality": "Przeźmierowo",
+    "address": "Rynkowa 26 Na parkingu Sklepu Rowerowego Małgośka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PUS01A",
+    "longitude": 16.85886,
+    "latitude": 52.29004,
+    "locality": "Puszczykowo",
+    "address": "Poznańska 46B Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PUS01M",
+    "longitude": 16.86251,
+    "latitude": 52.27101,
+    "locality": "Puszczykowo",
+    "address": "Moniuszki 1A Na parkingu przy sklepie Stokrotka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PUS01N",
+    "longitude": 16.8597,
+    "latitude": 52.27242,
+    "locality": "Puszczykowo",
+    "address": "Dworcowa 45 Przy sklepie Społem PSS",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PUS02M",
+    "longitude": 16.85356,
+    "latitude": 52.27831,
+    "locality": "Puszczykowo",
+    "address": "Piaskowa 28a Na ścianie frontowej sklepu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PUS04M",
+    "longitude": 16.86867,
+    "latitude": 52.26891,
+    "locality": "Puszczykowo",
+    "address": "Nowe Osiedle 7 Przy sklepie Arturo",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PUS392",
+    "longitude": 16.85712,
+    "latitude": 52.28747,
+    "locality": "Puszczykowo",
+    "address": "Poznańska 75 Przy sklepie Społem",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "RGN01M",
+    "longitude": 16.89622,
+    "latitude": 52.25107,
+    "locality": "Rogalinek",
+    "address": "Mostowa 10 Parking przy Aptece",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "RGN02M",
+    "longitude": 16.89946,
+    "latitude": 52.24874,
+    "locality": "Rogalinek",
+    "address": "Kościelna 1 Przy sklepie wielobranżowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "ROA01N",
+    "longitude": 17.05732,
+    "latitude": 52.30071,
+    "locality": "Robakowo",
+    "address": "Szkolna 18 Na parkingu za budynkiem Centrum Medycznego KORMED",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "ROK01M",
+    "longitude": 16.73785,
+    "latitude": 52.50817,
+    "locality": "Rokietnica",
+    "address": "Trakt Napoleoński 11 Na parkingu Galerii Napoleońskiej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "ROK01ML",
+    "longitude": 16.75472,
+    "latitude": 52.51242,
+    "locality": "Rokietnica",
+    "address": "Obornicka 1b Przy sklepie Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "ROK01N",
+    "longitude": 16.73152,
+    "latitude": 52.51285,
+    "locality": "Rokietnica",
+    "address": "Trakt Napoleoński 41 Przy budynku dentysty Rokietnica Trakt Napoleoński 41",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "ROK02A",
+    "longitude": 16.7409,
+    "latitude": 52.51295,
+    "locality": "Rokietnica",
+    "address": "Szamotulska 29D Na parkingu przy Galerii Handlowej",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "ROK02M",
+    "longitude": 16.75211,
+    "latitude": 52.51267,
+    "locality": "Rokietnica",
+    "address": "Szamotulska 1B na parkingu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "ROK02N",
+    "longitude": 16.75493,
+    "latitude": 52.49771,
+    "locality": "Rokietnica",
+    "address": "Poznańska 126 Na parkingu stacji paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SDM01N",
+    "longitude": 16.76406,
+    "latitude": 52.43933,
+    "locality": "Swadzim",
+    "address": "św. Antoniego 2 Przy hipermarkecie Auchan",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SDY01M",
+    "longitude": 16.72522,
+    "latitude": 52.44993,
+    "locality": "Sady",
+    "address": "Kobylnicka 2a Przy Żabce",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SII01M",
+    "longitude": 17.16347,
+    "latitude": 52.38123,
+    "locality": "Siekierki Wielkie",
+    "address": "Kościelna 1 Przy pawilonie handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SKW01M",
+    "longitude": 16.80178,
+    "latitude": 52.3956,
+    "locality": "Skórzewo",
+    "address": "Poznańska 100 Przy Lidlu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SKW01N",
+    "longitude": 16.78933,
+    "latitude": 52.39001,
+    "locality": "Skórzewo",
+    "address": "Poznańska 40 Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SKW02A",
+    "longitude": 16.8014,
+    "latitude": 52.39469,
+    "locality": "Skórzewo",
+    "address": "Poznańska 98A Przy markecie Bricomarche",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SKW02M",
+    "longitude": 16.80139,
+    "latitude": 52.38507,
+    "locality": "Skórzewo",
+    "address": "Sadowa 11 Przy prywatnej posesji",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SKW03M",
+    "longitude": 16.78025,
+    "latitude": 52.39618,
+    "locality": "Skórzewo",
+    "address": "Lawendowa 20 Na parkingu przychodni La Medica",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SLS01A",
+    "longitude": 16.86044,
+    "latitude": 52.48093,
+    "locality": "Suchy Las",
+    "address": "Nektarowa 15 Parking przed magazynem Grupa Aptekarska",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SLS01G",
+    "longitude": 16.89152,
+    "latitude": 52.47465,
+    "locality": "Suchy Las",
+    "address": "Leśna 62 Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SLS01M",
+    "longitude": 16.86883,
+    "latitude": 52.46637,
+    "locality": "Suchy Las",
+    "address": "Stefana Stefańskiego 2 Przy wejściu na teren posesji",
+    "openingTimes": [
+      ""
+    ]
+  },
+  {
+    "id": "SLS01N",
+    "longitude": 16.87514,
+    "latitude": 52.47298,
+    "locality": "Suchy Las",
+    "address": "Obornicka 85 Po lewej stronie od wejścia do Galerii",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SLS02M",
+    "longitude": 16.86949,
+    "latitude": 52.47721,
+    "locality": "Suchy Las",
+    "address": "Obornicka 127 Na parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SLS03M",
+    "longitude": 16.87932,
+    "latitude": 52.4801,
+    "locality": "Suchy Las",
+    "address": "Bogusławskiego 58 Na prywatnej posesji w miejscu ogrodzenia terenu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "STE02L",
+    "longitude": 16.69004,
+    "latitude": 52.27862,
+    "locality": "Stęszew",
+    "address": "Lipowa 7 Przy Rossmannie",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "STE02N",
+    "longitude": 16.68841,
+    "latitude": 52.27957,
+    "locality": "Stęszew",
+    "address": "Bukowska 4 Na stacji",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD01A",
+    "longitude": 17.0827,
+    "latitude": 52.41968,
+    "locality": "Swarzędz",
+    "address": "Cieszkowskiego 39 Przy markecie Tesco",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD01B",
+    "longitude": 17.05383,
+    "latitude": 52.40347,
+    "locality": "Swarzędz",
+    "address": "Poznańska 45 Stacja paliw BP",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD01HO",
+    "longitude": 17.06006,
+    "latitude": 52.40132,
+    "locality": "Swarzędz",
+    "address": "Graniczna 55 Przy kasach sklepu SPAR.",
+    "openingTimes": [
+      "PN-SB 07-22"
+    ]
+  },
+  {
+    "id": "SWD01M",
+    "longitude": 17.09435,
+    "latitude": 52.4041,
+    "locality": "Swarzędz",
+    "address": "Poznańska 6 Centrum Handlowe ETC PN-SO 10:00-21:00 ND 11:00-20:00",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD01N",
+    "longitude": 17.08366,
+    "latitude": 52.40891,
+    "locality": "Swarzędz",
+    "address": "Polna 24 Przy markecie Kaufland",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD02A",
+    "longitude": 17.06001,
+    "latitude": 52.40132,
+    "locality": "Swarzędz",
+    "address": "Graniczna 55 Przy supermarkecie Eurospar",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD02M",
+    "longitude": 17.08275,
+    "latitude": 52.40738,
+    "locality": "Swarzędz",
+    "address": "Polna 23 Przy parkingu sklepu Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD02N",
+    "longitude": 17.07424,
+    "latitude": 52.40569,
+    "locality": "Swarzędz",
+    "address": "Dworcowa 7 Przy sklepie Media Expert",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD03A",
+    "longitude": 17.07395,
+    "latitude": 52.4024,
+    "locality": "Swarzędz",
+    "address": "Tysiąclecia 4A Przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD03M",
+    "longitude": 17.05657,
+    "latitude": 52.40179,
+    "locality": "Swarzędz",
+    "address": "Graniczna 63 Parking przy Parku Handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD03N",
+    "longitude": 17.07552,
+    "latitude": 52.38613,
+    "locality": "Swarzędz",
+    "address": "Serdeczna 3 Przy budynku usługowo-handlowym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD04M",
+    "longitude": 17.06729,
+    "latitude": 52.40711,
+    "locality": "Swarzędz",
+    "address": "Napoleońska 14 Parking na terenie posesji",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD04N",
+    "longitude": 17.07776,
+    "latitude": 52.39948,
+    "locality": "Swarzędz",
+    "address": "Kórnicka 91 Przy sklepie Stokrotka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD05M",
+    "longitude": 17.079956,
+    "latitude": 52.417462,
+    "locality": "Swarzędz",
+    "address": "Czwartaków 13 (dz. 103/37) Boki sklepu odzieżowego",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD971",
+    "longitude": 17.06917,
+    "latitude": 52.40216,
+    "locality": "Swarzędz",
+    "address": "Tysiąclecia 17 Przy markecie POLOmarket",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SYT01M",
+    "longitude": 17.01763,
+    "latitude": 52.30265,
+    "locality": "Szczytniki",
+    "address": "Jeziorna 4 Parking budynku handlowego",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "TRP01A",
+    "longitude": 16.65718,
+    "latitude": 52.46343,
+    "locality": "Tarnowo Podgórne",
+    "address": "Poznańska 100B Na parkingu przy sklepie Żabka",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "TRP01M",
+    "longitude": 16.65316,
+    "latitude": 52.46095,
+    "locality": "Tarnowo Podgórne",
+    "address": "Poznańska 135 Przy sklepie Lidl",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "TRP01N",
+    "longitude": 16.6763,
+    "latitude": 52.46119,
+    "locality": "Tarnowo Podgórne",
+    "address": "Krucza 1 Przy markecie Tesco",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "TRP02M",
+    "longitude": 16.64757,
+    "latitude": 52.45906,
+    "locality": "Tarnowo Podgórne",
+    "address": "Poznańska 159 Na parkingu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "TRP03M",
+    "longitude": 16.67044,
+    "latitude": 52.46704,
+    "locality": "Tarnowo Podgórne",
+    "address": "Rokietnicka 21A Na parkingu sklepu Dino",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "TUC01M",
+    "longitude": 17.074,
+    "latitude": 52.34849,
+    "locality": "Tulce",
+    "address": "Dębowa 46 Na terenie myjni",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "TUC01N",
+    "longitude": 17.07429,
+    "latitude": 52.34377,
+    "locality": "Tulce",
+    "address": "Poznańska 10 Przy sklepie spożywczym",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "WIY01M",
+    "longitude": 16.85318,
+    "latitude": 52.32086,
+    "locality": "Wiry",
+    "address": "Polna 1 Przy myjni bezdotykowej Banieczka.",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "ZAL01M",
+    "longitude": 17.06912,
+    "latitude": 52.39121,
+    "locality": "Zalasewo",
+    "address": "Planetarna 13 Niezabudowana działka naprzeciw Centrum Medycznego Diagnosis",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "ZAL02M",
+    "longitude": 17.06699,
+    "latitude": 52.39031,
+    "locality": "Zalasewo",
+    "address": "Planetarna 20 Parking przy Lidlu",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "ZAL03M",
+    "longitude": 17.076656,
+    "latitude": 52.390952,
+    "locality": "Zalasewo",
+    "address": "Kórnicka 188 Tył marketu DINO",
+    "openingTimes": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "ZLT01G",
+    "longitude": 16.84528,
+    "latitude": 52.4935,
+    "locality": "Złotniki",
+    "address": "Łagiewnicka 23 Przy myjni samochodowej",
+    "openingTimes": [
+      "24/7"
+    ]
+  }
+]

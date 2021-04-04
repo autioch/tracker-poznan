@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "39",
+    "longitude": 16.8685233,
+    "latitude": 52.4112813,
+    "locality": "Poznań",
+    "address": "Bułgarska 121/123",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:00",
+      "Wtorek: 06:00-23:00",
+      "Środa: 06:00-23:00",
+      "Czwartek: 06:00-23:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "65",
+    "longitude": 16.8327889,
+    "latitude": 52.4325615,
+    "locality": "Poznań",
+    "address": "Dąbrowskiego 399",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "85",
+    "longitude": 16.8740438,
+    "latitude": 52.4046051,
+    "locality": "Poznań",
+    "address": "Marcelińska 77",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "86",
+    "longitude": 16.8999771,
+    "latitude": 52.4047877,
+    "locality": "Poznań",
+    "address": "Matejki 62",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "87",
+    "longitude": 16.8530138,
+    "latitude": 52.3862569,
+    "locality": "Poznań",
+    "address": "Szadecka 2",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "88",
+    "longitude": 16.9117703,
+    "latitude": 52.4263281,
+    "locality": "Poznań",
+    "address": "Sokoła 26",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "98",
+    "longitude": 16.9450547,
+    "latitude": 52.3948358,
+    "locality": "Poznań",
+    "address": "osiedle Piastowskie 22",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "99",
+    "longitude": 16.9510131,
+    "latitude": 52.3928787,
+    "locality": "Poznań",
+    "address": "osiedle Jagiellońskie 14",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "100",
+    "longitude": 16.9773325,
+    "latitude": 52.3857989,
+    "locality": "Poznań",
+    "address": "osiedle Czecha 73",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "101",
+    "longitude": 16.9317662,
+    "latitude": 52.3663463,
+    "locality": "Poznań",
+    "address": "ul. Książęca 1",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "102",
+    "longitude": 16.9438544,
+    "latitude": 52.3785032,
+    "locality": "Poznań",
+    "address": "Starołęcka 1",
+    "openingTimes": [
+      "Poniedziałek: 00:00-00:00",
+      "Wtorek: 00:00-00:00",
+      "Środa: 00:00-00:00",
+      "Czwartek: 00:00-00:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "111",
+    "longitude": 16.9222733,
+    "latitude": 52.4381379,
+    "locality": "Poznań",
+    "address": "osiedle Zwycięstwa 110",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "112",
+    "longitude": 16.9147068,
+    "latitude": 52.4523704,
+    "locality": "Poznań",
+    "address": "osiedle Bolesława Chrobrego 110",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "113",
+    "longitude": 16.9218239,
+    "latitude": 52.4072762,
+    "locality": "Poznań",
+    "address": "Święty Marcin 66/72",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "114",
+    "longitude": 16.9038686,
+    "latitude": 52.4576995,
+    "locality": "Poznań",
+    "address": "Stróżyńskiego 21A",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:00",
+      "Wtorek: 06:00-23:00",
+      "Środa: 06:00-23:00",
+      "Czwartek: 06:00-23:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "123",
+    "longitude": 16.8953533,
+    "latitude": 52.367135,
+    "locality": "Poznań",
+    "address": "Jesionowa 16",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:30",
+      "Wtorek: 06:00-22:30",
+      "Środa: 06:00-22:30",
+      "Czwartek: 06:00-22:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "124",
+    "longitude": 16.9167453,
+    "latitude": 52.3926835,
+    "locality": "Poznań",
+    "address": "Czarnieckiego 12",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:30",
+      "Wtorek: 06:00-22:30",
+      "Środa: 06:00-22:30",
+      "Czwartek: 06:00-22:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "898",
+    "longitude": 16.92993,
+    "latitude": 52.40692,
+    "locality": "Poznań",
+    "address": "ul. Kościelna 30",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "996",
+    "longitude": 16.9325317,
+    "latitude": 52.4051783,
+    "locality": "Poznań",
+    "address": "Plac Wiosny Ludów 2",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-22:00",
+      "Sobota: 06:00-22:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "998",
+    "longitude": 16.9083821,
+    "latitude": 52.4118805,
+    "locality": "Poznań",
+    "address": "Dąbrowskiego 29",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1018",
+    "longitude": 16.9608456,
+    "latitude": 52.3990022,
+    "locality": "Poznań",
+    "address": "Polanka 22",
+    "openingTimes": [
+      "Poniedziałek: 06:30-23:30",
+      "Wtorek: 06:30-23:30",
+      "Środa: 06:30-23:30",
+      "Czwartek: 06:30-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "1020",
+    "longitude": 16.8939179,
+    "latitude": 52.3756031,
+    "locality": "Poznań",
+    "address": "Czechosłowacka 104",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:30",
+      "Wtorek: 06:00-22:30",
+      "Środa: 06:00-22:30",
+      "Czwartek: 06:00-22:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1058",
+    "longitude": 16.963112,
+    "latitude": 52.3818328,
+    "locality": "Poznań",
+    "address": "Stare Żegrze 15",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:00",
+      "Wtorek: 06:00-23:00",
+      "Środa: 06:00-23:00",
+      "Czwartek: 06:00-23:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "1090",
+    "longitude": 16.92993,
+    "latitude": 52.40692,
+    "locality": "Poznań",
+    "address": "ul. Chojnicka 72/74",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "1126",
+    "longitude": 16.9218063,
+    "latitude": 52.3840915,
+    "locality": "Poznań",
+    "address": "Dolna Wilda 104/106",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:30",
+      "Wtorek: 06:00-22:30",
+      "Środa: 06:00-22:30",
+      "Czwartek: 06:00-22:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1133",
+    "longitude": 16.9227498,
+    "latitude": 52.4518102,
+    "locality": "Poznań",
+    "address": "osiedle Bolesława Śmiałego 109",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "1149",
+    "longitude": 16.8955498,
+    "latitude": 52.4591579,
+    "locality": "Poznań",
+    "address": "Obornicka 334",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:00",
+      "Wtorek: 06:00-23:00",
+      "Środa: 06:00-23:00",
+      "Czwartek: 06:00-23:00",
+      "Piątek: 00:00-23:45",
+      "Sobota: 00:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "1161",
+    "longitude": 16.938359,
+    "latitude": 52.4014948,
+    "locality": "Poznań",
+    "address": "Kazimierza Wielkiego 1/3",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1223",
+    "longitude": 16.917857,
+    "latitude": 52.4280983,
+    "locality": "Poznań",
+    "address": "Piątkowska 78",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1269",
+    "longitude": 16.8732271,
+    "latitude": 52.3909587,
+    "locality": "Poznań",
+    "address": "Ściegiennego 64",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:00",
+      "Wtorek: 06:00-23:00",
+      "Środa: 06:00-23:00",
+      "Czwartek: 06:00-23:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1270",
+    "longitude": 16.9027867,
+    "latitude": 52.3902961,
+    "locality": "Poznań",
+    "address": "Łukaszewicza 43",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1271",
+    "longitude": 16.8926453,
+    "latitude": 52.4005781,
+    "locality": "Poznań",
+    "address": "Wojskowa 3",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1272",
+    "longitude": 16.8968434,
+    "latitude": 52.4474197,
+    "locality": "Poznań",
+    "address": "Strzeszyńska 33",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:00",
+      "Wtorek: 06:00-23:00",
+      "Środa: 06:00-23:00",
+      "Czwartek: 06:00-23:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "1282",
+    "longitude": 16.9467306,
+    "latitude": 52.3864389,
+    "locality": "Poznań",
+    "address": "osiedle Rzeczypospolitej 42",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "1283",
+    "longitude": 16.9594348,
+    "latitude": 52.4135732,
+    "locality": "Poznań",
+    "address": "Małachowskiego 14",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1284",
+    "longitude": 16.9511596,
+    "latitude": 52.3798636,
+    "locality": "Poznań",
+    "address": "osiedle Armii Krajowej 101",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "1285",
+    "longitude": 16.9690273,
+    "latitude": 52.3860381,
+    "locality": "Poznań",
+    "address": "Bobrzańska 13",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1295",
+    "longitude": 16.9466533,
+    "latitude": 52.4531744,
+    "locality": "Poznań",
+    "address": "Naramowicka 219",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1296",
+    "longitude": 16.9070599,
+    "latitude": 52.463362,
+    "locality": "Poznań",
+    "address": "Osiedle Jana III Sobieskiego 103",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "1306",
+    "longitude": 16.9044535,
+    "latitude": 52.3674518,
+    "locality": "Poznań",
+    "address": "Żurawinowa 2",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:30",
+      "Wtorek: 06:00-22:30",
+      "Środa: 06:00-22:30",
+      "Czwartek: 06:00-22:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "1307",
+    "longitude": 16.9219974,
+    "latitude": 52.3948508,
+    "locality": "Poznań",
+    "address": "Wierzbięcice 36",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:30",
+      "Wtorek: 06:00-22:30",
+      "Środa: 06:00-22:30",
+      "Czwartek: 06:00-22:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2080",
+    "longitude": 16.9829973,
+    "latitude": 52.3868015,
+    "locality": "Poznań",
+    "address": "os. Czecha 111",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2248",
+    "longitude": 16.9025057,
+    "latitude": 52.3970073,
+    "locality": "Poznań",
+    "address": "Józefa Strusia 12",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2250",
+    "longitude": 16.8937019,
+    "latitude": 52.4054444,
+    "locality": "Poznań",
+    "address": "Polna 41",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:00",
+      "Wtorek: 06:00-23:00",
+      "Środa: 06:00-23:00",
+      "Czwartek: 06:00-23:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2265",
+    "longitude": 16.8192042,
+    "latitude": 52.2114084,
+    "locality": "Poznań",
+    "address": "Piaskowa 2/3",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2308",
+    "longitude": 16.9340891,
+    "latitude": 52.4303042,
+    "locality": "Poznań",
+    "address": "ul. Gronowa 26",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2331",
+    "longitude": 16.8406715,
+    "latitude": 52.3671087,
+    "locality": "Poznań",
+    "address": "Sycowska 18",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2361",
+    "longitude": 16.9602946,
+    "latitude": 52.3777117,
+    "locality": "Poznań",
+    "address": "Osiedle Orła Białego 5",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "2413",
+    "longitude": 16.8720229,
+    "latitude": 52.3775475,
+    "locality": "Poznań",
+    "address": "Hallera 2a",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2414",
+    "longitude": 16.9161539,
+    "latitude": 52.4437187,
+    "locality": "Poznań",
+    "address": "Lechicka 59",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2427",
+    "longitude": 16.853812,
+    "latitude": 52.3896109,
+    "locality": "Poznań",
+    "address": "Grunwaldzka 216",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:00",
+      "Wtorek: 06:00-23:00",
+      "Środa: 06:00-23:00",
+      "Czwartek: 06:00-23:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2463",
+    "longitude": 16.92993,
+    "latitude": 52.40692,
+    "locality": "Poznań",
+    "address": "ul. Gwiaździsta 30",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:00",
+      "Wtorek: 06:00-23:00",
+      "Środa: 06:00-23:00",
+      "Czwartek: 06:00-23:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2500",
+    "longitude": 16.920412,
+    "latitude": 52.4132407,
+    "locality": "Poznań",
+    "address": "Libelta 5",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2503",
+    "longitude": 16.9262184,
+    "latitude": 52.4063519,
+    "locality": "Poznań",
+    "address": "Święty Marcin 32",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-22:00",
+      "Sobota: 06:00-22:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2517",
+    "longitude": 16.883107,
+    "latitude": 52.3861449,
+    "locality": "Poznań",
+    "address": "Sielska 43",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2557",
+    "longitude": 16.92993,
+    "latitude": 52.40692,
+    "locality": "Poznań",
+    "address": "28 Czerwca 1956r. 384",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:30",
+      "Wtorek: 06:00-22:30",
+      "Środa: 06:00-22:30",
+      "Czwartek: 06:00-22:30",
+      "Piątek: 06:00-22:30",
+      "Sobota: 06:00-22:30",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2573",
+    "longitude": 16.9297959,
+    "latitude": 52.4425002,
+    "locality": "Poznań",
+    "address": "Połabska 1",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2574",
+    "longitude": 16.9024757,
+    "latitude": 52.4090679,
+    "locality": "Poznań",
+    "address": "Kraszewskiego 30",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2617",
+    "longitude": 16.9487482,
+    "latitude": 52.4391597,
+    "locality": "Poznań",
+    "address": "Ulica Naramowicka 104",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2641",
+    "longitude": 16.8982213,
+    "latitude": 52.4141734,
+    "locality": "Poznań",
+    "address": "Dąbrowskiego 81/85",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2729",
+    "longitude": 16.9278761,
+    "latitude": 52.4001998,
+    "locality": "Poznań",
+    "address": "Półwiejska 47",
+    "openingTimes": [
+      "Poniedziałek: 06:00-22:00",
+      "Wtorek: 06:00-22:00",
+      "Środa: 06:00-22:00",
+      "Czwartek: 06:00-22:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "2817",
+    "longitude": 16.9115788,
+    "latitude": 52.4016269,
+    "locality": "Poznań",
+    "address": "Poznań Główny Dworcowa 2",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "3094",
+    "longitude": 16.8675364,
+    "latitude": 52.4414139,
+    "locality": "Poznań",
+    "address": "Poszwińskiego 2",
+    "openingTimes": [
+      "Poniedziałek: 00:00-23:00",
+      "Wtorek: 00:00-23:00",
+      "Środa: 00:00-23:00",
+      "Czwartek: 00:00-23:00",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 08:00-22:00"
+    ]
+  },
+  {
+    "id": "3107",
+    "longitude": 16.9849352,
+    "latitude": 52.3813415,
+    "locality": "Poznań",
+    "address": "Szwedzka 6a",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:00",
+      "Wtorek: 06:00-23:00",
+      "Środa: 06:00-23:00",
+      "Czwartek: 06:00-23:00",
+      "Piątek: 06:00-23:00",
+      "Sobota: 06:00-23:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "3398",
+    "longitude": 16.9211225,
+    "latitude": 52.4300761,
+    "locality": "Poznań",
+    "address": "osiedle Przyjaźni 141",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:30",
+      "Wtorek: 06:00-23:30",
+      "Środa: 06:00-23:30",
+      "Czwartek: 06:00-23:30",
+      "Piątek: 06:00-23:45",
+      "Sobota: 06:00-02:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  },
+  {
+    "id": "3600",
+    "longitude": 16.92993,
+    "latitude": 52.40692,
+    "locality": "Poznań",
+    "address": "ul. Serbska 15",
+    "openingTimes": [
+      "Poniedziałek: 06:00-23:00",
+      "Wtorek: 06:00-23:00",
+      "Środa: 06:00-23:00",
+      "Czwartek: 06:00-23:00",
+      "Piątek: 06:00-23:00",
+      "Sobota: 06:00-23:00",
+      "Niedziela: 09:00-22:00"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+.tp-bar__button {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  height: 36px;
+  width: 36px;
+  box-shadow: 0 0 4px #555;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:not(:last-child) {
+    margin-right: 18px;
+  }
+
+  &.is-active {
+    background-color: #09f;
+    color: #f1f1f1;
+  }
+
+  &.is-hidden {
+    display: none;
+  }
+
+  > img {
+    max-width: 24px;
+    max-height: 24px;
+  }
+}

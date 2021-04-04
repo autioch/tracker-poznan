@@ -1,4 +1,4 @@
-import { bigShops, misc, transport } from 'store';
+import { bigShops, misc, transport } from './store';
 
 const all = [...bigShops, ...misc, ...transport];
 

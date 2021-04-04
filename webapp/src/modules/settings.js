@@ -1,10 +1,30 @@
 /* eslint-disable object-curly-newline , object-property-newline, max-len */
 import './settings.scss';
-import icons from 'icons';
 import tag from 'lean-tag';
-import { bigShops, misc, saveSettings, transport } from 'store';
+
+import createBarButton from '../barButton';
+import icons from '../icons';
+import createPanel from '../panel';
+import { bigShops, misc, saveSettings, transport } from '../store';
 
 export default function settings(mapInstance) {
+  const { contentEl, panelEl } = createPanel('Settings', closePanel); // eslint-disable-line no-use-before-define
+  const buttonEl = createBarButton(icons.settings, togglePanel); // eslint-disable-line no-use-before-define
+
+  function closePanel() {
+    panelEl.classList.add('is-hidden');
+    buttonEl.classList.remove('is-active');
+  }
+
+  function openPanel() {
+    panelEl.classList.remove('is-hidden');
+    buttonEl.classList.add('is-active');
+  }
+
+  function togglePanel() {
+    buttonEl.classList.contains('is-active') ? closePanel() : openPanel(); // eslint-disable-line no-unused-expressions
+  }
+
   function changeVisibility(item, isVisible) {
     item.isVisible = isVisible;
 
@@ -24,23 +44,20 @@ export default function settings(mapInstance) {
   function changeRange(item, showRange) {
     item.showRange = showRange;
 
-    Object.values(item.rangeLayers).forEach((layer) => mapInstance.removeLayer(layer));
+    Object.values(item.rangeLayers).forEach((layer) => layer.remove());
 
     mapInstance.addLayer(item.rangeLayers[showRange]);
     saveSettings();
   }
 
   function headerRow(label) {
-    return tag(
-      'div.tp-panel__header',
-      label
-    );
+    return tag('div.tp-panel__header', label);
   }
 
   function groupRow(group) {
     return tag(
       'div.tp-settings-group',
-      tag('img.tp-settings-group__img', { src: group.iconRaw }),
+      tag('img.tp-settings-group__img', { src: group.iconRound }),
       tag('div.tp-settings-group__info', tag('', group.label), tag('.tp-settings__detail', `${group.items.length} items`)),
       tag('label.tp-settings-group__cell',
           tag('input', { type: 'checkbox', checked: group.isVisible, onchange: (ev) => changeVisibility(group, ev.target.checked) }),
@@ -54,7 +71,7 @@ export default function settings(mapInstance) {
           group.rangeLayers ? [
             tag('select',
                 { onchange: (ev) => changeRange(group, ev.target.value), value: group.showRange },
-                [0, 100, 200, 300, 400, 500].map((range) => tag('option', `${range}m`, { value: range, selected: group.showRange == range }))
+                [0, 100, 200, 300, 400, 500].map((range) => tag('option', `${range}m`, { value: range, selected: group.showRange == range })) // eslint-disable-line eqeqeq
             ),
             tag('div.tp-settings-group__text', `Range`)
           ] : []
@@ -62,29 +79,12 @@ export default function settings(mapInstance) {
     );
   }
 
-  const contentEl2 = tag(
-    'div.tp-panel.is-hidden',
+  contentEl.append(
     headerRow('Transport'),
-    transport.map(groupRow),
+    ...transport.map(groupRow),
     headerRow('Shops'),
-    bigShops.map(groupRow),
+    ...bigShops.map(groupRow),
     headerRow('Miscellaneous'),
-    misc.map(groupRow),
-    tag('div.tp-panel__close', {
-      onclick: toggleSettings // eslint-disable-line no-use-before-define
-    })
+    ...misc.map(groupRow)
   );
-
-  function toggleSettings() {
-    const isActive = window.tpSettings.classList.contains('is-active');
-
-    window.tpSettings.classList.toggle('is-active', !isActive);
-    contentEl2.classList.toggle('is-hidden', isActive);
-  }
-
-  window.tpSettings.addEventListener('click', toggleSettings);
-  window.tpSettings.append(tag('img', { src: icons.settings }));
-  window.tpSettings.classList.remove('is-hidden');
-
-  document.body.append(contentEl2);
 }

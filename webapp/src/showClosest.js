@@ -1,8 +1,10 @@
-import icons from 'icons';
+/* eslint-disable max-len */
 import L from 'leaflet';
-import { bigShops, misc, transport } from 'store';
 
-import { haversine1 } from './haversine';
+import icons from './icons';
+import createPanel from './panel';
+import { bigShops, misc, transport } from './store';
+import { getMinimalBounds, haversine } from './utils';
 
 const myIcon = L.icon({
   iconUrl: icons.currentLocation,
@@ -11,126 +13,95 @@ const myIcon = L.icon({
   popupAnchor: [0, 0]
 });
 
-let clickMarker;
+let layers = [];
 
-// let closeEl;
-
-let polylines = [];
-
-function removeDistances(mapInstance) {
-  if (clickMarker) {
-    mapInstance.removeLayer(clickMarker);
-    clickMarker = null;
-  }
-  polylines.forEach((polyline) => mapInstance.removeLayer(polyline));
-  polylines = [];
-}
-
-function showDistances(sources, mapInstance, latlng) {
-  polylines = sources.map((source) => L.polyline([
-    source.closest.map(([, item]) => [latlng, [item.latitude, item.longitude] ])
-  ], {
-    weight: 2,
-    color: source.color
-  }));
-
-  polylines.forEach((polyline) => mapInstance.addLayer(polyline));
-}
-
-// function stopInfo([dist, stp]) {
-//   return `<li>${stp.stopName} (${(dist * 1000).toFixed(0)}m): ${stp.routeIds.join(', ')}</li>`;
-// }
-//
-// function shopInfo([dist, shop]) {
-//   return `<li>${shop.address} (${(dist * 1000).toFixed(0)}m)</li>`;
-// }
-
-// function showInfo(mapInstance) {
-//   const communeHtml = commune
-//     .filter((source) => source.isMeasured)
-//     .map((source) => `<div>${source.label}</div><ol>${source.closest.map(stopInfo).join('')}</ol>`)
-//     .join('');
-//
-//   const shopsHtml = shops
-//     .filter((source) => source.isMeasured)
-//     .map((source) => `<div>${source.label}</div><ol>${source.closest.map(shopInfo).join('')}</ol>`)
-//     .join('');
-//
-//   window.distance.innerHTML = communeHtml + shopsHtml;
-//
-//   closeEl = document.createElement('div');
-//
-//   function hideInfo() {
-//     closeEl.removeEventListener('click', hideInfo);
-//     window.distance.innerHTML = '';
-//     removeDistances(mapInstance);
-//   }
-//
-//   closeEl.textContent = 'X';
-//   closeEl.className = 'distance-close';
-//   closeEl.addEventListener('click', hideInfo);
-//
-//   window.distance.append(closeEl);
-// }
-
-function setMinimumBounds(sources, mapInstance, latlng) {
-/* Inverted for purpose of finding min rect. */
-  let minLat = 90;
-
-  let maxLat = -90;
-
-  let minLng = 180;
-
-  let maxLng = -180;
-
-  const points = sources.flatMap((source) => source.closest.map(([, { latitude, longitude }]) => [latitude, longitude]));
-
-  points.concat([latlng]).forEach(([lat, lng]) => {
-    if (lat < minLat) {
-      minLat = lat;
-    }
-    if (lat > maxLat) {
-      maxLat = lat;
-    }
-    if (lng < minLng) {
-      minLng = lng;
-    }
-    if (lng > maxLng) {
-      maxLng = lng;
-    }
-  });
-
-  mapInstance.fitBounds([
-    [minLat, minLng],
-    [maxLat, maxLng]
-  ]);
-}
-
-function setupClosest(sources, latlng) {
-  // const latlng = [lat, lng];
+function setupClosest(latlng) {
+  const sources = [...transport, ...bigShops, ...misc].filter((source) => source.isMeasured);
 
   sources.forEach((source) => {
-    const distances = source.items.map((item) => [haversine1(latlng, [item.latitude, item.longitude]), item]);
+    const distances = source.items.map((item) => [haversine(latlng, [item.latitude, item.longitude]), item]);
 
     distances.sort(([dist1], [dist2]) => dist1 - dist2);
     source.closest = distances.slice(0, source.measureCount);
   });
+
+  return sources;
 }
 
-export default function showClosest(mapInstance, latlng) {
-  removeDistances(mapInstance);
+function removeDistances() {
+  layers.forEach((polyline) => polyline.remove());
+  layers = [];
+}
 
-  clickMarker = new L.Marker(latlng, { // todo can be array or has to be object?
+function showDistances(sources, mapInstance, latlng) {
+  const clickMarker = new L.Marker(latlng, { // todo can be array or has to be object?
     icon: myIcon
   });
 
-  mapInstance.addLayer(clickMarker);
+  const polylines = sources.map((group) => L.polyline([
+    group.closest.map(([, item]) => [latlng, [item.latitude, item.longitude] ])
+  ], {
+    weight: 2,
+    color: group.color
+  }));
 
-  const sources = [...transport, ...bigShops, ...misc].filter((source) => source.isMeasured);
+  const iconsLayer = L.layerGroup(
+    sources
+      .filter((group) => !group.isVisible)
+      .flatMap((group) => group.closest.map(([, item]) => L.marker([item.latitude, item.longitude], {
+        icon: item.group.icon
+      })))
+  );
 
-  setupClosest(sources, latlng);
+  layers.push(...polylines, iconsLayer, clickMarker);
+  layers.forEach((layer) => mapInstance.addLayer(layer));
+}
+
+const { panelEl, contentEl } = createPanel('Closest points', removeDistances, {
+  style: {
+    'max-height': '50%'
+  }
+});
+
+function stopInfo([dist, stp]) {
+  return `<li>${stp.stopName} (${(dist * 1000).toFixed(0)}m): ${stp.routeIds.join(', ')}</li>`;
+}
+
+function shopInfo([dist, shop]) {
+  return `<li>${shop.address} (${(dist * 1000).toFixed(0)}m)</li>`;
+}
+
+function showInfo() {
+  const transportHtml = transport
+    .filter((source) => source.isMeasured)
+    .map((source) => `<div>${source.label}</div><ol>${source.closest.map(stopInfo).join('')}</ol>`)
+    .join('');
+
+  const bigShopsHtml = bigShops
+    .filter((source) => source.isMeasured)
+    .map((source) => `<div>${source.label}</div><ol>${source.closest.map(shopInfo).join('')}</ol>`)
+    .join('');
+
+  const miscHtml = misc
+    .filter((source) => source.isMeasured)
+    .map((source) => `<div>${source.label}</div><ol>${source.closest.map(shopInfo).join('')}</ol>`)
+    .join('');
+
+  contentEl.innerHTML = transportHtml + bigShopsHtml + miscHtml;
+  panelEl.classList.remove('is-hidden');
+}
+
+export default function showClosest(mapInstance, latlng) {
+  removeDistances();
+
+  const sources = setupClosest(latlng);
+
   showDistances(sources, mapInstance, latlng);
-  setMinimumBounds(sources, mapInstance, latlng);
 
-  // showInfo(mapInstance);
+  const points = sources.flatMap((source) => source.closest.map(([, { latitude, longitude }]) => [latitude, longitude]));
+  const minimalBounds = getMinimalBounds([...points, latlng]);
+
+  mapInstance.fitBounds(minimalBounds);
+
+  showInfo();
 }

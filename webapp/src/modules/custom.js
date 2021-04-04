@@ -1,18 +1,16 @@
-import icons from 'icons';
-import tag from 'lean-tag';
-import showClosest from 'showClosest';
+import createBarButton from '../barButton';
+import icons from '../icons';
+import showClosest from '../showClosest';
 
 export default function custom(mapInstance) {
   function showCustomLocation(ev) {
     showClosest(mapInstance, [ev.latlng.lat, ev.latlng.lng]);
   }
 
-  const btn = window.tpCustom;
+  const buttonEl = createBarButton(icons.custom, function toggleClicking() {
+    const isActive = buttonEl.classList.contains('is-active');
 
-  function toggleClicking() {
-    const isActive = btn.classList.contains('is-active');
-
-    btn.classList.toggle('is-active', !isActive);
+    buttonEl.classList.toggle('is-active', !isActive);
 
     window.tpMap.style.cursor = isActive ? '' : 'pointer';
 
@@ -21,11 +19,5 @@ export default function custom(mapInstance) {
     if (!isActive) {
       mapInstance.on('click', showCustomLocation);
     }
-  }
-
-  btn.addEventListener('click', toggleClicking);
-  btn.append(tag('img', {
-    src: icons.custom
-  }));
-  btn.classList.remove('is-hidden');
+  });
 }
