@@ -10,12 +10,12 @@ const itemList = data
   .sort((a, b) => a.id.localeCompare(b.id))
   .map(({ id, name, coordinates: [lng, lat], address: { city, street } }) => ({ // eslint-disable-line no-shadow
     id,
+    label: name,
+    address: street,
+    city,
     longitude: lng,
     latitude: lat,
-    locality: city,
-    address: street,
-    openingTimes: [],
-    label: name
+    description: [] // todo opening times are mixed up
   }));
 
 console.log(`Found ${itemList.length} Netto shops.`);

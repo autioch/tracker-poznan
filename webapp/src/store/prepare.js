@@ -3,18 +3,6 @@ import L from 'leaflet';
 import agencies from './data/agencies.json';
 import ranges from './data/ranges.json';
 
-function transportPopup({ zoneId, stopName, routeIds, agencyIds }) {
-  return `
-      <h3>${zoneId} ${stopName}</h3>
-      <p>Linie: ${routeIds.join(', ')}</p>
-      ${agencyIds.map((agencyId) => `<p>${agencies[agencyId].label.replace('Sp. z o.o.', '').trim()}</p>`).join('')}
-    `;
-}
-
-function bigShopPopup({ address, openingTimes }) {
-  return `<h3>${address}</h3>${openingTimes.map((time) => `<p>${time}</p>`).join('')}`;
-}
-
 function transportItemDetail([dist, stp]) {
   return `<li>${stp.stopName} (${(dist * 1000).toFixed(0)}m): ${stp.routeIds.join(', ')}</li>`;
 }
@@ -73,15 +61,21 @@ export default function prepare(serialized, transport, bigShops, misc) {
   });
 
   transport.forEach((group) => {
-    group.popupFn = transportPopup;
     group.detailFn = transportDetail;
+    group.items.forEach((item) => {
+      item.popupHtml = `
+        <h3>${item.zoneId} ${item.stopName}</h3>
+        <p>Linie: ${item.routeIds.join(', ')}</p>
+        ${item.agencyIds.map((agencyId) => `<p>${agencies[agencyId].label.replace('Sp. z o.o.', '').trim()}</p>`).join('')}
+      `;
+    });
     group.layer = L.layerGroup(
       [...group.items
         .map((item) => L
           .marker([item.latitude, item.longitude], {
             icon: group.iconLayer
           })
-          .bindPopup(transportPopup(item))
+          .bindPopup(item.popupHtml)
         ),
       L.polyline(group.routeLines.map(({ points }) => points), {
         color: group.color,
@@ -102,14 +96,16 @@ export default function prepare(serialized, transport, bigShops, misc) {
   });
 
   [...bigShops, ...misc].forEach((group) => {
-    group.popupFn = bigShopPopup;
     group.detailFn = bigShopDetail;
+    group.items.forEach((item) => {
+      item.popupHtml = `<h3>${item.label}</h3><h4>${item.address}</h4>${item.description.map((line) => `<p>${line}</p>`).join('')}`;
+    });
     group.layer = L.layerGroup(
       group.items.map((item) => L
         .marker([item.latitude, item.longitude], {
           icon: group.iconLayer
         })
-        .bindPopup(bigShopPopup(item))
+        .bindPopup(item.popupHtml)
       )
     );
   });

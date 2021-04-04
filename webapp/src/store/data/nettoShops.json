@@ -1,200 +1,200 @@
 [
   {
     "id": "1fe82f97-acd4-47b8-bcbc-d5da18fbe607",
+    "label": "Netto Poznań",
+    "address": "Ul. Skibowa 16a",
+    "city": "Poznań",
     "longitude": 17.0095425,
     "latitude": 52.3634834,
-    "locality": "Poznań",
-    "address": "Ul. Skibowa 16a",
-    "openingTimes": [],
-    "label": "Netto Poznań"
+    "description": []
   },
   {
     "id": "22793b20-b66d-40e3-92da-208711f23016",
+    "label": "Netto Poznań",
+    "address": "Ul. Jana Brzechwy 56",
+    "city": "Poznań",
     "longitude": 16.83255,
     "latitude": 52.41218,
-    "locality": "Poznań",
-    "address": "Ul. Jana Brzechwy 56",
-    "openingTimes": [],
-    "label": "Netto Poznań"
+    "description": []
   },
   {
     "id": "2bce1aec-7040-4d8f-9203-43208ab5c967",
+    "label": "Netto Poznań Czeremchowa",
+    "address": "Ul. Czeremchowa 3-5",
+    "city": "Poznań",
     "longitude": 16.8955479,
     "latitude": 52.3742943,
-    "locality": "Poznań",
-    "address": "Ul. Czeremchowa 3-5",
-    "openingTimes": [],
-    "label": "Netto Poznań Czeremchowa"
+    "description": []
   },
   {
     "id": "2c93d569-0ecd-4dd1-b948-b3d957e97a56",
+    "label": "Netto Poznań Łokietka",
+    "address": "Os. Władysława Łokietka 102",
+    "city": "Poznań",
     "longitude": 16.9414959,
     "latitude": 52.44927,
-    "locality": "Poznań",
-    "address": "Os. Władysława Łokietka 102",
-    "openingTimes": [],
-    "label": "Netto Poznań Łokietka"
+    "description": []
   },
   {
     "id": "3fb94eae-d667-4316-acb8-1d25dbdd75df",
+    "label": "Netto Stęszew",
+    "address": "Błonie 7",
+    "city": "Stęszew",
     "longitude": 16.6898823,
     "latitude": 52.2780037,
-    "locality": "Stęszew",
-    "address": "Błonie 7",
-    "openingTimes": [],
-    "label": "Netto Stęszew"
+    "description": []
   },
   {
     "id": "425a1d71-b869-4bc8-a300-510878ec2f60",
+    "label": "Netto Poznań",
+    "address": "Ul. Gąsiorowskich",
+    "city": "Poznań",
     "longitude": 16.9063911,
     "latitude": 52.39895,
-    "locality": "Poznań",
-    "address": "Ul. Gąsiorowskich",
-    "openingTimes": [],
-    "label": "Netto Poznań"
+    "description": []
   },
   {
     "id": "435b49bc-b2a5-493a-afa9-1d85ed148c69",
+    "label": "Netto Poznań",
+    "address": "Szarotkowa 21",
+    "city": "Poznań",
     "longitude": 16.8239651,
     "latitude": 52.37839,
-    "locality": "Poznań",
-    "address": "Szarotkowa 21",
-    "openingTimes": [],
-    "label": "Netto Poznań"
+    "description": []
   },
   {
     "id": "49733677-fe3b-444d-af36-b47557684a62",
+    "label": "Netto Kostrzyn Wlkp.",
+    "address": "Poznańska 118",
+    "city": "Kostrzyn",
     "longitude": 17.20869,
     "latitude": 52.3982,
-    "locality": "Kostrzyn",
-    "address": "Poznańska 118",
-    "openingTimes": [],
-    "label": "Netto Kostrzyn Wlkp."
+    "description": []
   },
   {
     "id": "5aba71ee-bcbe-4ab8-b3ea-fea9fd38c820",
+    "label": "Netto Poznań",
+    "address": "Ul. Grunwaldzka 104a",
+    "city": "Poznań",
     "longitude": 16.8695164,
     "latitude": 52.3968735,
-    "locality": "Poznań",
-    "address": "Ul. Grunwaldzka 104a",
-    "openingTimes": [],
-    "label": "Netto Poznań"
+    "description": []
   },
   {
     "id": "63d16f47-8667-47be-80c8-e0a56db4751a",
+    "label": "Netto Skórzewo",
+    "address": "Poznańska 98",
+    "city": "Wielkopolskie",
     "longitude": 16.8005238,
     "latitude": 52.3953667,
-    "locality": "Wielkopolskie",
-    "address": "Poznańska 98",
-    "openingTimes": [],
-    "label": "Netto Skórzewo"
+    "description": []
   },
   {
     "id": "746a6cd4-f436-4fb5-b48d-24c51a63ab45",
+    "label": "Netto Luboń",
+    "address": "Żabikowska 34",
+    "city": "Luboń",
     "longitude": 16.8772182,
     "latitude": 52.3454437,
-    "locality": "Luboń",
-    "address": "Żabikowska 34",
-    "openingTimes": [],
-    "label": "Netto Luboń"
+    "description": []
   },
   {
     "id": "7cb7f1a4-11e8-485f-905d-3c4232628e3b",
+    "label": "Netto Przeźmierowo",
+    "address": "Ul. Rynkowa 121",
+    "city": "Przeźmierowo",
     "longitude": 16.78982,
     "latitude": 52.4186363,
-    "locality": "Przeźmierowo",
-    "address": "Ul. Rynkowa 121",
-    "openingTimes": [],
-    "label": "Netto Przeźmierowo"
+    "description": []
   },
   {
     "id": "8a683a8f-bdf7-43be-8712-04c73e032fcc",
+    "label": "Netto Poznań - Żegrze",
+    "address": "Os. Stare Żegrze 109",
+    "city": "Poznań",
     "longitude": 16.96688,
     "latitude": 52.38347,
-    "locality": "Poznań",
-    "address": "Os. Stare Żegrze 109",
-    "openingTimes": [],
-    "label": "Netto Poznań - Żegrze"
+    "description": []
   },
   {
     "id": "9a09421d-0c38-474a-b5d9-c484b6271b84",
+    "label": "Netto Poznań",
+    "address": "Oś. Przyjaźni 125a",
+    "city": "Poznań",
     "longitude": 16.92949,
     "latitude": 52.43103,
-    "locality": "Poznań",
-    "address": "Oś. Przyjaźni 125a",
-    "openingTimes": [],
-    "label": "Netto Poznań"
+    "description": []
   },
   {
     "id": "b09f12a8-9d62-49f0-bc3f-76dc39b136c7",
+    "label": "Netto Poznań",
+    "address": "Ul. Kasprzaka 13",
+    "city": "Poznań",
     "longitude": 16.897356,
     "latitude": 52.39354,
-    "locality": "Poznań",
-    "address": "Ul. Kasprzaka 13",
-    "openingTimes": [],
-    "label": "Netto Poznań"
+    "description": []
   },
   {
     "id": "b2a355f0-1095-4224-9018-99ecd09c10bb",
+    "label": "Netto Mosina",
+    "address": "Ul. Kolejowa 33",
+    "city": "Mosina",
     "longitude": 16.8533154,
     "latitude": 52.2430878,
-    "locality": "Mosina",
-    "address": "Ul. Kolejowa 33",
-    "openingTimes": [],
-    "label": "Netto Mosina"
+    "description": []
   },
   {
     "id": "caacaac7-8244-407c-9fd9-fe7caa9f8b4f",
+    "label": "Netto Komorniki",
+    "address": "Nizinna 10",
+    "city": "Komorniki",
     "longitude": 16.8149929,
     "latitude": 52.3380432,
-    "locality": "Komorniki",
-    "address": "Nizinna 10",
-    "openingTimes": [],
-    "label": "Netto Komorniki"
+    "description": []
   },
   {
     "id": "d5f340f1-d67e-4968-a715-6e4cc5ed7202",
+    "label": "Netto Poznań Solidarności",
+    "address": "Ul. Solidarności 50",
+    "city": "Poznań",
     "longitude": 16.9224567,
     "latitude": 52.4353142,
-    "locality": "Poznań",
-    "address": "Ul. Solidarności 50",
-    "openingTimes": [],
-    "label": "Netto Poznań Solidarności"
+    "description": []
   },
   {
     "id": "d77bcaee-2b8c-4e78-8610-3d191f8e71c0",
+    "label": "Netto Poznań Polna",
+    "address": "Polna 28",
+    "city": "Poznań",
     "longitude": 16.8954067,
     "latitude": 52.4115562,
-    "locality": "Poznań",
-    "address": "Polna 28",
-    "openingTimes": [],
-    "label": "Netto Poznań Polna"
+    "description": []
   },
   {
     "id": "da387bba-5d59-45b6-93a9-a4d9a7369674",
+    "label": "Netto Kórnik",
+    "address": "Poznańska 87",
+    "city": "Kórnik",
     "longitude": 17.0770664,
     "latitude": 52.2559128,
-    "locality": "Kórnik",
-    "address": "Poznańska 87",
-    "openingTimes": [],
-    "label": "Netto Kórnik"
+    "description": []
   },
   {
     "id": "e7ef4ab7-eb47-425f-b285-998f0e9ae415",
+    "label": "Netto Poznań Dąbrówka",
+    "address": "Ul. Malinowa M. 42",
+    "city": "Dąbrówka(doplewo Commune)",
     "longitude": 16.7367268,
     "latitude": 52.3760948,
-    "locality": "Dąbrówka(doplewo Commune)",
-    "address": "Ul. Malinowa M. 42",
-    "openingTimes": [],
-    "label": "Netto Poznań Dąbrówka"
+    "description": []
   },
   {
     "id": "ec59c67f-c1d7-44b9-8333-155cf600bd25",
+    "label": "Netto Poznań Poznańska",
+    "address": "Ul. Poznańska 62",
+    "city": "Poznań",
     "longitude": 16.91285,
     "latitude": 52.41401,
-    "locality": "Poznań",
-    "address": "Ul. Poznańska 62",
-    "openingTimes": [],
-    "label": "Netto Poznań Poznańska"
+    "description": []
   }
 ]

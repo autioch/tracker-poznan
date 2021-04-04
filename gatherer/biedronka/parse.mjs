@@ -9,7 +9,8 @@ const join = joinFromCurrentDir(import.meta, 'db');
 
 const ID_REGEX = / a href="\/pl\/shop,id,(\d+),title,.+" class="showShopOnMap">Zobacz więcej<\/a /;
 
-function getShopId(commentEl, pageIndex, shopIndex) {
+function getShopId($shop, pageIndex, shopIndex) {
+  const commentEl = $shop.contents().get().find((ele) => ele.type === 'comment');
   const [, id] = commentEl.data.match(ID_REGEX) || [];
 
   return id || `${pageIndex}-${shopIndex}`;
@@ -21,16 +22,15 @@ function getShopList(html, pageIndex) {
   const shopList = $('.shopListElement').get().map((el, shopIndex) => {
     const $shop = $(el);
     const address = $shop.find('.shopAddress').text();
-    const locality = $shop.find('h4').text().replace(address, '').trim();
-    const commentEl = $shop.contents().get().find((ele) => ele.type === 'comment');
 
     return {
-      id: getShopId(commentEl, pageIndex, shopIndex),
+      id: getShopId($shop, pageIndex, shopIndex),
+      label: address,
+      address,
+      city: $shop.find('h4').text().replace(address, '').trim(),
       longitude: null,
       latitude: null,
-      locality,
-      address,
-      openingTimes: $shop.find('p').html().split('<br>').map((text) => $(text.trim()).text()).slice(1, -1)
+      description: $shop.find('p').html().split('<br>').map((text) => $(text.trim()).text()).slice(1, -1)
     };
   });
 
@@ -38,7 +38,7 @@ function getShopList(html, pageIndex) {
 }
 
 async function geoLocateShop(shop) {
-  const result = await forwardGeocode(shop.address, shop.locality);
+  const result = await forwardGeocode(shop.address, shop.city);
 
   if (!result) {
     return;

@@ -10,11 +10,12 @@ const itemList = data
   .sort((a, b) => a.id.localeCompare(b.id))
   .map(({ id, lat, lng }) => ({
     id,
+    label: id,
+    address: '',
+    city: '',
     longitude: lng,
     latitude: lat,
-    locality: '',
-    address: '',
-    openingTimes: []
+    description: []
   }));
 
 console.log(`Found ${itemList.length} Żabka shops.`);

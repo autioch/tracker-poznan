@@ -40,6 +40,14 @@ html {
   z-index: 1001;
 }
 
-.leaflet-popup-content > p {
-  margin: 0;
+.leaflet-popup-content {
+  > p,
+  > h3,
+  > h4 {
+    margin: 0;
+  }
+
+  > h4 {
+    margin-bottom: 5px;
+  }
 }

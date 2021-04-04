@@ -38,7 +38,7 @@ function showDistances(sources, mapInstance, latlng) {
         .marker([item.latitude, item.longitude], {
           icon: group.iconLayer
         })
-        .bindPopup(group.popupFn(item))
+        .bindPopup(item.popupHtml)
       ))
   );
 
