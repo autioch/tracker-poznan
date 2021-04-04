@@ -8,6 +8,11 @@ body,
   overflow: hidden;
 }
 
+html {
+  font-size: 12px;
+  font-family: Verdana, Arial;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   border-radius: 4px;
@@ -27,12 +32,6 @@ body,
   border-radius: 4px;
 }
 
-html {
-  font-size: 12px;
-  font-family: Verdana, Arial;
-}
-
-
 .tp-bar {
   position: absolute;
   left: 10px;
@@ -43,14 +42,4 @@ html {
 
 .leaflet-popup-content > p {
   margin: 0;
-}
-
-
-.tp-marker {
-  // background: url('./icons/pin.png');
-  // opacity: .5;
-  // border-top-left-radius: 16px;
-  // border-top-right-radius: 16px;
-  // border-radius: 16px;
-  // box-shadow: 0 0 3px #000;
 }
