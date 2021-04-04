@@ -11,12 +11,12 @@ function transportDetail({ label, closest }) {
   return `<div>${label}</div><ol>${closest.map(transportItemDetail).join('')}</ol>`;
 }
 
-function bigShopItemDetail([dist, stp]) {
+function shopItemDetail([dist, stp]) {
   return `<li>${stp.address} (${(dist * 1000).toFixed(0)}m)</li>`;
 }
 
-function bigShopDetail({ label, closest }) {
-  return `<div>${label}</div><ol>${closest.map(bigShopItemDetail).join('')}</ol>`;
+function shopDetail({ label, closest }) {
+  return `<div>${label}</div><ol>${closest.map(shopItemDetail).join('')}</ol>`;
 }
 
 function renderRange(polygon, color) {
@@ -40,8 +40,8 @@ const defaultSettings = {
   // rangeLayers: null
 };
 
-export default function prepare(serialized, transport, bigShops, misc) {
-  [...transport, ...bigShops, ...misc].forEach((group) => {
+export default function prepare(serialized, transport, shops, misc) {
+  [...transport, ...shops, ...misc].forEach((group) => {
     if (!serialized[group.id]) {
       group.isVisible = group.isVisible || false;
       group.isMeasured = group.isMeasured || false;
@@ -95,8 +95,8 @@ export default function prepare(serialized, transport, bigShops, misc) {
     };
   });
 
-  [...bigShops, ...misc].forEach((group) => {
-    group.detailFn = bigShopDetail;
+  [...shops, ...misc].forEach((group) => {
+    group.detailFn = shopDetail;
     group.items.forEach((item) => {
       item.popupHtml = `<h3>${item.label}</h3><h4>${item.address}</h4>${item.description.map((line) => `<p>${line}</p>`).join('')}`;
     });

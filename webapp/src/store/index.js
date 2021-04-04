@@ -1,5 +1,5 @@
 import { haversine } from '../utils';
-import { bigShops, misc, transport } from './groups';
+import { misc, shops, transport } from './groups';
 import prepare from './prepare';
 
 const LS_KEY = 'tracker-poznan-settings1';
@@ -7,10 +7,10 @@ const LS_KEY = 'tracker-poznan-settings1';
 const serialized = JSON.parse(localStorage.getItem(LS_KEY) || '{}');
 const getItems = (group) => group.items;
 
-prepare(serialized, transport, bigShops, misc);
+prepare(serialized, transport, shops, misc);
 
-const groups = [...bigShops, ...misc, ...transport];
-const items = [...bigShops.flatMap(getItems), ...misc.flatMap(getItems), ...transport.flatMap(getItems)];
+const groups = [...shops, ...misc, ...transport];
+const items = [...shops.flatMap(getItems), ...misc.flatMap(getItems), ...transport.flatMap(getItems)];
 
 const categories = [
   {
@@ -21,7 +21,7 @@ const categories = [
   {
     id: 'shops',
     label: 'Shops',
-    groups: bigShops
+    groups: shops
   },
   {
     id: 'miscellaneous',
@@ -31,7 +31,7 @@ const categories = [
 ];
 
 function saveSettings() {
-  const settings = Object.fromEntries([...transport, ...bigShops, ...misc].map((group) => [group.id, {
+  const settings = Object.fromEntries([...transport, ...shops, ...misc].map((group) => [group.id, {
     isVisible: group.isVisible,
     isMeasured: group.isMeasured,
     showRange: group.showRange
