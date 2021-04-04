@@ -42,13 +42,17 @@ function renderRange(polygon, color) {
 
 const ICON_SIZE = 24;
 
-export default function prepare(serialized, transport, bigShops, misc) {
-  const defaultSettings = {
-    isVisible: false,
-    isMeasured: false,
-    showRange: 0
-  };
+const defaultSettings = {
+  isVisible: false,
+  isMeasured: false,
+  showRange: 0,
+  closest: []
 
+  // layer: null,
+  // rangeLayers: null
+};
+
+export default function prepare(serialized, transport, bigShops, misc) {
   [...transport, ...bigShops, ...misc].forEach((group) => {
     if (!serialized[group.id]) {
       group.isVisible = group.isVisible || false;

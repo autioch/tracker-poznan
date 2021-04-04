@@ -2,8 +2,8 @@ import L from 'leaflet';
 
 import icons from './icons';
 import createPanel from './panel';
-import { groups } from './store';
-import { getMinimalBounds, haversine } from './utils';
+import { groups, setupClosest } from './store';
+import { getMinimalBounds } from './utils';
 
 const myIcon = L.icon({
   iconUrl: icons.currentLocation,
@@ -13,19 +13,6 @@ const myIcon = L.icon({
 });
 
 let layers = [];
-
-function setupClosest(latlng) {
-  const sources = groups.filter((source) => source.isMeasured);
-
-  sources.forEach((source) => {
-    const distances = source.items.map((item) => [haversine(latlng, [item.latitude, item.longitude]), item]);
-
-    distances.sort(([dist1], [dist2]) => dist1 - dist2);
-    source.closest = distances.slice(0, source.measureCount);
-  });
-
-  return sources;
-}
 
 function removeDistances() {
   layers.forEach((polyline) => polyline.remove());
@@ -67,16 +54,17 @@ const { panelEl, contentEl } = createPanel('Closest points', removeDistances, {
 
 export default function showClosest(mapInstance, latlng) {
   removeDistances();
+  setupClosest(latlng);
 
-  const sources = setupClosest(latlng);
+  const measuredGroups = groups.filter((group) => group.isMeasured);
 
-  showDistances(sources, mapInstance, latlng);
+  showDistances(measuredGroups, mapInstance, latlng);
 
-  const points = sources.flatMap((source) => source.closest.map(([, { latitude, longitude }]) => [latitude, longitude]));
+  const points = measuredGroups.flatMap((source) => source.closest.map(([, { latitude, longitude }]) => [latitude, longitude]));
   const minimalBounds = getMinimalBounds([...points, latlng]);
 
   mapInstance.fitBounds(minimalBounds);
 
-  contentEl.innerHTML = groups.filter((group) => group.isMeasured).map((group) => group.detailFn(group)).join('');
+  contentEl.innerHTML = measuredGroups.map((group) => group.detailFn(group)).join('');
   panelEl.classList.remove('is-hidden');
 }

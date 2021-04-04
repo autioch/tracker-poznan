@@ -1,6 +1,7 @@
 import debounce from 'lodash.debounce';
 
-import { boundaries } from '../store';
+import { items } from '../store';
+import { getMinimalBounds } from '../utils';
 
 const LS_KEY = 'tracker-poznan-viewport1';
 
@@ -15,12 +16,10 @@ function restoreLatLngZoom(mapInstance) {
     return;
   }
 
-  const { minLatitude, minLongitude, maxLatitude, maxLongitude } = boundaries;
+  const itemPoints = items.map((item) => [item.latitude, item.longitude]);
+  const minimalBounds = getMinimalBounds(itemPoints);
 
-  mapInstance.fitBounds([
-    [minLatitude, minLongitude],
-    [maxLatitude, maxLongitude]
-  ]);
+  mapInstance.fitBounds(minimalBounds);
 }
 
 const saveLatLngZoom = debounce(({ target }) => {
