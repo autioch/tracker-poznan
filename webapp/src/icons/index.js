@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import about from './about.png';
 import biedronka from './biedronka.png';
 import bus from './bus.png';

@@ -74,7 +74,9 @@ export default function prepare(serialized, transport, bigShops, misc) {
     group.layer = L.layerGroup(
       [...group.items
         .map((item) => L
-          .marker([item.latitude, item.longitude], { icon: group.iconLayer }) // eslint-disable-line object-curly-newline
+          .marker([item.latitude, item.longitude], {
+            icon: group.iconLayer
+          })
           .bindPopup(transportPopup(item))
         ),
       L.polyline(group.routeLines.map(({ points }) => points), {
@@ -100,7 +102,9 @@ export default function prepare(serialized, transport, bigShops, misc) {
     group.detailFn = bigShopDetail;
     group.layer = L.layerGroup(
       group.items.map((item) => L
-        .marker([item.latitude, item.longitude], { icon: group.iconLayer }) // eslint-disable-line object-curly-newline
+        .marker([item.latitude, item.longitude], {
+          icon: group.iconLayer
+        })
         .bindPopup(bigShopPopup(item))
       )
     );

@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import 'leaflet/dist/leaflet.css';
 import './styles';
 import L from 'leaflet';

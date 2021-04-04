@@ -21,7 +21,7 @@ export default function about() {
   }
 
   function togglePanel() {
-    buttonEl.classList.contains('is-active') ? closePanel() : openPanel(); // eslint-disable-line no-unused-expressions
+    buttonEl.classList.contains('is-active') ? closePanel() : openPanel();
   }
 
   contentEl.append(

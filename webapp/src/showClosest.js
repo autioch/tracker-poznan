@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import L from 'leaflet';
 
 import icons from './icons';

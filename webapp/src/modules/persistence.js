@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import debounce from 'lodash.debounce';
 
 import { boundaries } from '../store';

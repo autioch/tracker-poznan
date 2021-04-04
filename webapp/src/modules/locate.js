@@ -1,4 +1,3 @@
-/* eslint-disable no-alert */
 import createBarButton from '../barButton';
 import icons from '../icons';
 import showClosest from '../showClosest';
