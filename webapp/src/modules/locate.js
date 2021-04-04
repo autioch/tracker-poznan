@@ -4,7 +4,7 @@ import icons from '../icons';
 import showClosest from '../showClosest';
 
 export default function currentLocation(mapInstance) {
-  createBarButton(icons.currentLocation, function showCurrentLocation() {
+  createBarButton(icons.currentLocation, () => {
     function success(position) {
       const { latitude, longitude } = position.coords;
 

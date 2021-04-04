@@ -3,12 +3,32 @@ import L from 'leaflet';
 import agencies from './data/agencies.json';
 import ranges from './data/ranges.json';
 
-function getStopPopup({ zoneId, stopName, routeIds, agencyIds }) {
+function transportPopup({ zoneId, stopName, routeIds, agencyIds }) {
   return `
       <h3>${zoneId} ${stopName}</h3>
       <p>Linie: ${routeIds.join(', ')}</p>
       ${agencyIds.map((agencyId) => `<p>${agencies[agencyId].label.replace('Sp. z o.o.', '').trim()}</p>`).join('')}
     `;
+}
+
+function bigShopPopup({ address, openingTimes }) {
+  return `<h3>${address}</h3>${openingTimes.map((time) => `<p>${time}</p>`).join('')}`;
+}
+
+function transportItemDetail([dist, stp]) {
+  return `<li>${stp.stopName} (${(dist * 1000).toFixed(0)}m): ${stp.routeIds.join(', ')}</li>`;
+}
+
+function transportDetail({ label, closest }) {
+  return `<div>${label}</div><ol>${closest.map(transportItemDetail).join('')}</ol>`;
+}
+
+function bigShopItemDetail([dist, stp]) {
+  return `<li>${stp.address} (${(dist * 1000).toFixed(0)}m)</li>`;
+}
+
+function bigShopDetail({ label, closest }) {
+  return `<div>${label}</div><ol>${closest.map(bigShopItemDetail).join('')}</ol>`;
 }
 
 function renderRange(polygon, color) {
@@ -49,11 +69,13 @@ export default function prepare(serialized, transport, bigShops, misc) {
   });
 
   transport.forEach((group) => {
+    group.popupFn = transportPopup;
+    group.detailFn = transportDetail;
     group.layer = L.layerGroup(
       [...group.items
         .map((item) => L
           .marker([item.latitude, item.longitude], { icon: group.iconLayer }) // eslint-disable-line object-curly-newline
-          .bindPopup(getStopPopup(item))
+          .bindPopup(transportPopup(item))
         ),
       L.polyline(group.routeLines.map(({ points }) => points), {
         color: group.color,
@@ -74,10 +96,12 @@ export default function prepare(serialized, transport, bigShops, misc) {
   });
 
   [...bigShops, ...misc].forEach((group) => {
+    group.popupFn = bigShopPopup;
+    group.detailFn = bigShopDetail;
     group.layer = L.layerGroup(
       group.items.map((item) => L
         .marker([item.latitude, item.longitude], { icon: group.iconLayer }) // eslint-disable-line object-curly-newline
-        .bindPopup(`<h3>${item.address}</h3>${item.openingTimes.map((time) => `<p>${time}</p>`).join('')}`)
+        .bindPopup(bigShopPopup(item))
       )
     );
   });

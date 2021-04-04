@@ -1,19 +1,19 @@
-import { bigShops, misc, transport } from './store';
+import { groups } from './store';
 
-const all = [...bigShops, ...misc, ...transport];
+function toggleGroup(group, mapInstance) {
+  if (group.isVisible) {
+    mapInstance.addLayer(group.layer);
+  } else {
+    mapInstance.removeLayer(group.layer);
+  }
+
+  if (group.rangeLayers) {
+    Object.values(group.rangeLayers).forEach((layer) => mapInstance.removeLayer(layer));
+
+    mapInstance.addLayer(group.rangeLayers[group.showRange]);
+  }
+}
 
 export default function showMarkers(mapInstance) {
-  all.forEach((group) => {
-    if (group.isVisible) {
-      mapInstance.addLayer(group.layer);
-    } else {
-      mapInstance.removeLayer(group.layer);
-    }
-
-    if (group.rangeLayers) {
-      Object.values(group.rangeLayers).forEach((layer) => mapInstance.removeLayer(layer));
-
-      mapInstance.addLayer(group.rangeLayers[group.showRange]);
-    }
-  });
+  groups.forEach((group) => toggleGroup(group, mapInstance));
 }

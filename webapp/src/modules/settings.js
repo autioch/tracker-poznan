@@ -5,7 +5,7 @@ import tag from 'lean-tag';
 import createBarButton from '../barButton';
 import icons from '../icons';
 import createPanel from '../panel';
-import { bigShops, misc, saveSettings, transport } from '../store';
+import { categories, saveSettings } from '../store';
 
 export default function settings(mapInstance) {
   const { contentEl, panelEl } = createPanel('Settings', closePanel, { style: { width: 'calc(100% - 20px)' } }); // eslint-disable-line no-use-before-define
@@ -50,15 +50,14 @@ export default function settings(mapInstance) {
     saveSettings();
   }
 
-  function headerRow(label) {
-    return tag('div.tp-panel__header', label);
-  }
-
   function groupRow(group) {
     return tag(
       'div.tp-settings-group',
       tag('img.tp-settings-group__img', { src: group.iconRound }),
-      tag('div.tp-settings-group__info', tag('', group.label), tag('.tp-settings__detail', `${group.items.length} items`)),
+      tag('div.tp-settings-group__info',
+          tag('', group.label),
+          tag('.tp-settings__detail', `${group.items.length} items`)
+      ),
       tag('label.tp-settings-group__cell',
           tag('input', { type: 'checkbox', checked: group.isVisible, onchange: (ev) => changeVisibility(group, ev.target.checked) }),
           tag('div', `Display`)
@@ -80,11 +79,9 @@ export default function settings(mapInstance) {
   }
 
   contentEl.append(
-    headerRow('Transport'),
-    ...transport.map(groupRow),
-    headerRow('Shops'),
-    ...bigShops.map(groupRow),
-    headerRow('Miscellaneous'),
-    ...misc.map(groupRow)
+    ...categories.flatMap(({ label, groups }) => [
+      tag('div.tp-panel__subheader', label),
+      ...groups.map(groupRow)
+    ])
   );
 }

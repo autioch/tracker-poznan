@@ -3,11 +3,7 @@ import { bigShops, misc, transport } from './groups';
 import prepare from './prepare';
 const LS_KEY = 'tracker-poznan-settings1';
 
-const serialized = (() => {
-  const text = localStorage.getItem(LS_KEY);
-
-  return text ? JSON.parse(text) : {};
-})();
+const serialized = JSON.parse(localStorage.getItem(LS_KEY) || '{}');
 
 prepare(serialized, transport, bigShops, misc);
 
@@ -21,10 +17,29 @@ function saveSettings() {
   localStorage.setItem(LS_KEY, JSON.stringify(settings));
 }
 
+const groups = [...bigShops, ...misc, ...transport];
+
+const categories = [
+  {
+    id: 'transport',
+    label: 'Transport',
+    groups: transport
+  },
+  {
+    id: 'shops',
+    label: 'Shops',
+    groups: bigShops
+  },
+  {
+    id: 'miscellaneous',
+    label: 'Miscellaneous',
+    groups: misc
+  }
+];
+
 export {
-  transport,
-  bigShops,
-  misc,
+  categories,
+  groups,
   boundaries,
   saveSettings
 };

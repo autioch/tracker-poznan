@@ -3,7 +3,7 @@ import L from 'leaflet';
 
 import icons from './icons';
 import createPanel from './panel';
-import { bigShops, misc, transport } from './store';
+import { groups } from './store';
 import { getMinimalBounds, haversine } from './utils';
 
 const myIcon = L.icon({
@@ -16,7 +16,7 @@ const myIcon = L.icon({
 let layers = [];
 
 function setupClosest(latlng) {
-  const sources = [...transport, ...bigShops, ...misc].filter((source) => source.isMeasured);
+  const sources = groups.filter((source) => source.isMeasured);
 
   sources.forEach((source) => {
     const distances = source.items.map((item) => [haversine(latlng, [item.latitude, item.longitude]), item]);
@@ -48,9 +48,12 @@ function showDistances(sources, mapInstance, latlng) {
   const iconsLayer = L.layerGroup(
     sources
       .filter((group) => !group.isVisible)
-      .flatMap((group) => group.closest.map(([, item]) => L.marker([item.latitude, item.longitude], {
-        icon: group.iconLayer
-      })))
+      .flatMap((group) => group.closest.map(([, item]) => L
+        .marker([item.latitude, item.longitude], {
+          icon: group.iconLayer
+        })
+        .bindPopup(group.popupFn(item))
+      ))
   );
 
   layers.push(...polylines, iconsLayer, clickMarker);
@@ -62,34 +65,6 @@ const { panelEl, contentEl } = createPanel('Closest points', removeDistances, {
     'max-height': '50%'
   }
 });
-
-function stopInfo([dist, stp]) {
-  return `<li>${stp.stopName} (${(dist * 1000).toFixed(0)}m): ${stp.routeIds.join(', ')}</li>`;
-}
-
-function shopInfo([dist, shop]) {
-  return `<li>${shop.address} (${(dist * 1000).toFixed(0)}m)</li>`;
-}
-
-function showInfo() {
-  const transportHtml = transport
-    .filter((source) => source.isMeasured)
-    .map((source) => `<div>${source.label}</div><ol>${source.closest.map(stopInfo).join('')}</ol>`)
-    .join('');
-
-  const bigShopsHtml = bigShops
-    .filter((source) => source.isMeasured)
-    .map((source) => `<div>${source.label}</div><ol>${source.closest.map(shopInfo).join('')}</ol>`)
-    .join('');
-
-  const miscHtml = misc
-    .filter((source) => source.isMeasured)
-    .map((source) => `<div>${source.label}</div><ol>${source.closest.map(shopInfo).join('')}</ol>`)
-    .join('');
-
-  contentEl.innerHTML = transportHtml + bigShopsHtml + miscHtml;
-  panelEl.classList.remove('is-hidden');
-}
 
 export default function showClosest(mapInstance, latlng) {
   removeDistances();
@@ -103,5 +78,6 @@ export default function showClosest(mapInstance, latlng) {
 
   mapInstance.fitBounds(minimalBounds);
 
-  showInfo();
+  contentEl.innerHTML = groups.filter((group) => group.isMeasured).map((group) => group.detailFn(group)).join('');
+  panelEl.classList.remove('is-hidden');
 }

@@ -47,7 +47,6 @@ export const transport = [
 ];
 
 export const bigShops = [
-
   {
     id: 'lidl',
     label: 'Lidl',

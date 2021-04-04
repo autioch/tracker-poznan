@@ -7,7 +7,7 @@ export default function custom(mapInstance) {
     showClosest(mapInstance, [ev.latlng.lat, ev.latlng.lng]);
   }
 
-  const buttonEl = createBarButton(icons.custom, function toggleClicking() {
+  const buttonEl = createBarButton(icons.custom, () => {
     const isActive = buttonEl.classList.contains('is-active');
 
     buttonEl.classList.toggle('is-active', !isActive);
