@@ -4,12 +4,18 @@ import L from 'leaflet';
 
 // import ranges from './data/ranges.json';
 
-function itemDetail([dist, { label, summary = [] }]) {
-  return `<li>${label} (${(dist * 1000).toFixed(0)}m)${summary.length ? ': ' : ''}${summary.join(', ')}</li>`;
+function itemDetail([dist, { label, closestLines = [] }]) {
+  const distance = `${(dist * 1000).toFixed(0)}m`;
+
+  return `<li>${label} (${distance})${closestLines.length ? ': ' : ''}${closestLines.join(', ')}</li>`;
 }
 
 function groupDetailFn({ label, closest }) {
   return `<div>${label}</div><ol>${closest.map(itemDetail).join('')}</ol>`;
+}
+
+function popupHtml({ label, popupLines = [], address }) {
+  return `<h3>${label}</h3>${address ? `<h4>${address}</h4>` : ''}${popupLines.map((line) => `<p>${line}</p>`).join('')}`;
 }
 
 // function renderRange(polygon, color) {
@@ -43,6 +49,7 @@ export default function prepare(serialized, transport, shops, misc) {
     Object.assign(group, serialized[group.id] || defaultSettings);
 
     group.items.forEach((item) => {
+      item.popupHtml = popupHtml(item);
       item.group = group;
     });
     group.iconLayer = L.icon({
@@ -55,17 +62,6 @@ export default function prepare(serialized, transport, shops, misc) {
 
   transport.forEach((group) => {
     group.detailFn = groupDetailFn;
-    group.items.forEach((item) => {
-      item.popupHtml = `<h3>${item.label}</h3><h4>${item.address}</h4>${item.description.map((line) => `<p>${line}</p>`).join('')}`;
-    });
-
-    // group.items.forEach((item) => {
-    //   item.popupHtml = `
-    //     <h3>${item.zoneId} ${item.stopName}</h3>
-    //     <p>Linie: ${item.routeIds.join(', ')}</p>
-    //     ${item.agencyIds.map((agencyId) => `<p>${agencies[agencyId].label.replace('Sp. z o.o.', '').trim()}</p>`).join('')}
-    //   `;
-    // });
     group.layer = L.layerGroup(
       [...group.items
         .map((item) => L
@@ -95,9 +91,6 @@ export default function prepare(serialized, transport, shops, misc) {
 
   [...shops, ...misc].forEach((group) => {
     group.detailFn = groupDetailFn;
-    group.items.forEach((item) => {
-      item.popupHtml = `<h3>${item.label}</h3><h4>${item.address}</h4>${item.description.map((line) => `<p>${line}</p>`).join('')}`;
-    });
     group.layer = L.layerGroup(
       group.items.map((item) => L
         .marker([item.latitude, item.longitude], {

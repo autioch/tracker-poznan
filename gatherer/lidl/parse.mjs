@@ -9,7 +9,7 @@ const shopList = data.d.results.map((shop) => ({
   city: shop.Locality,
   longitude: shop.Longitude,
   latitude: shop.Latitude,
-  description: shop.OpeningTimes.split(',').map((time) => time.trim())
+  popupLines: shop.OpeningTimes.split(',').map((time) => time.trim())
 }));
 
 saveOutputItems('lidl', shopList);

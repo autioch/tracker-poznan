@@ -30,7 +30,7 @@ function getShopList(html, pageIndex) {
       city: $shop.find('h4').text().replace(address, '').trim(),
       longitude: null,
       latitude: null,
-      description: $shop.find('p').html().split('<br>').map((text) => $(text.trim()).text()).slice(1, -1)
+      popupLines: $shop.find('p').html().split('<br>').map((text) => $(text.trim()).text()).slice(1, -1)
     };
   });
 

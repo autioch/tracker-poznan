@@ -23,7 +23,7 @@ function getItemList(html) {
       city,
       longitude: parseFloat($el.attr('data-lng').replace(',', '.')),
       latitude: parseFloat($el.attr('data-lat').replace(',', '.')),
-      description: openingTimes.map((text) => text.trim()).filter(Boolean)
+      popupLines: openingTimes.map((text) => text.trim()).filter(Boolean)
     };
   });
 
