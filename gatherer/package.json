@@ -17,7 +17,8 @@
     "parse:mpk": "node ./mpk/parse.mjs",
     "parse:netto": "node ./netto/parse.mjs",
     "parse:pharmacy": "node ./pharmacy/parse.mjs",
-    "parse:zabka": "node ./zabka/parse.mjs"
+    "parse:zabka": "node ./zabka/parse.mjs",
+    "test": "mocha mpk/*.spec.js --watch"
   },
   "dependencies": {
     "@turf/difference": "6.0.2",

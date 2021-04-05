@@ -74,8 +74,6 @@ export default function prepare(serialized, transport, shops, misc) {
         L.polyline(group.routeLines, {
           color: group.color,
           weight: 2
-
-          // dashArray: [3, 3]
         })
       ]
     );

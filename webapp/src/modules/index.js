@@ -1,4 +1,5 @@
 import about from './about';
+import center from './center';
 import custom from './custom';
 import locate from './locate';
 import persistence from './persistence';
@@ -10,6 +11,7 @@ const modules = [
   settings,
   custom,
   locate,
+  center,
   about
 ];
 

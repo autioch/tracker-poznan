@@ -1,11 +1,14 @@
-import { saveOutputItems } from '../utils.mjs';
+import { joinFromCurrentDir, require, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
 import { BUS_ROUTE, BUS_TOURIST, MPK_AGENCY, NIGHT_ROUTE, TRAM_ROUTE, TRAM_TOURIST } from './consts.mjs';
+
+const optimizeShapeGroup = require(joinFromCurrentDir(import.meta)('optimizeShapeGroup.js'));
 
 const isDailyRoute = (routeId) => routeId !== TRAM_TOURIST && routeId !== BUS_TOURIST && !NIGHT_ROUTE.test(routeId);
 
 const pickRouteId = ({ route_id }) => route_id;
 const pickShapeId = ({ shape_id }) => shape_id;
 const sortPoints = ([a], [b]) => a - b;
+const pickLatLng = ([, lat, lng]) => [lat, lng];
 
 function uniqStr(strArr) {
   const n = {};
@@ -34,14 +37,14 @@ export default function parseLines(shapes, routes, trips) {
     if (!obj[shape_id]) {
       obj[shape_id] = [];
     }
-    obj[shape_id].push([shape_pt_sequence, parseFloat(shape_pt_lat), parseFloat(shape_pt_lon)]);
+    obj[shape_id].push([shape_pt_sequence, shape_pt_lat, shape_pt_lon]);
 
     return obj;
   }, {});
 
-  const tramShapes = tramShapeIds.map((shapeId) => shapesDict[shapeId].sort(sortPoints).map(([, x, y]) => [x, y]));
-  const busShapes = mpkBusShapeIds.map((shapeId) => shapesDict[shapeId].sort(sortPoints).map(([, x, y]) => [x, y]));
-  const otherBusShapes = otherBusShapeIds.map((shapeId) => shapesDict[shapeId].sort(sortPoints).map(([, x, y]) => [x, y]));
+  const tramShapes = optimizeShapeGroup(tramShapeIds.map((shapeId) => shapesDict[shapeId].sort(sortPoints).map(pickLatLng)));
+  const busShapes = optimizeShapeGroup(mpkBusShapeIds.map((shapeId) => shapesDict[shapeId].sort(sortPoints).map(pickLatLng)));
+  const otherBusShapes = optimizeShapeGroup(otherBusShapeIds.map((shapeId) => shapesDict[shapeId].sort(sortPoints).map(pickLatLng)));
 
   saveOutputItems('tramLines', tramShapes, true);
   saveOutputItems('busLines', busShapes, true);

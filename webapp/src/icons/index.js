@@ -1,6 +1,7 @@
 import about from './about.png';
 import biedronka from './biedronka.png';
 import bus from './bus.png';
+import center from './center.png';
 import closeIcon from './close.png';
 import currentLocation from './currentLocation.png';
 import custom from './custom.png';
@@ -17,6 +18,7 @@ import zabka from './zabka.png';
 export default {
   // UI
   about,
+  center,
   custom,
   currentLocation,
   settings,
