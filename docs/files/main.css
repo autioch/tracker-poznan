@@ -910,3 +910,7 @@ label.tp-settings-group__cell {
   color: #999;
   white-space: nowrap;
 }
+
+.tp-settings-group__label {
+  text-shadow: 0 0 1px #888;
+}

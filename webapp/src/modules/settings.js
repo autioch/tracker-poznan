@@ -56,7 +56,11 @@ export default function settings(mapInstance) {
         src: group.iconRound
       }),
       tag('div.tp-settings-group__info',
-          tag('', group.label),
+          tag('.tp-settings-group__label', group.label, {
+            style: {
+              color: group.color
+            }
+          }),
           tag('.tp-settings__detail', `${group.items.length} items`)
       ),
       tag('label.tp-settings-group__cell',
