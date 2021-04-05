@@ -1,11 +1,14 @@
 import icons from '../icons';
 import biedronka from './data/biedronka.json';
 import bus from './data/bus.json';
+import busLines from './data/busLines.json';
 import inpost from './data/inpost.json';
 import lidl from './data/lidl.json';
 import otherBus from './data/otherBus.json';
+import otherBusLines from './data/otherBusLines.json';
 import pharmacy from './data/pharmacy.json';
 import tram from './data/tram.json';
+import tramLines from './data/tramLines.json';
 import zabka from './data/zabka.json';
 
 export const transport = [
@@ -16,9 +19,9 @@ export const transport = [
     measureCount: 4,
     color: '#F0F',
     iconRound: icons.tram,
-    rangesKey: 'trams',
-
-    // routeLines: routeLines.filter(forTram),
+    rangesKey: 'tramStops',
+    isVisible: true,
+    routeLines: tramLines,
     isMeasured: true
   },
   {
@@ -28,9 +31,8 @@ export const transport = [
     measureCount: 4,
     color: '#FA0',
     iconRound: icons.bus,
-    rangesKey: 'mpkBuses',
-
-    // routeLines: routeLines.filter(forMpkBus),
+    rangesKey: 'mpkBusStops',
+    routeLines: busLines,
     isMeasured: true
   },
   {
@@ -40,9 +42,8 @@ export const transport = [
     measureCount: 4,
     color: '#333',
     iconRound: icons.otherBus,
-    rangesKey: 'otherBuses'
-
-    // routeLines: routeLines.filter(forOtherBus)
+    rangesKey: 'otherBusStops',
+    routeLines: otherBusLines
   }
 ];
 

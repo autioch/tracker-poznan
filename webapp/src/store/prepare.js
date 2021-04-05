@@ -1,8 +1,7 @@
 import L from 'leaflet';
 
 // import agencies from './data/agencies.json';
-
-// import ranges from './data/ranges.json';
+import mpkRanges from './data/mpkRanges.json';
 
 function itemDetail([dist, { label, closestLines = [] }]) {
   const distance = `${(dist * 1000).toFixed(0)}m`;
@@ -18,14 +17,14 @@ function popupHtml({ label, popupLines = [], address }) {
   return `<h3>${label}</h3>${address ? `<h4>${address}</h4>` : ''}${popupLines.map((line) => `<p>${line}</p>`).join('')}`;
 }
 
-// function renderRange(polygon, color) {
-//   return L.geoJson(polygon, {
-//     color,
-//     fillColor: color,
-//     fillOpacity: 0.2,
-//     stroke: false
-//   });
-// }
+function renderRange(polygon, color) {
+  return L.geoJson(polygon, {
+    color,
+    fillColor: color,
+    fillOpacity: 0.2,
+    stroke: false
+  });
+}
 
 const ICON_SIZE = 24;
 
@@ -55,7 +54,8 @@ export default function prepare(serialized, transport, shops, misc) {
     group.iconLayer = L.icon({
       iconUrl: group.iconRound,
       iconSize: [ICON_SIZE, ICON_SIZE],
-      iconAnchor: [ICON_SIZE / 2, ICON_SIZE],
+
+      // iconAnchor: [ICON_SIZE / 2, ICON_SIZE], // this would put it directly above, not in range circle
       popupAnchor: [0, -ICON_SIZE]
     });
   });
@@ -63,30 +63,31 @@ export default function prepare(serialized, transport, shops, misc) {
   transport.forEach((group) => {
     group.detailFn = groupDetailFn;
     group.layer = L.layerGroup(
-      [...group.items
-        .map((item) => L
-          .marker([item.latitude, item.longitude], {
-            icon: group.iconLayer
-          })
-          .bindPopup(item.popupHtml)
-        )
+      [
+        ...group.items.map(
+          (item) => L
+            .marker([item.latitude, item.longitude], {
+              icon: group.iconLayer
+            })
+            .bindPopup(item.popupHtml)
+        ),
+        L.polyline(group.routeLines, {
+          color: group.color,
+          weight: 2
 
-      // L.polyline(group.routeLines.map(({ points }) => points), {
-      //   color: group.color,
-      //   weight: 2,
-      //   dashArray: [3, 3]
-      // })
+          // dashArray: [3, 3]
+        })
       ]
     );
 
-    // group.rangeLayers = {
-    //   '0': renderRange([], group.color),
-    //   '100': renderRange(ranges[group.rangesKey][100], group.color),
-    //   '200': renderRange(ranges[group.rangesKey][200], group.color),
-    //   '300': renderRange(ranges[group.rangesKey][300], group.color),
-    //   '400': renderRange(ranges[group.rangesKey][400], group.color),
-    //   '500': renderRange(ranges[group.rangesKey][500], group.color)
-    // };
+    group.rangeLayers = {
+      '0': renderRange([], group.color),
+      '100': renderRange(mpkRanges[group.rangesKey][100], group.color),
+      '200': renderRange(mpkRanges[group.rangesKey][200], group.color),
+      '300': renderRange(mpkRanges[group.rangesKey][300], group.color),
+      '400': renderRange(mpkRanges[group.rangesKey][400], group.color),
+      '500': renderRange(mpkRanges[group.rangesKey][500], group.color)
+    };
   });
 
   [...shops, ...misc].forEach((group) => {
