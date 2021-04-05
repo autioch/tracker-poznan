@@ -22,14 +22,14 @@
 
 @media (orientation: landscape) {
   .tp-panel {
-    width: calc(50% - 20px);
+    max-width: calc(50% - 20px);
     height: calc(100% - 80px);
   }
 }
 
 @media (orientation: portrait) {
   .tp-panel {
-    height: calc(50% - 80px);
+    max-height: calc(50% - 80px);
     width: calc(100% - 20px);
   }
 }
