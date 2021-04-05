@@ -1,48 +1,49 @@
 import icons from '../icons';
 import biedronka from './data/biedronka.json';
+import bus from './data/bus.json';
+import busLines from './data/busLines.json';
 import inpost from './data/inpost.json';
 import lidl from './data/lidl.json';
+import otherBus from './data/otherBus.json';
+import otherBusLines from './data/otherBusLines.json';
 import pharmacy from './data/pharmacy.json';
-import routeLines from './data/routeLines.json';
-import stops from './data/stops.json';
+import tram from './data/tram.json';
+import tramLines from './data/tramLines.json';
 import zabka from './data/zabka.json';
-
-const forTram = ({ isForTram }) => isForTram;
-const forMpkBus = ({ isForMpkBus }) => isForMpkBus;
-const forOtherBus = ({ isForOtherBus }) => isForOtherBus;
 
 export const transport = [
   {
     id: 'commune_tram',
     label: 'Tram',
-    items: stops.filter(forTram),
+    items: tram,
     measureCount: 4,
     color: '#F0F',
     iconRound: icons.tram,
-    rangesKey: 'trams',
-    routeLines: routeLines.filter(forTram),
+    rangesKey: 'tramStops',
+    isVisible: true,
+    routeLines: tramLines,
     isMeasured: true
   },
   {
     id: 'commune_bus',
     label: 'Bus',
-    items: stops.filter(forMpkBus),
+    items: bus,
     measureCount: 4,
     color: '#FA0',
     iconRound: icons.bus,
-    rangesKey: 'mpkBuses',
-    routeLines: routeLines.filter(forMpkBus),
+    rangesKey: 'mpkBusStops',
+    routeLines: busLines,
     isMeasured: true
   },
   {
     id: 'commune_other',
     label: 'Other bus',
-    items: stops.filter(forOtherBus),
+    items: otherBus,
     measureCount: 4,
     color: '#333',
     iconRound: icons.otherBus,
-    rangesKey: 'otherBuses',
-    routeLines: routeLines.filter(forOtherBus)
+    rangesKey: 'otherBusStops',
+    routeLines: otherBusLines
   }
 ];
 

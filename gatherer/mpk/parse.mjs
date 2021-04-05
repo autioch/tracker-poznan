@@ -1,26 +1,32 @@
-import { joinFromCurrentDir, outputJoin, require, saveOutput } from '../utils.mjs'; // eslint-disable-line no-shadow
-import { mapAgencies, mapBoundaries, mapRanges, mapRouteLines, mapStops } from './mappers.mjs';
+import { joinFromCurrentDir, require } from '../utils.mjs'; // eslint-disable-line no-shadow
+import parseLines from './parseLines.mjs';
+
+// import parseRanges from './parseRanges.mjs';
+// import parseStops from './parseStops.mjs';
 
 const join = joinFromCurrentDir(import.meta, 'db');
 
-async function prepareWebData(fileName, mappingFn, tableNames, outputNames = []) {
-  const tables = tableNames.map((dbName) => require(join(`${dbName}.json`)));
-  const outputs = outputNames.map((outputName) => require(outputJoin(`${outputName}.json`)));
+// const stops = require(join('stops.json'));
+// const stopTimes = require(join('stop_times.json'));
+const trips = require(join('trips.json'));
+const routes = require(join('routes.json'));
+const shapes = require(join('shapes.json'));
 
-  console.log(fileName);
-  console.time(fileName);
-  const mapped = mappingFn(...tables, ...outputs);
+async function prepareWebData(step, fn, ...tables) {
+  console.log(step);
+  console.time(step);
 
-  console.timeLog(fileName, 'mapped');
+  const result = await fn(...tables);
 
-  await saveOutput(fileName, mapped);
-  console.timeEnd(fileName);
+  console.timeEnd(step);
+
+  return result;
 }
 
 (async () => {
-  await prepareWebData('agencies', mapAgencies, ['agency']);
-  await prepareWebData('stops', mapStops, ['stops', 'stop_times', 'routes', 'trips']);
-  await prepareWebData('routeLines', mapRouteLines, ['shapes', 'routes', 'trips']);
-  await prepareWebData('boundaries', mapBoundaries, [], ['stops']);
-  await prepareWebData('ranges', mapRanges, [], ['stops']);
+  // const parsedStops = await prepareWebData('stops', parseStops, stops, stopTimes, trips, routes);
+
+  // await prepareWebData('ranges', parseRanges, parsedStops);
+
+  await prepareWebData('lines', parseLines, shapes, routes, trips);
 })();

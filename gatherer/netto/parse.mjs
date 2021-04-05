@@ -14,7 +14,7 @@ const itemList = data
     city,
     longitude: lng,
     latitude: lat,
-    description: [] // todo opening times are mixed up
+    popupLines: [] // todo opening times are mixed up
   }));
 
 saveOutputItems('netto', itemList);

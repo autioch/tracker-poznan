@@ -14,7 +14,7 @@ const itemList = data
     city: '',
     longitude: lng,
     latitude: lat,
-    description: []
+    popupLines: []
   }));
 
 saveOutputItems('zabka', itemList);

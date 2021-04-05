@@ -28,7 +28,7 @@ const itemList = data.items
     city: (c || g || '').trim(),
     longitude: l.o,
     latitude: l.a,
-    description: [h]
+    popupLines: [h]
   }));
 
 saveOutputItems('inpost', itemList);

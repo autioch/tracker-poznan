@@ -1,10 +1,8 @@
 import cheerio from 'cheerio';
 import fs from 'fs/promises';
 
-// import { createRequire } from 'module';
 import { forwardGeocode, joinFromCurrentDir, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
 
-// const require = createRequire(import.meta.url); // eslint-disable-line no-shadow
 const join = joinFromCurrentDir(import.meta, 'db');
 
 const ID_REGEX = / a href="\/pl\/shop,id,(\d+),title,.+" class="showShopOnMap">Zobacz więcej<\/a /;
@@ -30,7 +28,7 @@ function getShopList(html, pageIndex) {
       city: $shop.find('h4').text().replace(address, '').trim(),
       longitude: null,
       latitude: null,
-      description: $shop.find('p').html().split('<br>').map((text) => $(text.trim()).text()).slice(1, -1)
+      popupLines: $shop.find('p').html().split('<br>').map((text) => $(text.trim()).text()).slice(1, -1)
     };
   });
 

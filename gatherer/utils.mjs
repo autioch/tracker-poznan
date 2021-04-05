@@ -36,7 +36,13 @@ export function saveOutput(fileName, fileContent, debug = false) {
   return fs.writeFile(outputJoin(`${fileName}.json`), JSON.stringify(fileContent, null, debug ? 2 : undefined)); // eslint-disable-line no-undefined
 }
 
-export function saveOutputItems(fileName, items) {
+export function saveOutputItems(fileName, items, skipDistanceCheck = false) {
+  if (skipDistanceCheck) {
+    console.log(`${fileName}: ${items.length} saved.`);
+
+    return saveOutput(fileName, items);
+  }
+
   const nearCenter = items.filter((item) => isNearPoznanCenter(item.latitude, item.longitude)); // eslint-disable-line no-use-before-define
 
   console.log(`${fileName}: ${items.length} found, ${nearCenter.length} saved.`);
