@@ -22,9 +22,14 @@ L
     attribution,
     id: tileTypeId,
     tileSize,
-    zoomOffset
+    zoomOffset,
+    zoomSnap: 0.5
   })
   .addTo(mapInstance);
+
+mapInstance.zoomControl.remove(); // zomControl: false doesn't seem to work?
+
+mapInstance.attributionControl.setPosition('bottomleft');
 
 runModules(mapInstance);
 

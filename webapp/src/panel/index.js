@@ -28,6 +28,7 @@ export default function createPanel(title, closeCallback, panelOptions = {}) {
 
   return {
     panelEl,
+    headerEl,
     contentEl
   };
 }

@@ -1,11 +1,11 @@
 import createBarButton from '../barButton';
 import icons from '../icons';
 
-const POZNAN_CENTER_LAT = 52.409538;
-const POZNAN_CENTER_LNG = 16.931992;
+const KAPONIERA_LAT = 52.40777954910866;
+const KAPONIERA_LNG = 16.912470459938053;
 
 export default function custom(mapInstance) {
   createBarButton(icons.center, () => {
-    mapInstance.flyTo([POZNAN_CENTER_LAT, POZNAN_CENTER_LNG]);
+    mapInstance.flyTo([KAPONIERA_LAT, KAPONIERA_LNG]);
   });
 }

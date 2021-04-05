@@ -16,10 +16,12 @@ function restoreLatLngZoom(mapInstance) {
     return;
   }
 
-  const itemPoints = groups
-    .filter((group) => group.isVisible)
+  const chosenGroups = groups.some((group) => group.isVisible) ? groups.filter((group) => group.isVisible) : groups;
+
+  const itemPoints = chosenGroups
     .flatMap((group) => group.items)
     .map((item) => [item.latitude, item.longitude]);
+
   const minimalBounds = getMinimalBounds(itemPoints);
 
   mapInstance.fitBounds(minimalBounds);

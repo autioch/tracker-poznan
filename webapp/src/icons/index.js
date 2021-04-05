@@ -7,9 +7,11 @@ import currentLocation from './currentLocation.png';
 import custom from './custom.png';
 import inpost from './inpost.png';
 import lidl from './lidl.png';
+import minus from './minus.png';
 import netto from './netto.png';
 import otherBus from './otherBus.png';
 import pharmacy from './pharmacy.png';
+import plus from './plus.png';
 import settings from './settings.png';
 import tram from './tram.png';
 import unknown from './unknown.png';
@@ -23,6 +25,8 @@ export default {
   currentLocation,
   settings,
   closeIcon,
+  plus,
+  minus,
 
   // Items
   biedronka,

@@ -25,10 +25,11 @@ function showDistances(sources, mapInstance, latlng) {
   });
 
   const polylines = sources.map((group) => L.polyline([
-    group.closest.map(([, item]) => [latlng, [item.latitude, item.longitude] ])
+    group.closest.map(([, item]) => [ [item.latitude, item.longitude], latlng])
   ], {
     weight: 2,
-    color: group.color
+    color: group.color,
+    dashArray: [4, 4]
   }));
 
   const iconsLayer = L.layerGroup(
@@ -46,11 +47,17 @@ function showDistances(sources, mapInstance, latlng) {
   layers.forEach((layer) => mapInstance.addLayer(layer));
 }
 
-const { panelEl, contentEl } = createPanel('Closest points', removeDistances, {
-  style: {
-    'max-height': '50%'
-  }
-});
+function groupDetailFn(group) {
+  const listItems = group.closest.map(([dist, { label, closestLines = [] }]) => {
+    const distance = `${(dist * 1000).toFixed(0)}m`;
+
+    return `<li>${label} (${distance})${closestLines.length ? ': ' : ''}${closestLines.join(', ')}</li>`;
+  });
+
+  return `<div>${group.label}</div><ol>${listItems.join('')}</ol>`;
+}
+
+const { headerEl, panelEl, contentEl } = createPanel('Closest points', removeDistances);
 
 export default function showClosest(mapInstance, latlng) {
   removeDistances();
@@ -65,6 +72,8 @@ export default function showClosest(mapInstance, latlng) {
 
   mapInstance.fitBounds(minimalBounds);
 
-  contentEl.innerHTML = measuredGroups.map((group) => group.detailFn(group)).join('');
+  contentEl.innerHTML = measuredGroups.map((group) => groupDetailFn(group)).join('');
   panelEl.classList.remove('is-hidden');
+  headerEl.innerHTML = `Closest points (${latlng.map((num) => num.toFixed(5)).join(',')})`;
+  headerEl.title = latlng.join(',');
 }

@@ -8,7 +8,7 @@ export default function createBarButton(icon, clickCallback) {
       src: icon
     }),
     {
-      onclick: clickCallback
+      onclick: (ev) => clickCallback(ev, buttonEl)
     }
   );
 

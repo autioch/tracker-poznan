@@ -1,3 +1,4 @@
+import './about.scss';
 import tag from 'lean-tag';
 
 import createBarButton from '../barButton';
@@ -25,21 +26,58 @@ export default function about() {
   }
 
   contentEl.append(
-    tag('div.tp-panel__header', 'About'),
-    tag('p', `Simple app for finding out closest points of interest.`),
-    tag('div.tp-panel__header', 'Data behind points of interest'),
+    tag('p', `Find closest communication, shops and other POI (Points Of Interest).`),
+    tag('div.tp-panel__header', 'Terms of use'),
     tag('ol',
-        tag('li', 'You\'re using this application on your own. '),
+        tag('li', 'You\'re using this application on your own.'),
         tag('li', 'I claim no rights to the presented data.'),
-        tag('li', 'I take no responsibility for any acts based on this app.'),
+        tag('li', 'I take no responsibility for any actions based on this app or its contents.'),
         tag('li', 'Data was collected using resources available on the internet.')
     ),
     tag('div.tp-panel__header', 'Usage'),
-    tag('ol',
-        tag('li', 'Use settings to change active points of interest.'),
-        tag('li', 'Use location to see nearby points of interest.'),
-        tag('li', 'Use pointer to see points of interest at given location.'),
-        tag('li', 'See about to see this message again.')
+    tag('div.tutorial',
+        tag('div.tutorial__item',
+            tag('img.tutorial__icon', {
+              src: icons.plus
+            }),
+            'Zoom in'
+        ),
+        tag('div.tutorial__item',
+            tag('img.tutorial__icon', {
+              src: icons.minus
+            }),
+            'Zoom out'
+        ),
+        tag('div.tutorial__item',
+            tag('img.tutorial__icon', {
+              src: icons.settings
+            }),
+            'Change displayed and measured POIs'
+        ),
+        tag('div.tutorial__item',
+            tag('img.tutorial__icon', {
+              src: icons.custom
+            }),
+            'Click on map to find closest POIs'
+        ),
+        tag('div.tutorial__item',
+            tag('img.tutorial__icon', {
+              src: icons.currentLocation
+            }),
+            'Use current location to find closest POIs'
+        ),
+        tag('div.tutorial__item',
+            tag('img.tutorial__icon', {
+              src: icons.center
+            }),
+            'Focus map on the Kaponiera'
+        ),
+        tag('div.tutorial__item',
+            tag('img.tutorial__icon', {
+              src: icons.about
+            }),
+            'Show this panel again'
+        )
     ),
     tag('div.tp-panel__header', 'Measuring distances'),
     tag('p', `Distances are measured in straight line - no obstacles are taken into account (rivers, roads, etc.).
@@ -49,7 +87,12 @@ export default function about() {
         tag('li', 'Search by address'),
         tag('li', 'Translating current location to an address'),
         tag('li', 'Button to reset to see all items (selected or not)'),
-        tag('li', 'Show night routes')
+        tag('li', 'Show night routes'),
+        tag('li', 'Items in details as links'),
+        tag('li', 'Review settings and details styling'),
+        tag('li', 'Better control over open popups'),
+        tag('li', 'Closing details shouldn\' remove details paths'),
+        tag('li', 'Show otherbus underneath standard bus')
     ),
     tag('div.tp-panel__header', 'Have fun!')
   );

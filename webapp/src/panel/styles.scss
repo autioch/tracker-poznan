@@ -2,8 +2,6 @@
   position: fixed;
   top: 10px;
   left: 10px;
-  max-width: calc(100% - 20px);
-  max-height: calc(100% - 80px);
   background: rgba(255,255,255,0.5);
   z-index: 1000;
   transition: top 300ms;
@@ -18,6 +16,21 @@
 
   &.is-hidden {
     top: 100%;
+  }
+}
+
+
+@media (orientation: landscape) {
+  .tp-panel {
+    width: calc(50% - 20px);
+    height: calc(100% - 80px);
+  }
+}
+
+@media (orientation: portrait) {
+  .tp-panel {
+    height: calc(50% - 80px);
+    width: calc(100% - 20px);
   }
 }
 
@@ -39,7 +52,7 @@
   font-size: 20px;
 
   &:not(:first-child) {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 .tp-panel__subheader {
