@@ -4,6 +4,7 @@ import bus from './data/bus.json';
 import busLines from './data/busLines.json';
 import inpost from './data/inpost.json';
 import lidl from './data/lidl.json';
+import netto from './data/netto.json';
 import otherBus from './data/otherBus.json';
 import otherBusLines from './data/otherBusLines.json';
 import pharmacy from './data/pharmacy.json';
@@ -63,6 +64,14 @@ export const shops = [
     measureCount: 2,
     color: '#E30713',
     iconRound: icons.biedronka
+  },
+  {
+    id: 'netto',
+    label: 'Netto',
+    items: netto,
+    measureCount: 2,
+    color: '#F5D300',
+    iconRound: icons.netto
   }
 ];
 
