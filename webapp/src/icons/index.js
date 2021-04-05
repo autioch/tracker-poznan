@@ -2,6 +2,7 @@ import about from './about.png';
 import biedronka from './biedronka.png';
 import bus from './bus.png';
 import center from './center.png';
+import chatapolska from './chatapolska.png';
 import closeIcon from './close.png';
 import currentLocation from './currentLocation.png';
 import custom from './custom.png';
@@ -31,6 +32,7 @@ export default {
   // Items
   biedronka,
   bus,
+  chatapolska,
   inpost,
   lidl,
   netto,

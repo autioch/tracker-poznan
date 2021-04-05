@@ -2,6 +2,7 @@ import icons from '../icons';
 import biedronka from './data/biedronka.json';
 import bus from './data/bus.json';
 import busLines from './data/busLines.json';
+import chatapolska from './data/chatapolska.json';
 import inpost from './data/inpost.json';
 import lidl from './data/lidl.json';
 import netto from './data/netto.json';
@@ -72,6 +73,14 @@ export const shops = [
     measureCount: 2,
     color: '#F5D300',
     iconRound: icons.netto
+  },
+  {
+    id: 'chatapolska',
+    label: 'Chata Polska',
+    items: chatapolska,
+    measureCount: 2,
+    color: '#009846',
+    iconRound: icons.chatapolska
   }
 ];
 

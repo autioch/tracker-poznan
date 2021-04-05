@@ -4,6 +4,7 @@
   "scripts": {
     "gather": "node ./gather.mjs",
     "gather:biedronka": "node ./biedronka/gather.mjs",
+    "gather:chatapolska": "node ./chatapolska/gather.mjs",
     "gather:inpost": "node ./inpost/gather.mjs",
     "gather:lidl": "node ./lidl/gather.mjs",
     "gather:mpk": "node ./mpk/gather.mjs",
@@ -12,6 +13,7 @@
     "gather:zabka": "node ./zabka/gather.mjs",
     "parse": "node ./parse.mjs",
     "parse:biedronka": "node ./biedronka/parse.mjs",
+    "parse:chatapolska": "node ./chatapolska/parse.mjs",
     "parse:inpost": "node ./inpost/parse.mjs",
     "parse:lidl": "node ./lidl/parse.mjs",
     "parse:mpk": "node ./mpk/parse.mjs",

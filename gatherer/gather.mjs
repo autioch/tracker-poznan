@@ -1,4 +1,5 @@
 import './biedronka/gather.mjs';
+import './chatapolska/gather.mjs';
 import './inpost/gather.mjs';
 import './lidl/gather.mjs';
 import './mpk/gather.mjs';
