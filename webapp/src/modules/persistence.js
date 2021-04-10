@@ -1,7 +1,7 @@
 import debounce from 'lodash.debounce';
-
-import { groups } from '../store';
-import { getMinimalBounds } from '../utils';
+import BoundsService from 'services/bounds';
+import groups from 'services/groups';
+import SettingsService from 'services/settings';
 
 const LS_KEY = 'tracker-poznan-viewport1';
 
@@ -16,15 +16,11 @@ function restoreLatLngZoom(mapInstance) {
     return;
   }
 
-  const chosenGroups = groups.some((group) => group.isVisible) ? groups.filter((group) => group.isVisible) : groups;
+  const visibleGroups = groups.filter((group) => SettingsService.getSetting(group.id).isVisible);
+  const chosenGroups = visibleGroups.length ? visibleGroups : groups;
+  const items = chosenGroups.flatMap((group) => group.items);
 
-  const itemPoints = chosenGroups
-    .flatMap((group) => group.items)
-    .map((item) => [item.latitude, item.longitude]);
-
-  const minimalBounds = getMinimalBounds(itemPoints);
-
-  mapInstance.fitBounds(minimalBounds);
+  BoundsService.fitMinimalBounds(mapInstance, items);
 }
 
 const saveLatLngZoom = debounce(({ target }) => {

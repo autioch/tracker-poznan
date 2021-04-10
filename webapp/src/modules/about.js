@@ -1,31 +1,15 @@
 import './about.scss';
-import tag from 'lean-tag';
 
-import createBarButton from '../barButton';
-import icons from '../icons';
-import createPanel from '../panel';
+import tag from 'lean-tag';
+import ButtonBarService from 'services/buttonBar';
+import PanelService from 'services/panel';
+
+import icons from './icons';
 
 const LS_KEY = 'tracker-poznan-about1';
 
-export default function about() {
-  const { contentEl, panelEl } = createPanel('Poznan tracker', closePanel); // eslint-disable-line no-use-before-define
-  const buttonEl = createBarButton(icons.about, togglePanel);// eslint-disable-line no-use-before-define
-
-  function closePanel() {
-    panelEl.classList.add('is-hidden');
-    buttonEl.classList.remove('is-active');
-  }
-
-  function openPanel() {
-    panelEl.classList.remove('is-hidden');
-    buttonEl.classList.add('is-active');
-  }
-
-  function togglePanel() {
-    buttonEl.classList.contains('is-active') ? closePanel() : openPanel();
-  }
-
-  contentEl.append(
+function getPanelContent() {
+  return [
     tag('p', `Find closest communication, shops and other POI (Points Of Interest).`),
     tag('div.tp-panel__header', 'Terms of use'),
     tag('ol',
@@ -56,6 +40,12 @@ export default function about() {
         ),
         tag('div.tutorial__item',
             tag('img.tutorial__icon', {
+              src: icons.measure
+            }),
+            'Display details about closest POIs'
+        ),
+        tag('div.tutorial__item',
+            tag('img.tutorial__icon', {
               src: icons.custom
             }),
             'Click on map to find closest POIs'
@@ -81,7 +71,7 @@ export default function about() {
     ),
     tag('div.tp-panel__header', 'Measuring distances'),
     tag('p', `Distances are measured in straight line - no obstacles are taken into account (rivers, roads, etc.).
-    Finding closest points would require a payed API, with a lot of requests needed.`),
+Finding closest points would require a payed API, with a lot of requests needed.`),
     tag('div.tp-panel__header', 'Potential next features'),
     tag('ul',
         tag('li', 'Search by address'),
@@ -90,12 +80,33 @@ export default function about() {
         tag('li', 'Show night routes'),
         tag('li', 'Items in details as links'),
         tag('li', 'Review settings and details styling'),
-        tag('li', 'Better control over open popups'),
-        tag('li', 'Closing details shouldn\' remove details paths'),
         tag('li', 'Show otherbus underneath standard bus')
     ),
     tag('div.tp-panel__header', 'Have fun!')
-  );
+  ];
+}
+
+export default function about() {
+  const buttonEl = ButtonBarService.addButton(icons.about, 'About', togglePanel);// eslint-disable-line no-use-before-define
+
+  function openPanel() {
+    buttonEl.classList.add('is-active');
+
+    PanelService.show(
+      'Poznan tracker',
+      () => buttonEl.classList.remove('is-active'),
+      getPanelContent()
+    );
+  }
+
+  function togglePanel() {
+    if (buttonEl.classList.contains('is-active')) {
+      PanelService.hide();
+      buttonEl.classList.remove('is-active');
+    } else {
+      openPanel();
+    }
+  }
 
   const serialized = localStorage.getItem(LS_KEY);
 

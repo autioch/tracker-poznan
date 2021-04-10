@@ -1,15 +1,16 @@
-import createBarButton from '../barButton';
-import icons from '../icons';
-import showClosest from '../showClosest';
+import ActiveLocationService from 'services/activeLocation';
+import ButtonBarService from 'services/buttonBar';
+
+import icons from './icons';
 
 export default function currentLocation(mapInstance) {
-  createBarButton(icons.currentLocation, () => {
+  ButtonBarService.addButton(icons.currentLocation, 'Set current location', () => {
     function success(position) {
       const { latitude, longitude } = position.coords;
 
       mapInstance.setView([latitude, longitude]);
 
-      showClosest(mapInstance, [latitude, longitude]);
+      ActiveLocationService.setLocation([latitude, longitude]);
     }
 
     if (navigator.geolocation) {

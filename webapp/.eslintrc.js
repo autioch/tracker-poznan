@@ -10,16 +10,11 @@ module.exports = {
     'no-magic-numbers': ['off'],
     'no-console': ['off'],
     'no-alert': ['off'],
+    'no-undefined': ['off'],
     'no-unused-expressions': ['off'],
     'max-len': ['off'],
 
-    'simple-import-sort/imports': ['warn', {
-      groups: [
-        ["^[^.]"], // node modules, global imports
-        ["^\\."],  // local imports
-        ["^"]      // any other imports (e.g. './styles')
-      ]
-    }],
+    'simple-import-sort/imports': ['warn'],
     'simple-import-sort/exports': ['off']
   }
 };

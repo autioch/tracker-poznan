@@ -1,7 +1,10 @@
 import about from './about';
 import center from './center';
 import custom from './custom';
+import lines from './lines';
 import locate from './locate';
+import markers from './markers';
+import measure from './measure';
 import persistence from './persistence';
 import settings from './settings';
 import zoom from './zoom';
@@ -11,8 +14,11 @@ const modules = [
   persistence,
   zoom,
   settings,
-  custom,
+  measure,
+  markers,
+  lines,
   locate,
+  custom,
   center,
   about
 ];

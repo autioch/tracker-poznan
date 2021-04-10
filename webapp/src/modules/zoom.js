@@ -1,5 +1,6 @@
-import createBarButton from '../barButton';
-import icons from '../icons';
+import ButtonBarService from 'services/buttonBar';
+
+import icons from './icons';
 
 export default function zoom(mapInstance) {
   function checkZoom(change) {
@@ -11,11 +12,12 @@ export default function zoom(mapInstance) {
     zoomOutButtonEl.classList.toggle('is-disabled', !(current > minZoom));// eslint-disable-line no-use-before-define
   }
 
-  const zoomInButtonEl = createBarButton(icons.plus, (ev, buttonEl) => { // eslint-disable-line no-unused-vars
+  const zoomInButtonEl = ButtonBarService.addButton(icons.plus, 'Zoom in', () => {
     mapInstance.zoomIn();
     checkZoom(1);
   });
-  const zoomOutButtonEl = createBarButton(icons.minus, (ev, buttonEl) => { // eslint-disable-line no-unused-vars
+
+  const zoomOutButtonEl = ButtonBarService.addButton(icons.minus, 'Zoom out', () => {
     mapInstance.zoomOut();
     checkZoom(-1);
   });
