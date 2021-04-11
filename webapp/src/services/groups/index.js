@@ -31,7 +31,7 @@ groups.forEach((group) => {
   group.layer = L.layerGroup(layerContents);
   group.rangeLayers = [
     [0, L.geoJson([])],
-    ...Object.entries(group.ranges || {}).map(([key, polygon]) => [key, L.geoJson(polygon, {
+    ...(group.ranges || []).map(([mode, polygon]) => [mode, L.geoJson(polygon, {
       color: group.color,
       fillColor: group.color,
       fillOpacity: 0.2,

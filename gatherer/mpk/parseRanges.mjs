@@ -17,37 +17,26 @@ function stopToCircle(radius) {
   };
 }
 
-const circle100 = stopToCircle(100);
-const circle200 = stopToCircle(200);
-const circle300 = stopToCircle(300);
-const circle400 = stopToCircle(400);
-const circle500 = stopToCircle(500);
+const modes = [100, 200, 300, 400, 500].map((mode) => {
+  const circle = stopToCircle(mode);
 
-const poly100 = (stopList) => turf.cleanCoords(stopList.map(circle100).reduce(union.default));
-const poly200 = (stopList) => turf.cleanCoords(stopList.map(circle200).reduce(union.default));
-const poly300 = (stopList) => turf.cleanCoords(stopList.map(circle300).reduce(union.default));
-const poly400 = (stopList) => turf.cleanCoords(stopList.map(circle400).reduce(union.default));
-const poly500 = (stopList) => turf.cleanCoords(stopList.map(circle500).reduce(union.default));
-
-const modes = Object.entries({
-  '100': poly100,
-  '200': poly200,
-  '300': poly300,
-  '400': poly400,
-  '500': poly500
+  return [mode, (stopList) => turf.cleanCoords(stopList.map(circle).reduce(union.default))];
 });
 
 export default function parseRanges(stops) {
-  const mpkRanges = Object.entries(stops).reduce((obj, [key, stopList]) => {
-    obj[key] = modes.reduce((obj2, [mode, fn]) => {
-      console.timeLog('ranges', 'ranges2', key, mode);
-      obj2[mode] = fn(stopList);
+  const allRanges = Object.entries(stops).map(([groupName, stopList]) => {
+    const modeList = modes.map(([mode, fn]) => {
+      console.timeLog('ranges', 'ranges2', groupName, mode);
 
-      return obj2;
-    }, {});
+      return [mode, fn(stopList)];
+    });
 
-    return obj;
-  }, {});
+    return [groupName, modeList];
+  });
 
-  saveOutputItems('mpkRanges', mpkRanges, true);
+  for (let i = 0; i < allRanges.length; i++) {
+    const [groupName, modeList] = allRanges[i];
+
+    saveOutputItems(groupName.rename('Stops', 'Ranges'), modeList, true);
+  }
 }

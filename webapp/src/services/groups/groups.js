@@ -1,18 +1,21 @@
 import biedronka from './data/biedronka.json';
 import bus from './data/bus.json';
 import busLines from './data/busLines.json';
+import busRanges from './data/busRanges.json';
 import chatapolska from './data/chatapolska.json';
 import inpost from './data/inpost.json';
 import lidl from './data/lidl.json';
-import mpkRanges from './data/mpkRanges.json';
 import netto from './data/netto.json';
 import night from './data/night.json';
 import nightLines from './data/nightLines.json';
+import nightRanges from './data/nightRanges.json';
 import otherBus from './data/otherBus.json';
 import otherBusLines from './data/otherBusLines.json';
+import otherBusRanges from './data/otherBusRanges.json';
 import pharmacy from './data/pharmacy.json';
 import tram from './data/tram.json';
 import tramLines from './data/tramLines.json';
+import tramRanges from './data/tramRanges.json';
 import zabka from './data/zabka.json';
 import icons from './icons';
 
@@ -26,7 +29,7 @@ export default [
     iconUrl: icons.tram,
     routeLines: tramLines,
     category: 'transport',
-    ranges: mpkRanges.tramStops
+    ranges: tramRanges
   },
   {
     id: 'commune_bus',
@@ -37,7 +40,7 @@ export default [
     iconUrl: icons.bus,
     routeLines: busLines,
     category: 'transport',
-    ranges: mpkRanges.mpkBusStops
+    ranges: busRanges
   },
   {
     id: 'commune_other',
@@ -48,7 +51,7 @@ export default [
     iconUrl: icons.otherBus,
     routeLines: otherBusLines,
     category: 'transport',
-    ranges: mpkRanges.otherBusStops
+    ranges: otherBusRanges
   },
   {
     id: 'commune_night',
@@ -58,9 +61,8 @@ export default [
     color: '#333',
     iconUrl: icons.night,
     routeLines: nightLines,
-    category: 'transport'
-
-    // ranges: mpkRanges.otherBusStops
+    category: 'transport',
+    ranges: nightRanges
   },
   {
     id: 'lidl',
