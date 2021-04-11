@@ -56,7 +56,7 @@ function groupRow(group) {
           checked: !!setting.isMeasured,
           onchange: (ev) => SettingsService.changeMeasuring(group, ev.target.checked)
         }),
-        tag('div.tp-settings-group__text', `Track`)
+        tag('div.tp-settings-group__text', `Measure`)
     ),
     tag('div.tp-settings-group__cell',
         group.rangeLayers.length > 1 ? [
@@ -70,7 +70,7 @@ function groupRow(group) {
                 selected: setting.showRange == key // eslint-disable-line eqeqeq
               }))
           ),
-          tag('div.tp-settings-group__text', `Range`)
+          tag('div.tp-settings-group__text', 'Reach')
         ] : []
     )
   );

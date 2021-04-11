@@ -78,7 +78,6 @@ Finding closest points would require a payed API, with a lot of requests needed.
         tag('li', 'Translating current location to an address'),
         tag('li', 'Button to reset to see all items (selected or not)'),
         tag('li', 'Show night routes'),
-        tag('li', 'Items in details as links'),
         tag('li', 'Review settings and details styling'),
         tag('li', 'Show otherbus underneath standard bus')
     ),

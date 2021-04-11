@@ -8,6 +8,13 @@ function fitMinimalBounds(mapInstance, pointList) {
   mapInstance.fitBounds(minimalBounds);
 }
 
+function centerMap(mapInstance, latLng) {
+  mapInstance.flyTo(latLng);
+}
+
 export default {
-  fitMinimalBounds
+  fitMinimalBounds,
+  centerMap
 };
+
+// TODO Inject map (with a method)

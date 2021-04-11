@@ -1,7 +1,8 @@
-import './about.scss';
+import './meaure.scss';
 
 import tag from 'lean-tag';
 import ActiveLocationService from 'services/activeLocation';
+import BoundsService from 'services/bounds';
 import ButtonBarService from 'services/buttonBar';
 import groups from 'services/groups';
 import PanelService from 'services/panel';
@@ -9,33 +10,65 @@ import SettingsService from 'services/settings';
 
 import icons from './icons';
 
-function getPanelContent() {
-  return groups.filter((group) => SettingsService.getSetting(group.id).isMeasured).flatMap((group) => [
-    tag('div', group.label),
-    tag('ol', group.closest
-      .map(([dist, { label, closestLines = [] }]) => tag('li', `${label} (${(dist * 1000).toFixed(0)}m)${closestLines.length ? ': ' : ''}${closestLines.join(', ')}`)))
-  ]);
+function getPanelContents(mapInstance) {
+  const latLng = ActiveLocationService.getLocation();
+
+  if (!latLng) {
+    return tag('div.tutorial',
+               tag('div.tp-panel__subheader', 'Select a point on map using one of the options:'),
+               tag('div.tutorial__item',
+                   tag('img.tutorial__icon', {
+                     src: icons.custom
+                   }),
+                   'Click on map to find closest POIs'
+               ),
+               tag('div.tutorial__item',
+                   tag('img.tutorial__icon', {
+                     src: icons.currentLocation
+                   }),
+                   'Use current location to find closest POIs'
+               )
+    );
+  }
+
+  const measuredGroups = groups.filter((group) => SettingsService.getSetting(group.id).isMeasured);
+
+  if (!measuredGroups.length) {
+    return tag('div.tutorial__item',
+               tag('img.tutorial__icon', {
+                 src: icons.settings
+               }),
+               'Set some measured POIs'
+    );
+  }
+
+  return [
+    tag('.measure-link.measure-header', `Selected: ${latLng.map((num) => num.toFixed(5)).join(',')}`),
+    ...groups.filter((group) => SettingsService.getSetting(group.id).isMeasured).flatMap((group) => [
+      tag('div', group.label),
+      tag('ol', group.closest
+        .map(([dist, { label, latitude, longitude, closestLines = [] }]) => tag(
+          'li.measure-link',
+          `${label} (${(dist * 1000).toFixed(0)}m)${closestLines.length ? ': ' : ''}${closestLines.join(', ')}`,
+          {
+            onclick: () => BoundsService.centerMap(mapInstance, [latitude, longitude])
+          }
+        )))
+    ])
+  ];
 }
 
-export default function measure() {
+export default function measure(mapInstance) {
   const buttonEl = ButtonBarService.addButton(icons.measure, 'Show distances', togglePanel);// eslint-disable-line no-use-before-define
 
   function openPanel() {
-    const latLng = ActiveLocationService.getLocation();
+    const content = getPanelContents(mapInstance);
 
-    if (latLng) {
-      PanelService.show(
-        `Closest points (${latLng.map((num) => num.toFixed(5)).join(',')})`,
-        () => buttonEl.classList.remove('is-active'),
-        getPanelContent()
-      );
-    } else {
-      PanelService.show(
-        `Closest points`,
-        () => buttonEl.classList.remove('is-active'),
-        tag('div.tp-panel__subheader', 'Select a point on map')
-      );
-    }
+    PanelService.show(
+      `Closest points`,
+      () => buttonEl.classList.remove('is-active'),
+      content
+    );
 
     buttonEl.classList.add('is-active');
   }
