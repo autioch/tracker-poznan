@@ -12,14 +12,37 @@ function setupClosest(silent = false) {
     return;
   }
 
-  groups
-    .filter((group) => SettingsService.getSetting(group.id).isMeasured)
-    .forEach((group) => {
-      const distances = group.items.map((item) => [haversine(latlng, [item.latitude, item.longitude]), item]);
+  const measuredGroups = groups.filter((group) => SettingsService.getSetting(group.id).isMeasured);
+  const shopLimit = SettingsService.getShopLimit();
 
-      distances.sort(([dist1], [dist2]) => dist1 - dist2);
-      group.closest = distances.slice(0, group.measureCount);
+  measuredGroups.forEach((group) => {
+    const distances = group.items.map((item) => [haversine(latlng, [item.latitude, item.longitude]), item]);
+
+    distances.sort(([dist1], [dist2]) => dist1 - dist2);
+    group.closest = distances.slice(0, group.measureCount);
+  });
+
+  if (shopLimit > 0) {
+    const shopGroups = measuredGroups.filter((group) => group.category === 'shop');
+
+    const allItems = shopGroups.flatMap((group) => group.closest);
+
+    const limitedItems = allItems.sort(([dist1], [dist2]) => dist1 - dist2).slice(0, shopLimit);
+
+    const byGroup = limitedItems.reduce((map, item) => {
+      if (map.has(item[1].group)) {
+        map.get(item[1].group).push(item);
+      } else {
+        map.set(item[1].group, [item]);
+      }
+
+      return map;
+    }, new Map());
+
+    shopGroups.forEach((group) => {
+      group.closest = byGroup.get(group) || [];
     });
+  }
 
   !silent && callbackFns.forEach((fn) => fn());
 }

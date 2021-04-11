@@ -8,6 +8,11 @@ import SettingsService from 'services/settings';
 
 import icons from './icons';
 
+const LIMIT_OPTIONS = [0, 1, 2, 3, 4, 5].map((value) => ({
+  value,
+  label: value === 0 ? 'None' : value.toString()
+}));
+
 const categories = [
   {
     id: 'transport',
@@ -17,7 +22,8 @@ const categories = [
   {
     id: 'shops',
     label: 'Shops',
-    groups: groups.filter((group) => group.category === 'shop')
+    groups: groups.filter((group) => group.category === 'shop'),
+    allowLimit: true
   },
   {
     id: 'misc',
@@ -79,8 +85,21 @@ function groupRow(group) {
 function getPanelContent() {
   return categories.flatMap((category) => [
     tag('div.tp-panel__subheader', category.label),
+    category.allowLimit ? tag('div.tp-settings__limit', [
+      tag('div', 'Limit total measured shops to: '),
+      tag('select',
+          {
+            onchange: (ev) => SettingsService.setShopLimit(ev.target.value),
+            value: SettingsService.getShopLimit()
+          },
+          LIMIT_OPTIONS.map(({ value, label }) => tag('option', label, {
+            value,
+            selected: value == SettingsService.getShopLimit() // eslint-disable-line eqeqeq
+          }))
+      )
+    ]) : [],
     ...category.groups.map(groupRow)
-  ]);
+  ]).flat();
 }
 
 export default function settingsModule() {

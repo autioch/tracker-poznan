@@ -10,6 +10,23 @@ import SettingsService from 'services/settings';
 
 import icons from './icons';
 
+function getCategoryRows(categoryLabel, categoryGroups, mapInstance) {
+  return categoryGroups.length ? [
+    tag('div.tp-panel__header', categoryLabel),
+    ...categoryGroups.flatMap((group) => [
+      tag('div.measure-subheader', group.label),
+      tag('ol', group.closest
+        .map(([dist, { label, latitude, longitude, closestLines = [] }]) => tag(
+          'li.measure-link',
+          `${label} (${(dist * 1000).toFixed(0)}m)${closestLines.length ? ': ' : ''}${closestLines.join(', ')}`,
+          {
+            onclick: () => BoundsService.centerMap(mapInstance, [latitude, longitude])
+          }
+        )))
+    ])
+  ] : [];
+}
+
 function getPanelContents(mapInstance) {
   const latLng = ActiveLocationService.getLocation();
 
@@ -31,7 +48,7 @@ function getPanelContents(mapInstance) {
     );
   }
 
-  const measuredGroups = groups.filter((group) => SettingsService.getSetting(group.id).isMeasured);
+  const measuredGroups = groups.filter((group) => SettingsService.getSetting(group.id).isMeasured && group.closest.length);
 
   if (!measuredGroups.length) {
     return tag('div.tutorial__item',
@@ -42,20 +59,16 @@ function getPanelContents(mapInstance) {
     );
   }
 
+  const transport = measuredGroups.filter((group) => group.category === 'transport');
+  const shop = measuredGroups.filter((group) => group.category === 'shop');
+  const misc = measuredGroups.filter((group) => group.category === 'misc');
+
   return [
     tag('.measure-link.measure-header', `Selected: ${latLng.map((num) => num.toFixed(5)).join(',')}`),
-    ...groups.filter((group) => SettingsService.getSetting(group.id).isMeasured).flatMap((group) => [
-      tag('div', group.label),
-      tag('ol', group.closest
-        .map(([dist, { label, latitude, longitude, closestLines = [] }]) => tag(
-          'li.measure-link',
-          `${label} (${(dist * 1000).toFixed(0)}m)${closestLines.length ? ': ' : ''}${closestLines.join(', ')}`,
-          {
-            onclick: () => BoundsService.centerMap(mapInstance, [latitude, longitude])
-          }
-        )))
-    ])
-  ];
+    getCategoryRows('Transport', transport, mapInstance),
+    getCategoryRows('Shops', shop, mapInstance),
+    getCategoryRows('Miscellaneous', misc, mapInstance)
+  ].flat();
 }
 
 export default function measure(mapInstance) {
