@@ -38,15 +38,7 @@ const modes = Object.entries({
 });
 
 export default function parseRanges(stops) {
-  const { tramStops, mpkBusStops, otherBusStops } = stops;
-
-  const sortedStops = {
-    tramStops,
-    mpkBusStops,
-    otherBusStops
-  };
-
-  const mpkRanges = Object.entries(sortedStops).reduce((obj, [key, stopList]) => {
+  const mpkRanges = Object.entries(stops).reduce((obj, [key, stopList]) => {
     obj[key] = modes.reduce((obj2, [mode, fn]) => {
       console.timeLog('ranges', 'ranges2', key, mode);
       obj2[mode] = fn(stopList);

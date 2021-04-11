@@ -6,6 +6,8 @@ import inpost from './data/inpost.json';
 import lidl from './data/lidl.json';
 import mpkRanges from './data/mpkRanges.json';
 import netto from './data/netto.json';
+import night from './data/night.json';
+import nightLines from './data/nightLines.json';
 import otherBus from './data/otherBus.json';
 import otherBusLines from './data/otherBusLines.json';
 import pharmacy from './data/pharmacy.json';
@@ -42,11 +44,23 @@ export default [
     label: 'Other bus',
     items: otherBus,
     measureCount: 4,
-    color: '#333',
+    color: '#A0F',
     iconUrl: icons.otherBus,
     routeLines: otherBusLines,
     category: 'transport',
     ranges: mpkRanges.otherBusStops
+  },
+  {
+    id: 'commune_night',
+    label: 'Nightly',
+    items: night,
+    measureCount: 4,
+    color: '#333',
+    iconUrl: icons.night,
+    routeLines: nightLines,
+    category: 'transport'
+
+    // ranges: mpkRanges.otherBusStops
   },
   {
     id: 'lidl',

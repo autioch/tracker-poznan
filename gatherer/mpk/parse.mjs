@@ -25,7 +25,7 @@ async function prepareWebData(step, fn, ...tables) {
 (async () => {
   const parsedStops = await prepareWebData('stops', parseStops, stops, stopTimes, trips, routes);
 
-  // await prepareWebData('ranges', parseRanges, parsedStops);
+  await prepareWebData('ranges', parseRanges, parsedStops);
 
-  // await prepareWebData('lines', parseLines, shapes, routes, trips);
+  await prepareWebData('lines', parseLines, shapes, routes, trips);
 })();
