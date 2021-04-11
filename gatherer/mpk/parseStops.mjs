@@ -19,16 +19,16 @@ function uniqStr(strArr) {
 }
 
 function getClosestLines(tramRoutes, busRoutes, otherBusRoutes) {
+  // minor int <-> bool conversion trick
   const existingRoutes = (tramRoutes.length > 0) + (busRoutes.length > 0) + (otherBusRoutes.length > 0);
 
-  // console.log(tramRoutes.length, busRoutes.length, otherBusRoutes.length);
-  if (!existingRoutes < 2) {
+  if (existingRoutes < 2) {
     return [...tramRoutes, ...busRoutes, ...otherBusRoutes];
   }
 
   const tramText = tramRoutes.length ? `Tram: ${tramRoutes.join(',')}` : '';
   const busText = busRoutes.length ? `Bus: ${busRoutes.join(',')}` : '';
-  const otherBusText = otherBusRoutes.length ? `Other bus: ${otherBusRoutes.join(',')}` : ''; // TODO Add agencies?
+  const otherBusText = otherBusRoutes.length ? `Other bus: ${otherBusRoutes.join(',')}` : '';
 
   return [tramText, busText, otherBusText].filter(Boolean);
 }
@@ -59,9 +59,11 @@ export default function parseStops(stops, stopTimes, trips, routes) {
   const { tramStopIds, mpkBusStopIds, otherBusStopIds } = stopTimes.reduce((obj, { trip_id, stop_id }) => {
     if (tramTripIds.has(trip_id)) {
       obj.tramStopIds.add(stop_id);
-    } else if (mpkBusTripIds.has(trip_id)) {
+    }
+    if (mpkBusTripIds.has(trip_id)) {
       obj.mpkBusStopIds.add(stop_id);
-    } else if (otherBusTripIds.has(trip_id)) {
+    }
+    if (otherBusTripIds.has(trip_id)) {
       obj.otherBusStopIds.add(stop_id);
     }
 
@@ -95,9 +97,11 @@ export default function parseStops(stops, stopTimes, trips, routes) {
 
     if (tramStopIds.has(stop_id)) {
       obj.tramStops.push(stopEl);
-    } else if (mpkBusStopIds.has(stop_id)) {
+    }
+    if (mpkBusStopIds.has(stop_id)) {
       obj.mpkBusStops.push(stopEl);
-    } else if (otherBusStopIds.has(stop_id)) {
+    }
+    if (otherBusStopIds.has(stop_id)) {
       obj.otherBusStops.push(stopEl);
     }
 

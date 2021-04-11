@@ -29,7 +29,7 @@ export function joinFromCurrentDir(importMeta, ...subfolders) {
   return join.bind(null, basePath);
 }
 
-export const outputJoin = joinFromCurrentDir(import.meta, '..', 'webapp', 'src', 'store', 'data');
+export const outputJoin = joinFromCurrentDir(import.meta, '..', 'webapp', 'src', 'services', 'groups', 'data');
 export const require = createRequire(import.meta.url); // eslint-disable-line no-shadow
 
 export function saveOutput(fileName, fileContent, debug = false) {
@@ -40,7 +40,7 @@ export function saveOutputItems(fileName, items, skipDistanceCheck = false) {
   if (skipDistanceCheck) {
     console.log(`${fileName}: ${items.length} saved.`);
 
-    return saveOutput(fileName, items, true);
+    return saveOutput(fileName, items);
   }
 
   const nearCenter = items.filter((item) => isNearPoznanCenter(item.latitude, item.longitude)); // eslint-disable-line no-use-before-define

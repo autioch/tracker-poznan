@@ -78,8 +78,7 @@ Finding closest points would require a payed API, with a lot of requests needed.
         tag('li', 'Translating current location to an address'),
         tag('li', 'Button to reset to see all items (selected or not)'),
         tag('li', 'Show night routes'),
-        tag('li', 'Review settings and details styling'),
-        tag('li', 'Show otherbus underneath standard bus')
+        tag('li', 'Allow finding any 3 closest shops, no matter the group')
     ),
     tag('div.tp-panel__header', 'Have fun!')
   ];

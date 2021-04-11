@@ -32,7 +32,6 @@ export default function parseLines(shapes, routes, trips) {
   const mpkBusShapeIds = uniqStr(trips.filter((trip) => mpkBusRouteIds.has(trip.route_id)).map(pickShapeId));
   const otherBusShapeIds = uniqStr(trips.filter((trip) => otherBusRouteIds.has(trip.route_id)).map(pickShapeId));
 
-  // TODO They should be unique, like in old version.
   const shapesDict = shapes.reduce((obj, { shape_id, shape_pt_lat, shape_pt_lon, shape_pt_sequence }) => {
     if (!obj[shape_id]) {
       obj[shape_id] = [];
