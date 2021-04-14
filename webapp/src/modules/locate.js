@@ -4,19 +4,35 @@ import ButtonBarService from 'services/buttonBar';
 import icons from './icons';
 
 export default function currentLocation(mapInstance) {
-  ButtonBarService.addButton(icons.currentLocation, 'Set current location', () => {
-    function success(position) {
-      const { latitude, longitude } = position.coords;
+  let watchId;
 
-      mapInstance.setView([latitude, longitude]);
+  function success(position) {
+    const { latitude, longitude } = position.coords;
 
-      ActiveLocationService.setLocation([latitude, longitude]);
+    mapInstance.setView([latitude, longitude]);
+
+    ActiveLocationService.setLocation([latitude, longitude]);
+  }
+
+  function error() {
+    alert('Unable to follow your location');
+  }
+
+  const buttonEl = ButtonBarService.addButton(icons.currentLocation, 'Follow current location', () => {
+    const isActive = !buttonEl.classList.contains('is-active');
+
+    buttonEl.classList.toggle('is-active', isActive);
+
+    if (isActive && !watchId) {
+      watchId = navigator.geolocation.watchPosition(success, error, {
+        enableHighAccuracy: true,
+        maximumAge: 5000
+      });
     }
 
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(success, () => alert('Unable to retrieve your location'));
-    } else {
-      alert('Geolocation is not supported by your browser');
+    if (!isActive && watchId) {
+      navigator.geolocation.clearWatch(watchId);
+      watchId = null;
     }
   });
 }

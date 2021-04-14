@@ -54,7 +54,7 @@ function getPanelContent() {
             tag('img.tutorial__icon', {
               src: icons.currentLocation
             }),
-            'Use current location to find closest POIs'
+            'Follow current location to find closest POIs'
         ),
         tag('div.tutorial__item',
             tag('img.tutorial__icon', {

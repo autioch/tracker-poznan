@@ -1,5 +1,5 @@
 {
-  "name": "leaftlet-map",
+  "name": "tracker-poznan-webapp",
   "private": true,
   "scripts": {
     "start": "webpack --config webpack.config.js --hide-modules --watch",
