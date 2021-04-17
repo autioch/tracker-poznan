@@ -1,3 +1,4 @@
+import './favicon.ico';
 import './styles';
 
 import { loadGroups } from './services/groups';
@@ -8,4 +9,4 @@ const mapInstance = createMap('tpMap');
 
 PersistenceService.restoreLatLngZoom(mapInstance);
 
-loadGroups().then(() => import('./modules' /* webpackChunkName: "modules" */).then((runModules) => runModules.default(mapInstance)));
+loadGroups().then(() => import(/* webpackChunkName: "modules" */'./modules').then((runModules) => runModules.default(mapInstance)));

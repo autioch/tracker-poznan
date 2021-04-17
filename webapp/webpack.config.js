@@ -43,7 +43,7 @@ module.exports = {
   devtool: argv.production ? undefined : 'eval',
   output: {
     path: buildPath,
-    filename: `files/main${nameSuffix}.js`,
+    filename: `files/[name]${nameSuffix}.js`,
     publicPath: argv.production ? '/tracker-poznan/' : '/',
     pathinfo: false
   },
@@ -54,7 +54,7 @@ module.exports = {
     }
   },
   resolve: {
-    extensions: ['.js', '.css', '.scss', '.svg', '.json'],
+    extensions: ['.js', '.css', '.scss', '.svg', '.json', '.ico'],
     modules: [
       sourcePath,
       'node_modules'
@@ -91,6 +91,14 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: 'images/[name].[ext]'
+        }
+      }
+    }, {
+      test: /\.(ico)$/i,
+      use: {
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]'
         }
       }
     }, {
@@ -141,7 +149,7 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ['!data/*']
+      cleanOnceBeforeBuildPatterns: ['**/*', '!data/*']
     }),
     new MiniCssExtractPlugin({
       filename: `files/[name]${nameSuffix}.css`
