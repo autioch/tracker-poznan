@@ -1,13 +1,11 @@
 import './styles';
 
 import { loadGroups } from './services/groups';
+import PersistenceService from './services/persistence';
 import { createMap } from './utils';
 
 const mapInstance = createMap('tpMap');
 
-mapInstance.setView([52.409538, 16.931992], 12);
+PersistenceService.restoreLatLngZoom(mapInstance);
 
-loadGroups()
-  .then(() => {
-    import('./modules' /* webpackChunkName: "modules" */).then((runModules) => runModules.default(mapInstance));
-  });
+loadGroups().then(() => import('./modules' /* webpackChunkName: "modules" */).then((runModules) => runModules.default(mapInstance)));

@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 import tag from 'lean-tag';
-import { getLabel } from 'utils';
+import { getLabel, jsonFromBytes, readBytes } from 'utils';
 
 import definitions from './definitions';
 
@@ -74,18 +74,31 @@ const dataKeys = {
 export default function loadData() {
   const dataPromises = items
     .map((item) => {
-      const loaderEl = tag('div.loader-item__status.is-hidden', 'loaded');
-      const itemEl = tag('div.loader-item', tag('div.loader-item__label', getLabel(item)), loaderEl);
+      const progressEl = tag('div.loader-item__progress');
+      const itemEl = tag(
+        'div.loader-item',
+        progressEl,
+        tag('div.loader-item__label', getLabel(item))
+      );
 
       window.tpSplashContent.append(itemEl);
 
       return fetch(`data/${item}.json`)
-        .then((resp) => resp.json())
-        .then((data) => {
-          loaderEl.classList.remove('is-hidden');
-          itemEl.classList.add('is-loaded');
+        .then((resp) => {
+          const reader = resp.body.getReader();
 
-          return [item, data];
+          const contentLength = Number(resp.headers.get('Content-Length') || 2000000);
+
+          return readBytes(reader, contentLength, (percent) => {
+            progressEl.style.width = `${percent}%`;
+          })
+            .then(({ chunks, receivedLength }) => {
+              const data = jsonFromBytes(chunks, receivedLength);
+
+              itemEl.classList.add('is-loaded');
+
+              return [item, data];
+            });
         });
     });
 

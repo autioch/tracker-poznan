@@ -66,7 +66,11 @@ html {
 
 #tpSplashContent {
   background: rgba(255,255,255,0.9);
-  font-size: 16px;
+  width: max(60vw, 400px);
+  width: 60vw;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #555;
 }
 
 @supports (backdrop-filter: blur(5px)) {
@@ -76,32 +80,46 @@ html {
   }
 }
 
-
-.loader-item {
-  display: flex;
-  width: max(50vw, 200px);
-  width: 50vw;
-  justify-content: space-between;
-  align-items: center;
-
-  &.is-loaded {
-    color: #090;
-  }
-}
-
 .loader-header {
   text-align: center;
-  padding: 5px;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.loader-item {
+  position: relative;
+  width: calc(100% - 10px);
+  overflow: hidden;
+  margin: 5px;
+  box-shadow: 0 0 3px #333;
+  height: 20px;
+
+  &.is-loaded::after {
+    content: "\2713";
+    position: absolute;
+    right: 5px;
+    top: 2px;
+  }
 }
 
 .loader-item__label {
   padding: 2px 5px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  text-shadow: 0 0 3px #fff;
 }
 
-.loader-item__status {
-  padding: 2px 5px;
-
-  &.is-hidden {
-    opacity: 0;
-  }
+.loader-item__progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(80, 190, 80, 1);
+  box-shadow: 0 0 3px #333;
+  transition: width 250ms;
 }
