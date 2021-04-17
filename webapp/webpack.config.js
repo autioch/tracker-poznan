@@ -140,7 +140,9 @@ module.exports = {
     }]
   },
   plugins: [
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: ['!data/*']
+    }),
     new MiniCssExtractPlugin({
       filename: `files/[name]${nameSuffix}.css`
     }),

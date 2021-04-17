@@ -51,3 +51,57 @@ html {
     margin-bottom: 5px;
   }
 }
+
+#tpSplash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#tpSplashContent {
+  background: rgba(255,255,255,0.9);
+  font-size: 16px;
+}
+
+@supports (backdrop-filter: blur(5px)) {
+  #tpSplashContent {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(5px);
+  }
+}
+
+
+.loader-item {
+  display: flex;
+  width: max(50vw, 200px);
+  width: 50vw;
+  justify-content: space-between;
+  align-items: center;
+
+  &.is-loaded {
+    color: #090;
+  }
+}
+
+.loader-header {
+  text-align: center;
+  padding: 5px;
+}
+
+.loader-item__label {
+  padding: 2px 5px;
+}
+
+.loader-item__status {
+  padding: 2px 5px;
+
+  &.is-hidden {
+    opacity: 0;
+  }
+}

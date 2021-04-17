@@ -1,27 +1,29 @@
 /* eslint-disable camelcase */
-// import tag from 'lean-tag';
+import tag from 'lean-tag';
+import { getLabel } from 'utils';
 
 import definitions from './definitions';
 
 const items = [
-  'biedronka',
+  'tram',
+  'tramLines',
+  'tramRanges',
   'bus',
   'busLines',
   'busRanges',
+  'otherBus',
+  'otherBusLines',
+  'otherBusRanges',
+  'night',
+  'nightLines',
+  'nightRanges',
+
+  'biedronka',
   'chatapolska',
   'inpost',
   'lidl',
   'netto',
-  'night',
-  'nightLines',
-  'nightRanges',
-  'otherBus',
-  'otherBusLines',
-  'otherBusRanges',
   'pharmacy',
-  'tram',
-  'tramLines',
-  'tramRanges',
   'zabka'
 ];
 
@@ -71,10 +73,21 @@ const dataKeys = {
 
 export default function loadData() {
   const dataPromises = items
-    .map((item) => fetch(`data/${item}.json`)
-      .then((resp) => resp.json())
-      .then((data) => [item, data])
-    );
+    .map((item) => {
+      const loaderEl = tag('div.loader-item__status.is-hidden', 'loaded');
+      const itemEl = tag('div.loader-item', tag('div.loader-item__label', getLabel(item)), loaderEl);
+
+      window.tpSplashContent.append(itemEl);
+
+      return fetch(`data/${item}.json`)
+        .then((resp) => resp.json())
+        .then((data) => {
+          loaderEl.classList.remove('is-hidden');
+          itemEl.classList.add('is-loaded');
+
+          return [item, data];
+        });
+    });
 
   return Promise
     .all(dataPromises)
@@ -88,6 +101,8 @@ export default function loadData() {
           group[key] = data[value];
         });
       });
+
+      setTimeout(() => document.body.removeChild(window.tpSplash), 1000);
 
       return definitions;
     });
