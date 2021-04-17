@@ -1,0 +1,10 @@
+// https://www.dostepnybankomat.pl/
+// https://bankomap.pl/
+// https://www.mastercard.pl/pl-pl/klient-indywidualny/pomoc/lokalizator-bankomatow.html
+// https://www.visa.com/atmlocator/#(page:results,params:(query:'52.409933824238465,16.904392213724968'))
+// https://www.planetcash.pl/znajdz-bankomat-i-wplatomat
+// https://nominatim.openstreetmap.org/ui/search.html
+// https://wiki.openstreetmap.org/wiki/Nominatim/Special_Phrases/PL
+// https://eteryt.stat.gov.pl/eTeryt/rejestr_teryt/aktualnosci/aktualnosci.aspx
+// https://miroslawmamczur.pl/jak-zmienic-adres-w-wspolrzedne-geograficzne-i-sprawdzic-np-najblizsze-restauracje-openstreetmap/
+// https://wiki.openstreetmap.org/wiki/Tag:atm%3Dyes

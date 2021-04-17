@@ -36,7 +36,9 @@ if (argv.watch) {
 
 module.exports = {
   mode: argv.production ? 'production' : 'development',
-  entry: join(sourcePath, 'index.js'),
+  entry: {
+    main: join(sourcePath, 'index.js')
+  },
   devtool: argv.production ? undefined : 'eval',
   output: {
     path: buildPath,

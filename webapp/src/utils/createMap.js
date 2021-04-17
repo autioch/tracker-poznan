@@ -25,7 +25,7 @@ export function createMap(elementId) {
     })
     .addTo(mapInstance);
 
-  mapInstance.zoomControl.remove(); // zomControl: false doesn't seem to work?
+  mapInstance.zoomControl.remove(); // zoomControl: false doesn't seem to work?
 
   mapInstance.attributionControl.setPosition('bottomleft');
 
