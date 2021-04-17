@@ -8,6 +8,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const LiveReloadPlugin = require('webpack-livereload-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const autoprefixer = require('autoprefixer');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const { argv } = require('yargs').options({
   production: {
@@ -28,7 +29,7 @@ const { argv } = require('yargs').options({
 const projectPath = __dirname;
 const sourcePath = join(projectPath, 'src');
 const buildPath = join(projectPath, '..', 'docs');
-const nameSuffix = argv.production ? `${new Date().getTime()}.min` : '';
+const nameSuffix = new Date().getTime() + (argv.production ? '.min' : '');
 
 if (argv.watch) {
   require('serve-local')(buildPath, argv.port);
@@ -46,8 +47,14 @@ module.exports = {
     publicPath: argv.production ? '/tracker-poznan/' : '/',
     pathinfo: false
   },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+      minSize: Infinity // Prevent splitting vendor chunks.
+    }
+  },
   resolve: {
-    extensions: ['.js', '.css', '.scss', '.svg'],
+    extensions: ['.js', '.css', '.scss', '.svg', '.json'],
     modules: [
       sourcePath,
       'node_modules'
@@ -71,11 +78,27 @@ module.exports = {
         }
       }
     }, {
-      test: /\.(ttf|eot|woff|png)$/i,
+      test: /\.(ttf|eot|woff)$/i,
       use: {
         loader: 'file-loader',
         options: {
-          name: 'files/[name].[ext]'
+          name: 'fonts/[name].[ext]'
+        }
+      }
+    }, {
+      test: /\.(png)$/i,
+      use: {
+        loader: 'file-loader',
+        options: {
+          name: 'images/[name].[ext]'
+        }
+      }
+    }, {
+      test: /\.(json)$/i,
+      use: {
+        loader: 'file-loader',
+        options: {
+          name: 'data/[name].[ext]'
         }
       }
     }, {
@@ -119,7 +142,16 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: `files/main${nameSuffix}.css`
+      filename: `files/[name]${nameSuffix}.css`
+    }),
+
+    new CopyPlugin({
+      patterns: [
+        {
+          from: join(projectPath, 'data'),
+          to: join(buildPath, 'data')
+        }
+      ]
     }),
     new HtmlWebpackPlugin({
       template: join(sourcePath, 'index.html'),

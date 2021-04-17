@@ -1,55 +1,4 @@
-html,
-body,
-#tpMap {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-html {
-  font-size: 12px;
-  font-family: Verdana, Arial;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-button {
-  display: none;
-}
-
-::-webkit-scrollbar-track {
-  background-color: #d8d8d8;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #bbb;
-  border-radius: 4px;
-}
-
-.tp-bar {
-  position: absolute;
-  left: 10px;
-  bottom: 28px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  z-index: 1001;
-}
-
-.leaflet-popup-content > p,
-.leaflet-popup-content > h3,
-.leaflet-popup-content > h4 {
-  margin: 0;
-}
-.leaflet-popup-content > h4 {
-  margin-bottom: 5px;
-}
+html,body,#tpMap{height:100%;width:100%;margin:0;padding:0;overflow:hidden}html{font-size:12px;font-family:Verdana,Arial}::-webkit-scrollbar{width:8px;border-radius:4px}::-webkit-scrollbar-button{display:none}::-webkit-scrollbar-track{background-color:#d8d8d8;border-radius:4px}::-webkit-scrollbar-thumb{background-color:#bbb;border-radius:4px}.tp-bar{position:absolute;left:10px;bottom:28px;display:-webkit-box;display:-ms-flexbox;display:flex;z-index:1001}.leaflet-popup-content>p,.leaflet-popup-content>h3,.leaflet-popup-content>h4{margin:0}.leaflet-popup-content>h4{margin-bottom:5px}
 /* required styles */
 
 .leaflet-pane,
@@ -403,12 +352,12 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	border-radius: 5px;
 	}
 .leaflet-control-layers-toggle {
-	background-image: url(/files/layers.png);
+	background-image: url(/tracker-poznan/images/layers.png);
 	width: 36px;
 	height: 36px;
 	}
 .leaflet-retina .leaflet-control-layers-toggle {
-	background-image: url(/files/layers-2x.png);
+	background-image: url(/tracker-poznan/images/layers-2x.png);
 	background-size: 26px 26px;
 	}
 .leaflet-touch .leaflet-control-layers-toggle {
@@ -449,7 +398,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 
 /* Default icon URLs */
 .leaflet-default-icon-path {
-	background-image: url(/files/marker-icon.png);
+	background-image: url(/tracker-poznan/images/marker-icon.png);
 	}
 
 
