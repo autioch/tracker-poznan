@@ -1,3 +1,4 @@
+import './atm/gather.mjs';
 import './biedronka/gather.mjs';
 import './chatapolska/gather.mjs';
 import './inpost/gather.mjs';

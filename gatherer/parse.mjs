@@ -1,3 +1,4 @@
+import './atm/parse.mjs';
 import './biedronka/parse.mjs';
 import './chatapolska/parse.mjs';
 import './inpost/parse.mjs';
