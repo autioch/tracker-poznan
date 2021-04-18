@@ -2,17 +2,17 @@ import { require } from '../utils.mjs'; // eslint-disable-line no-shadow
 
 function parseHours(hours) {
   if (!hours) {
-    return '';
+    return false;
   }
 
   if (hours.full) {
-    return ['24/7'];
+    return 'Open 24/7';
   }
   if (hours.partial) {
-    return hours.partial.split(',').map((t) => t.split('>').join(': '));
+    return hours.partial.split(',').map((t) => t.split('>').join(': ')).join(', ');
   }
 
-  return Object.entries(hours).map(([key, value]) => `${key}: ${value}`);
+  return Object.entries(hours).map(([key, value]) => `${key}: ${value}`).join(', ');
 }
 
 export default function dostepnybankomat() {
@@ -21,16 +21,16 @@ export default function dostepnybankomat() {
 
   const mapped = Object.values(atms).map(({ id, id_bank, id_owner, prefix, street, number, city, lat, lng, location_desc, hours }) => ({
     id,
-    label: banks[id_bank].name,
+    label: location_desc.replace(/^<p>/, '').replace(/<\/p>$/, '').trim(),
     address: [prefix, street, number].filter(Boolean).join(' ').trim(),
     city,
     longitude: parseFloat(lng),
     latitude: parseFloat(lat),
     source: 'dostepnyBankomat',
     popupLines: [
-      location_desc.replace(/^<p>/, '').replace(/<\/p>$/, '').trim(),
+      banks[id_bank].name,
       owners[id_owner].name,
-      ...parseHours(hours)
+      parseHours(hours)
     ].filter(Boolean)
   }));
 

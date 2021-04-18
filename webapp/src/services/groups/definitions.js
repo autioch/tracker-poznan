@@ -74,6 +74,14 @@ export default [
     category: 'misc'
   },
   {
+    id: 'atm',
+    label: 'ATM',
+    measureCount: 2,
+    color: '#000000',
+    iconUrl: icons.atm,
+    category: 'misc'
+  },
+  {
     id: 'inpost',
     label: 'Inpost',
     measureCount: 1,

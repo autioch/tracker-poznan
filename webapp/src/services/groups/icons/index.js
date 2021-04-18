@@ -1,3 +1,4 @@
+import atm from './atm.png';
 import biedronka from './biedronka.png';
 import bus from './bus.png';
 import chatapolska from './chatapolska.png';
@@ -11,6 +12,7 @@ import tram from './tram.png';
 import zabka from './zabka.png';
 
 export default {
+  atm,
   tram,
   bus,
   night,

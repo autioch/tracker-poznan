@@ -17,7 +17,8 @@ export default function parseData(groups) {
     });
 
     const layerContents = group.items.map((item) => L.marker([item.latitude, item.longitude], {
-      icon: group.iconLayer
+      icon: group.iconLayer,
+      opacity: 0.8
     }).bindPopup(item.popupHtml));
 
     if (group.routeLines) {

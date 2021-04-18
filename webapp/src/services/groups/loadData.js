@@ -20,11 +20,13 @@ const items = [
 
   'biedronka',
   'chatapolska',
-  'inpost',
   'lidl',
   'netto',
-  'pharmacy',
-  'zabka'
+
+  'atm',
+  'zabka',
+  'inpost',
+  'pharmacy'
 ];
 
 const dataKeys = {
@@ -48,6 +50,7 @@ const dataKeys = {
     routeLines: 'nightLines',
     ranges: 'nightRanges'
   },
+
   lidl: {
     items: 'lidl'
   },
@@ -59,6 +62,10 @@ const dataKeys = {
   },
   chatapolska: {
     items: 'chatapolska'
+  },
+
+  atm: {
+    items: 'atm'
   },
   zabka: {
     items: 'zabka'

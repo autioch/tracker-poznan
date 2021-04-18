@@ -24,7 +24,8 @@ function removeDistances() {
 
 function showDistances(sources, mapInstance, latlng) {
   const clickMarker = new L.Marker(latlng, { // todo can be array or has to be object?
-    icon: myIcon
+    icon: myIcon,
+    opacity: 0.8
   });
 
   const polylines = sources.map((group) => L.polyline([
@@ -40,7 +41,8 @@ function showDistances(sources, mapInstance, latlng) {
       .filter((group) => !SettingsService.getSetting(group.id).isVisible)
       .flatMap((group) => group.closest.map(([, item]) => L
         .marker([item.latitude, item.longitude], {
-          icon: group.iconLayer
+          icon: group.iconLayer,
+          opacity: 0.8
         })
         .bindPopup(item.popupHtml)
       ))

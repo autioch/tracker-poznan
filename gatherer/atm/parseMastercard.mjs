@@ -52,17 +52,17 @@ export default async function mastercard() {
 
   const mapped = itemList.map((item) => ({
     id: item['location.attr.id'],
-    label: [item['attribute#LOC_NAM'], item['attribute#LOCATION_TYPE_DESC']].join(', '),
+    label: item['attribute#LOC_NAM'],
     address: item['attribute#ADDR_LINE1'],
     city: item['attribute#CITY_NAM'],
     longitude: parseFloat(item['location -> 4#point.attr.longitude']),
     latitude: parseFloat(item['location -> 4#point.attr.latitude']),
     source: 'mastercard',
     popupLines: [
-      item['attribute#OWNR_NAM'],
+      item['attribute#LOCATION_TYPE_DESC'],
       item['attribute#LOC_DESC'],
+      item['attribute#OWNR_NAM'],
       item['attribute#SPNSR_NAM'],
-
       `Max withdrawal: ${[...new Set([
         item['attribute#MAX_WTHDRWL_LIMIT1'],
         item['attribute#MAX_WTHDRWL_LIMIT2'],

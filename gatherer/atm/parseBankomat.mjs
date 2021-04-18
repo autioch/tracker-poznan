@@ -23,13 +23,13 @@ export default function bankomatPl() {
 
     return {
       id: atmId,
-      label,
+      label: description,
       address: address.join(', '),
       city,
       longitude: parseFloat(lng1),
       latitude: parseFloat(lat1),
       source: 'bankomat',
-      popupLines: [description, providerMap.get(provider)].filter(Boolean)
+      popupLines: [label.replace('Bankomat ', ''), providerMap.get(provider)].filter(Boolean)
     };
   });
 
