@@ -47,7 +47,10 @@ function csvToJson(tableName) {
     const tableContent = [];
 
     fs.createReadStream(join(tableName))
-      .pipe(csvParser())
+      .pipe(csvParser({
+        mapHeaders: ({ header }) => header.trim(), // route_id has bom or other character
+        mapValues: ({ value }) => value.trim()
+      }))
       .on('data', (data) => tableContent.push(data))
       .on('end', () => {
         fs.promises
@@ -66,7 +69,7 @@ function csvToJson(tableName) {
   await extractZip();
 
   const tableNames = await fs.promises.readdir(join());
-  const tablePromises = tableNames.filter((tableName) => !tableName.endsWith('.zip')).map(csvToJson);
+  const tablePromises = tableNames.filter((tableName) => tableName.endsWith('.txt')).map(csvToJson);
 
   await Promise.all(tablePromises);
 

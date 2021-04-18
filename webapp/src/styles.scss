@@ -94,6 +94,12 @@ html {
   box-shadow: 0 0 3px #333;
   height: 20px;
 
+  &.is-error {
+    > .loader-item__label {
+      color: #f00;
+    }
+  }
+
   &.is-loaded::after {
     content: "\2713";
     position: absolute;

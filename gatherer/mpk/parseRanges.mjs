@@ -37,6 +37,6 @@ export default function parseRanges(stops) {
   for (let i = 0; i < allRanges.length; i++) {
     const [groupName, modeList] = allRanges[i];
 
-    saveOutputItems(groupName.rename('Stops', 'Ranges'), modeList, true);
+    saveOutputItems(groupName.replace('Stops', 'Ranges'), modeList, true);
   }
 }

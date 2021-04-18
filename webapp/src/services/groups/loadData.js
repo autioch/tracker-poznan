@@ -106,6 +106,11 @@ export default function loadData() {
 
               return [item, data];
             });
+        })
+        .catch(() => {
+          itemEl.classList.add('is-error');
+
+          return [item, [] ];
         });
     });
 
