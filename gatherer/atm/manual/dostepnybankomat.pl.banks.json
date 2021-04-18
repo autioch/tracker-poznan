@@ -1,0 +1,299 @@
+{
+  "status": "success",
+  "settings": {
+    "metaTitle": "Dostępny bankomat",
+    "metaDesc": "Strona umożliwia wszystkim użytkownikom sieci dostęp do bazy bankomatów z udogodnieniami dla osób z różnymi niepełnosprawnościami.",
+    "metaKey": "bankomat, dostępność, accessibility",
+    "contactEmail": "dostepnybankomat@zbp.pl",
+    "defectEmail": "dostepnybankomat@zbp.pl",
+    "idContact": "3",
+    "idAbout": "1",
+    "pageTitle": "Dostępny bankomat"
+  },
+  "banks": {
+    "1": {
+      "id": "1",
+      "name": "Alior Bank S.A.",
+      "www": "https://www.aliorbank.pl"
+    },
+    "3": {
+      "id": "3",
+      "name": "Euro Bank S.A.",
+      "www": "https://www.eurobank.pl"
+    },
+    "5": {
+      "id": "5",
+      "name": "BOŚ Bank",
+      "www": "https://www.bosbank.pl"
+    },
+    "6": {
+      "id": "6",
+      "name": "Deutsche Bank Polska S.A.",
+      "www": "https://www.deutschebank.pl"
+    },
+    "7": {
+      "id": "7",
+      "name": "Getin Bank S.A.",
+      "www": "https://www.getinbank.pl"
+    },
+    "8": {
+      "id": "8",
+      "name": "Idea Bank S.A.",
+      "www": "https://www.ideabank.pl"
+    },
+    "9": {
+      "id": "9",
+      "name": "Credit Agricole Bank Polska S.A.",
+      "www": "https://www.credit-agricole.pl"
+    },
+    "10": {
+      "id": "10",
+      "name": "Plus Bank S.A.",
+      "www": "https://plusbank.pl"
+    },
+    "11": {
+      "id": "11",
+      "name": "Bank Millennium S.A.",
+      "www": "https://www.bankmillennium.pl"
+    },
+    "12": {
+      "id": "12",
+      "name": "Santander Bank Polska",
+      "www": "https://www.bzwbk.pl/ms/obb/strona-glowna.html"
+    },
+    "13": {
+      "id": "13",
+      "name": "PKO Bank Polski S.A.",
+      "www": "https://www.pkobp.pl"
+    },
+    "14": {
+      "id": "14",
+      "name": "Bank Spółdzielczy Rzemiosła w Krakowie",
+      "www": "http://www.bsr.krakow.pl"
+    },
+    "15": {
+      "id": "15",
+      "name": "Bank Spółdzielczy w Białej Rawskiej",
+      "www": "http://www.bsbr.pl"
+    },
+    "16": {
+      "id": "16",
+      "name": "Bank Spółdzielczy w Grójcu",
+      "www": "http://www.bsgrojec.pl"
+    },
+    "17": {
+      "id": "17",
+      "name": "Bank Spółdzielczy w Kielcach",
+      "www": "http://bskielce.com.pl"
+    },
+    "18": {
+      "id": "18",
+      "name": "Bank Spółdzielczy w Koronowie",
+      "www": "http://www.bskoronowo.com.pl"
+    },
+    "19": {
+      "id": "19",
+      "name": "Bank Spółdzielczy w Malborku",
+      "www": "https://www.bs-malbork.pl/joomla/"
+    },
+    "20": {
+      "id": "20",
+      "name": "Bank Spółdzielczy w Płońsku",
+      "www": "http://www.bsplonsk.pl"
+    },
+    "21": {
+      "id": "21",
+      "name": "Bank Spółdzielczy w Tychach",
+      "www": "http://www.bstychy.com.pl"
+    },
+    "22": {
+      "id": "22",
+      "name": "Beskidzki Bank Spółdzielczy",
+      "www": "http://www.bankbbs.pl"
+    },
+    "23": {
+      "id": "23",
+      "name": "Hexa Bank Spółdzielczy",
+      "www": "http://hexabank.pl"
+    },
+    "24": {
+      "id": "24",
+      "name": "Mikołowski Bank Spółdzielczy",
+      "www": "https://bankmbs.pl"
+    },
+    "25": {
+      "id": "25",
+      "name": "Warszawski Bank Spółdzielczy",
+      "www": "https://www.bank-wbs.pl"
+    },
+    "26": {
+      "id": "26",
+      "name": "Bank Spółdzielczy w Limanowej",
+      "www": "http://www.bs.limanowa.pl"
+    },
+    "27": {
+      "id": "27",
+      "name": "SGB-Bank S.A.",
+      "www": "http://www.sgbbank.com.pl"
+    },
+    "28": {
+      "id": "28",
+      "name": "BNP Paribas S.A.",
+      "www": "https://www.bnpparibas.pl"
+    },
+    "29": {
+      "id": "29",
+      "name": "ING Bank Śląski S.A.",
+      "www": "https://www.ingbank.pl"
+    },
+    "30": {
+      "id": "30",
+      "name": "Bank Pekao S.A.",
+      "www": "https://www.pekao.com.pl"
+    },
+    "31": {
+      "id": "31",
+      "name": "mBank S.A.",
+      "www": "https://www.mbank.pl"
+    },
+    "33": {
+      "id": "33",
+      "name": "Bank Spółdzielczy w Bielsku Podlaskim",
+      "www": "https://www.bsbielsk.pl/"
+    },
+    "34": {
+      "id": "34",
+      "name": "Bank Handlowy w Warszawie S.A.",
+      "www": "www.citibank.pl"
+    },
+    "35": {
+      "id": "35",
+      "name": "Bank Polskiej Spółdzielczości S.A.",
+      "www": "https://www.bankbps.pl"
+    },
+    "36": {
+      "id": "36",
+      "name": "Gospodarczy Bank Spółdzielczy w Barlinku",
+      "www": "https://gbsbank.pl"
+    },
+    "37": {
+      "id": "37",
+      "name": "Inny Bank",
+      "www": "https://"
+    }
+  },
+  "owners": {
+    "1": {
+      "id": "1",
+      "name": "Euronet"
+    },
+    "2": {
+      "id": "2",
+      "name": "Bank Millennium"
+    },
+    "3": {
+      "id": "3",
+      "name": "Santander Bank Polska"
+    },
+    "4": {
+      "id": "4",
+      "name": "SGB Bank S.A."
+    },
+    "5": {
+      "id": "5",
+      "name": "PKO BP"
+    },
+    "6": {
+      "id": "6",
+      "name": "Planet Cash"
+    },
+    "7": {
+      "id": "7",
+      "name": "ING Bank Śląski S.A."
+    },
+    "8": {
+      "id": "8",
+      "name": "Pekao S.A."
+    },
+    "9": {
+      "id": "9",
+      "name": "Bank Spółdzielczy Rzemiosła w Krakowie"
+    },
+    "10": {
+      "id": "10",
+      "name": "Bank Spółdzielczy w Białej Rawskiej"
+    },
+    "11": {
+      "id": "11",
+      "name": "Bank Spółdzielczy w Grójcu"
+    },
+    "12": {
+      "id": "12",
+      "name": "Bank Spółdzielczy w Kielcach"
+    },
+    "13": {
+      "id": "13",
+      "name": "Bank Spółdzielczy w Malborku"
+    },
+    "14": {
+      "id": "14",
+      "name": "Beskidzki Bank Spółdzielczy"
+    },
+    "15": {
+      "id": "15",
+      "name": "Hexa Bank Spółdzielczy"
+    },
+    "16": {
+      "id": "16",
+      "name": "Mikołowski Bank Spółdzielczy"
+    },
+    "17": {
+      "id": "17",
+      "name": "Warszawski Bank Spółdzielczy"
+    },
+    "18": {
+      "id": "18",
+      "name": "Bank Spółdzielczy w Limanowej"
+    },
+    "19": {
+      "id": "19",
+      "name": "Bank Spółdzielczy w Tychach"
+    },
+    "20": {
+      "id": "20",
+      "name": "Bank Spółdzielczy w Płońsku"
+    },
+    "21": {
+      "id": "21",
+      "name": "Bank Spółdzielczy w Koronowie"
+    },
+    "22": {
+      "id": "22",
+      "name": "Raiffeisen Polbank S.A."
+    },
+    "23": {
+      "id": "23",
+      "name": "Bank Spółdzielczy w Bielsku Podlaskim"
+    },
+    "24": {
+      "id": "24",
+      "name": "Bank Handlowy w Warszawie S.A."
+    },
+    "25": {
+      "id": "25",
+      "name": "mBank S.A."
+    },
+    "26": {
+      "id": "26",
+      "name": "PlanetBPS"
+    },
+    "27": {
+      "id": "27",
+      "name": "PlanetBNPP"
+    },
+    "28": {
+      "id": "28",
+      "name": "Inny"
+    }
+  }
+}

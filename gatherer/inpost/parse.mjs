@@ -5,18 +5,18 @@ import { require, saveOutputItems } from '../utils.mjs'; // eslint-disable-line 
 
 const data = require('./inpost/db/points.json');
 
-// b - lokal
-// c - miejscowosc
-// d - opis
-// e - ulica
-// g - miejscowosc znormalizowane
-// h - godziny otwarcia
+// b - place
+// c - city
+// d - description
+// e - street
+// g - city normalized
+// h - openning hours
 // i - ?
 // l - a = lat, o = lng
 // n - id
-// o - kod pocztowy
+// o - postal code
 // p - ?
-// r - województwo
+// r - voivodeship
 // s - ?
 // t - ?
 

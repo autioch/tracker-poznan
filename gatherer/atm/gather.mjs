@@ -1,10 +1,24 @@
-// https://www.dostepnybankomat.pl/
-// https://bankomap.pl/
-// https://www.mastercard.pl/pl-pl/klient-indywidualny/pomoc/lokalizator-bankomatow.html
-// https://www.visa.com/atmlocator/#(page:results,params:(query:'52.409933824238465,16.904392213724968'))
-// https://www.planetcash.pl/znajdz-bankomat-i-wplatomat
+import fs from 'fs';
+
+import { getPage, joinFromCurrentDir } from '../utils.mjs';
+
+const join = joinFromCurrentDir(import.meta, 'db');
+
+// TODO
+// https://miroslawmamczur.pl/jak-zmienic-adres-w-wspolrzedne-geograficzne-i-sprawdzic-np-najblizsze-restauracje-openstreetmap/
 // https://nominatim.openstreetmap.org/ui/search.html
 // https://wiki.openstreetmap.org/wiki/Nominatim/Special_Phrases/PL
-// https://eteryt.stat.gov.pl/eTeryt/rejestr_teryt/aktualnosci/aktualnosci.aspx
-// https://miroslawmamczur.pl/jak-zmienic-adres-w-wspolrzedne-geograficzne-i-sprawdzic-np-najblizsze-restauracje-openstreetmap/
 // https://wiki.openstreetmap.org/wiki/Tag:atm%3Dyes
+
+// https://www.mastercard.pl/pl-pl/klient-indywidualny/pomoc/lokalizator-bankomatow.html
+const url = 'https://www.mastercard.pl/locator/NearestLocationsService/?latitude=52.406374&longitude=16.9251681&radius=5&distanceUnit=&locationType=atm&maxLocations=100&MERCH_ATTR_1=&instName=&supportEMV=&customAttr1=&locationTypeId=';
+
+(async () => {
+  if (!fs.existsSync(join())) {
+    await fs.promises.mkdir(join());
+  }
+
+  const xml = await getPage(url);
+
+  await fs.promises.writeFile(join('mastercard.xml'), xml);
+})();

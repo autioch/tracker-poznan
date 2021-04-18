@@ -1,0 +1,1252 @@
+[
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.4171115,
+                16.8772454
+            ]
+        },
+        "atmId": "pekao-A0040304",
+        "name": "Bankomat Pekao",
+        "addressTxt": "Poznań, ul. Nowina 9",
+        "description": "II Oddział w Poznaniu, Filia 4 w Poznaniu",
+        "provider": "pekao",
+        "__v": 0,
+        "distance": 631.7527244841797,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.4171115,
+                    16.8772454
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.411253,
+                16.868376
+            ]
+        },
+        "atmId": "planetcash-PNET1907",
+        "name": "Bankomat PlanetCash",
+        "addressTxt": "Poznań, Bułgarska 121/123",
+        "description": "Biedronka()",
+        "provider": "planetcash",
+        "__v": 0,
+        "distance": 807.7351215949948,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.411253,
+                    16.868376
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.4164886,
+                16.8819478
+            ]
+        },
+        "atmId": "santander-4700869",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Waryńskiego 1A",
+        "description": "Społem",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 1159.2884821901723,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.4164886,
+                    16.8819478
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.41059749,
+                16.86348554
+            ]
+        },
+        "atmId": "planetcash-RNET2561",
+        "name": "Bankomat PlanetCash",
+        "addressTxt": "Poznań, Bukowska 156",
+        "description": "King Cross Marcelin(oddział Getin Bank)",
+        "provider": "planetcash",
+        "__v": 0,
+        "distance": 1204.0954960838988,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.41059749,
+                    16.86348554
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.41059749,
+                16.86348554
+            ]
+        },
+        "atmId": "planetcash-RNET2562",
+        "name": "Bankomat PlanetCash",
+        "addressTxt": "Poznań, Bukowska 156",
+        "description": "King Cross Marcelin(Odział Getin Bank)",
+        "provider": "planetcash",
+        "__v": 0,
+        "distance": 1204.0954960838988,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.41059749,
+                    16.86348554
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.41059749,
+                16.86348554
+            ]
+        },
+        "atmId": "planetcash-RNET5C96",
+        "name": "Bankomat PlanetCash",
+        "addressTxt": "Poznań, Bukowska 156",
+        "description": "King Cross Marcelin(mKiosk)",
+        "provider": "planetcash",
+        "__v": 0,
+        "distance": 1204.0954960838988,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.41059749,
+                    16.86348554
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.41059749,
+                16.86348554
+            ]
+        },
+        "atmId": "planetcash-RNET5E47",
+        "name": "Bankomat PlanetCash",
+        "addressTxt": "Poznań, Bukowska 156",
+        "description": "King Cross Marcelin(poziom 0 obok sklepu Ryłko)",
+        "provider": "planetcash",
+        "__v": 0,
+        "distance": 1204.0954960838988,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.41059749,
+                    16.86348554
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.41059749,
+                16.86348554
+            ]
+        },
+        "atmId": "sgb-SGBA1768",
+        "name": "Bankomat SGB",
+        "addressTxt": "Poznań, Bukowska 156",
+        "description": "SGB SA",
+        "provider": "sgb",
+        "__v": 0,
+        "distance": 1204.0954960838988,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.41059749,
+                    16.86348554
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.411771,
+                16.862585
+            ]
+        },
+        "atmId": "sgb-S2AN1393",
+        "name": "Bankomat SGB",
+        "addressTxt": "Poznań, King Cross Bukowska 156",
+        "description": "SGB - SGB - Bank S.A.",
+        "provider": "sgb",
+        "__v": 0,
+        "distance": 1208.1485745406276,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.411771,
+                    16.862585
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.410801,
+                16.862961
+            ]
+        },
+        "atmId": "euronet-RCNJ0073",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Bukowska 156",
+        "description": "CH King Cross Marcelin",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 1235.070255003258,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.410801,
+                    16.862961
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.410878,
+                16.862779
+            ]
+        },
+        "atmId": "euronet-RCWJ0P27",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Bukowska 156",
+        "description": "CH King Cross Marcelin",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 1245.9491662715275,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.410878,
+                    16.862779
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.4160606,
+                16.88301165
+            ]
+        },
+        "atmId": "pko-3239",
+        "name": "Bankomat PKO",
+        "addressTxt": "60-578 Poznań, Pl. Ludwika Waryńskiego 3",
+        "description": "",
+        "provider": "pko",
+        "__v": 0,
+        "distance": 1283.2822277137584,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.4160606,
+                    16.88301165
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.4160606,
+                16.88304915
+            ]
+        },
+        "atmId": "pko-3388",
+        "name": "Bankomat PKO",
+        "addressTxt": "60-578 Poznań, Pl. Ludwika Waryńskiego 3",
+        "description": "",
+        "provider": "pko",
+        "__v": 0,
+        "distance": 1287.4009370989834,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.4160606,
+                    16.88304915
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.411039,
+                16.861463
+            ]
+        },
+        "atmId": "millennium-MBPL005R",
+        "name": "Bankomat Millennium",
+        "addressTxt": "Poznań, ul. Bukowska 156",
+        "description": "",
+        "provider": "millennium",
+        "__v": 0,
+        "distance": 1355.349226909574,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.411039,
+                    16.861463
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.41082,
+                16.861516
+            ]
+        },
+        "atmId": "santander-3900701",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Bukowska 156",
+        "description": "CH King Cross",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 1363.4203498392583,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.41082,
+                    16.861516
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.406117,
+                16.866846
+            ]
+        },
+        "atmId": "santander-3900047",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Kolorowa 8",
+        "description": "CWB Kolorowa",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 1376.2331687763176,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.406117,
+                    16.866846
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.4050675,
+                16.8749436
+            ]
+        },
+        "atmId": "pko-3694",
+        "name": "Bankomat PKO",
+        "addressTxt": "60-337 Poznań, ul. Grochowska 83/85",
+        "description": "Solarium",
+        "provider": "pko",
+        "__v": 0,
+        "distance": 1428.6134286693386,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.4050675,
+                    16.8749436
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.404583,
+                16.874013
+            ]
+        },
+        "atmId": "euronet-PLDJ0082",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Marcelińska 77",
+        "description": "Biedronka",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 1456.2267611991306,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.404583,
+                    16.874013
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.4135523,
+                16.8840687
+            ]
+        },
+        "atmId": "pko-4459",
+        "name": "Bankomat PKO",
+        "addressTxt": "60-568 Poznań, ul. Augustyna Szamarzawskiego 89",
+        "description": "",
+        "provider": "pko",
+        "__v": 0,
+        "distance": 1463.5187747012637,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.4135523,
+                    16.8840687
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.403336,
+                16.875248
+            ]
+        },
+        "atmId": "planetcash-RNET4489",
+        "name": "Bankomat PlanetCash",
+        "addressTxt": "Poznań, Grochowska 69_",
+        "description": "budynek biurowy()",
+        "provider": "planetcash",
+        "__v": 0,
+        "distance": 1615.634734546028,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.403336,
+                    16.875248
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.4033089,
+                16.8752352
+            ]
+        },
+        "atmId": "ing-RNET4489",
+        "name": "Bankomat ING",
+        "addressTxt": "Poznań, Grochowska 69",
+        "description": "budynek biurowy",
+        "provider": "ing",
+        "__v": 0,
+        "distance": 1618.077883669376,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.4033089,
+                    16.8752352
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.4121235,
+                16.887611600000014
+            ]
+        },
+        "atmId": "sgb-SGBA1794",
+        "name": "Bankomat SGB",
+        "addressTxt": "Poznań, Szamarzewskiego 62",
+        "description": "SGB SA",
+        "provider": "sgb",
+        "__v": 0,
+        "distance": 1886.0376025883368,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.4121235,
+                    16.887611600000014
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.3996039,
+                16.87547
+            ]
+        },
+        "atmId": "pko-3786",
+        "name": "Bankomat PKO",
+        "addressTxt": "60-332 Poznań, ul. Grochowska 49",
+        "description": "brak",
+        "provider": "pko",
+        "__v": 0,
+        "distance": 2008.2524769989475,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.3996039,
+                    16.87547
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.416236,
+                16.889779
+            ]
+        },
+        "atmId": "santander-3900703",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Jana H. Dąbrowskiego 129/131",
+        "description": "31 Oddział",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 2028.4048606474055,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.416236,
+                    16.889779
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.416236,
+                16.889779
+            ]
+        },
+        "atmId": "santander-3900836",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Jana H. Dąbrowskiego 129/131",
+        "description": "31 Oddział",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 2028.4048606474055,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.416236,
+                    16.889779
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.415879,
+                16.890197
+            ]
+        },
+        "atmId": "santander-3900017",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Jana H. Dąbrowskiego 129/131",
+        "description": "31 Oddział",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 2078.5744092049977,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.415879,
+                    16.890197
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.406595,
+                16.888907
+            ]
+        },
+        "atmId": "santander-1362509",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Przybyszewskiego 39a",
+        "description": "Stacja BP",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 2275.5465680394705,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.406595,
+                    16.888907
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.396544,
+                16.868465
+            ]
+        },
+        "atmId": "santander-1362518",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Grunwaldzka 108",
+        "description": "Stacja BP",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 2315.530182891788,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.396544,
+                    16.868465
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.403545,
+                16.887797
+            ]
+        },
+        "atmId": "pko-2952",
+        "name": "Bankomat PKO",
+        "addressTxt": "60-355 Poznań, ul. Przybyszewskiego 49",
+        "description": "",
+        "provider": "pko",
+        "__v": 0,
+        "distance": 2369.6192481359,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.403545,
+                    16.887797
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.405749,
+                16.890824
+            ]
+        },
+        "atmId": "santander-4700023",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Marcelińska 23",
+        "description": "CH Piotr i Paweł",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 2504.3308332282395,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.405749,
+                    16.890824
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.441328,
+                16.867077
+            ]
+        },
+        "atmId": "euronet-RCDJ0BV4",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Koszalińska",
+        "description": "Biedronka",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 2533.7358164463476,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.441328,
+                    16.867077
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.395111,
+                16.862469
+            ]
+        },
+        "atmId": "santander-3900727",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Jugosłowiańska 10",
+        "description": "2 Oddział",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 2645.921451545228,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.395111,
+                    16.862469
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.395111,
+                16.862469
+            ]
+        },
+        "atmId": "santander-3900843",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Jugosłowiańska 10",
+        "description": "2 Oddział",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 2645.921451545228,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.395111,
+                    16.862469
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.402863,
+                16.891286
+            ]
+        },
+        "atmId": "planetcash-PNET6506",
+        "name": "Bankomat PlanetCash",
+        "addressTxt": "Poznań, Grunwaldzka 38A/3",
+        "description": "BNP Paribas()",
+        "provider": "planetcash",
+        "__v": 0,
+        "distance": 2718.928073625298,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.402863,
+                    16.891286
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.3939018,
+                16.8633171
+            ]
+        },
+        "atmId": "pko-2643",
+        "name": "Bankomat PKO",
+        "addressTxt": "60-301 Poznań, ul. Jugosłowiańska 22",
+        "description": "",
+        "provider": "pko",
+        "__v": 0,
+        "distance": 2731.7691768299,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.3939018,
+                    16.8633171
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.411569,
+                16.89542
+            ]
+        },
+        "atmId": "euronet-RCNJ0AE9",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Polna 28",
+        "description": "Netto",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 2735.259937925942,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.411569,
+                    16.89542
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.409784,
+                16.895052
+            ]
+        },
+        "atmId": "euronet-PLWJ0195",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Polna 33",
+        "description": "Szpital Kliniczny UM",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 2750.2966663100297,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.409784,
+                    16.895052
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.41099,
+                16.895483
+            ]
+        },
+        "atmId": "euronet-RCNJ0J84",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Polna 40",
+        "description": "Pati i Maks",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 2758.164657564137,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.41099,
+                    16.895483
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.4107342,
+                16.8954659
+            ]
+        },
+        "atmId": "planetcash-PNET8349",
+        "name": "Bankomat PlanetCash",
+        "addressTxt": "Poznań, Polna 41",
+        "description": "Biedronka()",
+        "provider": "planetcash",
+        "__v": 0,
+        "distance": 2763.8661160970614,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.4107342,
+                    16.8954659
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.402941,
+                16.892096
+            ]
+        },
+        "atmId": "santander-1080807",
+        "name": "Bankomat Santander",
+        "addressTxt": "Poznań, Grunwaldzka 38A",
+        "description": "42 Oddział",
+        "provider": "santander",
+        "__v": 0,
+        "distance": 2787.1754086809624,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.402941,
+                    16.892096
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.3944054,
+                16.8606307
+            ]
+        },
+        "atmId": "pekao-A5600270",
+        "name": "Bankomat Pekao",
+        "addressTxt": "Poznań, ul. Grunwaldzka 165",
+        "description": "Oddział w Poznaniu ul. Grunwaldzka 165",
+        "provider": "pekao",
+        "__v": 0,
+        "distance": 2798.7889106516077,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.3944054,
+                    16.8606307
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.429926,
+                16.848915
+            ]
+        },
+        "atmId": "euronet-RCDJ0639",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Tatrzańska 1/5",
+        "description": "Piotr i Paweł",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 2829.4238821328563,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.429926,
+                    16.848915
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.430128,
+                16.8485
+            ]
+        },
+        "atmId": "euronet-PLNJ1017",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Tatrzańska 1/5",
+        "description": "Piotr i Paweł",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 2880.3676183451275,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.430128,
+                    16.8485
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.391016,
+                16.867185
+            ]
+        },
+        "atmId": "euronet-PLDJ0131",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Gwiaździsta 30",
+        "description": "Biedronka",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 2919.717260659706,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.391016,
+                    16.867185
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.41431,
+                16.897721
+            ]
+        },
+        "atmId": "euronet-PLNJ0153",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Dąbrowskiego 79",
+        "description": "Biedronka",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 2930.3737393849997,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.41431,
+                    16.897721
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.4456111111111,
+                16.8742777777778
+            ]
+        },
+        "atmId": "pekao-A5550207",
+        "name": "Bankomat Pekao",
+        "addressTxt": "Poznań, ul. Literacka 43h/2",
+        "description": "Studio Kosmetyczne URODA",
+        "provider": "pekao",
+        "__v": 0,
+        "distance": 2953.2152202231446,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.4456111111111,
+                    16.8742777777778
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.3903405,
+                16.875251
+            ]
+        },
+        "atmId": "planetcash-PNET2358",
+        "name": "Bankomat PlanetCash",
+        "addressTxt": "Poznań, Ściegiennego 64",
+        "description": "Biedronka()",
+        "provider": "planetcash",
+        "__v": 0,
+        "distance": 2976.5216154106865,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.3903405,
+                    16.875251
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.4006,
+                16.8926
+            ]
+        },
+        "atmId": "planetcash-PNET1987",
+        "name": "Bankomat PlanetCash",
+        "addressTxt": "Poznań, Wojskowa 3C",
+        "description": "Biedronka()",
+        "provider": "planetcash",
+        "__v": 0,
+        "distance": 2981.7124829616055,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.4006,
+                    16.8926
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.446288,
+                16.874754
+            ]
+        },
+        "atmId": "euronet-PLNJ0220",
+        "name": "Bankomat Euronet",
+        "addressTxt": "Poznań, ul. Literacka 34",
+        "description": "Przy Chacie Polskiej",
+        "provider": "euronet",
+        "__v": 0,
+        "distance": 3030.5777895410633,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.446288,
+                    16.874754
+                ]
+            }
+        }
+    },
+    {
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                52.3905535,
+                16.8645098
+            ]
+        },
+        "atmId": "pko-3345",
+        "name": "Bankomat PKO",
+        "addressTxt": "60-158 Poznań, ul. Jana Keplera 1",
+        "description": "pasaż handlowy, przy sklepie Chata Polska",
+        "provider": "pko",
+        "__v": 0,
+        "distance": 3032.2860978018302,
+        "dist": {
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    52.3905535,
+                    16.8645098
+                ]
+            }
+        }
+    }
+]

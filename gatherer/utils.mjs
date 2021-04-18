@@ -67,6 +67,30 @@ export function getPage(url) {
   });
 }
 
+// todo
+// export function postRequest(url) {
+//   let content = '';
+//   const options = {
+//     // hostname: 'encrypted.google.com',
+//     port: 443,
+//     path: '/',
+//     method: 'POST'
+//   };
+//
+//   return new Promise((res) => {
+//     const req = https.request(url, options, (resp) => {
+//       resp.setEncoding('utf8');
+//       resp.on('data', (chunk) => {
+//         content += chunk;
+//       });
+//
+//       resp.on('end', () => res(content));
+//     });
+//
+//     req.end();
+//   });
+// }
+
 // https://opencagedata.com/api#forward
 // https://opencagedata.com/tutorials/geocode-in-javascript
 // https://opencagedata.com/tutorials/geocode-in-nodejs
@@ -96,4 +120,22 @@ export async function forwardGeocode(address, city) {
   }
 
   return results[0].geometry;
+}
+
+export async function debugList(arr, fileName) {
+  const grouped = arr.reduce((obj, item) => {
+    Object.entries(item).forEach(([key, value]) => {
+      if (!obj[key]) {
+        obj[key] = new Set();
+      }
+
+      obj[key].add(JSON.stringify(value));
+    });
+
+    return obj;
+  }, {});
+
+  const final = Object.entries(grouped).map(([key, set]) => [key, [...set].sort().map((str) => JSON.parse(str))]);
+
+  await fs.writeFile(fileName, JSON.stringify(final, null, '  '));
 }

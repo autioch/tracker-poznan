@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "gather": "node ./gather.mjs",
+    "gather:atm": "node ./atm/gather.mjs",
     "gather:biedronka": "node ./biedronka/gather.mjs",
     "gather:chatapolska": "node ./chatapolska/gather.mjs",
     "gather:inpost": "node ./inpost/gather.mjs",
@@ -12,6 +13,7 @@
     "gather:pharmacy": "node ./pharmacy/gather.mjs",
     "gather:zabka": "node ./zabka/gather.mjs",
     "parse": "node ./parse.mjs",
+    "parse:atm": "node ./atm/parse.mjs",
     "parse:biedronka": "node ./biedronka/parse.mjs",
     "parse:chatapolska": "node ./chatapolska/parse.mjs",
     "parse:inpost": "node ./inpost/parse.mjs",
@@ -38,6 +40,7 @@
     "extract-zip": "2.0.1",
     "mocha": "3.4.2",
     "serve-local": "1.0.1",
-    "spherical": "0.2.0"
+    "spherical": "0.2.0",
+    "xml2js": "^0.4.23"
   }
 }
