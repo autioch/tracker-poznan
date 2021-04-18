@@ -1,5 +1,4 @@
 import { require } from '../utils.mjs'; // eslint-disable-line no-shadow
-import cleanupList from './cleanupList.mjs';
 
 export default function bankomatPl() {
   const providers = require('./atm/manual/bankomat.pl.providers.json');
@@ -34,5 +33,5 @@ export default function bankomatPl() {
     };
   });
 
-  return cleanupList(mapped, 'bankomat');
+  return mapped;
 }

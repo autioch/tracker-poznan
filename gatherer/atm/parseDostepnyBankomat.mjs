@@ -1,5 +1,4 @@
 import { require } from '../utils.mjs'; // eslint-disable-line no-shadow
-import cleanupList from './cleanupList.mjs';
 
 function parseHours(hours) {
   if (!hours) {
@@ -35,5 +34,5 @@ export default function dostepnybankomat() {
     ].filter(Boolean)
   }));
 
-  return cleanupList(mapped, 'dostepnyBankomat');
+  return mapped;
 }

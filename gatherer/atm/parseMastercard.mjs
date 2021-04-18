@@ -2,7 +2,6 @@ import fs from 'fs/promises';
 import xml2js from 'xml2js';
 
 import { joinFromCurrentDir } from '../utils.mjs'; // eslint-disable-line no-shadow
-import cleanupList from './cleanupList.mjs';
 
 const join = joinFromCurrentDir(import.meta, 'db');
 
@@ -77,5 +76,5 @@ export default async function mastercard() {
     ].filter(Boolean)
   }));
 
-  return cleanupList(mapped, 'mastercard');
+  return mapped;
 }

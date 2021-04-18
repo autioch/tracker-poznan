@@ -1,3 +1,4 @@
+/* eslint-disable max-nested-callbacks */
 import fs from 'fs';
 
 import { joinFromCurrentDir } from '../utils.mjs'; // eslint-disable-line no-shadow
@@ -8,7 +9,7 @@ import parsePlanetCash from './parsePlanetCash.mjs';
 
 const join = joinFromCurrentDir(import.meta, 'db');
 
-const PREC = 10;
+// const PREC = 10;
 const roundNum = (num) => num;// Math.round(num * PREC) / PREC;
 const ensureDict = (obj, key, val) => obj[key] || (obj[key] = val);
 
@@ -47,11 +48,12 @@ const ensureDict = (obj, key, val) => obj[key] || (obj[key] = val);
 
   Object.entries(dict).forEach(([lat, latDict]) => {
     Object.entries(latDict).forEach(([lng, items]) => {
-      if (items.length > 1) {
+      if (items.length !== 1) {
         ensureDict(ensureDict(newDict, lat, {}), lng, []).push(...items);
       }
     });
   });
 
-  await fs.promises.writeFile(join('all.json'), JSON.stringify(newDict, null, '  '), 'utf8');
+  await fs.promises.writeFile(join('grouped.json'), JSON.stringify(newDict, null, '  '), 'utf8');
+  await fs.promises.writeFile(join('all.json'), JSON.stringify(atms, null, '  '), 'utf8');
 })();

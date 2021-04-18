@@ -1,5 +1,4 @@
 import { require } from '../utils.mjs'; // eslint-disable-line no-shadow
-import cleanupList from './cleanupList.mjs';
 
 export default function parsePlanetCash() {
   const items = require('./atm/manual/planetcash.json');
@@ -42,5 +41,5 @@ export default function parsePlanetCash() {
     popupLines: [desc2].filter(Boolean)
   }));
 
-  return cleanupList(mapped, 'planetcash');
+  return mapped;
 }
