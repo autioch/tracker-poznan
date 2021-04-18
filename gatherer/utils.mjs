@@ -29,7 +29,7 @@ export function joinFromCurrentDir(importMeta, ...subfolders) {
   return join.bind(null, basePath);
 }
 
-export const outputJoin = joinFromCurrentDir(import.meta, '..', 'webapp', 'data');
+export const outputJoin = joinFromCurrentDir(import.meta, '..', 'docs', 'data');
 export const require = createRequire(import.meta.url); // eslint-disable-line no-shadow
 
 export function saveOutput(fileName, fileContent, debug = false) {

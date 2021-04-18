@@ -8,7 +8,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const LiveReloadPlugin = require('webpack-livereload-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const autoprefixer = require('autoprefixer');
-const CopyPlugin = require('copy-webpack-plugin');
 
 const { argv } = require('yargs').options({
   production: {
@@ -149,19 +148,14 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ['**/*', '!data/*']
+      cleanOnceBeforeBuildPatterns: [
+        'files/*',
+        'images/*',
+        '!data/*'
+      ]
     }),
     new MiniCssExtractPlugin({
       filename: `files/[name]${nameSuffix}.css`
-    }),
-
-    new CopyPlugin({
-      patterns: [
-        {
-          from: join(projectPath, 'data'),
-          to: join(buildPath, 'data')
-        }
-      ]
     }),
     new HtmlWebpackPlugin({
       template: join(sourcePath, 'index.html'),
