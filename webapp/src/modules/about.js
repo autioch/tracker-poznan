@@ -11,6 +11,7 @@ const LS_KEY = 'tracker-poznan-about1';
 function getPanelContent() {
   return [
     tag('p', `Find closest communication, shops and other POI (Points Of Interest).`),
+    tag('p', `Last updated 2021.04.18.`),
     tag('div.tp-panel__header', 'Terms of use'),
     tag('ol',
         tag('li', 'You\'re using this application on your own.'),
