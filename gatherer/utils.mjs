@@ -36,6 +36,9 @@ export function saveOutput(fileName, fileContent, debug = false) {
   return fs.writeFile(outputJoin(`${fileName}.json`), JSON.stringify(fileContent, null, debug ? 2 : undefined)); // eslint-disable-line no-undefined
 }
 
+const PREC = 1000000;
+const roundNum = (num) => Math.round(num * PREC) / PREC;
+
 export function saveOutputItems(fileName, items, skipDistanceCheck = false) {
   if (skipDistanceCheck) {
     console.log(`${fileName}: ${items.length} saved.`);
@@ -46,6 +49,12 @@ export function saveOutputItems(fileName, items, skipDistanceCheck = false) {
   const nearCenter = items.filter((item) => isNearPoznanCenter(item.latitude, item.longitude)); // eslint-disable-line no-use-before-define
 
   console.log(`${fileName}: ${items.length} found, ${nearCenter.length} saved.`);
+
+  // get rid of centimeter precision, meters are enough.
+  items.forEach((item) => {
+    item.latitude = roundNum(item.latitude);
+    item.longitude = roundNum(item.longitude);
+  });
 
   return saveOutput(fileName, nearCenter);
 }
