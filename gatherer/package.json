@@ -41,6 +41,6 @@
     "mocha": "3.4.2",
     "serve-local": "1.0.1",
     "spherical": "0.2.0",
-    "xml2js": "^0.4.23"
+    "xml2js": "0.4.23"
   }
 }

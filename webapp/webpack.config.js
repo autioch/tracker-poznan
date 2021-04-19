@@ -28,7 +28,6 @@ const { argv } = require('yargs').options({
 const projectPath = __dirname;
 const sourcePath = join(projectPath, 'src');
 const buildPath = join(projectPath, '..', 'docs');
-const nameSuffix = new Date().getTime() + (argv.production ? '.min' : '');
 
 if (argv.watch) {
   require('serve-local')(buildPath, argv.port);
@@ -42,7 +41,7 @@ module.exports = {
   devtool: argv.production ? undefined : 'eval',
   output: {
     path: buildPath,
-    filename: `files/[name]${nameSuffix}.js`,
+    filename: `files/[name].[contenthash].js`,
     publicPath: argv.production ? '/tracker-poznan/' : '/',
     pathinfo: false
   },
@@ -53,98 +52,88 @@ module.exports = {
     }
   },
   resolve: {
-    extensions: ['.js', '.css', '.scss', '.svg', '.json', '.ico'],
+    extensions: ['.js', '.css', '.scss', '.ico'],
     modules: [
       sourcePath,
       'node_modules'
     ]
   },
   module: {
-    rules: [{
-      test: /\.js$/,
-      exclude: /node_modules/,
-      use: {
-        loader: 'babel-loader',
-        options: {
-          plugins: [
-            '@babel/plugin-syntax-dynamic-import',
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            plugins: [
+              '@babel/plugin-syntax-dynamic-import',
 
-            // for now we need to transform these items for webpack to be able to parse the files
-            '@babel/plugin-proposal-optional-chaining',
-            '@babel/plugin-proposal-nullish-coalescing-operator'
-          ],
-          presets: ['@babel/preset-env']
-        }
-      }
-    }, {
-      test: /\.(ttf|eot|woff)$/i,
-      use: {
-        loader: 'file-loader',
-        options: {
-          name: 'fonts/[name].[ext]'
-        }
-      }
-    }, {
-      test: /\.(png)$/i,
-      use: {
-        loader: 'file-loader',
-        options: {
-          name: 'images/[name].[ext]'
-        }
-      }
-    }, {
-      test: /\.(ico)$/i,
-      use: {
-        loader: 'file-loader',
-        options: {
-          name: '[name].[ext]'
-        }
-      }
-    }, {
-      test: /\.(json)$/i,
-      use: {
-        loader: 'file-loader',
-        options: {
-          name: 'data/[name].[ext]'
-        }
-      }
-    }, {
-      test: /\.scss$/i,
-      use: [
-        MiniCssExtractPlugin.loader,
-        'css-loader',
-        {
-          loader: 'postcss-loader',
-          options: {
-            sourceMap: false,
-            plugins: () => [autoprefixer({
-              cascade: false
-            })]
-          }
-        },
-        {
-          loader: 'sass-loader',
-          options: {
-            implementation: require('sass')
+              // for now we need to transform these items for webpack to be able to parse the files
+              '@babel/plugin-proposal-optional-chaining',
+              '@babel/plugin-proposal-nullish-coalescing-operator'
+            ],
+            presets: ['@babel/preset-env']
           }
         }
-      ]
-    }, {
-      test: /\.css$/i,
-      use: [
-        MiniCssExtractPlugin.loader,
-        'css-loader',
-        {
-          loader: 'postcss-loader',
+      },
+      {
+        test: /\.(png)$/i,
+        use: {
+          loader: 'file-loader',
           options: {
-            sourceMap: false,
-            plugins: () => [autoprefixer({
-              cascade: false
-            })]
+            name: 'images/[name].[ext]'
           }
         }
-      ]
-    }]
+      },
+      {
+        test: /\.(ico)$/i,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]'
+          }
+        }
+      },
+      {
+        test: /\.scss$/i,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              sourceMap: false,
+              plugins: () => [autoprefixer({
+                cascade: false
+              })]
+            }
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              implementation: require('sass')
+            }
+          }
+        ]
+      },
+      {
+        test: /\.css$/i,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              sourceMap: false,
+              plugins: () => [autoprefixer({
+                cascade: false
+              })]
+            }
+          }
+        ]
+      }
+    ]
   },
   plugins: [
     new CleanWebpackPlugin({
@@ -155,7 +144,7 @@ module.exports = {
       ]
     }),
     new MiniCssExtractPlugin({
-      filename: `files/[name]${nameSuffix}.css`
+      filename: `files/[name].[contenthash].css`
     }),
     new HtmlWebpackPlugin({
       template: join(sourcePath, 'index.html'),

@@ -53,7 +53,7 @@ function showDistances(sources, mapInstance, latlng) {
 }
 
 export default function lines(mapInstance) {
-  function showLines() {
+  function showLines(updateBounds = false) {
     removeDistances();
 
     const latlng = ActiveLocationService.getLocation();
@@ -65,6 +65,9 @@ export default function lines(mapInstance) {
 
     showDistances(measuredGroups, mapInstance, latlng);
 
+    if (!updateBounds) {
+      return;
+    }
     const items = measuredGroups.flatMap((source) => source.closest.map(([, item]) => item));
 
     BoundsService.fitMinimalBounds(mapInstance, [...items, {
@@ -73,6 +76,6 @@ export default function lines(mapInstance) {
     }]);
   }
 
-  ActiveLocationService.addCallback(showLines);
-  SettingsService.addCallback(showLines);
+  ActiveLocationService.addCallback(() => showLines(false));
+  SettingsService.addCallback(() => showLines(true));
 }
