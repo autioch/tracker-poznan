@@ -572,19 +572,6 @@
     ]
   },
   {
-    "id": "pharmacy-12113",
-    "label": "Hebeapteka",
-    "address": "ul. Wierzbięcice 36/38",
-    "city": "Poznań",
-    "longitude": 16.922,
-    "latitude": 52.3949,
-    "popupLines": [
-      "Pon.-Pt. 08:00-21:00",
-      "Sob. 08:00-19:00",
-      "Niedz. zamknięta"
-    ]
-  },
-  {
     "id": "pharmacy-12114",
     "label": "Apteka Green Point",
     "address": "ul. Hetmańska 91",
@@ -651,12 +638,16 @@
   },
   {
     "id": "pharmacy-12214",
-    "label": "Nasza",
+    "label": "Nasza Apteka",
     "address": "ul. Ogrodowa 14",
     "city": "Przeźmierowo",
     "longitude": 16.7761,
     "latitude": 52.4323,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
   },
   {
     "id": "pharmacy-12215",
@@ -1051,13 +1042,13 @@
   },
   {
     "id": "pharmacy-13425",
-    "label": "Nasza",
+    "label": "Nasza Apteka",
     "address": "ul. Dworcowa 4",
     "city": "Swarzędz",
     "longitude": 17.0723,
     "latitude": 52.4067,
     "popupLines": [
-      "Pon.-Pt. 08:00-20:00",
+      "Pon.-Pt. 08:00-19:00",
       "Sob. 09:00-13:00",
       "Niedz. zamknięta"
     ]
@@ -1086,13 +1077,13 @@
   },
   {
     "id": "pharmacy-13428",
-    "label": "Nasza",
+    "label": "Nasza Apteka",
     "address": "ul. Piaski 8",
     "city": "Swarzędz",
     "longitude": 17.0751,
     "latitude": 52.4095,
     "popupLines": [
-      "Pon.-Pt. 08:00-20:00",
+      "Pon.-Pt. 08:00-19:00",
       "Sob. 09:00-13:00",
       "Niedz. zamknięta"
     ]
@@ -1214,6 +1205,123 @@
     ]
   },
   {
+    "id": "pharmacy-15460",
+    "label": "Consultorio Palędzie",
+    "address": "Malinowa 35",
+    "city": "Palędzie",
+    "longitude": 16.73514,
+    "latitude": 52.37586,
+    "popupLines": [
+      "Pt.-Pon. 08:00-20:00",
+      "Sob. 09:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-15485",
+    "label": "Medplanet",
+    "address": "Planetarna 15A",
+    "city": "Zalasewo",
+    "longitude": 17.070406,
+    "latitude": 52.39,
+    "popupLines": [
+      "Czw.-Pon. 08:00-20:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-15507",
+    "label": "Kamelia",
+    "address": "Poznańska 29A",
+    "city": "Łęczyca",
+    "longitude": 16.878708,
+    "latitude": 52.311855,
+    "popupLines": []
+  },
+  {
+    "id": "pharmacy-15508",
+    "label": "Sambucus",
+    "address": "Władysława Orkana 61/63",
+    "city": "Poznań",
+    "longitude": 16.879871,
+    "latitude": 52.360163,
+    "popupLines": [
+      "Pon.-Śr. 08:00-20:00",
+      "Sob. 08:00-15:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-15536",
+    "label": "Alba Nr 2",
+    "address": "os. Leśne 21B",
+    "city": "Koziegłowy",
+    "longitude": 16.994075,
+    "latitude": 52.448687,
+    "popupLines": [
+      "Czw.-Pon. 08:00-21:00",
+      "Niedz. zamknięta",
+      "Sob. 08:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-15537",
+    "label": "Alba Nr 1",
+    "address": "ul. Piaskowa 19",
+    "city": "Koziegłowy",
+    "longitude": 16.989627,
+    "latitude": 52.445732,
+    "popupLines": [
+      "Pon.-Śr. 08:00-18:00",
+      "Sob. 08:00-14:00",
+      "Niedz. zamknięta"
+    ]
+  },
+  {
+    "id": "pharmacy-15539",
+    "label": "Przy Chacie",
+    "address": "ul. Poznańska 34",
+    "city": "Kostrzyn",
+    "longitude": 17.16145,
+    "latitude": 52.38512,
+    "popupLines": [
+      "Śr.-Pon. 08:00-21:00",
+      "Sob. 08:00-18:00",
+      "Niedz. 10:00-15:00"
+    ]
+  },
+  {
+    "id": "pharmacy-15633",
+    "label": "Apteka Pomocna",
+    "address": "ul. Szamotulska 26J/G10, G11",
+    "city": "Baranowo",
+    "longitude": 16.78668,
+    "latitude": 52.446151,
+    "popupLines": []
+  },
+  {
+    "id": "pharmacy-15717",
+    "label": "Z Sercem",
+    "address": "os. Leśne 16B",
+    "city": "Koziegłowy",
+    "longitude": 16.99681,
+    "latitude": 52.449415,
+    "popupLines": []
+  },
+  {
+    "id": "pharmacy-15730",
+    "label": "Alba Nr 3",
+    "address": "os. Leśne 1A/8",
+    "city": "Koziegłowy",
+    "longitude": 16.993212,
+    "latitude": 52.453189,
+    "popupLines": [
+      "Sob.-Niedz. zamknięta",
+      "Pon.-Czw. 09:00-19:00"
+    ]
+  },
+  {
     "id": "pharmacy-216",
     "label": "Apteka św. Łazarza",
     "address": "ul. Głogowska 107/109",
@@ -1304,7 +1412,7 @@
     "longitude": 16.912205,
     "latitude": 52.458761,
     "popupLines": [
-      "Pon.-Pt. 08:00-20:00",
+      "Pon.-Pt. 07:00-20:00",
       "Sob. 08:00-16:00",
       "Niedz. zamknięta"
     ]
@@ -1396,7 +1504,11 @@
     "city": "Poznań",
     "longitude": 16.949944,
     "latitude": 52.393337,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. 08:00-22:00",
+      "Sob. 08:00-15:30",
+      "Niedz. zamknięta"
+    ]
   },
   {
     "id": "pharmacy-2199",
@@ -1569,7 +1681,7 @@
     "longitude": 16.945663,
     "latitude": 52.389531,
     "popupLines": [
-      "Pon.-Pt. 08:00-20:00",
+      "Pon.-Pt. 07:00-20:00",
       "Sob. 08:00-16:00",
       "Niedz. 09:00-14:00"
     ]
@@ -1607,12 +1719,16 @@
   },
   {
     "id": "pharmacy-2221",
-    "label": "Złota Jesień",
+    "label": "Apteka Medkon",
     "address": "os. Powstań Narodowych 35",
     "city": "Poznań",
     "longitude": 16.953825,
     "latitude": 52.388652,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
   },
   {
     "id": "pharmacy-2222",
@@ -1687,12 +1803,16 @@
   },
   {
     "id": "pharmacy-2229",
-    "label": "Vita-Farm",
-    "address": "os. Stare Żegrze 110",
+    "label": "Apteka Medkon",
+    "address": "os. Stare Żegrze 14/64A",
     "city": "Poznań",
     "longitude": 16.967489,
     "latitude": 52.383675,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
   },
   {
     "id": "pharmacy-2230",
@@ -1789,12 +1909,16 @@
   },
   {
     "id": "pharmacy-2239",
-    "label": "Nasza",
+    "label": "Nasza Apteka",
     "address": "os. Zwycięstwa 108",
     "city": "Poznań",
     "longitude": 16.922722,
     "latitude": 52.441437,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 09:00-13:00",
+      "Niedz. zamknięta"
+    ]
   },
   {
     "id": "pharmacy-2240",
@@ -1833,15 +1957,15 @@
   },
   {
     "id": "pharmacy-2245",
-    "label": "O.K. Apteka",
+    "label": "Apteka od Serca",
     "address": "pl. Wielkopolski 3A",
     "city": "Poznań",
     "longitude": 16.930831,
     "latitude": 52.410905,
     "popupLines": [
-      "Pon.-Pt. 08:00-20:00",
-      "Sob. 08:00-15:00",
-      "Niedz. zamknięta"
+      "Pon.-Pt. 07:00-21:00",
+      "Sob. 07:00-21:00",
+      "Niedz. 07:00-21:00"
     ]
   },
   {
@@ -1855,10 +1979,10 @@
   },
   {
     "id": "pharmacy-2251",
-    "label": "Przy Rynku Wildeckim",
+    "label": "Apteka Pamiątkowa",
     "address": "ul. 28 Czerwca 1956 r. 122",
     "city": "Poznań",
-    "longitude": 16.920077,
+    "longitude": 16.920065,
     "latitude": 52.391616,
     "popupLines": [
       "Pon.-Pt. 08:00-20:00",
@@ -1904,7 +2028,11 @@
     "city": "Poznań",
     "longitude": 16.915542,
     "latitude": 52.386525,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 08:00-15:30",
+      "Niedz. 10:00-14:00"
+    ]
   },
   {
     "id": "pharmacy-2256",
@@ -2354,12 +2482,16 @@
   },
   {
     "id": "pharmacy-2310",
-    "label": "Główna",
+    "label": "Apteka Główna",
     "address": "ul. Główna 53",
     "city": "Poznań",
     "longitude": 16.973801,
     "latitude": 52.422068,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. 08:00-20:00",
+      "Sob. 08:00-19:00",
+      "Niedz. zamknięta"
+    ]
   },
   {
     "id": "pharmacy-2311",
@@ -2572,12 +2704,17 @@
   },
   {
     "id": "pharmacy-2334",
-    "label": "Nasza",
+    "label": "Nasza Apteka",
     "address": "ul. J. H. Dąbrowskiego 399",
     "city": "Poznań",
     "longitude": 16.832794,
     "latitude": 52.432568,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. 08:00-21:00",
+      "Sob. 09:00-18:00",
+      "Niedz. zamknięta",
+      "Niedziela handlowa 09:00-15:00"
+    ]
   },
   {
     "id": "pharmacy-2335",
@@ -2979,7 +3116,7 @@
   },
   {
     "id": "pharmacy-2380",
-    "label": "Apteka Marcelin",
+    "label": "Apteka Medkon",
     "address": "ul. Marcelińska 102/200",
     "city": "Poznań",
     "longitude": 16.858877,
@@ -3264,20 +3401,11 @@
   },
   {
     "id": "pharmacy-2425",
-    "label": "U Piotra i Pawła",
+    "label": "Apteka na Plus",
     "address": "ul. Promienista 160",
     "city": "Poznań",
     "longitude": 16.864105,
     "latitude": 52.386812,
-    "popupLines": []
-  },
-  {
-    "id": "pharmacy-2427",
-    "label": "Apteka",
-    "address": "ul. Przybyszewskiego 49",
-    "city": "Poznań",
-    "longitude": 16.887139,
-    "latitude": 52.403428,
     "popupLines": []
   },
   {
@@ -3363,12 +3491,16 @@
   },
   {
     "id": "pharmacy-2439",
-    "label": "Nasza",
-    "address": "ul. S. Przybyszewskiego 49",
+    "label": "Nasza Apteka",
+    "address": "ul. Przybyszewskiego 49",
     "city": "Poznań",
     "longitude": 16.887139,
     "latitude": 52.403428,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. 08:00-19:00",
+      "Sob. 09:00-14:00",
+      "Niedz. zamknięta"
+    ]
   },
   {
     "id": "pharmacy-2440",
@@ -3472,9 +3604,9 @@
     "longitude": 16.926255,
     "latitude": 52.428294,
     "popupLines": [
-      "Pon.-Pt. 08:00-22:00",
-      "Sob. 09:00-18:00",
-      "Niedz. 09:00-18:00"
+      "Pon.-Pt. 07:00-21:00",
+      "Sob. 07:00-21:00",
+      "Niedz. 07:00-21:00"
     ]
   },
   {
@@ -3505,19 +3637,6 @@
     "popupLines": []
   },
   {
-    "id": "pharmacy-2456",
-    "label": "Hebeapteka",
-    "address": "ul. Sokoła 26",
-    "city": "Poznań",
-    "longitude": 16.911762,
-    "latitude": 52.426322,
-    "popupLines": [
-      "Pon.-Pt. 08:00-21:00",
-      "Sob. 08:00-19:00",
-      "Niedz. 09:00-15:00"
-    ]
-  },
-  {
     "id": "pharmacy-2457",
     "label": "Apteka Wielkopolska",
     "address": "Aleje Solidarności 42",
@@ -3537,7 +3656,11 @@
     "city": "Poznań",
     "longitude": 16.924591,
     "latitude": 52.412625,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. 08:00-16:00",
+      "Sob. zamknięta",
+      "Niedz. zamknięta"
+    ]
   },
   {
     "id": "pharmacy-2461",
@@ -3638,19 +3761,6 @@
     "popupLines": []
   },
   {
-    "id": "pharmacy-2476",
-    "label": "Hebeapteka",
-    "address": "ul. Św. Marcin 24",
-    "city": "Poznań",
-    "longitude": 16.927763,
-    "latitude": 52.40615,
-    "popupLines": [
-      "Pon.-Pt. 09:00-21:00",
-      "Sob. 10:00-20:00",
-      "Niedz. 10:00-19:00"
-    ]
-  },
-  {
     "id": "pharmacy-2477",
     "label": "Fontana",
     "address": "ul. Święty Marcin 23",
@@ -3732,12 +3842,16 @@
   },
   {
     "id": "pharmacy-2488",
-    "label": "Nasza",
+    "label": "Nasza Apteka",
     "address": "ul. Szwajcarska 3",
     "city": "Poznań",
     "longitude": 16.995682,
     "latitude": 52.389768,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. zamknięta",
+      "Sob. zamknięta",
+      "Niedz. zamknięta"
+    ]
   },
   {
     "id": "pharmacy-2489",
@@ -3768,12 +3882,16 @@
   },
   {
     "id": "pharmacy-2493",
-    "label": "Nasza",
+    "label": "Nasza Apteka",
     "address": "ul. Umultowska 32",
     "city": "Poznań",
-    "longitude": 16.927502,
-    "latitude": 52.451724,
-    "popupLines": []
+    "longitude": 16.928732,
+    "latitude": 52.451625,
+    "popupLines": [
+      "Pon.-Pt. 07:30-21:00",
+      "Sob. 09:00-18:00",
+      "Niedz. 09:00-15:00"
+    ]
   },
   {
     "id": "pharmacy-2494",
@@ -3961,7 +4079,11 @@
     "city": "Poznań",
     "longitude": 16.91633,
     "latitude": 52.428464,
-    "popupLines": []
+    "popupLines": [
+      "Pon.-Pt. 08:00-22:00",
+      "Sob. 09:00-22:00",
+      "Niedz. 09:00-22:00"
+    ]
   },
   {
     "id": "pharmacy-457",

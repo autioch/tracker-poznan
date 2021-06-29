@@ -43,7 +43,7 @@ export function saveOutputItems(fileName, items, skipDistanceCheck = false) {
   if (skipDistanceCheck) {
     console.log(`${fileName}: ${items.length} saved.`);
 
-    return saveOutput(fileName, items);
+    return saveOutput(fileName, items, true);
   }
 
   const nearCenter = items.filter((item) => isNearPoznanCenter(item.latitude, item.longitude)); // eslint-disable-line no-use-before-define
@@ -56,7 +56,7 @@ export function saveOutputItems(fileName, items, skipDistanceCheck = false) {
     item.longitude = roundNum(item.longitude);
   });
 
-  return saveOutput(fileName, nearCenter);
+  return saveOutput(fileName, nearCenter, true);
 }
 
 export function getPage(url) {

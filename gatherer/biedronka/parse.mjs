@@ -19,16 +19,17 @@ function getShopList(html, pageIndex) {
 
   const shopList = $('.shopListElement').get().map((el, shopIndex) => {
     const $shop = $(el);
-    const address = $shop.find('.shopAddress').text();
+    const addressWithPostalCode = $shop.find('.shopAddress').text();
+    const address = addressWithPostalCode.split('\n').pop().trim();
 
     return {
       id: getShopId($shop, pageIndex, shopIndex),
       label: address,
       address,
-      city: $shop.find('h4').text().replace(address, '').trim(),
+      city: $shop.find('h4').text().replace(addressWithPostalCode, '').trim(),
       longitude: null,
       latitude: null,
-      popupLines: $shop.find('p').html().split('<br>').map((text) => $(text.trim()).text()).slice(1, -1)
+      popupLines: [$shop.find('p').html().split('<br>').map((text) => $(text.trim()).text()).slice(1, -1).join('<br/>')]
     };
   });
 

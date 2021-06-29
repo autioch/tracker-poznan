@@ -1,36 +1,24 @@
 [
   {
     "id": "100",
-    "label": "osiedle Czecha 73",
-    "address": "osiedle Czecha 73",
+    "label": "os. Czecha 73",
+    "address": "os. Czecha 73",
     "city": "Poznań",
     "longitude": 16.977333,
     "latitude": 52.385799,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:00<br/>Wtorek: 06:00-23:00<br/>Środa: 06:00-23:00<br/>Czwartek: 06:00-23:00<br/>Piątek: 06:00-23:00<br/>Sobota: 06:00-23:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "101",
-    "label": "ul. Książęca 1",
-    "address": "ul. Książęca 1",
+    "label": "Książęca 1",
+    "address": "Książęca 1",
     "city": "Poznań",
     "longitude": 16.931766,
     "latitude": 52.366346,
     "popupLines": [
-      "Poniedziałek: 06:30-21:30",
-      "Wtorek: 06:30-21:30",
-      "Środa: 06:30-21:30",
-      "Czwartek: 06:30-21:30",
-      "Piątek: 06:30-21:30",
-      "Sobota: 06:30-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -41,13 +29,7 @@
     "longitude": 16.960846,
     "latitude": 52.399002,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-23:30",
-      "Czwartek: 06:00-23:30",
-      "Piątek: 06:00-23:30",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -58,13 +40,7 @@
     "longitude": 16.943854,
     "latitude": 52.378503,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-23:30",
-      "Czwartek: 06:00-23:30",
-      "Piątek: 06:00-23:30",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:45<br/>Wtorek: 00:00-00:00<br/>Środa: 00:00-00:00<br/>Czwartek: 00:00-00:00<br/>Piątek: 00:00-00:00<br/>Sobota: 00:00-00:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -75,13 +51,7 @@
     "longitude": 16.893918,
     "latitude": 52.375603,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:00<br/>Wtorek: 06:00-23:00<br/>Środa: 06:00-23:00<br/>Czwartek: 06:00-23:00<br/>Piątek: 06:00-23:00<br/>Sobota: 06:00-23:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -92,64 +62,40 @@
     "longitude": 16.963112,
     "latitude": 52.381833,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-23:30",
-      "Czwartek: 06:00-23:30",
-      "Piątek: 06:00-23:30",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:30<br/>Wtorek: 06:00-22:30<br/>Środa: 06:00-22:30<br/>Czwartek: 06:00-22:30<br/>Piątek: 06:00-22:30<br/>Sobota: 06:00-22:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "1090",
-    "label": "ul. Chojnicka 72/74",
-    "address": "ul. Chojnicka 72/74",
+    "label": "Chojnicka 72/74",
+    "address": "Chojnicka 72/74",
     "city": "Poznań",
-    "longitude": 16.92993,
-    "latitude": 52.40692,
+    "longitude": 16.778407,
+    "latitude": 52.479209,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "111",
-    "label": "osiedle Zwycięstwa 110",
-    "address": "osiedle Zwycięstwa 110",
+    "label": "os. Zwycięstwa 110",
+    "address": "os. Zwycięstwa 110",
     "city": "Poznań",
     "longitude": 16.922273,
     "latitude": 52.438138,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:30<br/>Wtorek: 06:00-22:30<br/>Środa: 06:00-22:30<br/>Czwartek: 06:00-22:30<br/>Piątek: 06:00-22:30<br/>Sobota: 06:00-22:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "112",
-    "label": "osiedle Bolesława Chrobrego 110",
-    "address": "osiedle Bolesława Chrobrego 110",
+    "label": "os. Bolesława Chrobrego 110",
+    "address": "os. Bolesława Chrobrego 110",
     "city": "Poznań",
     "longitude": 16.914707,
     "latitude": 52.45237,
     "popupLines": [
-      "Poniedziałek: 06:30-23:30",
-      "Wtorek: 06:30-23:30",
-      "Środa: 06:30-23:30",
-      "Czwartek: 06:30-23:30",
-      "Piątek: 06:30-23:30",
-      "Sobota: 06:30-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:30-23:30<br/>Wtorek: 06:30-23:30<br/>Środa: 06:30-23:30<br/>Czwartek: 06:30-23:30<br/>Piątek: 06:30-23:30<br/>Sobota: 06:30-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -160,13 +106,7 @@
     "longitude": 16.921806,
     "latitude": 52.384092,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -177,30 +117,18 @@
     "longitude": 16.921824,
     "latitude": 52.407276,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "1133",
-    "label": "osiedle Bolesława Śmiałego 109",
-    "address": "osiedle Bolesława Śmiałego 109",
+    "label": "os. Bolesława Śmiałego 109",
+    "address": "os. Bolesława Śmiałego 109",
     "city": "Poznań",
     "longitude": 16.92275,
     "latitude": 52.45181,
     "popupLines": [
-      "Poniedziałek: 06:30-23:30",
-      "Wtorek: 06:30-23:30",
-      "Środa: 06:30-02:00",
-      "Czwartek: 06:30-02:00",
-      "Piątek: 06:30-02:00",
-      "Sobota: 06:30-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:30-23:30<br/>Wtorek: 06:30-23:30<br/>Środa: 06:30-23:30<br/>Czwartek: 06:30-23:30<br/>Piątek: 06:30-23:30<br/>Sobota: 06:30-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -211,13 +139,7 @@
     "longitude": 16.903869,
     "latitude": 52.4577,
     "popupLines": [
-      "Poniedziałek: 06:30-23:30",
-      "Wtorek: 06:30-23:30",
-      "Środa: 06:30-02:00",
-      "Czwartek: 06:30-02:00",
-      "Piątek: 06:30-02:00",
-      "Sobota: 06:30-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:30-23:30<br/>Wtorek: 06:30-23:30<br/>Środa: 06:30-23:30<br/>Czwartek: 06:30-23:30<br/>Piątek: 06:30-23:30<br/>Sobota: 06:30-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -228,13 +150,7 @@
     "longitude": 16.89555,
     "latitude": 52.459158,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -245,13 +161,7 @@
     "longitude": 16.938359,
     "latitude": 52.401495,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:30<br/>Wtorek: 06:00-22:30<br/>Środa: 06:00-22:30<br/>Czwartek: 06:00-22:30<br/>Piątek: 06:00-22:30<br/>Sobota: 06:00-22:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -262,13 +172,7 @@
     "longitude": 16.917857,
     "latitude": 52.428098,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -279,13 +183,7 @@
     "longitude": 16.895353,
     "latitude": 52.367135,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -296,13 +194,7 @@
     "longitude": 16.916745,
     "latitude": 52.392684,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -310,16 +202,10 @@
     "label": "Ściegiennego 64",
     "address": "Ściegiennego 64",
     "city": "Poznań",
-    "longitude": 16.873227,
-    "latitude": 52.390959,
+    "longitude": 16.874928,
+    "latitude": 52.390575,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -330,13 +216,7 @@
     "longitude": 16.902787,
     "latitude": 52.390296,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -347,13 +227,7 @@
     "longitude": 16.892645,
     "latitude": 52.400578,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:00<br/>Wtorek: 06:00-23:00<br/>Środa: 06:00-23:00<br/>Czwartek: 06:00-23:00<br/>Piątek: 06:00-23:00<br/>Sobota: 06:00-23:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -364,30 +238,18 @@
     "longitude": 16.896843,
     "latitude": 52.44742,
     "popupLines": [
-      "Poniedziałek: 06:30-23:30",
-      "Wtorek: 06:30-23:30",
-      "Środa: 06:30-23:30",
-      "Czwartek: 06:30-23:30",
-      "Piątek: 06:30-23:30",
-      "Sobota: 06:30-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:30-23:30<br/>Wtorek: 06:30-23:30<br/>Środa: 06:30-23:30<br/>Czwartek: 06:30-23:30<br/>Piątek: 06:30-23:30<br/>Sobota: 06:30-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "1282",
-    "label": "osiedle Rzeczypospolitej 42",
-    "address": "osiedle Rzeczypospolitej 42",
+    "label": "os. Rzeczypospolitej 42",
+    "address": "os. Rzeczypospolitej 42",
     "city": "Poznań",
     "longitude": 16.946731,
     "latitude": 52.386439,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-23:30",
-      "Czwartek: 06:00-23:30",
-      "Piątek: 06:00-23:30",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:30<br/>Wtorek: 06:00-22:30<br/>Środa: 06:00-22:30<br/>Czwartek: 06:00-22:30<br/>Piątek: 06:00-22:30<br/>Sobota: 06:00-22:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -398,30 +260,18 @@
     "longitude": 16.959435,
     "latitude": 52.413573,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "1284",
-    "label": "osiedle Armii Krajowej 101",
-    "address": "osiedle Armii Krajowej 101",
+    "label": "os. Armii Krajowej 101",
+    "address": "os. Armii Krajowej 101",
     "city": "Poznań",
     "longitude": 16.95116,
     "latitude": 52.379864,
     "popupLines": [
-      "Poniedziałek: 07:00-21:00",
-      "Wtorek: 07:00-21:00",
-      "Środa: 07:00-21:00",
-      "Czwartek: 07:00-21:00",
-      "Piątek: 07:00-21:00",
-      "Sobota: 07:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:30<br/>Wtorek: 06:00-22:30<br/>Środa: 06:00-22:30<br/>Czwartek: 06:00-22:30<br/>Piątek: 06:00-22:30<br/>Sobota: 06:00-22:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -432,13 +282,7 @@
     "longitude": 16.969027,
     "latitude": 52.386038,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:00<br/>Wtorek: 06:00-23:00<br/>Środa: 06:00-23:00<br/>Czwartek: 06:00-23:00<br/>Piątek: 06:00-23:00<br/>Sobota: 06:00-23:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -449,30 +293,18 @@
     "longitude": 16.946653,
     "latitude": 52.453174,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "1296",
-    "label": "Osiedle Jana III Sobieskiego 103",
-    "address": "Osiedle Jana III Sobieskiego 103",
+    "label": "os. Jana III Sobieskiego 103",
+    "address": "os. Jana III Sobieskiego 103",
     "city": "Poznań",
     "longitude": 16.90706,
     "latitude": 52.463362,
     "popupLines": [
-      "Poniedziałek: 06:30-23:30",
-      "Wtorek: 06:30-23:30",
-      "Środa: 06:30-02:00",
-      "Czwartek: 06:30-02:00",
-      "Piątek: 06:30-02:00",
-      "Sobota: 06:30-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:30-23:30<br/>Wtorek: 06:30-23:30<br/>Środa: 06:30-23:30<br/>Czwartek: 06:30-23:30<br/>Piątek: 06:30-23:30<br/>Sobota: 06:30-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -483,13 +315,7 @@
     "longitude": 16.904454,
     "latitude": 52.367452,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:30<br/>Wtorek: 06:00-22:30<br/>Środa: 06:00-22:30<br/>Czwartek: 06:00-22:30<br/>Piątek: 06:00-22:30<br/>Sobota: 06:00-22:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -500,13 +326,7 @@
     "longitude": 16.921997,
     "latitude": 52.394851,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -517,13 +337,7 @@
     "longitude": 16.982997,
     "latitude": 52.386802,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:00<br/>Wtorek: 06:00-23:00<br/>Środa: 06:00-23:00<br/>Czwartek: 06:00-23:00<br/>Piątek: 06:00-23:00<br/>Sobota: 06:00-23:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -534,13 +348,7 @@
     "longitude": 16.902506,
     "latitude": 52.397007,
     "popupLines": [
-      "Poniedziałek: 06:00-23:00",
-      "Wtorek: 06:00-23:00",
-      "Środa: 06:00-23:00",
-      "Czwartek: 06:00-23:00",
-      "Piątek: 06:00-23:00",
-      "Sobota: 06:30-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -551,30 +359,18 @@
     "longitude": 16.893702,
     "latitude": 52.405444,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: Nieczynne<br/>Wtorek: Nieczynne<br/>Środa: Nieczynne<br/>Czwartek: Nieczynne<br/>Piątek: Nieczynne<br/>Sobota: Nieczynne<br/>Niedziela: Nieczynne"
     ]
   },
   {
     "id": "2308",
-    "label": "ul. Gronowa 26",
-    "address": "ul. Gronowa 26",
+    "label": "Gronowa 26",
+    "address": "Gronowa 26",
     "city": "Poznań",
     "longitude": 16.934089,
     "latitude": 52.430304,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:30<br/>Wtorek: 06:00-22:30<br/>Środa: 06:00-22:30<br/>Czwartek: 06:00-22:30<br/>Piątek: 06:00-22:30<br/>Sobota: 06:00-22:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -585,30 +381,18 @@
     "longitude": 16.840672,
     "latitude": 52.367109,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "2361",
-    "label": "Osiedle Orła Białego 5",
-    "address": "Osiedle Orła Białego 5",
+    "label": "os. Orła Białego 5",
+    "address": "os. Orła Białego 5",
     "city": "Poznań",
     "longitude": 16.960295,
     "latitude": 52.377712,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:30<br/>Wtorek: 06:00-22:30<br/>Środa: 06:00-22:30<br/>Czwartek: 06:00-22:30<br/>Piątek: 06:00-22:30<br/>Sobota: 06:00-22:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -619,13 +403,7 @@
     "longitude": 16.872023,
     "latitude": 52.377548,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -636,13 +414,7 @@
     "longitude": 16.916154,
     "latitude": 52.443719,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:30<br/>Wtorek: 06:00-22:30<br/>Środa: 06:00-22:30<br/>Czwartek: 06:00-22:30<br/>Piątek: 06:00-22:30<br/>Sobota: 06:00-22:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -653,30 +425,18 @@
     "longitude": 16.853812,
     "latitude": 52.389611,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-23:30",
-      "Czwartek: 06:00-23:30",
-      "Piątek: 06:00-23:30",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "2463",
-    "label": "ul. Gwiaździsta 30",
-    "address": "ul. Gwiaździsta 30",
+    "label": "Gwiaździsta 30",
+    "address": "Gwiaździsta 30",
     "city": "Poznań",
-    "longitude": 16.92993,
-    "latitude": 52.40692,
+    "longitude": 16.867434,
+    "latitude": 52.391244,
     "popupLines": [
-      "Poniedziałek: 07:00-21:00",
-      "Wtorek: 07:00-21:00",
-      "Środa: 07:00-21:00",
-      "Czwartek: 07:00-21:00",
-      "Piątek: 07:00-21:00",
-      "Sobota: 07:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -687,13 +447,7 @@
     "longitude": 16.920412,
     "latitude": 52.413241,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -704,13 +458,7 @@
     "longitude": 16.926218,
     "latitude": 52.406352,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -721,13 +469,7 @@
     "longitude": 16.883107,
     "latitude": 52.386145,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -738,13 +480,7 @@
     "longitude": 16.92993,
     "latitude": 52.40692,
     "popupLines": [
-      "Poniedziałek: 06:30-22:00",
-      "Wtorek: 06:30-22:00",
-      "Środa: 06:30-22:00",
-      "Czwartek: 06:30-22:00",
-      "Piątek: 06:30-22:00",
-      "Sobota: 06:30-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -755,13 +491,7 @@
     "longitude": 16.929796,
     "latitude": 52.4425,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:00<br/>Wtorek: 06:00-23:00<br/>Środa: 06:00-23:00<br/>Czwartek: 06:00-23:00<br/>Piątek: 06:00-23:00<br/>Sobota: 06:00-23:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -772,30 +502,18 @@
     "longitude": 16.901819,
     "latitude": 52.408553,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "2617",
-    "label": "Ulica Naramowicka 104",
-    "address": "Ulica Naramowicka 104",
+    "label": "Naramowicka 104",
+    "address": "Naramowicka 104",
     "city": "Poznań",
     "longitude": 16.948748,
     "latitude": 52.43916,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -806,13 +524,7 @@
     "longitude": 16.898221,
     "latitude": 52.414173,
     "popupLines": [
-      "Poniedziałek: 06:00-23:00",
-      "Wtorek: 06:00-23:00",
-      "Środa: 06:00-23:00",
-      "Czwartek: 06:00-23:00",
-      "Piątek: 06:00-23:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -823,30 +535,18 @@
     "longitude": 16.927876,
     "latitude": 52.4002,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "2817",
-    "label": "Poznań Główny Dworcowa 2",
-    "address": "Poznań Główny Dworcowa 2",
+    "label": "ul. Dworcowa 2",
+    "address": "ul. Dworcowa 2",
     "city": "Poznań",
-    "longitude": 16.911579,
-    "latitude": 52.401627,
+    "longitude": 17.080276,
+    "latitude": 52.446021,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -857,13 +557,7 @@
     "longitude": 16.867536,
     "latitude": 52.441414,
     "popupLines": [
-      "Poniedziałek: 06:30-21:30",
-      "Wtorek: 06:30-21:30",
-      "Środa: 06:30-21:30",
-      "Czwartek: 06:30-21:30",
-      "Piątek: 06:30-21:30",
-      "Sobota: 06:30-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -874,47 +568,29 @@
     "longitude": 16.984935,
     "latitude": 52.381342,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:00<br/>Wtorek: 06:00-23:00<br/>Środa: 06:00-23:00<br/>Czwartek: 06:00-23:00<br/>Piątek: 06:00-23:00<br/>Sobota: 06:00-23:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "3398",
-    "label": "osiedle Przyjaźni 141",
-    "address": "osiedle Przyjaźni 141",
+    "label": "os. Przyjaźni 141",
+    "address": "os. Przyjaźni 141",
     "city": "Poznań",
     "longitude": 16.921123,
     "latitude": 52.430076,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "3600",
-    "label": "ul. Serbska 15",
-    "address": "ul. Serbska 15",
+    "label": "Serbska 15",
+    "address": "Serbska 15",
     "city": "Poznań",
-    "longitude": 16.92993,
-    "latitude": 52.40692,
+    "longitude": 16.945643,
+    "latitude": 52.432684,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -925,13 +601,7 @@
     "longitude": 16.868523,
     "latitude": 52.411281,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -942,13 +612,7 @@
     "longitude": 16.832789,
     "latitude": 52.432562,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -959,13 +623,7 @@
     "longitude": 16.874044,
     "latitude": 52.404605,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -973,16 +631,10 @@
     "label": "Matejki 62",
     "address": "Matejki 62",
     "city": "Poznań",
-    "longitude": 16.899364,
-    "latitude": 52.405222,
+    "longitude": 16.901317,
+    "latitude": 52.405867,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-23:30",
-      "Czwartek: 06:00-23:30",
-      "Piątek: 06:00-23:30",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -993,13 +645,7 @@
     "longitude": 16.852988,
     "latitude": 52.386265,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-23:30",
-      "Czwartek: 06:00-23:30",
-      "Piątek: 06:00-23:30",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -1010,81 +656,51 @@
     "longitude": 16.91177,
     "latitude": 52.426328,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:00<br/>Wtorek: 06:00-23:00<br/>Środa: 06:00-23:00<br/>Czwartek: 06:00-23:00<br/>Piątek: 06:00-23:00<br/>Sobota: 06:00-23:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "898",
-    "label": "ul. Kościelna 30",
-    "address": "ul. Kościelna 30",
+    "label": "Kościelna 30",
+    "address": "Kościelna 30",
     "city": "Poznań",
-    "longitude": 16.92993,
-    "latitude": 52.40692,
+    "longitude": 16.906027,
+    "latitude": 52.415126,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:30<br/>Wtorek: 06:00-22:30<br/>Środa: 06:00-22:30<br/>Czwartek: 06:00-22:30<br/>Piątek: 06:00-22:30<br/>Sobota: 06:00-22:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "98",
-    "label": "osiedle Piastowskie 22",
-    "address": "osiedle Piastowskie 22",
+    "label": "os. Piastowskie 22",
+    "address": "os. Piastowskie 22",
     "city": "Poznań",
     "longitude": 16.945055,
     "latitude": 52.394836,
     "popupLines": [
-      "Poniedziałek: 06:00-22:00",
-      "Wtorek: 06:00-22:00",
-      "Środa: 06:00-22:00",
-      "Czwartek: 06:00-22:00",
-      "Piątek: 06:00-22:00",
-      "Sobota: 06:00-22:30",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "99",
-    "label": "osiedle Jagiellońskie 14",
-    "address": "osiedle Jagiellońskie 14",
+    "label": "os. Jagiellońskie 14",
+    "address": "os. Jagiellońskie 14",
     "city": "Poznań",
     "longitude": 16.951013,
     "latitude": 52.392879,
     "popupLines": [
-      "Poniedziałek: 06:30-22:00",
-      "Wtorek: 06:30-22:00",
-      "Środa: 06:30-22:00",
-      "Czwartek: 06:30-22:00",
-      "Piątek: 06:30-22:00",
-      "Sobota: 06:30-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
     "id": "996",
-    "label": "Plac Wiosny Ludów 2",
-    "address": "Plac Wiosny Ludów 2",
+    "label": "pl. Wiosny Ludów 2",
+    "address": "pl. Wiosny Ludów 2",
     "city": "Poznań",
     "longitude": 16.932532,
     "latitude": 52.405178,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-22:00<br/>Wtorek: 06:00-22:00<br/>Środa: 06:00-22:00<br/>Czwartek: 06:00-22:00<br/>Piątek: 06:00-22:00<br/>Sobota: 06:00-22:00<br/>Niedziela: 08:00-20:00"
     ]
   },
   {
@@ -1095,13 +711,7 @@
     "longitude": 16.908382,
     "latitude": 52.411881,
     "popupLines": [
-      "Poniedziałek: 06:00-23:30",
-      "Wtorek: 06:00-23:30",
-      "Środa: 06:00-02:00",
-      "Czwartek: 06:00-02:00",
-      "Piątek: 06:00-02:00",
-      "Sobota: 06:00-23:00",
-      "Niedziela: Nieczynne"
+      "Poniedziałek: 06:00-23:30<br/>Wtorek: 06:00-23:30<br/>Środa: 06:00-23:30<br/>Czwartek: 06:00-23:30<br/>Piątek: 06:00-23:30<br/>Sobota: 06:00-23:30<br/>Niedziela: 08:00-20:00"
     ]
   }
 ]

@@ -22,6 +22,28 @@
     ]
   },
   {
+    "id": "BKP02M",
+    "label": "Przed sklepem spożywczym",
+    "address": "Główna 50",
+    "city": "Biskupice",
+    "longitude": 17.17219,
+    "latitude": 52.46127,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "BOU01M",
+    "label": "Prywatna posesja",
+    "address": "Wrzosowa 104",
+    "city": "Bogucin",
+    "longitude": 17.03089,
+    "latitude": 52.4306,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "BOW01G",
     "label": "Na stacji Shell",
     "address": "Poznańska 3",
@@ -83,6 +105,17 @@
     "city": "Baranowo",
     "longitude": 16.79914,
     "latitude": 52.42858,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "CCQ01M",
+    "label": "Przy Koźlaku",
+    "address": "Poznańska 65-67",
+    "city": "Chomęcice",
+    "longitude": 16.75108,
+    "latitude": 52.33194,
     "popupLines": [
       "24/7"
     ]
@@ -154,6 +187,17 @@
     ]
   },
   {
+    "id": "CZK01M",
+    "label": "Przy sklepie spożywczym JANKES",
+    "address": "Os. Przylesie 9",
+    "city": "Czerwonak",
+    "longitude": 16.98108,
+    "latitude": 52.48104,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "CZK01N",
     "label": "Przy sklepie Żabka",
     "address": "Krótka 1",
@@ -193,6 +237,17 @@
     "city": "Dąbrówka",
     "longitude": 16.74479,
     "latitude": 52.37889,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "DAB02M",
+    "label": "Przy Galerii Handlowej",
+    "address": "Poznańska 31",
+    "city": "Dąbrówka",
+    "longitude": 16.744883,
+    "latitude": 52.381056,
     "popupLines": [
       "24/7"
     ]
@@ -407,12 +462,23 @@
     ]
   },
   {
-    "id": "KMN01N",
-    "label": "Naprzeciwko galerii",
-    "address": "Platanowa 2",
+    "id": "KIR02M",
+    "label": "Na parkingu Pizza Capri",
+    "address": "Starzyńska 41",
+    "city": "Kiekrz",
+    "longitude": 16.76878,
+    "latitude": 52.49723,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KMN01M",
+    "label": "Posesja na ul. Kamiennej 10",
+    "address": "Kamienna 10",
     "city": "Kamionki",
-    "longitude": 16.97966,
-    "latitude": 52.28957,
+    "longitude": 17.00964,
+    "latitude": 52.28196,
     "popupLines": [
       "24/7"
     ]
@@ -468,17 +534,6 @@
     "city": "Komorniki",
     "longitude": 16.80033,
     "latitude": 52.33985,
-    "popupLines": [
-      "24/7"
-    ]
-  },
-  {
-    "id": "KOM01M",
-    "label": "Przy sklepie Tesco",
-    "address": "Młyńska 4",
-    "city": "Komorniki",
-    "longitude": 16.80668,
-    "latitude": 52.33451,
     "popupLines": [
       "24/7"
     ]
@@ -638,17 +693,6 @@
     ]
   },
   {
-    "id": "LBO02B",
-    "label": "Przy Centrum Handlowym Pajo",
-    "address": "Żabikowska 66",
-    "city": "Luboń",
-    "longitude": 16.88071,
-    "latitude": 52.35052,
-    "popupLines": [
-      "24/7"
-    ]
-  },
-  {
     "id": "LBO02M",
     "label": "Przy prywatnej posesji",
     "address": "11 Listopada 30",
@@ -759,6 +803,28 @@
     ]
   },
   {
+    "id": "LBO11M",
+    "label": "Na parkingu Pączek w Maśle",
+    "address": "Dożynkowa 1",
+    "city": "Luboń",
+    "longitude": 16.89786,
+    "latitude": 52.35017,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LBO12M",
+    "label": "na parkingu Netto",
+    "address": "Żabikowska 34",
+    "city": "Luboń",
+    "longitude": 16.8775,
+    "latitude": 52.34518,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "LBO249",
     "label": "Przy sklepie Żabka",
     "address": "Kościuszki 102",
@@ -776,6 +842,17 @@
     "city": "Łęczyca",
     "longitude": 16.87851,
     "latitude": 52.31146,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "LOK01M",
+    "label": "Na parkingu Apteki Morskiej w Lusówku",
+    "address": "Tarnowska 33",
+    "city": "Lusówko",
+    "longitude": 16.64471,
+    "latitude": 52.43319,
     "popupLines": [
       "24/7"
     ]
@@ -826,7 +903,7 @@
   },
   {
     "id": "MOS01N",
-    "label": "Przy markecie Tesco",
+    "label": "Przy markecie Netto",
     "address": "Konopnickiej 33",
     "city": "Mosina",
     "longitude": 16.84259,
@@ -924,6 +1001,17 @@
     ]
   },
   {
+    "id": "MUG03M",
+    "label": "Za sklepem spożywczym/apteką",
+    "address": "Graszyńskiego 1",
+    "city": "Murowana Goślina",
+    "longitude": 17.01443,
+    "latitude": 52.57473,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "OWN01M",
     "label": "Za sklepem Chata Polska",
     "address": "Plac Przemysława 1C",
@@ -941,6 +1029,17 @@
     "city": "Owińska",
     "longitude": 16.98699,
     "latitude": 52.51163,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "OWN02M",
+    "label": "Przy sklepie Lewiatan",
+    "address": "Zielona 1A",
+    "city": "Owińska",
+    "longitude": 16.98496,
+    "latitude": 52.51755,
     "popupLines": [
       "24/7"
     ]
@@ -1056,14 +1155,25 @@
     ]
   },
   {
+    "id": "POI02M",
+    "label": "Przy sklepie Żabka",
+    "address": "Północna 2E",
+    "city": "Promnice",
+    "longitude": 16.966374,
+    "latitude": 52.541378,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "POP-BWK2",
     "label": "MINI MARKET AGUSIA",
     "address": "Lipowa 55",
     "city": "Bolechówko",
-    "longitude": 16.99704,
-    "latitude": 52.51955,
+    "longitude": 16.997042,
+    "latitude": 52.519547,
     "popupLines": [
-      "PN-PT 10-19 SB 10-14"
+      "PN-PT 10-19"
     ]
   },
   {
@@ -1082,7 +1192,7 @@
     "label": "SKLEP OGÓLNOSPOŻYWCZY RABAT",
     "address": "Poznańska 5",
     "city": "Daszewice",
-    "longitude": 16.95501,
+    "longitude": 16.955005,
     "latitude": 52.3046,
     "popupLines": [
       "PN-PT 06-20 SB 07-20"
@@ -1111,14 +1221,14 @@
     ]
   },
   {
-    "id": "POP-KMN2",
-    "label": "PUNKT KURIERSKI",
-    "address": "Platanowa 2",
-    "city": "Kamionki",
-    "longitude": 16.97943,
-    "latitude": 52.28994,
+    "id": "POP-JER1",
+    "label": "PHU LILIANA SZARPAK",
+    "address": "Pl. Piastowski 25",
+    "city": "Jerzykowo",
+    "longitude": 17.171597,
+    "latitude": 52.469542,
     "popupLines": [
-      "PN-PT 10-18"
+      "PN-PT 06-18 SB 06-15 ND 10-14"
     ]
   },
   {
@@ -1137,8 +1247,8 @@
     "label": "SKLEP ODZIEŻOWY",
     "address": "Sikorskiego 8/4",
     "city": "Luboń",
-    "longitude": 16.87403,
-    "latitude": 52.34897,
+    "longitude": 16.874027,
+    "latitude": 52.348969,
     "popupLines": [
       "PN-PT 10-18 SB 10-14"
     ]
@@ -1157,10 +1267,10 @@
   {
     "id": "POP-LBO5",
     "label": "EXPRESS-PACZKA",
-    "address": "Wschodnia 21B",
+    "address": "Wschodnia 21B/62",
     "city": "Luboń",
-    "longitude": 16.8813,
-    "latitude": 52.34331,
+    "longitude": 16.881303,
+    "latitude": 52.343305,
     "popupLines": [
       "PN-PT 10-20 SB 10-14"
     ]
@@ -1243,17 +1353,6 @@
     ]
   },
   {
-    "id": "POP-PLW2",
-    "label": "SALON AVON",
-    "address": "Grunwaldzka 517A",
-    "city": "Plewiska",
-    "longitude": 16.81209,
-    "latitude": 52.36888,
-    "popupLines": [
-      "PN-PT 10-18 SB 10-14"
-    ]
-  },
-  {
     "id": "POP-PLW3",
     "label": "PAKERSI PLEWISKA",
     "address": "Kolejowa 36/3",
@@ -1287,6 +1386,270 @@
     ]
   },
   {
+    "id": "POP-POZ100",
+    "label": "HENTIA",
+    "address": "Bliźniąt 9",
+    "city": "Poznań",
+    "longitude": 16.98363,
+    "latitude": 52.393473,
+    "popupLines": [
+      "PN-SB 06-22 ND 09-21"
+    ]
+  },
+  {
+    "id": "POP-POZ101",
+    "label": "SKLEP ABC",
+    "address": "os Jana III Sobieskiego 21H",
+    "city": "Poznań",
+    "longitude": 16.909619,
+    "latitude": 52.464548,
+    "popupLines": [
+      "PN-PT 08-20 SB 09-20 ND 10-17"
+    ]
+  },
+  {
+    "id": "POP-POZ102",
+    "label": "OTOITO SALON AGD RTV AUDIO",
+    "address": "Kościelna 1",
+    "city": "Poznań",
+    "longitude": 16.903882,
+    "latitude": 52.412982,
+    "popupLines": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ103",
+    "label": "SKLEP INSTALACYJNY",
+    "address": "Os.Piastowskie 76",
+    "city": "Poznań",
+    "longitude": 16.945677,
+    "latitude": 52.390747,
+    "popupLines": [
+      "PN-PT 10-17"
+    ]
+  },
+  {
+    "id": "POP-POZ104",
+    "label": "MECHANIKA POJAZDOWA",
+    "address": "Starołęcka 60A",
+    "city": "Poznań",
+    "longitude": 16.929658,
+    "latitude": 52.366613,
+    "popupLines": [
+      "PN-PT 08-17"
+    ]
+  },
+  {
+    "id": "POP-POZ105",
+    "label": "PUNKT NADAWCZY",
+    "address": "Sarmacka 5A",
+    "city": "Poznań",
+    "longitude": 16.943464,
+    "latitude": 52.445321,
+    "popupLines": [
+      "PN-PT 09-17 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-POZ106",
+    "label": "PAKERSI",
+    "address": "Słowiańska 104 LOK.21",
+    "city": "Poznań",
+    "longitude": 16.941943,
+    "latitude": 52.429423,
+    "popupLines": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ107",
+    "label": "CATRIDGE LIBELTA",
+    "address": "Libelta 26",
+    "city": "Poznań",
+    "longitude": 16.919606,
+    "latitude": 52.411887,
+    "popupLines": [
+      "PN-PT 08-18 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-POZ108",
+    "label": "SKLEP KARMA",
+    "address": "Swoboda 29",
+    "city": "Poznań",
+    "longitude": 16.87226,
+    "latitude": 52.4086,
+    "popupLines": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ109",
+    "label": "SUPERKIOSK CZECHA",
+    "address": "Os.Czecha 73",
+    "city": "Poznań",
+    "longitude": 16.976289,
+    "latitude": 52.385906,
+    "popupLines": [
+      "PN-PT 07-19 SB 07-14"
+    ]
+  },
+  {
+    "id": "POP-POZ110",
+    "label": "PAKERSI CENTRUM",
+    "address": "Kwiatowa 13",
+    "city": "Poznań",
+    "longitude": 16.930159,
+    "latitude": 52.402337,
+    "popupLines": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ111",
+    "label": "SUPERKIOSK WIELKA",
+    "address": "Wielka 22/2",
+    "city": "Poznań",
+    "longitude": 16.936533,
+    "latitude": 52.409508,
+    "popupLines": [
+      "PN-PT 07-19 SB 07-16"
+    ]
+  },
+  {
+    "id": "POP-POZ112",
+    "label": "SUPERKIOSK ŁOKIETKA",
+    "address": "Os. Łokietka 102",
+    "city": "Poznań",
+    "longitude": 16.941769,
+    "latitude": 52.449391,
+    "popupLines": [
+      "PN-PT 07-21 SB 07-16"
+    ]
+  },
+  {
+    "id": "POP-POZ113",
+    "label": "OPTYK MICHALAK",
+    "address": "Os. Bolesława Śmiałego 17",
+    "city": "Poznań",
+    "longitude": 16.924484,
+    "latitude": 52.450413,
+    "popupLines": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ114",
+    "label": "PRALNIA MAGIEL",
+    "address": "Os. Orła Białego 83",
+    "city": "Poznań",
+    "longitude": 16.971916,
+    "latitude": 52.380991,
+    "popupLines": [
+      "PN-PT 09-17"
+    ]
+  },
+  {
+    "id": "POP-POZ115",
+    "label": "SUPERKIOSK1 ŚCIEGIENNEGO",
+    "address": "Ściegiennego 65",
+    "city": "Poznań",
+    "longitude": 16.874879,
+    "latitude": 52.389921,
+    "popupLines": [
+      "PN-PT 06-18 SB 06-16"
+    ]
+  },
+  {
+    "id": "POP-POZ116",
+    "label": "SUPERKIOSK OGRODY",
+    "address": "Pl. Ludwika Waryńskiego PAW 2",
+    "city": "Poznań",
+    "longitude": 16.882109,
+    "latitude": 52.416557,
+    "popupLines": [
+      "PN-PT 06-21 SB 06-16 ND 09-15"
+    ]
+  },
+  {
+    "id": "POP-POZ117",
+    "label": "SUPERMARKET EUROSPAR MALTA",
+    "address": "Maltańska 1",
+    "city": "Poznań",
+    "longitude": 16.954729,
+    "latitude": 52.403245,
+    "popupLines": [
+      "PN 09-22 WT 08-22 ŚR-SB 09-22 ND 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ118",
+    "label": "SKLEP AGAT",
+    "address": "Mogileńska 22",
+    "city": "Poznań",
+    "longitude": 16.991577,
+    "latitude": 52.410671,
+    "popupLines": [
+      "PN-PT 07-20 SB 09-19"
+    ]
+  },
+  {
+    "id": "POP-POZ119",
+    "label": "SALONIK PRASOWY",
+    "address": "Os. Armii Krajowej 98",
+    "city": "Poznań",
+    "longitude": 16.951731,
+    "latitude": 52.379811,
+    "popupLines": [
+      "PN-PT 07-18 SB 07-14"
+    ]
+  },
+  {
+    "id": "POP-POZ120",
+    "label": "PALINKA",
+    "address": "Os.Orła Białego 77",
+    "city": "Poznań",
+    "longitude": 16.970637,
+    "latitude": 52.38023,
+    "popupLines": [
+      "PN-SB 06-22"
+    ]
+  },
+  {
+    "id": "POP-POZ121",
+    "label": "CORIO HURTOWNIA KOSMETYCZNA",
+    "address": "Bosa 15",
+    "city": "Poznań",
+    "longitude": 16.88959,
+    "latitude": 52.383322,
+    "popupLines": [
+      "PN-PT 08-17 SB 08-16"
+    ]
+  },
+  {
+    "id": "POP-POZ122",
+    "label": "DO RE MI FASOLA",
+    "address": "Bukowska 45",
+    "city": "Poznań",
+    "longitude": 16.893293,
+    "latitude": 52.409249,
+    "popupLines": [
+      "PN-PT 10-20 SB-ND 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ13",
+    "label": "PUNKT OPŁAT",
+    "address": "Os. Bolesława Chrobrego 117",
+    "city": "Poznań",
+    "longitude": 16.91673,
+    "latitude": 52.44959,
+    "popupLines": [
+      "PN-PT 09-17"
+    ]
+  },
+  {
     "id": "POP-POZ15",
     "label": "SALONIK PRASOWY E PAPIEROSY",
     "address": "Piłsudskiego 2B",
@@ -1302,8 +1665,8 @@
     "label": "MBE MAIL BOX",
     "address": "Głogowska 16",
     "city": "Poznań",
-    "longitude": 16.90779,
-    "latitude": 52.40134,
+    "longitude": 16.907794,
+    "latitude": 52.401339,
     "popupLines": [
       "PN-PT 09-18 SB 10-14"
     ]
@@ -1324,8 +1687,8 @@
     "label": "PUNKT OPŁAT",
     "address": "Os. Rzeczpospolitej 14",
     "city": "Poznań",
-    "longitude": 16.9466,
-    "latitude": 52.38673,
+    "longitude": 16.944023,
+    "latitude": 52.390362,
     "popupLines": [
       "PN-PT 09-18"
     ]
@@ -1335,8 +1698,8 @@
     "label": "AGENCJA BANKOWA",
     "address": "Leszka 17",
     "city": "Poznań",
-    "longitude": 17.02331,
-    "latitude": 52.40782,
+    "longitude": 17.023309,
+    "latitude": 52.407819,
     "popupLines": [
       "PN-PT 10-18 SB 10-14"
     ]
@@ -1357,8 +1720,8 @@
     "label": "UBEZPIECZENIA BLISKO CIEBIE",
     "address": "Jesionowa 20/4",
     "city": "Poznań",
-    "longitude": 16.89571,
-    "latitude": 52.36684,
+    "longitude": 16.895709,
+    "latitude": 52.366844,
     "popupLines": [
       "PN-PT 10-18"
     ]
@@ -1379,8 +1742,8 @@
     "label": "MER-CARS",
     "address": "Głuszyna 58B",
     "city": "Poznań",
-    "longitude": 16.92524,
-    "latitude": 52.3343,
+    "longitude": 16.925235,
+    "latitude": 52.334301,
     "popupLines": [
       "PN-PT 10-18"
     ]
@@ -1390,8 +1753,8 @@
     "label": "SALONIK PRASOWY",
     "address": "Os. Przemysława 8C",
     "city": "Poznań",
-    "longitude": 17.00267,
-    "latitude": 52.38981,
+    "longitude": 17.002673,
+    "latitude": 52.389813,
     "popupLines": [
       "PN-PT 09-18 SB 08-13"
     ]
@@ -1401,10 +1764,10 @@
     "label": "KIOSK SZEWC KOŚCIELNA",
     "address": "Kościelna/Dąbrowskiego 1",
     "city": "Poznań",
-    "longitude": 16.90377,
-    "latitude": 52.41288,
+    "longitude": 16.903773,
+    "latitude": 52.412881,
     "popupLines": [
-      "PN-PT 10-18 SB 10-14"
+      "PN-PT 10-18"
     ]
   },
   {
@@ -1412,8 +1775,8 @@
     "label": "MAIL BOXES ETC.2659",
     "address": "Gałczyńskiego 46",
     "city": "Poznań",
-    "longitude": 16.85171,
-    "latitude": 52.40832,
+    "longitude": 16.851712,
+    "latitude": 52.408316,
     "popupLines": [
       "PN-PT 08-18"
     ]
@@ -1435,7 +1798,7 @@
     "address": "Chojnicka 60",
     "city": "Poznań",
     "longitude": 16.78443,
-    "latitude": 52.47766,
+    "latitude": 52.477661,
     "popupLines": [
       "PN-PT 09-17 SB 10-14"
     ]
@@ -1508,11 +1871,11 @@
   },
   {
     "id": "POP-POZ75",
-    "label": "AUTOPLATFORMA ",
-    "address": "Mylna 23 PARTER UBEZPIECZENIA",
+    "label": "AUTOPLATFORMA (PARTER UBEZPIECZENIA)",
+    "address": "Mylna 23",
     "city": "Poznań",
-    "longitude": 16.90821,
-    "latitude": 52.4148,
+    "longitude": 16.908215,
+    "latitude": 52.414796,
     "popupLines": [
       "PN-PT 10-18 SB 09-14"
     ]
@@ -1533,7 +1896,7 @@
     "label": "SKLEP ODIDO",
     "address": "Os. Wichrowe Wzgórze PAW.103",
     "city": "Poznań",
-    "longitude": 16.93978,
+    "longitude": 16.939784,
     "latitude": 52.43856,
     "popupLines": [
       "PN-PT 07-20 SB 07-19 ND 10-16"
@@ -1570,17 +1933,6 @@
     "latitude": 52.45809,
     "popupLines": [
       "PN-PT 10-18"
-    ]
-  },
-  {
-    "id": "POP-POZ85",
-    "label": "PAKERSI ARENA",
-    "address": "Ostroroga 1/4",
-    "city": "Poznań",
-    "longitude": 16.88172,
-    "latitude": 52.40055,
-    "popupLines": [
-      "PN-PT 09-18"
     ]
   },
   {
@@ -1621,8 +1973,8 @@
     "label": "EPAKA WOLA",
     "address": "Przelot 10",
     "city": "Poznań",
-    "longitude": 16.85789,
-    "latitude": 52.42534,
+    "longitude": 16.857888,
+    "latitude": 52.425343,
     "popupLines": [
       "PN-PT 09-17"
     ]
@@ -1633,9 +1985,9 @@
     "address": "Górna Wilda 105",
     "city": "Poznań",
     "longitude": 16.92223,
-    "latitude": 52.39383,
+    "latitude": 52.393829,
     "popupLines": [
-      "PN-PT 09-18"
+      "PN-PT 09-19"
     ]
   },
   {
@@ -1661,23 +2013,12 @@
     ]
   },
   {
-    "id": "POP-POZ94",
-    "label": "EPAKA POZNAŃ NOWE MIASTO",
-    "address": "Skibowa 13A",
-    "city": "Poznań",
-    "longitude": 17.00945,
-    "latitude": 52.36412,
-    "popupLines": [
-      "PN-PT 09-17"
-    ]
-  },
-  {
     "id": "POP-POZ95",
     "label": "PAKERSI PIĄTKOWO",
-    "address": "Zygmunta Starego 14",
+    "address": "Zygmunta Starego 14/1",
     "city": "Poznań",
-    "longitude": 16.91046,
-    "latitude": 52.45942,
+    "longitude": 16.910461,
+    "latitude": 52.459424,
     "popupLines": [
       "PN-PT 10-18 SB 09-13"
     ]
@@ -1716,12 +2057,23 @@
     ]
   },
   {
+    "id": "POP-POZ99",
+    "label": "MIKOGAMES SKLEP Z GRAMI",
+    "address": "Os. Bolesława Śmiałego 16",
+    "city": "Poznań",
+    "longitude": 16.925792,
+    "latitude": 52.451254,
+    "popupLines": [
+      "PN-PT 10-18 SB 10-14"
+    ]
+  },
+  {
     "id": "POP-ROK1",
     "label": "SKLEP KOMPUTEROWY",
     "address": "Gminna 3 OBOK URZĘDU GMINY",
     "city": "Rokietnica",
-    "longitude": 16.75481,
-    "latitude": 52.51039,
+    "longitude": 16.754808,
+    "latitude": 52.510386,
     "popupLines": [
       "PN-PT 09-17"
     ]
@@ -1749,12 +2101,23 @@
     ]
   },
   {
+    "id": "POP-SKW4",
+    "label": "FOTOTWINS FOTOGRAF",
+    "address": "Poznańska 43",
+    "city": "Skórzewo",
+    "longitude": 16.789483,
+    "latitude": 52.390365,
+    "popupLines": [
+      "PN-CZ 10-18 PT 18-18"
+    ]
+  },
+  {
     "id": "POP-SLS4",
     "label": "MBE MAILBOX",
     "address": "Nowy Rynek 4",
     "city": "Suchy Las",
     "longitude": 16.87946,
-    "latitude": 52.47504,
+    "latitude": 52.475042,
     "popupLines": [
       "PN-PT 09-17"
     ]
@@ -1771,14 +2134,47 @@
     ]
   },
   {
+    "id": "POP-SLS6",
+    "label": "OPTYK MICHALAK ",
+    "address": "Nowy Rynek 2",
+    "city": "Suchy Las",
+    "longitude": 16.880322,
+    "latitude": 52.474897,
+    "popupLines": [
+      "PN-PT 10-18"
+    ]
+  },
+  {
     "id": "POP-SWD11",
     "label": "SKLEP LATYNKA",
     "address": "Rynek 28",
     "city": "Swarzędz",
-    "longitude": 17.07733,
-    "latitude": 52.41067,
+    "longitude": 17.077326,
+    "latitude": 52.410674,
     "popupLines": [
       "PN-PT 10-18 SB 10-14"
+    ]
+  },
+  {
+    "id": "POP-SWD13",
+    "label": "FURGONETKA SWARZĘDZ",
+    "address": "Os. Cegielskiego 10",
+    "city": "Swarzędz",
+    "longitude": 17.062653,
+    "latitude": 52.401761,
+    "popupLines": [
+      "PN-PT 10-17"
+    ]
+  },
+  {
+    "id": "POP-SWD14",
+    "label": "SUPERMARKET EUROSPAR",
+    "address": "Graniczna 55",
+    "city": "Swarzędz",
+    "longitude": 17.060074,
+    "latitude": 52.401401,
+    "popupLines": [
+      "PN-SB 07-22 ND 10-18"
     ]
   },
   {
@@ -1821,6 +2217,17 @@
     "city": "Poznań",
     "longitude": 16.89353,
     "latitude": 52.44772,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ01H",
+    "label": "Lokal użytkowy - wejście od ulicy Prusa",
+    "address": "Zwierzyniecka 28",
+    "city": "Poznań",
+    "longitude": 16.90393,
+    "latitude": 52.40927,
     "popupLines": [
       "24/7"
     ]
@@ -1878,6 +2285,17 @@
     "latitude": 52.4133,
     "popupLines": [
       "24/7"
+    ]
+  },
+  {
+    "id": "POZ02HO",
+    "label": "przejście z galerii na parking poziom 2",
+    "address": "Stanisława Matyi 2",
+    "city": "Poznań",
+    "longitude": 16.91298,
+    "latitude": 52.4012,
+    "popupLines": [
+      "PN-SB 09-21"
     ]
   },
   {
@@ -2105,8 +2523,8 @@
     "label": "Przy sklepie Agata Meble",
     "address": "Głogowska 422",
     "city": "Poznań",
-    "longitude": 16.84901,
-    "latitude": 52.35777,
+    "longitude": 16.84378,
+    "latitude": 52.35844,
     "popupLines": [
       "24/7"
     ]
@@ -2184,17 +2602,6 @@
     "city": "Poznań",
     "longitude": 16.94642,
     "latitude": 52.45565,
-    "popupLines": [
-      "24/7"
-    ]
-  },
-  {
-    "id": "POZ09ML",
-    "label": "Przy markecie Biedronka",
-    "address": "Bolesława Śmiałego 109",
-    "city": "Poznań",
-    "longitude": 16.92298,
-    "latitude": 52.4519,
     "popupLines": [
       "24/7"
     ]
@@ -2431,12 +2838,34 @@
     ]
   },
   {
+    "id": "POZ117M",
+    "label": "Przy drogerii Rossmann",
+    "address": "28 Czerwca 1956 r. 310",
+    "city": "Poznań",
+    "longitude": 16.90341,
+    "latitude": 52.37161,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "POZ118M",
     "label": "Na parkingu sklepu Lewiatan",
     "address": "Admiralska 25",
     "city": "Poznań",
     "longitude": 16.77234,
     "latitude": 52.47696,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ119M",
+    "label": "teren parkingu samochodowego",
+    "address": "Niemcewicza 9",
+    "city": "Poznań",
+    "longitude": 16.88841,
+    "latitude": 52.41687,
     "popupLines": [
       "24/7"
     ]
@@ -2497,6 +2926,83 @@
     ]
   },
   {
+    "id": "POZ122M",
+    "label": "niezabudowana działka przy parkingu (wjazd przez parking salonu BRW)",
+    "address": "Serbska 9",
+    "city": "Poznań",
+    "longitude": 16.94761,
+    "latitude": 52.43273,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ124M",
+    "label": "Na parkingu",
+    "address": "Naramowicka 335",
+    "city": "Poznań",
+    "longitude": 16.94665,
+    "latitude": 52.47396,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ125M",
+    "label": "Przy markecie SPAR",
+    "address": "Gronowa 18",
+    "city": "Poznań",
+    "longitude": 16.93454,
+    "latitude": 52.42956,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ126M",
+    "label": "Parking hotelowy (dla Klientów InPost bezpłatny do 20minut)",
+    "address": "Termalna 5",
+    "city": "Poznań",
+    "longitude": 16.97398,
+    "latitude": 52.40811,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ127M",
+    "label": "Parking przy Żabce",
+    "address": "Strzeszyńska 284",
+    "city": "Poznań",
+    "longitude": 16.8696,
+    "latitude": 52.46236,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ128M",
+    "label": "parking od ul. Bosej",
+    "address": "Bosa 18",
+    "city": "Poznań",
+    "longitude": 16.88959,
+    "latitude": 52.38314,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ129M",
+    "label": "parking Lidla",
+    "address": "Zamenhofa 132",
+    "city": "Poznań",
+    "longitude": 16.94344,
+    "latitude": 52.38501,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "POZ12A",
     "label": "Przy Galerii Malta",
     "address": "Maltańska 1",
@@ -2547,6 +3053,105 @@
     "city": "Poznań",
     "longitude": 16.83661,
     "latitude": 52.40884,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ130M",
+    "label": "Na terenie prywatne posesji",
+    "address": "Wietrzna 3",
+    "city": "Poznań",
+    "longitude": 16.89978,
+    "latitude": 52.46904,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ132M",
+    "label": "W płocie przy posesji prywatnej",
+    "address": "Sowice 34",
+    "city": "Poznań",
+    "longitude": 17.02412,
+    "latitude": 52.36292,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ133M",
+    "label": "Na parkingu drukarni Prodruk",
+    "address": "Sarmacka 7",
+    "city": "Poznań",
+    "longitude": 16.94193,
+    "latitude": 52.4453,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ134M",
+    "label": "Obok Pizzerii Raptorius",
+    "address": "Rumcajsa 2a",
+    "city": "Poznań",
+    "longitude": 16.83285,
+    "latitude": 52.41058,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ135M",
+    "label": "parkin prywatnej posesji",
+    "address": "Kamienna 28",
+    "city": "Poznań",
+    "longitude": 16.88784,
+    "latitude": 52.37176,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ136M",
+    "label": "przy wjeździe na posesję",
+    "address": "Szarotkowa 147",
+    "city": "Poznań",
+    "longitude": 16.80821,
+    "latitude": 52.38633,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ137M",
+    "label": "Na parkingu przy sklepie Żabka",
+    "address": "Fabianowo 87",
+    "city": "Poznań",
+    "longitude": 16.85529,
+    "latitude": 52.36583,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ138M",
+    "label": "Na posesji ul. Jana Henryka Dąbrowskiego 182",
+    "address": "Jana Henryka Dąbrowskiego 182",
+    "city": "Poznań",
+    "longitude": 16.8765,
+    "latitude": 52.41957,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ139M",
+    "label": "front posesji od ul. Malwowej",
+    "address": "Malwowa 91",
+    "city": "Poznań",
+    "longitude": 16.821314,
+    "latitude": 52.385722,
     "popupLines": [
       "24/7"
     ]
@@ -2613,17 +3218,6 @@
     "city": "Poznań",
     "longitude": 16.91462,
     "latitude": 52.45026,
-    "popupLines": [
-      "24/7"
-    ]
-  },
-  {
-    "id": "POZ14N",
-    "label": "Przy sklepie Bio Family",
-    "address": "Murawa 2",
-    "city": "Poznań",
-    "longitude": 16.93655,
-    "latitude": 52.42691,
     "popupLines": [
       "24/7"
     ]
@@ -2762,11 +3356,11 @@
   },
   {
     "id": "POZ18A",
-    "label": "Przy markecie Tesco",
+    "label": "Przy markecie Kaufland",
     "address": "Opieńskiego 1",
     "city": "Poznań",
-    "longitude": 16.92042,
-    "latitude": 52.461,
+    "longitude": 16.92039,
+    "latitude": 52.46095,
     "popupLines": [
       "24/7"
     ]
@@ -3080,17 +3674,6 @@
     ]
   },
   {
-    "id": "POZ29A",
-    "label": "Hol główny dworca PKP - Poznań",
-    "address": "Dworcowa 1",
-    "city": "Poznań",
-    "longitude": 16.91328,
-    "latitude": 52.4025,
-    "popupLines": [
-      "24/7"
-    ]
-  },
-  {
     "id": "POZ29M",
     "label": "Przy budynku obok parkingu sklepu Lidl",
     "address": "Obornicka 282-284",
@@ -3194,7 +3777,7 @@
     "label": "Przy lokalu wolnostojącym Sprzedaż okien",
     "address": "os. Zwycięstwa 13",
     "city": "Poznań",
-    "longitude": 16.9298,
+    "longitude": 16.92954,
     "latitude": 52.436,
     "popupLines": [
       "24/7"
@@ -3257,13 +3840,13 @@
   },
   {
     "id": "POZ35A",
-    "label": "Galeria Handlowa Posnania, poziom -1, strefa Premium Lounge PN-SB 10:00-22:00 ND 10:00-21:00",
-    "address": "Pleszewska 1",
+    "label": "Galeria Handlowa Posnania, poziom -1, strefa Premium Lounge PN-SB 10:00-22:00 ND 10:00-21:00, parking różowy, przy słupie A03, wejście -1A, pod ruchomymi schodami",
+    "address": "Pleszewska 1 1 1",
     "city": "Poznań",
     "longitude": 16.95471,
     "latitude": 52.39832,
     "popupLines": [
-      "PN-SB 10:00-22:00 ND 10:00-21:00"
+      "24/7"
     ]
   },
   {
@@ -3460,17 +4043,6 @@
     "city": "Poznań",
     "longitude": 16.99457,
     "latitude": 52.38252,
-    "popupLines": [
-      "24/7"
-    ]
-  },
-  {
-    "id": "POZ41A",
-    "label": "Przy sklepie Lidl",
-    "address": "Zamenhofa 132",
-    "city": "Poznań",
-    "longitude": 16.94344,
-    "latitude": 52.38503,
     "popupLines": [
       "24/7"
     ]
@@ -3817,17 +4389,6 @@
     ]
   },
   {
-    "id": "POZ52N",
-    "label": "przy parkingu",
-    "address": "Rabczańska 1",
-    "city": "Poznań",
-    "longitude": 16.88434,
-    "latitude": 52.44512,
-    "popupLines": [
-      "24/7"
-    ]
-  },
-  {
     "id": "POZ53M",
     "label": "Skrzyżowanie ulic Morasko/Hodowlana",
     "address": "Morasko",
@@ -3845,6 +4406,17 @@
     "city": "Poznań",
     "longitude": 16.88573,
     "latitude": 52.36008,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ54A",
+    "label": "przy budynku usługowym",
+    "address": "Stanisława Zwierzchowskiego 7",
+    "city": "Poznań",
+    "longitude": 16.97337,
+    "latitude": 52.377,
     "popupLines": [
       "24/7"
     ]
@@ -3997,8 +4569,8 @@
     "label": "Parking samochodowy",
     "address": "Strzałowa 6",
     "city": "Poznań",
-    "longitude": 16.93139,
-    "latitude": 52.40317,
+    "longitude": 16.93131,
+    "latitude": 52.40314,
     "popupLines": [
       "24/7"
     ]
@@ -4488,6 +5060,28 @@
     ]
   },
   {
+    "id": "PRM02M",
+    "label": "Na parkingu - Rzeczoznawcy SIM-TECH",
+    "address": "Rzemieślnicza 31",
+    "city": "Przeźmierowo",
+    "longitude": 16.79444,
+    "latitude": 52.42022,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "PRM03M",
+    "label": "Przy parkingu posesji",
+    "address": "Kościelna 16",
+    "city": "Przeźmierowo",
+    "longitude": 16.79105,
+    "latitude": 52.42682,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "PUS01A",
     "label": "Przy sklepie Żabka",
     "address": "Poznańska 46B",
@@ -4664,6 +5258,28 @@
     ]
   },
   {
+    "id": "ROK03M",
+    "label": "Na parkingu prywatnej posesji",
+    "address": "Trakt Napoleoński 2",
+    "city": "Rokietnica",
+    "longitude": 16.74093,
+    "latitude": 52.50636,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "RQW01M",
+    "label": "Przy sklepie spożywczym",
+    "address": "Goślińska 56A",
+    "city": "Rakownia",
+    "longitude": 17.03398,
+    "latitude": 52.55803,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "SDM01N",
     "label": "Przy hipermarkecie Auchan",
     "address": "św. Antoniego 2",
@@ -4692,6 +5308,17 @@
     "city": "Siekierki Wielkie",
     "longitude": 17.16347,
     "latitude": 52.38123,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SII02M",
+    "label": "Przy DINO",
+    "address": "Poznańska 43",
+    "city": "Siekierki Wielkie",
+    "longitude": 17.15644,
+    "latitude": 52.39053,
     "popupLines": [
       "24/7"
     ]
@@ -4752,6 +5379,17 @@
     ]
   },
   {
+    "id": "SKW04M",
+    "label": "Przy Dino",
+    "address": "Kozierowskiego 18",
+    "city": "Skórzewo",
+    "longitude": 16.77529,
+    "latitude": 52.39159,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "SLS01A",
     "label": "Parking przed magazynem Grupa Aptekarska",
     "address": "Nektarowa 15",
@@ -4781,7 +5419,7 @@
     "longitude": 16.86883,
     "latitude": 52.46637,
     "popupLines": [
-      ""
+      "24/7"
     ]
   },
   {
@@ -4818,12 +5456,23 @@
     ]
   },
   {
+    "id": "SLS04M",
+    "label": "Na terenie myjni samochodowej",
+    "address": "Sucholeska 12",
+    "city": "Suchy Las",
+    "longitude": 16.87512,
+    "latitude": 52.47044,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "SWD01A",
     "label": "Przy markecie Tesco",
     "address": "Cieszkowskiego 39",
     "city": "Swarzędz",
-    "longitude": 17.0827,
-    "latitude": 52.41968,
+    "longitude": 17.082818,
+    "latitude": 52.419519,
     "popupLines": [
       "24/7"
     ]
@@ -4879,17 +5528,6 @@
     "city": "Swarzędz",
     "longitude": 17.06001,
     "latitude": 52.40132,
-    "popupLines": [
-      "24/7"
-    ]
-  },
-  {
-    "id": "SWD02M",
-    "label": "Przy parkingu sklepu Lidl",
-    "address": "Polna 23",
-    "city": "Swarzędz",
-    "longitude": 17.08275,
-    "latitude": 52.40738,
     "popupLines": [
       "24/7"
     ]
@@ -4976,8 +5614,19 @@
     "label": "Supermarket ALDI",
     "address": "Tysiąclecia 38",
     "city": "Swarzędz",
-    "longitude": 17.067957,
-    "latitude": 52.401562,
+    "longitude": 17.06796,
+    "latitude": 52.40156,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD07M",
+    "label": "lokalizacja na tyłach marketu spożywczego",
+    "address": "os. Czwartaków 103/45, 103/46",
+    "city": "Swarzędz",
+    "longitude": 17.08001,
+    "latitude": 52.4172,
     "popupLines": [
       "24/7"
     ]
