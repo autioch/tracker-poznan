@@ -1,34 +1,13 @@
 import { joinFromCurrentDir, require, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
-import { BUS_ROUTE, BUS_TOURIST, MPK_AGENCY, NIGHT_ROUTE, TRAM_ROUTE, TRAM_TOURIST } from './consts.mjs';
+import { getRouteIds, pickShapeId, uniqStr } from './utils.mjs';
 
 const optimizeShapeGroup = require(joinFromCurrentDir(import.meta)('optimizeShapeGroup.js'));
 
-const isDailyRoute = (routeId) => routeId !== TRAM_TOURIST && routeId !== BUS_TOURIST && !NIGHT_ROUTE.test(routeId);
-const isNightlyRoute = (routeId) => routeId !== TRAM_TOURIST && routeId !== BUS_TOURIST && NIGHT_ROUTE.test(routeId);
-
-const pickRouteId = ({ route_id }) => route_id;
-const pickShapeId = ({ shape_id }) => shape_id;
 const sortPoints = ([a], [b]) => a - b;
 const pickLatLng = ([, lat, lng]) => [lat, lng];
 
-function uniqStr(strArr) {
-  const n = {};
-
-  for (let i = 0; i < strArr.length; i++) {
-    if (!n[strArr[i]]) {
-      n[strArr[i]] = true;
-    }
-  }
-
-  return Object.keys(n);
-}
-
 export default function parseLines(shapes, routes, trips) {
-  // TODO Same as in stops
-  const tramRouteIds = new Set(routes.filter((route) => route.route_type === TRAM_ROUTE).map(pickRouteId).filter(isDailyRoute));
-  const mpkBusRouteIds = new Set(routes.filter((route) => route.route_type === BUS_ROUTE && route.agency_id === MPK_AGENCY).map(pickRouteId).filter(isDailyRoute));
-  const otherBusRouteIds = new Set(routes.filter((route) => route.route_type === BUS_ROUTE && route.agency_id !== MPK_AGENCY).map(pickRouteId).filter(isDailyRoute));
-  const nightRouteIds = new Set(routes.map(pickRouteId).filter(isNightlyRoute));
+  const { tramRouteIds, mpkBusRouteIds, otherBusRouteIds, nightRouteIds } = getRouteIds(routes);
 
   const tramShapeIds = uniqStr(trips.filter((trip) => tramRouteIds.has(trip.route_id)).map(pickShapeId));
   const mpkBusShapeIds = uniqStr(trips.filter((trip) => mpkBusRouteIds.has(trip.route_id)).map(pickShapeId));

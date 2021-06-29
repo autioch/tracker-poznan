@@ -8,13 +8,13 @@
     "latitude": "52.4155430100",
     "closestLines": [
       "Tram: 2, 7, 17, 18",
-      "Bus: 182, 191, 193, 195",
-      "Night: 219"
+      "Bus: 102, 182, 191, 193, 195",
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Tram: 2, 7, 17, 18",
-      "Bus: 182, 191, 193, 195",
-      "Night: 219"
+      "Bus: 102, 182, 191, 193, 195",
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -26,13 +26,13 @@
     "latitude": "52.4157411000",
     "closestLines": [
       "Tram: 2, 7, 17, 18",
-      "Bus: 182, 191, 193",
-      "Night: 219"
+      "Bus: 102, 182, 191, 193",
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Tram: 2, 7, 17, 18",
-      "Bus: 182, 191, 193",
-      "Night: 219"
+      "Bus: 102, 182, 191, 193",
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -86,6 +86,22 @@
     ]
   },
   {
+    "id": "164",
+    "label": "Politechnika",
+    "address": "",
+    "city": "",
+    "longitude": "16.9487645300",
+    "latitude": "52.4007011200",
+    "closestLines": [
+      "Tram: 5, 6, 9",
+      "Bus: 100"
+    ],
+    "popupLines": [
+      "Tram: 5, 6, 9",
+      "Bus: 100"
+    ]
+  },
+  {
     "id": "173",
     "label": "AWF",
     "address": "",
@@ -109,14 +125,14 @@
     "longitude": "16.9754798600",
     "latitude": "52.3861726200",
     "closestLines": [
-      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Tram: 1, 5, 7, 11, 12, 14, 15, 17, 18, 92",
       "Bus: 152, 162, 166, 184, 196",
-      "Night: 201, 218"
+      "Night: 201, 218, 231"
     ],
     "popupLines": [
-      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Tram: 1, 5, 7, 11, 12, 14, 15, 17, 18, 92",
       "Bus: 152, 162, 166, 184, 196",
-      "Night: 201, 218"
+      "Night: 201, 218, 231"
     ]
   },
   {
@@ -127,14 +143,174 @@
     "longitude": "16.9756493300",
     "latitude": "52.3861128400",
     "closestLines": [
-      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Tram: 1, 5, 7, 11, 12, 14, 15, 16, 17, 18, 92",
       "Bus: 152, 162, 166, 184, 196",
-      "Night: 201, 218"
+      "Night: 201, 218, 231"
     ],
     "popupLines": [
-      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Tram: 1, 5, 7, 11, 12, 14, 15, 16, 17, 18, 92",
       "Bus: 152, 162, 166, 184, 196",
-      "Night: 201, 218"
+      "Night: 201, 218, 231"
+    ]
+  },
+  {
+    "id": "240",
+    "label": "Most Św. Rocha",
+    "address": "",
+    "city": "",
+    "longitude": "16.9422831200",
+    "latitude": "52.4027711600",
+    "closestLines": [
+      "Tram: 5, 6, 9",
+      "Bus: 100"
+    ],
+    "popupLines": [
+      "Tram: 5, 6, 9",
+      "Bus: 100"
+    ]
+  },
+  {
+    "id": "315",
+    "label": "Morasko",
+    "address": "",
+    "city": "",
+    "longitude": "16.9054379000",
+    "latitude": "52.4892681800",
+    "closestLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ],
+    "popupLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ]
+  },
+  {
+    "id": "316",
+    "label": "Morasko Kościół",
+    "address": "",
+    "city": "",
+    "longitude": "16.9084893200",
+    "latitude": "52.4887599500",
+    "closestLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ],
+    "popupLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ]
+  },
+  {
+    "id": "317",
+    "label": "Morasko Kościół",
+    "address": "",
+    "city": "",
+    "longitude": "16.9089182200",
+    "latitude": "52.4884915500",
+    "closestLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ],
+    "popupLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ]
+  },
+  {
+    "id": "318",
+    "label": "Morasko Cmentarz",
+    "address": "",
+    "city": "",
+    "longitude": "16.9100089000",
+    "latitude": "52.4844634100",
+    "closestLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ],
+    "popupLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ]
+  },
+  {
+    "id": "319",
+    "label": "Morasko Cmentarz",
+    "address": "",
+    "city": "",
+    "longitude": "16.9101536300",
+    "latitude": "52.4846278500",
+    "closestLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ],
+    "popupLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ]
+  },
+  {
+    "id": "320",
+    "label": "Szklarniowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9062235400",
+    "latitude": "52.4771069700",
+    "closestLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ],
+    "popupLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ]
+  },
+  {
+    "id": "321",
+    "label": "Szklarniowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9066457200",
+    "latitude": "52.4775378300",
+    "closestLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ],
+    "popupLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ]
+  },
+  {
+    "id": "322",
+    "label": "Deszczowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9019816600",
+    "latitude": "52.4716679700",
+    "closestLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ],
+    "popupLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ]
+  },
+  {
+    "id": "323",
+    "label": "Deszczowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9023406135",
+    "latitude": "52.4719328406",
+    "closestLines": [
+      "Bus: 188",
+      "Other bus: 902"
+    ],
+    "popupLines": [
+      "Bus: 188",
+      "Other bus: 902"
     ]
   },
   {
@@ -530,6 +706,42 @@
     ]
   },
   {
+    "id": "375",
+    "label": "Wietrzna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9009097300",
+    "latitude": "52.4687448900",
+    "closestLines": [
+      "Bus: 188",
+      "Other bus: 901, 902, 905",
+      "Night: 253"
+    ],
+    "popupLines": [
+      "Bus: 188",
+      "Other bus: 901, 902, 905",
+      "Night: 253"
+    ]
+  },
+  {
+    "id": "376",
+    "label": "Wietrzna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9005959200",
+    "latitude": "52.4683871600",
+    "closestLines": [
+      "Bus: 188",
+      "Other bus: 901, 902, 905",
+      "Night: 253"
+    ],
+    "popupLines": [
+      "Bus: 188",
+      "Other bus: 901, 902, 905",
+      "Night: 253"
+    ]
+  },
+  {
     "id": "380",
     "label": "Os. Sobieskiego",
     "address": "",
@@ -537,12 +749,14 @@
     "longitude": "16.9171600600",
     "latitude": "52.4650301900",
     "closestLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ],
     "popupLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ]
   },
   {
@@ -553,14 +767,14 @@
     "longitude": "16.9165060800",
     "latitude": "52.4650545300",
     "closestLines": [
-      "Bus: 169, 174, 185, 190, 191, 193, 198, 348",
+      "Bus: 169, 174, 185, 188, 190, 191, 193, 198, 348",
       "Other bus: 832, 901, 902, 904, 905, 907",
-      "Night: 215, 218"
+      "Night: 215, 218, 253"
     ],
     "popupLines": [
-      "Bus: 169, 174, 185, 190, 191, 193, 198, 348",
+      "Bus: 169, 174, 185, 188, 190, 191, 193, 198, 348",
       "Other bus: 832, 901, 902, 904, 905, 907",
-      "Night: 215, 218"
+      "Night: 215, 218, 253"
     ]
   },
   {
@@ -571,10 +785,12 @@
     "longitude": "16.9164340865",
     "latitude": "52.4636932061",
     "closestLines": [
+      "Tram: T21",
       "Bus: 174, 191, 198, 348",
       "Night: 218"
     ],
     "popupLines": [
+      "Tram: T21",
       "Bus: 174, 191, 198, 348",
       "Night: 218"
     ]
@@ -587,12 +803,14 @@
     "longitude": "16.9176231500",
     "latitude": "52.4625870400",
     "closestLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ],
     "popupLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ]
   },
   {
@@ -603,12 +821,14 @@
     "longitude": "16.9179703700",
     "latitude": "52.4627051200",
     "closestLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ],
     "popupLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ]
   },
   {
@@ -619,12 +839,14 @@
     "longitude": "16.9158013600",
     "latitude": "52.4602038200",
     "closestLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ],
     "popupLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ]
   },
   {
@@ -651,14 +873,16 @@
     "longitude": "16.9170346000",
     "latitude": "52.4605915400",
     "closestLines": [
-      "Bus: 169, 174, 185, 191, 198, 348",
+      "Tram: T21",
+      "Bus: 169, 174, 185, 188, 191, 198, 348",
       "Other bus: 901, 902, 904, 905",
-      "Night: 218"
+      "Night: 218, 253"
     ],
     "popupLines": [
-      "Bus: 169, 174, 185, 191, 198, 348",
+      "Tram: T21",
+      "Bus: 169, 174, 185, 188, 191, 198, 348",
       "Other bus: 901, 902, 904, 905",
-      "Night: 218"
+      "Night: 218, 253"
     ]
   },
   {
@@ -973,12 +1197,14 @@
     "longitude": "16.9096308498",
     "latitude": "52.4601935935",
     "closestLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ],
     "popupLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ]
   },
   {
@@ -989,12 +1215,14 @@
     "longitude": "16.9083573400",
     "latitude": "52.4602850600",
     "closestLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ],
     "popupLines": [
-      "Bus: 169, 185",
-      "Other bus: 901, 902, 904, 905"
+      "Bus: 169, 185, 188",
+      "Other bus: 901, 902, 904, 905",
+      "Night: 253"
     ]
   },
   {
@@ -1009,6 +1237,20 @@
     ],
     "popupLines": [
       "198, 348"
+    ]
+  },
+  {
+    "id": "415",
+    "label": "UAM Kampus",
+    "address": "",
+    "city": "",
+    "longitude": "16.9305030700",
+    "latitude": "52.4640625100",
+    "closestLines": [
+      "198"
+    ],
+    "popupLines": [
+      "198"
     ]
   },
   {
@@ -1287,11 +1529,11 @@
     "longitude": "16.9417111700",
     "latitude": "52.4899311000",
     "closestLines": [
-      "Bus: 167, 348, 911",
+      "Bus: 167, 188, 348, 911",
       "Night: 214"
     ],
     "popupLines": [
-      "Bus: 167, 348, 911",
+      "Bus: 167, 188, 348, 911",
       "Night: 214"
     ]
   },
@@ -1303,11 +1545,11 @@
     "longitude": "16.9461884000",
     "latitude": "52.4976583300",
     "closestLines": [
-      "Bus: 167, 348, 911",
+      "Bus: 167, 188, 348, 911",
       "Night: 214"
     ],
     "popupLines": [
-      "Bus: 167, 348, 911",
+      "Bus: 167, 188, 348, 911",
       "Night: 214"
     ]
   },
@@ -1403,11 +1645,11 @@
     "longitude": "16.9467181900",
     "latitude": "52.5451933400",
     "closestLines": [
-      "Bus: 348, 911",
+      "Bus: 342, 348, 911",
       "Other bus: 397"
     ],
     "popupLines": [
-      "Bus: 348, 911",
+      "Bus: 342, 348, 911",
       "Other bus: 397"
     ]
   },
@@ -1703,11 +1945,11 @@
     "longitude": "16.9290799200",
     "latitude": "52.4427139100",
     "closestLines": [
-      "Bus: 174, 191",
+      "Bus: 174, 185, 191",
       "Night: 215"
     ],
     "popupLines": [
-      "Bus: 174, 191",
+      "Bus: 174, 185, 191",
       "Night: 215"
     ]
   },
@@ -1723,34 +1965,6 @@
     ],
     "popupLines": [
       "174, 185, 191"
-    ]
-  },
-  {
-    "id": "468",
-    "label": "Umultowska",
-    "address": "",
-    "city": "",
-    "longitude": "16.9303892100",
-    "latitude": "52.4430685600",
-    "closestLines": [
-      "185"
-    ],
-    "popupLines": [
-      "185"
-    ]
-  },
-  {
-    "id": "469",
-    "label": "Estońska",
-    "address": "",
-    "city": "",
-    "longitude": "16.9375356900",
-    "latitude": "52.4425768100",
-    "closestLines": [
-      "185"
-    ],
-    "popupLines": [
-      "185"
     ]
   },
   {
@@ -1775,12 +1989,10 @@
     "longitude": "16.9407797000",
     "latitude": "52.4412357000",
     "closestLines": [
-      "Bus: 167, 169, 171, 178, 182, 185, 911",
-      "Night: 214, 218, 224"
+      "171, 182"
     ],
     "popupLines": [
-      "Bus: 167, 169, 171, 178, 182, 185, 911",
-      "Night: 214, 218, 224"
+      "171, 182"
     ]
   },
   {
@@ -1792,11 +2004,27 @@
     "latitude": "52.4416835800",
     "closestLines": [
       "Bus: 167, 169, 171, 178, 182, 185, 911",
-      "Night: 214, 218, 224"
+      "Night: 218"
     ],
     "popupLines": [
       "Bus: 167, 169, 171, 178, 182, 185, 911",
-      "Night: 214, 218, 224"
+      "Night: 218"
+    ]
+  },
+  {
+    "id": "473",
+    "label": "Naramowicka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9469135500",
+    "latitude": "52.4400103500",
+    "closestLines": [
+      "Bus: 167, 169, 178, 911",
+      "Night: 218"
+    ],
+    "popupLines": [
+      "Bus: 167, 169, 178, 911",
+      "Night: 218"
     ]
   },
   {
@@ -1808,11 +2036,11 @@
     "latitude": "52.4384400500",
     "closestLines": [
       "Bus: 167, 169, 171, 178, 182, 185, 911",
-      "Night: 214, 218, 224"
+      "Night: 218"
     ],
     "popupLines": [
       "Bus: 167, 169, 171, 178, 182, 185, 911",
-      "Night: 214, 218, 224"
+      "Night: 218"
     ]
   },
   {
@@ -1823,44 +2051,26 @@
     "longitude": "16.9404025000",
     "latitude": "52.4383750700",
     "closestLines": [
-      "Bus: 167, 169, 171, 178, 182, 185, 911",
-      "Night: 214, 218, 224"
+      "171, 182"
     ],
     "popupLines": [
-      "Bus: 167, 169, 171, 178, 182, 185, 911",
-      "Night: 214, 218, 224"
+      "171, 182"
     ]
   },
   {
-    "id": "479",
-    "label": "Naramowice",
+    "id": "477",
+    "label": "Włodarska",
     "address": "",
     "city": "",
-    "longitude": "16.9460185100",
-    "latitude": "52.4444631000",
+    "longitude": "16.9470342300",
+    "latitude": "52.4354973500",
     "closestLines": [
-      "Bus: 167, 169, 911",
-      "Night: 214, 218, 224"
+      "Bus: 167, 169, 178, 911",
+      "Night: 218"
     ],
     "popupLines": [
-      "Bus: 167, 169, 911",
-      "Night: 214, 218, 224"
-    ]
-  },
-  {
-    "id": "480",
-    "label": "Naramowice",
-    "address": "",
-    "city": "",
-    "longitude": "16.9465224400",
-    "latitude": "52.4448718600",
-    "closestLines": [
-      "Bus: 167, 169, 911",
-      "Night: 214, 218, 224"
-    ],
-    "popupLines": [
-      "Bus: 167, 169, 911",
-      "Night: 214, 218, 224"
+      "Bus: 167, 169, 178, 911",
+      "Night: 218"
     ]
   },
   {
@@ -1871,10 +2081,12 @@
     "longitude": "16.9532701500",
     "latitude": "52.4372446300",
     "closestLines": [
-      "178"
+      "Bus: 178",
+      "Night: 214, 224"
     ],
     "popupLines": [
-      "178"
+      "Bus: 178",
+      "Night: 214, 224"
     ]
   },
   {
@@ -1885,10 +2097,12 @@
     "longitude": "16.9530740700",
     "latitude": "52.4380629200",
     "closestLines": [
-      "178"
+      "Bus: 178",
+      "Night: 214, 224"
     ],
     "popupLines": [
-      "178"
+      "Bus: 178",
+      "Night: 214, 224"
     ]
   },
   {
@@ -1913,10 +2127,12 @@
     "longitude": "16.9539992500",
     "latitude": "52.4309139700",
     "closestLines": [
-      "178, 183, 185, 322"
+      "Bus: 178, 183, 185, 322",
+      "Night: 214, 224"
     ],
     "popupLines": [
-      "178, 183, 185, 322"
+      "Bus: 178, 183, 185, 322",
+      "Night: 214, 224"
     ]
   },
   {
@@ -1941,10 +2157,12 @@
     "longitude": "16.9455849500",
     "latitude": "52.4324866200",
     "closestLines": [
-      "183, 185, 322"
+      "Bus: 167, 169, 178, 183, 185, 322, 911",
+      "Night: 218"
     ],
     "popupLines": [
-      "183, 185, 322"
+      "Bus: 167, 169, 178, 183, 185, 322, 911",
+      "Night: 218"
     ]
   },
   {
@@ -1984,11 +2202,11 @@
     "latitude": "52.4338715700",
     "closestLines": [
       "Bus: 167, 169, 174, 182, 911",
-      "Night: 214, 218, 224"
+      "Night: 218"
     ],
     "popupLines": [
       "Bus: 167, 169, 174, 182, 911",
-      "Night: 214, 218, 224"
+      "Night: 218"
     ]
   },
   {
@@ -2000,11 +2218,11 @@
     "latitude": "52.4356201400",
     "closestLines": [
       "Bus: 167, 169, 171, 178, 182, 185, 911",
-      "Night: 214, 218, 224"
+      "Night: 218"
     ],
     "popupLines": [
       "Bus: 167, 169, 171, 178, 182, 185, 911",
-      "Night: 214, 218, 224"
+      "Night: 218"
     ]
   },
   {
@@ -2015,10 +2233,10 @@
     "longitude": "16.9312698300",
     "latitude": "52.4352475700",
     "closestLines": [
-      "170, 171, 174, 178, 183, 322"
+      "170, 171, 174, 178, 183, 185, 322"
     ],
     "popupLines": [
-      "170, 171, 174, 178, 183, 322"
+      "170, 171, 174, 178, 183, 185, 322"
     ]
   },
   {
@@ -2061,11 +2279,11 @@
     "longitude": "16.9303707900",
     "latitude": "52.4390781600",
     "closestLines": [
-      "Bus: 174, 191",
+      "Bus: 174, 185, 191",
       "Night: 215"
     ],
     "popupLines": [
-      "Bus: 174, 191",
+      "Bus: 174, 185, 191",
       "Night: 215"
     ]
   },
@@ -2256,38 +2474,6 @@
     ]
   },
   {
-    "id": "512",
-    "label": "Strzeszyńska I",
-    "address": "",
-    "city": "",
-    "longitude": "16.9030445900",
-    "latitude": "52.4437804400",
-    "closestLines": [
-      "Bus: 168",
-      "Night: 226"
-    ],
-    "popupLines": [
-      "Bus: 168",
-      "Night: 226"
-    ]
-  },
-  {
-    "id": "513",
-    "label": "Strzeszyńska I",
-    "address": "",
-    "city": "",
-    "longitude": "16.9033924900",
-    "latitude": "52.4437428300",
-    "closestLines": [
-      "Bus: 168",
-      "Night: 216"
-    ],
-    "popupLines": [
-      "Bus: 168",
-      "Night: 216"
-    ]
-  },
-  {
     "id": "514",
     "label": "Obornicka",
     "address": "",
@@ -2461,34 +2647,6 @@
     ],
     "popupLines": [
       "160, 183"
-    ]
-  },
-  {
-    "id": "528",
-    "label": "Strzeszyńska II",
-    "address": "",
-    "city": "",
-    "longitude": "16.8952420300",
-    "latitude": "52.4488588600",
-    "closestLines": [
-      "168, 183"
-    ],
-    "popupLines": [
-      "168, 183"
-    ]
-  },
-  {
-    "id": "529",
-    "label": "Strzeszyńska II",
-    "address": "",
-    "city": "",
-    "longitude": "16.8945655300",
-    "latitude": "52.4489689900",
-    "closestLines": [
-      "168, 183"
-    ],
-    "popupLines": [
-      "168, 183"
     ]
   },
   {
@@ -2898,6 +3056,22 @@
     ]
   },
   {
+    "id": "561",
+    "label": "Strzeszyn",
+    "address": "",
+    "city": "",
+    "longitude": "16.8488594500",
+    "latitude": "52.4518608100",
+    "closestLines": [
+      "Bus: 146",
+      "Night: 226"
+    ],
+    "popupLines": [
+      "Bus: 146",
+      "Night: 226"
+    ]
+  },
+  {
     "id": "562",
     "label": "Strzeszyn",
     "address": "",
@@ -2905,10 +3079,10 @@
     "longitude": "16.8480803100",
     "latitude": "52.4521424700",
     "closestLines": [
-      "195"
+      "146, 195"
     ],
     "popupLines": [
-      "195"
+      "146, 195"
     ]
   },
   {
@@ -2933,10 +3107,10 @@
     "longitude": "16.8432035500",
     "latitude": "52.4547254800",
     "closestLines": [
-      "195"
+      "146, 195"
     ],
     "popupLines": [
-      "195"
+      "146, 195"
     ]
   },
   {
@@ -2947,10 +3121,10 @@
     "longitude": "16.8429271500",
     "latitude": "52.4549867000",
     "closestLines": [
-      "195"
+      "146, 195"
     ],
     "popupLines": [
-      "195"
+      "146, 195"
     ]
   },
   {
@@ -2993,10 +3167,10 @@
     "longitude": "16.8285525700",
     "latitude": "52.4640133000",
     "closestLines": [
-      "195"
+      "146, 195"
     ],
     "popupLines": [
-      "195"
+      "146, 195"
     ]
   },
   {
@@ -3007,10 +3181,10 @@
     "longitude": "16.8280997100",
     "latitude": "52.4641401500",
     "closestLines": [
-      "195"
+      "146, 195"
     ],
     "popupLines": [
-      "195"
+      "146, 195"
     ]
   },
   {
@@ -3064,11 +3238,11 @@
     "latitude": "52.4688093000",
     "closestLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3080,11 +3254,11 @@
     "latitude": "52.4686961400",
     "closestLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3096,11 +3270,11 @@
     "latitude": "52.4728173700",
     "closestLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3112,11 +3286,11 @@
     "latitude": "52.4732931600",
     "closestLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3128,11 +3302,11 @@
     "latitude": "52.4750720300",
     "closestLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3144,11 +3318,11 @@
     "latitude": "52.4753158800",
     "closestLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3161,12 +3335,12 @@
     "closestLines": [
       "Bus: 186, 195, 833, 834",
       "Other bus: 830",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 195, 833, 834",
       "Other bus: 830",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3179,12 +3353,12 @@
     "closestLines": [
       "Bus: 186, 195, 833, 834",
       "Other bus: 830",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 195, 833, 834",
       "Other bus: 830",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3196,11 +3370,13 @@
     "latitude": "52.4775368900",
     "closestLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Other bus: 830",
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Other bus: 830",
+      "Night: 219, 259"
     ]
   },
   {
@@ -3212,11 +3388,13 @@
     "latitude": "52.4751780000",
     "closestLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Other bus: 830",
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Other bus: 830",
+      "Night: 219, 259"
     ]
   },
   {
@@ -3228,11 +3406,13 @@
     "latitude": "52.4757478100",
     "closestLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Other bus: 830",
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Other bus: 830",
+      "Night: 219, 259"
     ]
   },
   {
@@ -3244,11 +3424,13 @@
     "latitude": "52.4737051100",
     "closestLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Other bus: 830",
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 195, 833, 834",
-      "Night: 219"
+      "Other bus: 830",
+      "Night: 219, 259"
     ]
   },
   {
@@ -3260,11 +3442,11 @@
     "latitude": "52.4641255700",
     "closestLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3276,11 +3458,11 @@
     "latitude": "52.4646400000",
     "closestLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3292,11 +3474,11 @@
     "latitude": "52.4534762600",
     "closestLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3308,11 +3490,11 @@
     "latitude": "52.4539974300",
     "closestLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3324,11 +3506,11 @@
     "latitude": "52.4483028600",
     "closestLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3340,11 +3522,11 @@
     "latitude": "52.4486133400",
     "closestLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3356,11 +3538,11 @@
     "latitude": "52.4418011800",
     "closestLines": [
       "Bus: 186, 801, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 801, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3372,11 +3554,11 @@
     "latitude": "52.4418361500",
     "closestLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3402,11 +3584,11 @@
     "latitude": "52.4364244100",
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3418,11 +3600,11 @@
     "latitude": "52.4352223500",
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
-      "Night: 219"
+      "Night: 219, 259"
     ]
   },
   {
@@ -3434,11 +3616,11 @@
     "latitude": "52.4350769500",
     "closestLines": [
       "Bus: 156, 186, 801",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 186, 801",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3450,11 +3632,11 @@
     "latitude": "52.4351845000",
     "closestLines": [
       "Bus: 156, 186, 801",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 186, 801",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3480,11 +3662,11 @@
     "latitude": "52.4352589000",
     "closestLines": [
       "Bus: 156, 186, 801",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 186, 801",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3524,11 +3706,11 @@
     "latitude": "52.4353853900",
     "closestLines": [
       "Bus: 156, 186, 801",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 186, 801",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3541,12 +3723,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3559,12 +3741,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3577,12 +3759,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3595,12 +3777,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3613,12 +3795,12 @@
     "closestLines": [
       "Bus: 161, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 161, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3647,12 +3829,12 @@
     "closestLines": [
       "Bus: 161, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 161, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3681,12 +3863,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3699,12 +3881,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3717,12 +3899,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3735,12 +3917,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3753,12 +3935,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3771,12 +3953,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3789,12 +3971,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3807,12 +3989,12 @@
     "closestLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Bus: 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3823,14 +4005,14 @@
     "longitude": "16.8729303300",
     "latitude": "52.4186600000",
     "closestLines": [
-      "Bus: 156, 161, 186, 801, 833, 834",
+      "Bus: 121, 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
-      "Bus: 156, 161, 186, 801, 833, 834",
+      "Bus: 121, 156, 161, 186, 801, 833, 834",
       "Other bus: 802, 803, 804, 811, 812, 813, 821",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3841,14 +4023,14 @@
     "longitude": "16.8818094600",
     "latitude": "52.4169067600",
     "closestLines": [
-      "Bus: 156, 161, 182, 186, 191, 193, 801, 833, 834",
+      "Bus: 102, 121, 156, 161, 182, 186, 191, 193, 801, 833, 834",
       "Other bus: 729",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
-      "Bus: 156, 161, 182, 186, 191, 193, 801, 833, 834",
+      "Bus: 102, 121, 156, 161, 182, 186, 191, 193, 801, 833, 834",
       "Other bus: 729",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3859,14 +4041,14 @@
     "longitude": "16.8822457700",
     "latitude": "52.4169288400",
     "closestLines": [
-      "Bus: 182, 191, 193, 195",
+      "Bus: 102, 121, 182, 191, 193, 195",
       "Other bus: 729",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
-      "Bus: 182, 191, 193, 195",
+      "Bus: 102, 121, 182, 191, 193, 195",
       "Other bus: 729",
-      "Night: 219"
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -3877,10 +4059,12 @@
     "longitude": "16.8851557900",
     "latitude": "52.4166818200",
     "closestLines": [
-      "195"
+      "Bus: 195",
+      "Night: 219"
     ],
     "popupLines": [
-      "195"
+      "Bus: 195",
+      "Night: 219"
     ]
   },
   {
@@ -3969,11 +4153,11 @@
     "longitude": "16.8741687600",
     "latitude": "52.4117184500",
     "closestLines": [
-      "Bus: 148, 159, 177, 191, 193",
+      "Bus: 102, 148, 159, 177, 191, 193",
       "Other bus: 729"
     ],
     "popupLines": [
-      "Bus: 148, 159, 177, 191, 193",
+      "Bus: 102, 148, 159, 177, 191, 193",
       "Other bus: 729"
     ]
   },
@@ -3985,11 +4169,11 @@
     "longitude": "16.8724554100",
     "latitude": "52.4117809300",
     "closestLines": [
-      "Bus: 148, 159, 177, 191, 193",
+      "Bus: 102, 148, 159, 177, 191, 193",
       "Other bus: 729"
     ],
     "popupLines": [
-      "Bus: 148, 159, 177, 191, 193",
+      "Bus: 102, 148, 159, 177, 191, 193",
       "Other bus: 729"
     ]
   },
@@ -4605,12 +4789,12 @@
     "closestLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ],
     "popupLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ]
   },
   {
@@ -4622,11 +4806,13 @@
     "latitude": "52.3971935000",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4638,11 +4824,13 @@
     "latitude": "52.3906024707",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4654,11 +4842,13 @@
     "latitude": "52.3886978000",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4670,11 +4860,13 @@
     "latitude": "52.3895040000",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4686,11 +4878,13 @@
     "latitude": "52.3906001200",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4702,11 +4896,13 @@
     "latitude": "52.3907185500",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4718,11 +4914,13 @@
     "latitude": "52.3974179800",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4734,11 +4932,13 @@
     "latitude": "52.3971100000",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4778,11 +4978,13 @@
     "latitude": "52.3865919900",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729",
+      "Night: 257"
     ]
   },
   {
@@ -4794,11 +4996,13 @@
     "latitude": "52.3868636600",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729",
+      "Night: 257"
     ]
   },
   {
@@ -4810,11 +5014,13 @@
     "latitude": "52.3843408400",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4826,11 +5032,13 @@
     "latitude": "52.3844889000",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4842,11 +5050,13 @@
     "latitude": "52.3777388800",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4858,11 +5068,13 @@
     "latitude": "52.3774399400",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -4875,12 +5087,12 @@
     "closestLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ],
     "popupLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ]
   },
   {
@@ -4893,12 +5105,12 @@
     "closestLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ],
     "popupLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ]
   },
   {
@@ -4911,12 +5123,12 @@
     "closestLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ],
     "popupLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ]
   },
   {
@@ -4929,12 +5141,12 @@
     "closestLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ],
     "popupLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ]
   },
   {
@@ -4947,12 +5159,12 @@
     "closestLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ],
     "popupLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ]
   },
   {
@@ -4965,12 +5177,12 @@
     "closestLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ],
     "popupLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ]
   },
   {
@@ -4983,12 +5195,12 @@
     "closestLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ],
     "popupLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ]
   },
   {
@@ -5001,12 +5213,12 @@
     "closestLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ],
     "popupLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ]
   },
   {
@@ -5019,12 +5231,12 @@
     "closestLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ],
     "popupLines": [
       "Bus: 177, 727",
       "Other bus: 803",
-      "Night: 224"
+      "Night: 224, 257"
     ]
   },
   {
@@ -5037,12 +5249,12 @@
     "closestLines": [
       "Bus: 177, 727",
       "Other bus: 716, 803",
-      "Night: 214, 224"
+      "Night: 214, 224, 257"
     ],
     "popupLines": [
       "Bus: 177, 727",
       "Other bus: 716, 803",
-      "Night: 214, 224"
+      "Night: 214, 224, 257"
     ]
   },
   {
@@ -5094,83 +5306,17 @@
     ]
   },
   {
-    "id": "732",
-    "label": "Stadion Miejski",
-    "address": "",
-    "city": "",
-    "longitude": "16.8613559400",
-    "latitude": "52.3948915200",
-    "closestLines": [
-      "Bus: 193",
-      "Night: 214, 224"
-    ],
-    "popupLines": [
-      "Bus: 193",
-      "Night: 214, 224"
-    ]
-  },
-  {
-    "id": "734",
-    "label": "Stadion Miejski",
-    "address": "",
-    "city": "",
-    "longitude": "16.8624166100",
-    "latitude": "52.3961310000",
-    "closestLines": [
-      "Bus: 145, 163, 191, 193",
-      "Night: 212"
-    ],
-    "popupLines": [
-      "Bus: 145, 163, 191, 193",
-      "Night: 212"
-    ]
-  },
-  {
-    "id": "735",
-    "label": "Stadion Miejski",
-    "address": "",
-    "city": "",
-    "longitude": "16.8630307900",
-    "latitude": "52.3949161200",
-    "closestLines": [
-      "Bus: 145, 163, 191",
-      "Night: 212"
-    ],
-    "popupLines": [
-      "Bus: 145, 163, 191",
-      "Night: 212"
-    ]
-  },
-  {
-    "id": "738",
+    "id": "740",
     "label": "Grochowska",
     "address": "",
     "city": "",
-    "longitude": "16.8755711400",
-    "latitude": "52.3989882300",
+    "longitude": "16.8760196800",
+    "latitude": "52.3997552200",
     "closestLines": [
-      "Bus: 169, 182",
-      "Night: 214, 224"
+      "169, 182"
     ],
     "popupLines": [
-      "Bus: 169, 182",
-      "Night: 214, 224"
-    ]
-  },
-  {
-    "id": "739",
-    "label": "Grochowska",
-    "address": "",
-    "city": "",
-    "longitude": "16.8754286100",
-    "latitude": "52.3986418900",
-    "closestLines": [
-      "Bus: 169, 182",
-      "Night: 214, 224"
-    ],
-    "popupLines": [
-      "Bus: 169, 182",
-      "Night: 214, 224"
+      "169, 182"
     ]
   },
   {
@@ -5851,10 +5997,12 @@
     "longitude": "16.9207035900",
     "latitude": "52.4353311700",
     "closestLines": [
+      "Tram: T21",
       "Bus: 171",
       "Night: 215"
     ],
     "popupLines": [
+      "Tram: T21",
       "Bus: 171",
       "Night: 215"
     ]
@@ -5941,10 +6089,12 @@
     "longitude": "16.9190324100",
     "latitude": "52.4111032500",
     "closestLines": [
-      "163, 168, 169, 171"
+      "Bus: 163, 168, 169, 171",
+      "Night: 231"
     ],
     "popupLines": [
-      "163, 168, 169, 171"
+      "Bus: 163, 168, 169, 171",
+      "Night: 231"
     ]
   },
   {
@@ -5971,10 +6121,12 @@
     "longitude": "16.9179373900",
     "latitude": "52.4084429900",
     "closestLines": [
-      "163, 168, 169, 171"
+      "Bus: 163, 168, 169, 171",
+      "Night: 231"
     ],
     "popupLines": [
-      "163, 168, 169, 171"
+      "Bus: 163, 168, 169, 171",
+      "Night: 231"
     ]
   },
   {
@@ -5985,12 +6137,12 @@
     "longitude": "16.9133768600",
     "latitude": "52.4066642200",
     "closestLines": [
-      "Bus: 159, 168",
-      "Night: 216, 219, 226"
+      "Bus: 100, 102, 159, 168",
+      "Night: 216, 219, 226, 231, 258, 259"
     ],
     "popupLines": [
-      "Bus: 159, 168",
-      "Night: 216, 219, 226"
+      "Bus: 100, 102, 159, 168",
+      "Night: 216, 219, 226, 231, 258, 259"
     ]
   },
   {
@@ -6001,12 +6153,12 @@
     "longitude": "16.9132234300",
     "latitude": "52.4070300000",
     "closestLines": [
-      "Bus: 159, 168",
-      "Night: 216, 219, 226"
+      "Bus: 100, 102, 159, 168",
+      "Night: 216, 219, 226, 231, 258, 259"
     ],
     "popupLines": [
-      "Bus: 159, 168",
-      "Night: 216, 219, 226"
+      "Bus: 100, 102, 159, 168",
+      "Night: 216, 219, 226, 231, 258, 259"
     ]
   },
   {
@@ -6018,11 +6170,11 @@
     "latitude": "52.4078763800",
     "closestLines": [
       "Bus: 148, 159, 163, 169, 177",
-      "Night: 212, 219, 222"
+      "Night: 212, 219, 222, 258, 259"
     ],
     "popupLines": [
       "Bus: 148, 159, 163, 169, 177",
-      "Night: 212, 219, 222"
+      "Night: 212, 219, 222, 258, 259"
     ]
   },
   {
@@ -6033,12 +6185,12 @@
     "longitude": "16.9122439500",
     "latitude": "52.4027315500",
     "closestLines": [
-      "Bus: 159, 168",
-      "Night: 216, 219, 226"
+      "Bus: 100, 102, 159, 168",
+      "Night: 216, 219, 226, 231, 258, 259"
     ],
     "popupLines": [
-      "Bus: 159, 168",
-      "Night: 216, 219, 226"
+      "Bus: 100, 102, 159, 168",
+      "Night: 216, 219, 226, 231, 258, 259"
     ]
   },
   {
@@ -6049,12 +6201,12 @@
     "longitude": "16.9121744200",
     "latitude": "52.4025035600",
     "closestLines": [
-      "Bus: 159, 168",
-      "Night: 216, 219, 226"
+      "Bus: 100, 102, 159, 168",
+      "Night: 216, 219, 226, 231, 258, 259"
     ],
     "popupLines": [
-      "Bus: 159, 168",
-      "Night: 216, 219, 226"
+      "Bus: 100, 102, 159, 168",
+      "Night: 216, 219, 226, 231, 258, 259"
     ]
   },
   {
@@ -6284,6 +6436,38 @@
     ]
   },
   {
+    "id": "835",
+    "label": "Rondo Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9438591400",
+    "latitude": "52.3809092300",
+    "closestLines": [
+      "Bus: 190, T4",
+      "Night: 211, 218, 221"
+    ],
+    "popupLines": [
+      "Bus: 190, T4",
+      "Night: 211, 218, 221"
+    ]
+  },
+  {
+    "id": "837",
+    "label": "Rondo Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9430293300",
+    "latitude": "52.3814707300",
+    "closestLines": [
+      "Bus: 190, T4",
+      "Night: 211, 221"
+    ],
+    "popupLines": [
+      "Bus: 190, T4",
+      "Night: 211, 221"
+    ]
+  },
+  {
     "id": "996",
     "label": "Sycowska Centrum Handlowe",
     "address": "",
@@ -6415,10 +6599,12 @@
     "longitude": "16.8458259200",
     "latitude": "52.3686819800",
     "closestLines": [
-      "180"
+      "Bus: 180",
+      "Other bus: 610, 702"
     ],
     "popupLines": [
-      "180"
+      "Bus: 180",
+      "Other bus: 610, 702"
     ]
   },
   {
@@ -6471,10 +6657,12 @@
     "longitude": "16.8428975300",
     "latitude": "52.3704000800",
     "closestLines": [
-      "180"
+      "Bus: 180",
+      "Other bus: 610, 702"
     ],
     "popupLines": [
-      "180"
+      "Bus: 180",
+      "Other bus: 610, 702"
     ]
   },
   {
@@ -6485,10 +6673,12 @@
     "longitude": "16.8491513400",
     "latitude": "52.3675095800",
     "closestLines": [
-      "180"
+      "Bus: 180",
+      "Other bus: 610, 702"
     ],
     "popupLines": [
-      "180"
+      "Bus: 180",
+      "Other bus: 610, 702"
     ]
   },
   {
@@ -6499,10 +6689,12 @@
     "longitude": "16.8499730300",
     "latitude": "52.3670087900",
     "closestLines": [
-      "180"
+      "Bus: 180",
+      "Other bus: 610, 702"
     ],
     "popupLines": [
-      "180"
+      "Bus: 180",
+      "Other bus: 610, 702"
     ]
   },
   {
@@ -6514,11 +6706,13 @@
     "latitude": "52.3653535900",
     "closestLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702"
+      "Other bus: 610, 702",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702"
+      "Other bus: 610, 702",
+      "Night: 250"
     ]
   },
   {
@@ -6530,11 +6724,13 @@
     "latitude": "52.3610670800",
     "closestLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702"
+      "Other bus: 610, 702",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702"
+      "Other bus: 610, 702",
+      "Night: 250"
     ]
   },
   {
@@ -6546,11 +6742,13 @@
     "latitude": "52.3621900300",
     "closestLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702, 703, 705, 707"
+      "Other bus: 610, 702, 703, 705, 707",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702, 703, 705, 707"
+      "Other bus: 610, 702, 703, 705, 707",
+      "Night: 250"
     ]
   },
   {
@@ -6562,11 +6760,13 @@
     "latitude": "52.3659023400",
     "closestLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702, 703, 705, 707"
+      "Other bus: 610, 702, 703, 705, 707",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702, 703, 705, 707"
+      "Other bus: 610, 702, 703, 705, 707",
+      "Night: 250"
     ]
   },
   {
@@ -6578,11 +6778,13 @@
     "latitude": "52.3637491100",
     "closestLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702"
+      "Other bus: 610, 702",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702"
+      "Other bus: 610, 702",
+      "Night: 250"
     ]
   },
   {
@@ -6594,11 +6796,13 @@
     "latitude": "52.3705838100",
     "closestLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702, 703, 705, 707"
+      "Other bus: 610, 702, 703, 705, 707",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702, 703, 705, 707"
+      "Other bus: 610, 702, 703, 705, 707",
+      "Night: 250"
     ]
   },
   {
@@ -6610,11 +6814,13 @@
     "latitude": "52.3729464900",
     "closestLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702, 703, 704, 705, 707, 710"
+      "Other bus: 610, 702, 703, 704, 705, 707, 710",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702, 703, 704, 705, 707, 710"
+      "Other bus: 610, 702, 703, 704, 705, 707, 710",
+      "Night: 250"
     ]
   },
   {
@@ -6626,11 +6832,13 @@
     "latitude": "52.3729373400",
     "closestLines": [
       "Bus: 149, 180",
-      "Other bus: 610, 616, 702, 703, 704, 705, 707, 710"
+      "Other bus: 610, 702, 703, 704, 705, 707, 710",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 149, 180",
-      "Other bus: 610, 616, 702, 703, 704, 705, 707, 710"
+      "Other bus: 610, 702, 703, 704, 705, 707, 710",
+      "Night: 250"
     ]
   },
   {
@@ -6642,11 +6850,13 @@
     "latitude": "52.3760578900",
     "closestLines": [
       "Bus: 149, 180",
-      "Other bus: 610, 616, 702, 703, 704, 705, 707, 710"
+      "Other bus: 610, 702, 703, 704, 705, 707, 710",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 149, 180",
-      "Other bus: 610, 616, 702, 703, 704, 705, 707, 710"
+      "Other bus: 610, 702, 703, 704, 705, 707, 710",
+      "Night: 250"
     ]
   },
   {
@@ -6658,11 +6868,13 @@
     "latitude": "52.3763846200",
     "closestLines": [
       "Bus: 149, 180",
-      "Other bus: 610, 616, 702, 703, 704, 705, 707, 710"
+      "Other bus: 610, 702, 703, 704, 705, 707, 710",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 149, 180",
-      "Other bus: 610, 616, 702, 703, 704, 705, 707, 710"
+      "Other bus: 610, 702, 703, 704, 705, 707, 710",
+      "Night: 250"
     ]
   },
   {
@@ -7482,11 +7694,13 @@
     "latitude": "52.3818397800",
     "closestLines": [
       "Bus: 149, 163, 175, 180, 182, 193",
-      "Other bus: 610, 614, 616, 701, 702, 703, 704, 705, 707, 710"
+      "Other bus: 610, 614, 701, 702, 703, 704, 705, 707, 710",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 149, 163, 175, 180, 182, 193",
-      "Other bus: 610, 614, 616, 701, 702, 703, 704, 705, 707, 710"
+      "Other bus: 610, 614, 701, 702, 703, 704, 705, 707, 710",
+      "Night: 250"
     ]
   },
   {
@@ -7498,13 +7712,13 @@
     "latitude": "52.3815782900",
     "closestLines": [
       "Bus: 149, 163, 175, 180, 182, 193",
-      "Other bus: 610, 614, 616, 701, 702, 703, 704, 705, 707, 710",
-      "Night: 213, 223"
+      "Other bus: 610, 614, 701, 702, 703, 704, 705, 707, 710",
+      "Night: 213, 223, 250"
     ],
     "popupLines": [
       "Bus: 149, 163, 175, 180, 182, 193",
-      "Other bus: 610, 614, 616, 701, 702, 703, 704, 705, 707, 710",
-      "Night: 213, 223"
+      "Other bus: 610, 614, 701, 702, 703, 704, 705, 707, 710",
+      "Night: 213, 223, 250"
     ]
   },
   {
@@ -7700,11 +7914,11 @@
     "latitude": "52.4312643600",
     "closestLines": [
       "Bus: 167, 169, 174, 182, 911",
-      "Night: 214, 218, 224"
+      "Night: 218"
     ],
     "popupLines": [
       "Bus: 167, 169, 174, 182, 911",
-      "Night: 214, 218, 224"
+      "Night: 218"
     ]
   },
   {
@@ -7731,12 +7945,10 @@
     "longitude": "16.9374326200",
     "latitude": "52.4303104300",
     "closestLines": [
-      "Bus: 167, 174, 190, 911",
-      "Night: 214, 224"
+      "167, 174, 190, 911"
     ],
     "popupLines": [
-      "Bus: 167, 174, 190, 911",
-      "Night: 214, 224"
+      "167, 174, 190, 911"
     ]
   },
   {
@@ -7811,10 +8023,12 @@
     "longitude": "16.9212802300",
     "latitude": "52.4270017600",
     "closestLines": [
+      "Tram: T21",
       "Bus: 169, 182, 190",
       "Night: 218"
     ],
     "popupLines": [
+      "Tram: T21",
       "Bus: 169, 182, 190",
       "Night: 218"
     ]
@@ -7857,10 +8071,12 @@
     "longitude": "16.9192608700",
     "latitude": "52.4273333500",
     "closestLines": [
-      "182, 190"
+      "Tram: T21",
+      "Bus: 182, 190"
     ],
     "popupLines": [
-      "182, 190"
+      "Tram: T21",
+      "Bus: 182, 190"
     ]
   },
   {
@@ -7949,12 +8165,10 @@
     "longitude": "16.9399070500",
     "latitude": "52.4300083900",
     "closestLines": [
-      "Bus: 167, 174, 190, 911",
-      "Night: 214, 224"
+      "167, 174, 190, 911"
     ],
     "popupLines": [
-      "Bus: 167, 174, 190, 911",
-      "Night: 214, 224"
+      "167, 174, 190, 911"
     ]
   },
   {
@@ -8099,12 +8313,12 @@
     "longitude": "16.9393766600",
     "latitude": "52.4106331000",
     "closestLines": [
-      "Bus: 167, 174, 190, 911",
-      "Night: 213, 223"
+      "Bus: 100, 167, 174, 190, 911",
+      "Night: 213, 223, 231"
     ],
     "popupLines": [
-      "Bus: 167, 174, 190, 911",
-      "Night: 213, 223"
+      "Bus: 100, 167, 174, 190, 911",
+      "Night: 213, 223, 231"
     ]
   },
   {
@@ -8133,12 +8347,12 @@
     "longitude": "16.9369076300",
     "latitude": "52.4113480200",
     "closestLines": [
-      "Bus: 160, 163",
-      "Night: 213, 214, 223, 224"
+      "Bus: 100, 160, 163",
+      "Night: 213, 214, 223, 224, 231"
     ],
     "popupLines": [
-      "Bus: 160, 163",
-      "Night: 213, 214, 223, 224"
+      "Bus: 100, 160, 163",
+      "Night: 213, 214, 223, 224, 231"
     ]
   },
   {
@@ -8149,12 +8363,12 @@
     "longitude": "16.9481008200",
     "latitude": "52.4100161100",
     "closestLines": [
-      "Bus: 167, 911",
-      "Night: 213, 223"
+      "Bus: 100, 167, 911",
+      "Night: 213, 223, 231"
     ],
     "popupLines": [
-      "Bus: 167, 911",
-      "Night: 213, 223"
+      "Bus: 100, 167, 911",
+      "Night: 213, 223, 231"
     ]
   },
   {
@@ -8166,11 +8380,11 @@
     "latitude": "52.4102740200",
     "closestLines": [
       "Bus: 167, 911",
-      "Night: 213, 223"
+      "Night: 213, 223, 231"
     ],
     "popupLines": [
       "Bus: 167, 911",
-      "Night: 213, 223"
+      "Night: 213, 223, 231"
     ]
   },
   {
@@ -8181,14 +8395,14 @@
     "longitude": "16.9544934700",
     "latitude": "52.4094390300",
     "closestLines": [
-      "Bus: 157, 167, 173, 178, 183, 185, 320, 321, 911",
-      "Other bus: 312, 323, 341, 342, 400, 401, 405, 406, 407, 412",
-      "Night: 213, 223, 227"
+      "Bus: 157, 167, 173, 178, 183, 185, 312, 320, 321, 341, 342, 911",
+      "Other bus: 323, 400, 401, 405, 406, 407, 412",
+      "Night: 213, 223, 227, 231"
     ],
     "popupLines": [
-      "Bus: 157, 167, 173, 178, 183, 185, 320, 321, 911",
-      "Other bus: 312, 323, 341, 342, 400, 401, 405, 406, 407, 412",
-      "Night: 213, 223, 227"
+      "Bus: 157, 167, 173, 178, 183, 185, 312, 320, 321, 341, 342, 911",
+      "Other bus: 323, 400, 401, 405, 406, 407, 412",
+      "Night: 213, 223, 227, 231"
     ]
   },
   {
@@ -8199,12 +8413,12 @@
     "longitude": "16.9557316000",
     "latitude": "52.4093966100",
     "closestLines": [
-      "Bus: 157, 167, 173, 178, 183, 184, 185, 320, 321, 911",
-      "Other bus: 312, 323, 341, 342, 400, 401, 405, 406, 407, 412"
+      "Bus: 100, 157, 167, 173, 178, 183, 184, 185, 312, 320, 321, 341, 342, 911",
+      "Other bus: 323, 400, 401, 405, 406, 407, 412"
     ],
     "popupLines": [
-      "Bus: 157, 167, 173, 178, 183, 184, 185, 320, 321, 911",
-      "Other bus: 312, 323, 341, 342, 400, 401, 405, 406, 407, 412"
+      "Bus: 100, 157, 167, 173, 178, 183, 184, 185, 312, 320, 321, 341, 342, 911",
+      "Other bus: 323, 400, 401, 405, 406, 407, 412"
     ]
   },
   {
@@ -8215,10 +8429,10 @@
     "longitude": "16.9577102400",
     "latitude": "52.4096810100",
     "closestLines": [
-      "184"
+      "100, 184"
     ],
     "popupLines": [
-      "184"
+      "100, 184"
     ]
   },
   {
@@ -8229,12 +8443,12 @@
     "longitude": "16.9578971000",
     "latitude": "52.4109266900",
     "closestLines": [
-      "Bus: 173, 178, 183, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342"
+      "Bus: 173, 178, 183, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323"
     ],
     "popupLines": [
-      "Bus: 173, 178, 183, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342"
+      "Bus: 173, 178, 183, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323"
     ]
   },
   {
@@ -8259,13 +8473,13 @@
     "longitude": "16.9570964000",
     "latitude": "52.4130621900",
     "closestLines": [
-      "Bus: 173, 178, 183, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 178, 183, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 173, 178, 183, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 178, 183, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -8291,13 +8505,13 @@
     "longitude": "16.9585338300",
     "latitude": "52.4148562300",
     "closestLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -8309,13 +8523,13 @@
     "longitude": "16.9593666900",
     "latitude": "52.4160584500",
     "closestLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -8327,13 +8541,13 @@
     "longitude": "16.9602661700",
     "latitude": "52.4166131800",
     "closestLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -8345,13 +8559,13 @@
     "longitude": "16.9646698600",
     "latitude": "52.4195420100",
     "closestLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -8363,13 +8577,13 @@
     "longitude": "16.9657768000",
     "latitude": "52.4194532200",
     "closestLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -8381,13 +8595,13 @@
     "longitude": "16.9700531800",
     "latitude": "52.4208191000",
     "closestLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342, 412",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323, 412",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342, 412",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323, 412",
       "Night: 227"
     ]
   },
@@ -8399,13 +8613,13 @@
     "longitude": "16.9698606200",
     "latitude": "52.4209399500",
     "closestLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342, 412",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323, 412",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342, 412",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323, 412",
       "Night: 227"
     ]
   },
@@ -8417,13 +8631,13 @@
     "longitude": "16.9764654200",
     "latitude": "52.4227869400",
     "closestLines": [
-      "Bus: 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 185, 320, 321",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 185, 312, 320, 321, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -8435,13 +8649,13 @@
     "longitude": "16.9741896800",
     "latitude": "52.4220824000",
     "closestLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342, 412",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323, 412",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 173, 185, 320, 321",
-      "Other bus: 312, 323, 341, 342, 412",
+      "Bus: 173, 185, 312, 320, 321, 341, 342",
+      "Other bus: 323, 412",
       "Night: 227"
     ]
   },
@@ -8471,13 +8685,13 @@
     "longitude": "16.9778232100",
     "latitude": "52.4254561100",
     "closestLines": [
-      "Bus: 185, 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 185, 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 185, 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 185, 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -8503,13 +8717,13 @@
     "longitude": "16.9785790600",
     "latitude": "52.4267849300",
     "closestLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -9043,13 +9257,13 @@
     "longitude": "16.9920665989",
     "latitude": "52.4493331273",
     "closestLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394",
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394",
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394",
       "Night: 227"
     ]
   },
@@ -9061,13 +9275,13 @@
     "longitude": "16.9922879623",
     "latitude": "52.4481182441",
     "closestLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394",
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394",
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394",
       "Night: 227"
     ]
   },
@@ -9097,13 +9311,13 @@
     "longitude": "16.9905465699",
     "latitude": "52.4466153423",
     "closestLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394",
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394",
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394",
       "Night: 227"
     ]
   },
@@ -9151,12 +9365,12 @@
     "longitude": "16.9920604200",
     "latitude": "52.4533864300",
     "closestLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394"
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394"
     ],
     "popupLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394"
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394"
     ]
   },
   {
@@ -9167,13 +9381,13 @@
     "longitude": "16.9913729934",
     "latitude": "52.4524286780",
     "closestLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394",
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394",
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394",
       "Night: 227"
     ]
   },
@@ -9185,13 +9399,13 @@
     "longitude": "16.9820609709",
     "latitude": "52.4393610952",
     "closestLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -9203,13 +9417,13 @@
     "longitude": "16.9818100923",
     "latitude": "52.4391810739",
     "closestLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -9419,12 +9633,40 @@
     "longitude": "17.0149661200",
     "latitude": "52.3928587300",
     "closestLines": [
-      "Bus: 157, 166",
+      "157"
+    ],
+    "popupLines": [
+      "157"
+    ]
+  },
+  {
+    "id": "1230",
+    "label": "Piwna",
+    "address": "",
+    "city": "",
+    "longitude": "17.0145561600",
+    "latitude": "52.3921488500",
+    "closestLines": [
+      "Bus: 152, 166",
       "Night: 222"
     ],
     "popupLines": [
-      "Bus: 157, 166",
+      "Bus: 152, 166",
       "Night: 222"
+    ]
+  },
+  {
+    "id": "1231",
+    "label": "Piwna",
+    "address": "",
+    "city": "",
+    "longitude": "17.0147099900",
+    "latitude": "52.3924873100",
+    "closestLines": [
+      "152"
+    ],
+    "popupLines": [
+      "152"
     ]
   },
   {
@@ -9436,11 +9678,11 @@
     "latitude": "52.3909074600",
     "closestLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ],
     "popupLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ]
   },
   {
@@ -9452,11 +9694,11 @@
     "latitude": "52.3908454600",
     "closestLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ],
     "popupLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ]
   },
   {
@@ -9468,11 +9710,11 @@
     "latitude": "52.3891142900",
     "closestLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ],
     "popupLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ]
   },
   {
@@ -9484,11 +9726,11 @@
     "latitude": "52.3891428700",
     "closestLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ],
     "popupLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ]
   },
   {
@@ -9500,11 +9742,11 @@
     "latitude": "52.3881598900",
     "closestLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ],
     "popupLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ]
   },
   {
@@ -9516,11 +9758,11 @@
     "latitude": "52.3883460100",
     "closestLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ],
     "popupLines": [
       "Bus: 152, 425",
-      "Night: 218, 222"
+      "Night: 222"
     ]
   },
   {
@@ -9692,11 +9934,11 @@
     "latitude": "52.3991040000",
     "closestLines": [
       "Bus: 425",
-      "Other bus: 484, 494, 497, 499"
+      "Other bus: 484, 494, 499"
     ],
     "popupLines": [
       "Bus: 425",
-      "Other bus: 484, 494, 497, 499"
+      "Other bus: 484, 494, 499"
     ]
   },
   {
@@ -9707,12 +9949,10 @@
     "longitude": "17.0708424723",
     "latitude": "52.3976485142",
     "closestLines": [
-      "Bus: 425",
-      "Other bus: 497"
+      "425"
     ],
     "popupLines": [
-      "Bus: 425",
-      "Other bus: 497"
+      "425"
     ]
   },
   {
@@ -9724,11 +9964,11 @@
     "latitude": "52.3977470000",
     "closestLines": [
       "Bus: 425",
-      "Other bus: 484, 494, 497, 499"
+      "Other bus: 484, 494, 499"
     ],
     "popupLines": [
       "Bus: 425",
-      "Other bus: 484, 494, 497, 499"
+      "Other bus: 484, 494, 499"
     ]
   },
   {
@@ -9740,11 +9980,11 @@
     "latitude": "52.3918170000",
     "closestLines": [
       "Bus: 425",
-      "Other bus: 497, 499"
+      "Other bus: 499"
     ],
     "popupLines": [
       "Bus: 425",
-      "Other bus: 497, 499"
+      "Other bus: 499"
     ]
   },
   {
@@ -9756,11 +9996,11 @@
     "latitude": "52.3928840000",
     "closestLines": [
       "Bus: 425",
-      "Other bus: 497, 499"
+      "Other bus: 499"
     ],
     "popupLines": [
       "Bus: 425",
-      "Other bus: 497, 499"
+      "Other bus: 499"
     ]
   },
   {
@@ -9771,12 +10011,10 @@
     "longitude": "17.0083528900",
     "latitude": "52.3916630400",
     "closestLines": [
-      "Bus: 157, 166",
-      "Night: 222"
+      "152, 157"
     ],
     "popupLines": [
-      "Bus: 157, 166",
-      "Night: 222"
+      "152, 157"
     ]
   },
   {
@@ -9787,10 +10025,10 @@
     "longitude": "17.0092621300",
     "latitude": "52.3915536400",
     "closestLines": [
-      "157, 166"
+      "152, 157"
     ],
     "popupLines": [
-      "157, 166"
+      "152, 157"
     ]
   },
   {
@@ -9801,10 +10039,10 @@
     "longitude": "16.9995177000",
     "latitude": "52.3919937600",
     "closestLines": [
-      "157, 166"
+      "152, 157"
     ],
     "popupLines": [
-      "157, 166"
+      "152, 157"
     ]
   },
   {
@@ -9815,12 +10053,10 @@
     "longitude": "16.9985012200",
     "latitude": "52.3923997500",
     "closestLines": [
-      "Bus: 157, 166",
-      "Night: 222"
+      "152, 157"
     ],
     "popupLines": [
-      "Bus: 157, 166",
-      "Night: 222"
+      "152, 157"
     ]
   },
   {
@@ -9831,10 +10067,10 @@
     "longitude": "16.9924657300",
     "latitude": "52.3936058900",
     "closestLines": [
-      "157, 166"
+      "152, 157"
     ],
     "popupLines": [
-      "157, 166"
+      "152, 157"
     ]
   },
   {
@@ -9859,12 +10095,10 @@
     "longitude": "16.9906881700",
     "latitude": "52.3932683700",
     "closestLines": [
-      "Bus: 166, 181",
-      "Night: 222"
+      "152, 181"
     ],
     "popupLines": [
-      "Bus: 166, 181",
-      "Night: 222"
+      "152, 181"
     ]
   },
   {
@@ -10074,11 +10308,11 @@
     "latitude": "52.4041324800",
     "closestLines": [
       "Bus: 157, 184",
-      "Night: 227"
+      "Night: 227, 231"
     ],
     "popupLines": [
       "Bus: 157, 184",
-      "Night: 227"
+      "Night: 227, 231"
     ]
   },
   {
@@ -10156,8 +10390,8 @@
     "label": "Rondo Rataje",
     "address": "",
     "city": "",
-    "longitude": "16.9494022900",
-    "latitude": "52.3947340400",
+    "longitude": "16.9493139400",
+    "latitude": "52.3945310900",
     "closestLines": [
       "Bus: 174, 184, 190",
       "Night: 211, 212, 221, 222"
@@ -10176,11 +10410,11 @@
     "latitude": "52.3968735900",
     "closestLines": [
       "Bus: 152, 162, 166, 181, 184, 196",
-      "Night: 211, 212, 220, 221, 222, 227"
+      "Night: 211, 212, 220, 221, 222, 227, 231"
     ],
     "popupLines": [
       "Bus: 152, 162, 166, 181, 184, 196",
-      "Night: 211, 212, 220, 221, 222, 227"
+      "Night: 211, 212, 220, 221, 222, 227, 231"
     ]
   },
   {
@@ -10705,12 +10939,10 @@
     "longitude": "16.9431014900",
     "latitude": "52.3559338200",
     "closestLines": [
-      "Bus: 194",
-      "Night: 211"
+      "194"
     ],
     "popupLines": [
-      "Bus: 194",
-      "Night: 211"
+      "194"
     ]
   },
   {
@@ -10791,12 +11023,10 @@
     "longitude": "16.9407934400",
     "latitude": "52.3596976400",
     "closestLines": [
-      "Bus: 189",
-      "Night: 211"
+      "189"
     ],
     "popupLines": [
-      "Bus: 189",
-      "Night: 211"
+      "189"
     ]
   },
   {
@@ -10807,12 +11037,10 @@
     "longitude": "16.9410790900",
     "latitude": "52.3594570600",
     "closestLines": [
-      "Bus: 194",
-      "Night: 211"
+      "194"
     ],
     "popupLines": [
-      "Bus: 194",
-      "Night: 211"
+      "194"
     ]
   },
   {
@@ -10823,12 +11051,10 @@
     "longitude": "16.9379452500",
     "latitude": "52.3629986400",
     "closestLines": [
-      "Bus: 189",
-      "Night: 211"
+      "189"
     ],
     "popupLines": [
-      "Bus: 189",
-      "Night: 211"
+      "189"
     ]
   },
   {
@@ -10839,12 +11065,10 @@
     "longitude": "16.9371122600",
     "latitude": "52.3632276100",
     "closestLines": [
-      "Bus: 194",
-      "Night: 211"
+      "194"
     ],
     "popupLines": [
-      "Bus: 194",
-      "Night: 211"
+      "194"
     ]
   },
   {
@@ -10855,12 +11079,10 @@
     "longitude": "16.9327687900",
     "latitude": "52.3639227300",
     "closestLines": [
-      "Bus: 189",
-      "Night: 211"
+      "189"
     ],
     "popupLines": [
-      "Bus: 189",
-      "Night: 211"
+      "189"
     ]
   },
   {
@@ -10871,28 +11093,10 @@
     "longitude": "16.9321579200",
     "latitude": "52.3641264900",
     "closestLines": [
-      "Bus: 194",
-      "Night: 211"
+      "194"
     ],
     "popupLines": [
-      "Bus: 194",
-      "Night: 211"
-    ]
-  },
-  {
-    "id": "1385",
-    "label": "Św. Antoniego",
-    "address": "",
-    "city": "",
-    "longitude": "16.9293026818",
-    "latitude": "52.3645619996",
-    "closestLines": [
-      "Bus: 158",
-      "Night: 221"
-    ],
-    "popupLines": [
-      "Bus: 158",
-      "Night: 221"
+      "194"
     ]
   },
   {
@@ -11048,11 +11252,11 @@
     "latitude": "52.3662288200",
     "closestLines": [
       "Bus: 158, 189, 194",
-      "Night: 211, 221"
+      "Night: 221"
     ],
     "popupLines": [
       "Bus: 158, 189, 194",
-      "Night: 211, 221"
+      "Night: 221"
     ]
   },
   {
@@ -11063,14 +11267,14 @@
     "longitude": "16.9300926300",
     "latitude": "52.3662288200",
     "closestLines": [
-      "Bus: 189, 194",
+      "Bus: 189, 194, T4",
       "Other bus: 527",
-      "Night: 211, 221"
+      "Night: 221"
     ],
     "popupLines": [
-      "Bus: 189, 194",
+      "Bus: 189, 194, T4",
       "Other bus: 527",
-      "Night: 211, 221"
+      "Night: 221"
     ]
   },
   {
@@ -11081,12 +11285,12 @@
     "longitude": "16.9327245900",
     "latitude": "52.3687683500",
     "closestLines": [
-      "Bus: 125",
-      "Night: 211, 221"
+      "Bus: T5",
+      "Night: 211"
     ],
     "popupLines": [
-      "Bus: 125",
-      "Night: 211, 221"
+      "Bus: T5",
+      "Night: 211"
     ]
   },
   {
@@ -11097,10 +11301,58 @@
     "longitude": "16.9333491400",
     "latitude": "52.3687272200",
     "closestLines": [
-      "125"
+      "T5"
     ],
     "popupLines": [
-      "125"
+      "T5"
+    ]
+  },
+  {
+    "id": "1398",
+    "label": "Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9319550600",
+    "latitude": "52.3688410000",
+    "closestLines": [
+      "Bus: T4",
+      "Night: 221"
+    ],
+    "popupLines": [
+      "Bus: T4",
+      "Night: 221"
+    ]
+  },
+  {
+    "id": "1399",
+    "label": "Bystra",
+    "address": "",
+    "city": "",
+    "longitude": "16.9340445900",
+    "latitude": "52.3707231600",
+    "closestLines": [
+      "Bus: T4",
+      "Night: 221"
+    ],
+    "popupLines": [
+      "Bus: T4",
+      "Night: 221"
+    ]
+  },
+  {
+    "id": "1400",
+    "label": "Bystra",
+    "address": "",
+    "city": "",
+    "longitude": "16.9343372100",
+    "latitude": "52.3712076400",
+    "closestLines": [
+      "Bus: T4",
+      "Night: 221"
+    ],
+    "popupLines": [
+      "Bus: T4",
+      "Night: 221"
     ]
   },
   {
@@ -11111,11 +11363,11 @@
     "longitude": "16.9387037800",
     "latitude": "52.3678671100",
     "closestLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ],
     "popupLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ]
   },
@@ -11127,11 +11379,11 @@
     "longitude": "16.9386690700",
     "latitude": "52.3677415500",
     "closestLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ],
     "popupLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ]
   },
@@ -11143,11 +11395,11 @@
     "longitude": "16.9432286600",
     "latitude": "52.3669557100",
     "closestLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ],
     "popupLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ]
   },
@@ -11159,11 +11411,11 @@
     "longitude": "16.9442475200",
     "latitude": "52.3668706800",
     "closestLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ],
     "popupLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ]
   },
@@ -11175,11 +11427,11 @@
     "longitude": "16.9475601500",
     "latitude": "52.3672319000",
     "closestLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ],
     "popupLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ]
   },
@@ -11191,11 +11443,11 @@
     "longitude": "16.9482142200",
     "latitude": "52.3676391000",
     "closestLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ],
     "popupLines": [
-      "Bus: 125",
+      "Bus: T5",
       "Night: 211"
     ]
   },
@@ -11221,10 +11473,10 @@
     "longitude": "16.9580660400",
     "latitude": "52.3716606900",
     "closestLines": [
-      "125, 174"
+      "174"
     ],
     "popupLines": [
-      "125, 174"
+      "174"
     ]
   },
   {
@@ -11235,10 +11487,10 @@
     "longitude": "16.9643234200",
     "latitude": "52.3744328800",
     "closestLines": [
-      "125, 174"
+      "174"
     ],
     "popupLines": [
-      "125, 174"
+      "174"
     ]
   },
   {
@@ -11279,11 +11531,11 @@
     "longitude": "16.9603524000",
     "latitude": "52.3760766600",
     "closestLines": [
-      "Bus: 125, 152, 174, 184",
+      "Bus: 152, 174, 184",
       "Night: 218"
     ],
     "popupLines": [
-      "Bus: 125, 152, 174, 184",
+      "Bus: 152, 174, 184",
       "Night: 218"
     ]
   },
@@ -11523,12 +11775,12 @@
     "longitude": "16.9396370600",
     "latitude": "52.4048703800",
     "closestLines": [
-      "Bus: 174, 176, 190",
+      "Bus: 100, 174, 176, 190",
       "Other bus: 603",
       "Night: 211, 220, 221"
     ],
     "popupLines": [
-      "Bus: 174, 176, 190",
+      "Bus: 100, 174, 176, 190",
       "Other bus: 603",
       "Night: 211, 220, 221"
     ]
@@ -11541,12 +11793,12 @@
     "longitude": "16.9383157600",
     "latitude": "52.4088381400",
     "closestLines": [
-      "Bus: 174, 176, 190",
+      "Bus: 100, 174, 176, 190",
       "Other bus: 603",
       "Night: 211, 220, 221"
     ],
     "popupLines": [
-      "Bus: 174, 176, 190",
+      "Bus: 100, 174, 176, 190",
       "Other bus: 603",
       "Night: 211, 220, 221"
     ]
@@ -11560,11 +11812,11 @@
     "latitude": "52.4119990900",
     "closestLines": [
       "Bus: 160, 163",
-      "Night: 213, 214, 223, 224"
+      "Night: 213, 214, 223, 224, 231"
     ],
     "popupLines": [
       "Bus: 160, 163",
-      "Night: 213, 214, 223, 224"
+      "Night: 213, 214, 223, 224, 231"
     ]
   },
   {
@@ -11576,11 +11828,11 @@
     "latitude": "52.4131215800",
     "closestLines": [
       "Bus: 163, 168, 169, 171",
-      "Night: 213, 214, 215, 223, 224"
+      "Night: 213, 214, 215, 223, 224, 231"
     ],
     "popupLines": [
       "Bus: 163, 168, 169, 171",
-      "Night: 213, 214, 215, 223, 224"
+      "Night: 213, 214, 215, 223, 224, 231"
     ]
   },
   {
@@ -11591,10 +11843,10 @@
     "longitude": "16.9196701800",
     "latitude": "52.4148221700",
     "closestLines": [
-      "160"
+      "100, 160"
     ],
     "popupLines": [
-      "160"
+      "100, 160"
     ]
   },
   {
@@ -11725,10 +11977,10 @@
     "longitude": "16.9137508000",
     "latitude": "52.4185597700",
     "closestLines": [
-      "160"
+      "100, 160"
     ],
     "popupLines": [
-      "160"
+      "100, 160"
     ]
   },
   {
@@ -11923,11 +12175,11 @@
     "longitude": "16.9067347000",
     "latitude": "52.4165408700",
     "closestLines": [
-      "Bus: 164",
+      "Bus: 100, 164",
       "Night: 216, 226"
     ],
     "popupLines": [
-      "Bus: 164",
+      "Bus: 100, 164",
       "Night: 216, 226"
     ]
   },
@@ -12036,11 +12288,11 @@
     "latitude": "52.3844936500",
     "closestLines": [
       "Bus: 152, 166, 184",
-      "Night: 218"
+      "Night: 218, 231"
     ],
     "popupLines": [
       "Bus: 152, 166, 184",
-      "Night: 218"
+      "Night: 218, 231"
     ]
   },
   {
@@ -12082,11 +12334,11 @@
     "latitude": "52.3891528400",
     "closestLines": [
       "Bus: 166, 181",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ],
     "popupLines": [
       "Bus: 166, 181",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ]
   },
   {
@@ -12114,11 +12366,11 @@
     "latitude": "52.3789789000",
     "closestLines": [
       "Bus: 152, 184",
-      "Night: 218"
+      "Night: 218, 231"
     ],
     "popupLines": [
       "Bus: 152, 184",
-      "Night: 218"
+      "Night: 218, 231"
     ]
   },
   {
@@ -12130,11 +12382,11 @@
     "latitude": "52.3802130300",
     "closestLines": [
       "Bus: 152, 184",
-      "Night: 218"
+      "Night: 218, 231"
     ],
     "popupLines": [
       "Bus: 152, 184",
-      "Night: 218"
+      "Night: 218, 231"
     ]
   },
   {
@@ -12146,11 +12398,11 @@
     "latitude": "52.3833883200",
     "closestLines": [
       "Bus: 152, 184",
-      "Night: 218"
+      "Night: 218, 231"
     ],
     "popupLines": [
       "Bus: 152, 184",
-      "Night: 218"
+      "Night: 218, 231"
     ]
   },
   {
@@ -12162,11 +12414,11 @@
     "latitude": "52.3903790900",
     "closestLines": [
       "Bus: 162, 181, 196",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ],
     "popupLines": [
       "Bus: 162, 181, 196",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ]
   },
   {
@@ -12178,11 +12430,11 @@
     "latitude": "52.3912558500",
     "closestLines": [
       "Bus: 162, 181, 196",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ],
     "popupLines": [
       "Bus: 162, 181, 196",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ]
   },
   {
@@ -12257,11 +12509,11 @@
     "longitude": "16.9940265500",
     "latitude": "52.3897853700",
     "closestLines": [
-      "Bus: 152, 166, 181, 184",
+      "Bus: 166, 181, 184",
       "Night: 212, 218, 222"
     ],
     "popupLines": [
-      "Bus: 152, 166, 181, 184",
+      "Bus: 166, 181, 184",
       "Night: 212, 218, 222"
     ]
   },
@@ -12273,10 +12525,10 @@
     "longitude": "16.9925383700",
     "latitude": "52.3898759600",
     "closestLines": [
-      "166, 181"
+      "152, 181"
     ],
     "popupLines": [
-      "166, 181"
+      "152, 181"
     ]
   },
   {
@@ -12287,11 +12539,11 @@
     "longitude": "16.9921746500",
     "latitude": "52.3888784900",
     "closestLines": [
-      "Bus: 152, 181, 184",
+      "Bus: 166, 181, 184",
       "Night: 218, 222"
     ],
     "popupLines": [
-      "Bus: 152, 181, 184",
+      "Bus: 166, 181, 184",
       "Night: 218, 222"
     ]
   },
@@ -12303,12 +12555,12 @@
     "longitude": "16.9969169300",
     "latitude": "52.3844920000",
     "closestLines": [
-      "Bus: 152, 154",
+      "Bus: 154, 166",
       "Other bus: 431, 432, 435, 501, 502, 511, 512, 560, 561",
       "Night: 218, 222"
     ],
     "popupLines": [
-      "Bus: 152, 154",
+      "Bus: 154, 166",
       "Other bus: 431, 432, 435, 501, 502, 511, 512, 560, 561",
       "Night: 218, 222"
     ]
@@ -12321,14 +12573,14 @@
     "longitude": "16.9970639400",
     "latitude": "52.3847915600",
     "closestLines": [
-      "Bus: 152, 154, 184",
+      "Bus: 154, 166, 184",
       "Other bus: 431, 432, 435, 501, 502, 511, 512, 560",
-      "Night: 218"
+      "Night: 218, 222"
     ],
     "popupLines": [
-      "Bus: 152, 154, 184",
+      "Bus: 154, 166, 184",
       "Other bus: 431, 432, 435, 501, 502, 511, 512, 560",
-      "Night: 218"
+      "Night: 218, 222"
     ]
   },
   {
@@ -12465,11 +12717,11 @@
     "longitude": "16.9954669000",
     "latitude": "52.3714685400",
     "closestLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Other bus: 431, 432, 435"
     ],
     "popupLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Other bus: 431, 432, 435"
     ]
   },
@@ -12499,11 +12751,11 @@
     "longitude": "17.0009231700",
     "latitude": "52.3688244000",
     "closestLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Other bus: 431, 432, 435"
     ],
     "popupLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Other bus: 431, 432, 435"
     ]
   },
@@ -13016,6 +13268,20 @@
     ]
   },
   {
+    "id": "1557",
+    "label": "Plonowa",
+    "address": "",
+    "city": "",
+    "longitude": "17.0102529700",
+    "latitude": "52.3549389300",
+    "closestLines": [
+      "162"
+    ],
+    "popupLines": [
+      "162"
+    ]
+  },
+  {
     "id": "1559",
     "label": "Spławie",
     "address": "",
@@ -13023,11 +13289,11 @@
     "longitude": "17.0228163600",
     "latitude": "52.3513448400",
     "closestLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Night: 220"
     ],
     "popupLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Night: 220"
     ]
   },
@@ -13039,11 +13305,11 @@
     "longitude": "17.0199592400",
     "latitude": "52.3596445700",
     "closestLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Other bus: 431, 432, 435"
     ],
     "popupLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Other bus: 431, 432, 435"
     ]
   },
@@ -13091,11 +13357,11 @@
     "longitude": "17.0093752800",
     "latitude": "52.3647935200",
     "closestLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Other bus: 431, 432, 435"
     ],
     "popupLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Other bus: 431, 432, 435"
     ]
   },
@@ -13561,12 +13827,12 @@
     "closestLines": [
       "Bus: 154, 425",
       "Other bus: 431, 432, 435, 501, 502, 511, 512, 560",
-      "Night: 218"
+      "Night: 218, 222"
     ],
     "popupLines": [
       "Bus: 154, 425",
       "Other bus: 431, 432, 435, 501, 502, 511, 512, 560",
-      "Night: 218"
+      "Night: 218, 222"
     ]
   },
   {
@@ -13592,13 +13858,13 @@
     "latitude": "52.4122357000",
     "closestLines": [
       "Tram: 2",
-      "Bus: 164",
-      "Night: 219"
+      "Bus: 100, 102, 164",
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
       "Tram: 2",
-      "Bus: 164",
-      "Night: 219"
+      "Bus: 100, 102, 164",
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -13609,14 +13875,30 @@
     "longitude": "16.9035799100",
     "latitude": "52.4120324500",
     "closestLines": [
-      "Tram: 2, 17",
-      "Bus: 164",
-      "Night: 219"
+      "Tram: 2",
+      "Bus: 102, 164",
+      "Night: 219, 258, 259"
     ],
     "popupLines": [
-      "Tram: 2, 17",
-      "Bus: 164",
-      "Night: 219"
+      "Tram: 2",
+      "Bus: 102, 164",
+      "Night: 219, 258, 259"
+    ]
+  },
+  {
+    "id": "1622",
+    "label": "Zamek",
+    "address": "",
+    "city": "",
+    "longitude": "16.9168871100",
+    "latitude": "52.4076258300",
+    "closestLines": [
+      "Bus: 100",
+      "Night: 212, 215, 222, 231"
+    ],
+    "popupLines": [
+      "Bus: 100",
+      "Night: 212, 215, 222, 231"
     ]
   },
   {
@@ -13645,11 +13927,11 @@
     "longitude": "16.9472103000",
     "latitude": "52.3909189300",
     "closestLines": [
-      "Bus: 174, 184, 190",
+      "Bus: 174, 184, 190, T4",
       "Night: 211, 221"
     ],
     "popupLines": [
-      "Bus: 174, 184, 190",
+      "Bus: 174, 184, 190, T4",
       "Night: 211, 221"
     ]
   },
@@ -13677,11 +13959,11 @@
     "longitude": "16.9444212900",
     "latitude": "52.3851180600",
     "closestLines": [
-      "Bus: 174, 184, 190",
+      "Bus: 174, 184, 190, T4",
       "Night: 211, 221"
     ],
     "popupLines": [
-      "Bus: 174, 184, 190",
+      "Bus: 174, 184, 190, T4",
       "Night: 211, 221"
     ]
   },
@@ -13693,11 +13975,11 @@
     "longitude": "16.9454856500",
     "latitude": "52.3859543100",
     "closestLines": [
-      "Bus: 174, 184, 190",
+      "Bus: 174, 184, 190, T4",
       "Night: 211, 221"
     ],
     "popupLines": [
-      "Bus: 174, 184, 190",
+      "Bus: 174, 184, 190, T4",
       "Night: 211, 221"
     ]
   },
@@ -13754,11 +14036,13 @@
     "latitude": "52.3712425878",
     "closestLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702"
+      "Other bus: 610, 702",
+      "Night: 250"
     ],
     "popupLines": [
       "Bus: 180",
-      "Other bus: 610, 616, 702"
+      "Other bus: 610, 702",
+      "Night: 250"
     ]
   },
   {
@@ -13787,11 +14071,11 @@
     "longitude": "17.0144106500",
     "latitude": "52.3623172300",
     "closestLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Other bus: 431, 432, 435"
     ],
     "popupLines": [
-      "Bus: 154",
+      "Bus: 154, 162",
       "Other bus: 431, 432, 435"
     ]
   },
@@ -13803,10 +14087,10 @@
     "longitude": "16.9759399300",
     "latitude": "52.4055228300",
     "closestLines": [
-      "184"
+      "100, 184"
     ],
     "popupLines": [
-      "184"
+      "100, 184"
     ]
   },
   {
@@ -13817,12 +14101,12 @@
     "longitude": "16.9286558400",
     "latitude": "52.4116894100",
     "closestLines": [
-      "Bus: 160, 163",
-      "Night: 213, 214, 223, 224"
+      "Bus: 100, 160, 163",
+      "Night: 213, 214, 223, 224, 231"
     ],
     "popupLines": [
-      "Bus: 160, 163",
-      "Night: 213, 214, 223, 224"
+      "Bus: 100, 160, 163",
+      "Night: 213, 214, 223, 224, 231"
     ]
   },
   {
@@ -13920,11 +14204,27 @@
     "latitude": "52.3968384400",
     "closestLines": [
       "Bus: 152, 162, 166, 174, 181, 184, 196",
-      "Night: 227"
+      "Night: 227, 231"
     ],
     "popupLines": [
       "Bus: 152, 162, 166, 174, 181, 184, 196",
-      "Night: 227"
+      "Night: 227, 231"
+    ]
+  },
+  {
+    "id": "1676",
+    "label": "Baraniaka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9542642700",
+    "latitude": "52.4032123900",
+    "closestLines": [
+      "Bus: 100",
+      "Night: 227, 231"
+    ],
+    "popupLines": [
+      "Bus: 100",
+      "Night: 227, 231"
     ]
   },
   {
@@ -13937,30 +14237,12 @@
     "closestLines": [
       "Bus: 186, 195, 833, 834",
       "Other bus: 830",
-      "Night: 219"
+      "Night: 219, 259"
     ],
     "popupLines": [
       "Bus: 186, 195, 833, 834",
       "Other bus: 830",
-      "Night: 219"
-    ]
-  },
-  {
-    "id": "1692",
-    "label": "Towarowa",
-    "address": "",
-    "city": "",
-    "longitude": "16.9170955800",
-    "latitude": "52.4067627000",
-    "closestLines": [
-      "Tram: 2, 5, 17",
-      "Bus: 171",
-      "Night: 212, 215, 222"
-    ],
-    "popupLines": [
-      "Tram: 2, 5, 17",
-      "Bus: 171",
-      "Night: 212, 215, 222"
+      "Night: 219, 259"
     ]
   },
   {
@@ -14047,12 +14329,12 @@
     "longitude": "16.9163628400",
     "latitude": "52.4036499300",
     "closestLines": [
-      "Tram: 2, 5, 17",
+      "Tram: 2",
       "Bus: 171",
       "Night: 212, 215, 222"
     ],
     "popupLines": [
-      "Tram: 2, 5, 17",
+      "Tram: 2",
       "Bus: 171",
       "Night: 212, 215, 222"
     ]
@@ -14065,12 +14347,12 @@
     "longitude": "16.9165050900",
     "latitude": "52.4037704900",
     "closestLines": [
-      "Tram: 2, 5",
+      "Tram: 2",
       "Bus: 171",
       "Night: 212, 215, 222"
     ],
     "popupLines": [
-      "Tram: 2, 5",
+      "Tram: 2",
       "Bus: 171",
       "Night: 212, 215, 222"
     ]
@@ -14131,10 +14413,10 @@
     "longitude": "17.0285241700",
     "latitude": "52.3552064000",
     "closestLines": [
-      "154"
+      "154, 162"
     ],
     "popupLines": [
-      "154"
+      "154, 162"
     ]
   },
   {
@@ -14145,12 +14427,12 @@
     "longitude": "16.9136199900",
     "latitude": "52.4077451000",
     "closestLines": [
-      "Tram: 2, 5, 8, 13",
+      "Tram: 2, 8, 13",
       "Bus: 163, 169",
       "Night: 201"
     ],
     "popupLines": [
-      "Tram: 2, 5, 8, 13",
+      "Tram: 2, 8, 13",
       "Bus: 163, 169",
       "Night: 201"
     ]
@@ -14163,12 +14445,12 @@
     "longitude": "16.9134023000",
     "latitude": "52.4076135300",
     "closestLines": [
-      "Tram: 2, 5, 8, 13, 17",
+      "Tram: 2, 8, 13",
       "Bus: 163, 169",
       "Night: 201"
     ],
     "popupLines": [
-      "Tram: 2, 5, 8, 13, 17",
+      "Tram: 2, 8, 13",
       "Bus: 163, 169",
       "Night: 201"
     ]
@@ -14190,6 +14472,100 @@
     ]
   },
   {
+    "id": "1820",
+    "label": "Marcinkowskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9290148500",
+    "latitude": "52.4088969900",
+    "closestLines": [
+      "100"
+    ],
+    "popupLines": [
+      "100"
+    ]
+  },
+  {
+    "id": "1821",
+    "label": "Pawłowice/Pętla",
+    "address": "",
+    "city": "",
+    "longitude": "16.7968397700",
+    "latitude": "52.4952270100",
+    "closestLines": [
+      "Bus: 834",
+      "Other bus: 830"
+    ],
+    "popupLines": [
+      "Bus: 834",
+      "Other bus: 830"
+    ]
+  },
+  {
+    "id": "1822",
+    "label": "Pawłowice/Pawłowicka",
+    "address": "",
+    "city": "",
+    "longitude": "16.7987427900",
+    "latitude": "52.4878779600",
+    "closestLines": [
+      "Bus: 834",
+      "Other bus: 830"
+    ],
+    "popupLines": [
+      "Bus: 834",
+      "Other bus: 830"
+    ]
+  },
+  {
+    "id": "1823",
+    "label": "Pawłowice/Pawłowicka",
+    "address": "",
+    "city": "",
+    "longitude": "16.7987727600",
+    "latitude": "52.4879881900",
+    "closestLines": [
+      "Bus: 834",
+      "Other bus: 830"
+    ],
+    "popupLines": [
+      "Bus: 834",
+      "Other bus: 830"
+    ]
+  },
+  {
+    "id": "1824",
+    "label": "Kiekrz/Czysta",
+    "address": "",
+    "city": "",
+    "longitude": "16.7934179500",
+    "latitude": "52.4834942500",
+    "closestLines": [
+      "Bus: 834",
+      "Other bus: 830"
+    ],
+    "popupLines": [
+      "Bus: 834",
+      "Other bus: 830"
+    ]
+  },
+  {
+    "id": "1825",
+    "label": "Kiekrz/Czysta",
+    "address": "",
+    "city": "",
+    "longitude": "16.7916687200",
+    "latitude": "52.4823980400",
+    "closestLines": [
+      "Bus: 834",
+      "Other bus: 830"
+    ],
+    "popupLines": [
+      "Bus: 834",
+      "Other bus: 830"
+    ]
+  },
+  {
     "id": "1826",
     "label": "Turystyczna",
     "address": "",
@@ -14197,10 +14573,12 @@
     "longitude": "16.7805179400",
     "latitude": "52.4824683200",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14211,10 +14589,12 @@
     "longitude": "16.7803631700",
     "latitude": "52.4826084600",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14225,12 +14605,12 @@
     "longitude": "16.9955009300",
     "latitude": "52.4581666900",
     "closestLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394"
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394"
     ],
     "popupLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394"
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394"
     ]
   },
   {
@@ -14383,10 +14763,12 @@
     "longitude": "16.7767125000",
     "latitude": "52.4872155000",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14397,10 +14779,12 @@
     "longitude": "16.7763700000",
     "latitude": "52.4877368500",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14411,10 +14795,12 @@
     "longitude": "16.7728699100",
     "latitude": "52.4919982200",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14425,10 +14811,12 @@
     "longitude": "16.7725451600",
     "latitude": "52.4925451800",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14439,10 +14827,12 @@
     "longitude": "16.7690681300",
     "latitude": "52.4969236000",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14453,10 +14843,12 @@
     "longitude": "16.7688430500",
     "latitude": "52.4973581600",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14467,10 +14859,12 @@
     "longitude": "16.7557832514",
     "latitude": "52.4929836760",
     "closestLines": [
-      "833"
+      "Bus: 833",
+      "Night: 259"
     ],
     "popupLines": [
-      "833"
+      "Bus: 833",
+      "Night: 259"
     ]
   },
   {
@@ -14481,10 +14875,12 @@
     "longitude": "16.7610926700",
     "latitude": "52.5044872100",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14495,10 +14891,12 @@
     "longitude": "16.7593708900",
     "latitude": "52.5052187500",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14509,10 +14907,12 @@
     "longitude": "16.7553704500",
     "latitude": "52.5074927200",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14523,10 +14923,12 @@
     "longitude": "16.7554776000",
     "latitude": "52.5076521200",
     "closestLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ],
     "popupLines": [
-      "833, 834"
+      "Bus: 833, 834",
+      "Night: 259"
     ]
   },
   {
@@ -14538,11 +14940,13 @@
     "latitude": "52.5114107900",
     "closestLines": [
       "Bus: 833, 834",
-      "Other bus: 882, 891, 893"
+      "Other bus: 882, 891, 893",
+      "Night: 259"
     ],
     "popupLines": [
       "Bus: 833, 834",
-      "Other bus: 882, 891, 893"
+      "Other bus: 882, 891, 893",
+      "Night: 259"
     ]
   },
   {
@@ -14554,11 +14958,13 @@
     "latitude": "52.5118883300",
     "closestLines": [
       "Bus: 833, 834",
-      "Other bus: 882, 891, 893"
+      "Other bus: 882, 891, 893",
+      "Night: 259"
     ],
     "popupLines": [
       "Bus: 833, 834",
-      "Other bus: 882, 891, 893"
+      "Other bus: 882, 891, 893",
+      "Night: 259"
     ]
   },
   {
@@ -14570,11 +14976,13 @@
     "latitude": "52.5123330300",
     "closestLines": [
       "Bus: 833, 834",
-      "Other bus: 832, 882, 891, 893"
+      "Other bus: 832, 882, 891, 893",
+      "Night: 259"
     ],
     "popupLines": [
       "Bus: 833, 834",
-      "Other bus: 832, 882, 891, 893"
+      "Other bus: 832, 882, 891, 893",
+      "Night: 259"
     ]
   },
   {
@@ -14586,11 +14994,13 @@
     "latitude": "52.5123930300",
     "closestLines": [
       "Bus: 833",
-      "Other bus: 832, 882, 891"
+      "Other bus: 832, 882, 891",
+      "Night: 259"
     ],
     "popupLines": [
       "Bus: 833",
-      "Other bus: 832, 882, 891"
+      "Other bus: 832, 882, 891",
+      "Night: 259"
     ]
   },
   {
@@ -14634,11 +15044,13 @@
     "latitude": "52.5100238900",
     "closestLines": [
       "Bus: 833",
-      "Other bus: 832, 882, 891"
+      "Other bus: 832, 882, 891",
+      "Night: 259"
     ],
     "popupLines": [
       "Bus: 833",
-      "Other bus: 832, 882, 891"
+      "Other bus: 832, 882, 891",
+      "Night: 259"
     ]
   },
   {
@@ -14650,11 +15062,13 @@
     "latitude": "52.5098583400",
     "closestLines": [
       "Bus: 833",
-      "Other bus: 832, 882, 891"
+      "Other bus: 832, 882, 891",
+      "Night: 259"
     ],
     "popupLines": [
       "Bus: 833",
-      "Other bus: 832, 882, 891"
+      "Other bus: 832, 882, 891",
+      "Night: 259"
     ]
   },
   {
@@ -14665,10 +15079,12 @@
     "longitude": "16.7504222400",
     "latitude": "52.4987834900",
     "closestLines": [
-      "833"
+      "Bus: 833",
+      "Night: 259"
     ],
     "popupLines": [
-      "833"
+      "Bus: 833",
+      "Night: 259"
     ]
   },
   {
@@ -14679,10 +15095,12 @@
     "longitude": "16.7433414100",
     "latitude": "52.5042358400",
     "closestLines": [
-      "833"
+      "Bus: 833",
+      "Night: 259"
     ],
     "popupLines": [
-      "833"
+      "Bus: 833",
+      "Night: 259"
     ]
   },
   {
@@ -14693,10 +15111,12 @@
     "longitude": "16.7419787600",
     "latitude": "52.5050900300",
     "closestLines": [
-      "833"
+      "Bus: 833",
+      "Night: 259"
     ],
     "popupLines": [
-      "833"
+      "Bus: 833",
+      "Night: 259"
     ]
   },
   {
@@ -14993,11 +15413,11 @@
     "longitude": "16.9657950700",
     "latitude": "52.5413730300",
     "closestLines": [
-      "Bus: 348",
+      "Bus: 342, 348",
       "Other bus: 397"
     ],
     "popupLines": [
-      "Bus: 348",
+      "Bus: 342, 348",
       "Other bus: 397"
     ]
   },
@@ -15009,11 +15429,57 @@
     "longitude": "16.9655419200",
     "latitude": "52.5413062000",
     "closestLines": [
-      "Bus: 348",
+      "Bus: 342, 348",
       "Other bus: 397"
     ],
     "popupLines": [
-      "Bus: 348",
+      "Bus: 342, 348",
+      "Other bus: 397"
+    ]
+  },
+  {
+    "id": "2173",
+    "label": "Promnice/Północna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9661314700",
+    "latitude": "52.5419438000",
+    "closestLines": [
+      "312, 342"
+    ],
+    "popupLines": [
+      "312, 342"
+    ]
+  },
+  {
+    "id": "2176",
+    "label": "Bolechowo-Os./Szkoła",
+    "address": "",
+    "city": "",
+    "longitude": "16.9732407100",
+    "latitude": "52.5409308600",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 397"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 397"
+    ]
+  },
+  {
+    "id": "2177",
+    "label": "Bolechowo-Os./Szkoła",
+    "address": "",
+    "city": "",
+    "longitude": "16.9746370000",
+    "latitude": "52.5412643600",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 397"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
       "Other bus: 397"
     ]
   },
@@ -15025,12 +15491,12 @@
     "longitude": "16.9725434600",
     "latitude": "52.5414489600",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342, 397"
+      "Bus: 341, 342, 348",
+      "Other bus: 397"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342, 397"
+      "Bus: 341, 342, 348",
+      "Other bus: 397"
     ]
   },
   {
@@ -15041,12 +15507,12 @@
     "longitude": "16.9724615900",
     "latitude": "52.5417104200",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342, 397"
+      "Bus: 341, 342, 348",
+      "Other bus: 397"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342, 397"
+      "Bus: 341, 342, 348",
+      "Other bus: 397"
     ]
   },
   {
@@ -15057,12 +15523,10 @@
     "longitude": "16.9729352500",
     "latitude": "52.5460981400",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15073,12 +15537,10 @@
     "longitude": "16.9728438900",
     "latitude": "52.5462731500",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15089,12 +15551,10 @@
     "longitude": "16.9733586200",
     "latitude": "52.5503955500",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15105,12 +15565,598 @@
     "longitude": "16.9734919000",
     "latitude": "52.5504969100",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
+    ]
+  },
+  {
+    "id": "2188",
+    "label": "Bolechowo/Poligonowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9866620000",
+    "latitude": "52.5428265900",
+    "closestLines": [
+      "312, 342"
+    ],
+    "popupLines": [
+      "312, 342"
+    ]
+  },
+  {
+    "id": "2189",
+    "label": "Bolechowo/Poligonowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9853288400",
+    "latitude": "52.5431887900",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 397"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 397"
+    ]
+  },
+  {
+    "id": "2191",
+    "label": "Bolechowo-Os./Ogrodowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9771902900",
+    "latitude": "52.5332147700",
+    "closestLines": [
+      "341"
+    ],
+    "popupLines": [
+      "341"
+    ]
+  },
+  {
+    "id": "2192",
+    "label": "Bolechowo-Os./Ogrodowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9770254100",
+    "latitude": "52.5336508600",
+    "closestLines": [
+      "341"
+    ],
+    "popupLines": [
+      "341"
+    ]
+  },
+  {
+    "id": "2193",
+    "label": "Bolechowo/Przejazd",
+    "address": "",
+    "city": "",
+    "longitude": "16.9796078500",
+    "latitude": "52.5330406000",
+    "closestLines": [
+      "312, 342"
+    ],
+    "popupLines": [
+      "312, 342"
+    ]
+  },
+  {
+    "id": "2194",
+    "label": "Bolechowo/Przejazd",
+    "address": "",
+    "city": "",
+    "longitude": "16.9800908000",
+    "latitude": "52.5339703100",
+    "closestLines": [
+      "312, 342"
+    ],
+    "popupLines": [
+      "312, 342"
+    ]
+  },
+  {
+    "id": "2195",
+    "label": "Owińska/Ks. Piotrowskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9744112600",
+    "latitude": "52.5170894900",
+    "closestLines": [
+      "341"
+    ],
+    "popupLines": [
+      "341"
+    ]
+  },
+  {
+    "id": "2196",
+    "label": "Owińska/Ks. Piotrowskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9745642100",
+    "latitude": "52.5172277800",
+    "closestLines": [
+      "341"
+    ],
+    "popupLines": [
+      "341"
+    ]
+  },
+  {
+    "id": "2197",
+    "label": "Owińska/Ks. Piotrowskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9755695100",
+    "latitude": "52.5167176300",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 392"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 392"
+    ]
+  },
+  {
+    "id": "2198",
+    "label": "Owińska/Ks. Piotrowskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9751442200",
+    "latitude": "52.5165575700",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 392"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 392"
+    ]
+  },
+  {
+    "id": "2199",
+    "label": "Owińska/Lipowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9854892500",
+    "latitude": "52.5168477500",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 396"
+    ]
+  },
+  {
+    "id": "2200",
+    "label": "Owińska/Lipowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9852050500",
+    "latitude": "52.5174170200",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 396"
+    ]
+  },
+  {
+    "id": "2201",
+    "label": "Owińska/Stacja",
+    "address": "",
+    "city": "",
+    "longitude": "16.9868849400",
+    "latitude": "52.5120028900",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 392, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 392, 396"
+    ]
+  },
+  {
+    "id": "2202",
+    "label": "Owińska/Stacja",
+    "address": "",
+    "city": "",
+    "longitude": "16.9871035600",
+    "latitude": "52.5119126300",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 392, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 392, 396"
+    ]
+  },
+  {
+    "id": "2203",
+    "label": "Owińska/Parkowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9777942100",
+    "latitude": "52.5109763300",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 392, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 392, 396"
+    ]
+  },
+  {
+    "id": "2204",
+    "label": "Owińska/Parkowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9771534100",
+    "latitude": "52.5112683800",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 392, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 392, 396"
+    ]
+  },
+  {
+    "id": "2205",
+    "label": "Owińska/Pałac",
+    "address": "",
+    "city": "",
+    "longitude": "16.9753961500",
+    "latitude": "52.5130679600",
+    "closestLines": [
+      "Bus: 341",
+      "Other bus: 392"
+    ],
+    "popupLines": [
+      "Bus: 341",
+      "Other bus: 392"
+    ]
+  },
+  {
+    "id": "2206",
+    "label": "Owińska/Pałac",
+    "address": "",
+    "city": "",
+    "longitude": "16.9745204500",
+    "latitude": "52.5136024200",
+    "closestLines": [
+      "Bus: 341",
+      "Other bus: 392"
+    ],
+    "popupLines": [
+      "Bus: 341",
+      "Other bus: 392"
+    ]
+  },
+  {
+    "id": "2207",
+    "label": "Owińska/Gospodarstwo Ogrodnicze",
+    "address": "",
+    "city": "",
+    "longitude": "16.9760676800",
+    "latitude": "52.5030195600",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 396"
+    ]
+  },
+  {
+    "id": "2208",
+    "label": "Owińska/Gospodarstwo Ogrodnicze",
+    "address": "",
+    "city": "",
+    "longitude": "16.9758111100",
+    "latitude": "52.5034255600",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 396"
+    ]
+  },
+  {
+    "id": "2209",
+    "label": "Miękowo/Kolejowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9766955800",
+    "latitude": "52.4978361500",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ]
+  },
+  {
+    "id": "2210",
+    "label": "Miękowo/Kolejowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9763707800",
+    "latitude": "52.4988289900",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 396"
+    ]
+  },
+  {
+    "id": "2211",
+    "label": "Czerwonak/Elewator",
+    "address": "",
+    "city": "",
+    "longitude": "16.9779277700",
+    "latitude": "52.4859394900",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ]
+  },
+  {
+    "id": "2212",
+    "label": "Czerwonak/Elewator",
+    "address": "",
+    "city": "",
+    "longitude": "16.9780642500",
+    "latitude": "52.4864096400",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ]
+  },
+  {
+    "id": "2213",
+    "label": "Czerwonak/Os. Przylesie",
+    "address": "",
+    "city": "",
+    "longitude": "16.9785901400",
+    "latitude": "52.4805430700",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ]
+  },
+  {
+    "id": "2214",
+    "label": "Czerwonak/Os. Przylesie",
+    "address": "",
+    "city": "",
+    "longitude": "16.9787556700",
+    "latitude": "52.4808199700",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ]
+  },
+  {
+    "id": "2215",
+    "label": "Czerwonak/Kręta",
+    "address": "",
+    "city": "",
+    "longitude": "16.9793813300",
+    "latitude": "52.4742795500",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ]
+  },
+  {
+    "id": "2216",
+    "label": "Czerwonak/Kręta",
+    "address": "",
+    "city": "",
+    "longitude": "16.9794763200",
+    "latitude": "52.4753075700",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ]
+  },
+  {
+    "id": "2217",
+    "label": "Czerwonak/Stacja",
+    "address": "",
+    "city": "",
+    "longitude": "16.9803936900",
+    "latitude": "52.4681460800",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 394, 396"
+    ]
+  },
+  {
+    "id": "2218",
+    "label": "Czerwonak/Stacja",
+    "address": "",
+    "city": "",
+    "longitude": "16.9800592000",
+    "latitude": "52.4689475100",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 388, 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 388, 394, 396"
+    ]
+  },
+  {
+    "id": "2219",
+    "label": "Czerwonak/Szkolna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9822085100",
+    "latitude": "52.4632149700",
+    "closestLines": [
+      "Bus: 341, 342",
+      "Other bus: 388, 394"
+    ],
+    "popupLines": [
+      "Bus: 341, 342",
+      "Other bus: 388, 394"
+    ]
+  },
+  {
+    "id": "2220",
+    "label": "Czerwonak/Szkolna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9817766500",
+    "latitude": "52.4643364200",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 388, 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 388, 394, 396"
+    ]
+  },
+  {
+    "id": "2221",
+    "label": "Koziegłowy/Lipowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9844318900",
+    "latitude": "52.4540658000",
+    "closestLines": [
+      "341, 342"
+    ],
+    "popupLines": [
+      "341, 342"
+    ]
+  },
+  {
+    "id": "2222",
+    "label": "Koziegłowy/Lipowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9844963200",
+    "latitude": "52.4555496900",
+    "closestLines": [
+      "Bus: 341, 342",
+      "Other bus: 396"
+    ],
+    "popupLines": [
+      "Bus: 341, 342",
+      "Other bus: 396"
+    ]
+  },
+  {
+    "id": "2223",
+    "label": "Koziegłowy/Piaskowa COŚ",
+    "address": "",
+    "city": "",
+    "longitude": "16.9837328800",
+    "latitude": "52.4464440500",
+    "closestLines": [
+      "312, 341, 342"
+    ],
+    "popupLines": [
+      "312, 341, 342"
+    ]
+  },
+  {
+    "id": "2224",
+    "label": "Koziegłowy/Piaskowa COŚ",
+    "address": "",
+    "city": "",
+    "longitude": "16.9842291500",
+    "latitude": "52.4484847500",
+    "closestLines": [
+      "Bus: 341, 342",
+      "Other bus: 396"
+    ],
+    "popupLines": [
+      "Bus: 341, 342",
+      "Other bus: 396"
+    ]
+  },
+  {
+    "id": "2225",
+    "label": "Koziegłowy/Piaskowa COŚ",
+    "address": "",
+    "city": "",
+    "longitude": "16.9847763626",
+    "latitude": "52.4474612933",
+    "closestLines": [
+      "312"
+    ],
+    "popupLines": [
+      "312"
+    ]
+  },
+  {
+    "id": "2226",
+    "label": "Koziegłowy/Piaskowa Szkoła",
+    "address": "",
+    "city": "",
+    "longitude": "16.9895135404",
+    "latitude": "52.4465793440",
+    "closestLines": [
+      "Bus: 312",
+      "Other bus: 396"
+    ],
+    "popupLines": [
+      "Bus: 312",
+      "Other bus: 396"
     ]
   },
   {
@@ -15121,12 +16167,10 @@
     "longitude": "16.9803190500",
     "latitude": "52.5599308500",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15137,12 +16181,116 @@
     "longitude": "16.9808261900",
     "latitude": "52.5601540700",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
+    ]
+  },
+  {
+    "id": "2300",
+    "label": "Czerwonak/Zalesie",
+    "address": "",
+    "city": "",
+    "longitude": "16.9910483270",
+    "latitude": "52.4649436430",
+    "closestLines": [
+      "312"
+    ],
+    "popupLines": [
+      "312"
+    ]
+  },
+  {
+    "id": "2301",
+    "label": "Czerwonak/Zalesie",
+    "address": "",
+    "city": "",
+    "longitude": "16.9914910539",
+    "latitude": "52.4649526388",
+    "closestLines": [
+      "312"
+    ],
+    "popupLines": [
+      "312"
+    ]
+  },
+  {
+    "id": "2303",
+    "label": "Czerwonak/Żurawia",
+    "address": "",
+    "city": "",
+    "longitude": "16.9874688400",
+    "latitude": "52.4674431700",
+    "closestLines": [
+      "312, 342"
+    ],
+    "popupLines": [
+      "312, 342"
+    ]
+  },
+  {
+    "id": "2304",
+    "label": "Czerwonak/Gajowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9958905100",
+    "latitude": "52.4709332500",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 396"
+    ]
+  },
+  {
+    "id": "2305",
+    "label": "Czerwonak/Gajowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9953006700",
+    "latitude": "52.4709255400",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 394, 396"
+    ]
+  },
+  {
+    "id": "2306",
+    "label": "Czerwonak/Zdroje",
+    "address": "",
+    "city": "",
+    "longitude": "17.0002495100",
+    "latitude": "52.4705100000",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 394, 396"
+    ]
+  },
+  {
+    "id": "2389",
+    "label": "Czerwonak/Urząd Gminy",
+    "address": "",
+    "city": "",
+    "longitude": "16.9888792100",
+    "latitude": "52.4716828700",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 396"
     ]
   },
   {
@@ -15161,6 +16309,118 @@
       "Bus: 166",
       "Other bus: 401, 405, 406, 407",
       "Night: 223"
+    ]
+  },
+  {
+    "id": "2548",
+    "label": "Zalasewo/Os. Zamoyskiego",
+    "address": "",
+    "city": "",
+    "longitude": "17.0687620000",
+    "latitude": "52.3883140000",
+    "closestLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ],
+    "popupLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ]
+  },
+  {
+    "id": "2549",
+    "label": "Zalasewo/Os. Zamoyskiego",
+    "address": "",
+    "city": "",
+    "longitude": "17.0686280000",
+    "latitude": "52.3887230000",
+    "closestLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ],
+    "popupLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ]
+  },
+  {
+    "id": "2550",
+    "label": "Zalasewo/Heweliusza Szkoła",
+    "address": "",
+    "city": "",
+    "longitude": "17.0687360000",
+    "latitude": "52.3848580000",
+    "closestLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ],
+    "popupLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ]
+  },
+  {
+    "id": "2551",
+    "label": "Zalasewo/Heweliusza Szkoła",
+    "address": "",
+    "city": "",
+    "longitude": "17.0685930000",
+    "latitude": "52.3850790000",
+    "closestLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ],
+    "popupLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ]
+  },
+  {
+    "id": "2552",
+    "label": "Zalasewo/Transportowa",
+    "address": "",
+    "city": "",
+    "longitude": "17.0672440000",
+    "latitude": "52.3821030000",
+    "closestLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ],
+    "popupLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ]
+  },
+  {
+    "id": "2553",
+    "label": "Zalasewo/Transportowa",
+    "address": "",
+    "city": "",
+    "longitude": "17.0672580000",
+    "latitude": "52.3823110000",
+    "closestLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ],
+    "popupLines": [
+      "Bus: 425",
+      "Other bus: 499"
+    ]
+  },
+  {
+    "id": "2554",
+    "label": "Zalasewo/Os. Leśne",
+    "address": "",
+    "city": "",
+    "longitude": "17.0601140000",
+    "latitude": "52.3835170000",
+    "closestLines": [
+      "Bus: 425",
+      "Other bus: 484, 499"
+    ],
+    "popupLines": [
+      "Bus: 425",
+      "Other bus: 484, 499"
     ]
   },
   {
@@ -15187,12 +16447,10 @@
     "longitude": "16.9895134800",
     "latitude": "52.5646904900",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15203,12 +16461,10 @@
     "longitude": "16.9909090100",
     "latitude": "52.5654680500",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15219,12 +16475,10 @@
     "longitude": "16.9992865200",
     "latitude": "52.5667142700",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15235,12 +16489,10 @@
     "longitude": "16.9954782300",
     "latitude": "52.5673982400",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15251,12 +16503,10 @@
     "longitude": "17.0025375100",
     "latitude": "52.5664568900",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15267,12 +16517,10 @@
     "longitude": "17.0079356000",
     "latitude": "52.5710909200",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15283,12 +16531,10 @@
     "longitude": "17.0078878300",
     "latitude": "52.5712143600",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15299,12 +16545,10 @@
     "longitude": "17.0149998524",
     "latitude": "52.5748879049",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15315,12 +16559,10 @@
     "longitude": "17.0153245188",
     "latitude": "52.5752558102",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15331,12 +16573,10 @@
     "longitude": "17.0165526600",
     "latitude": "52.5833105100",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15347,12 +16587,10 @@
     "longitude": "17.0176234700",
     "latitude": "52.5843184400",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15363,12 +16601,10 @@
     "longitude": "17.0140179600",
     "latitude": "52.5861815200",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15379,12 +16615,10 @@
     "longitude": "17.0148795000",
     "latitude": "52.5859934800",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15416,6 +16650,20 @@
     ]
   },
   {
+    "id": "2747",
+    "label": "Rondo Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9423778829",
+    "latitude": "52.3795085297",
+    "closestLines": [
+      "T4"
+    ],
+    "popupLines": [
+      "T4"
+    ]
+  },
+  {
     "id": "2748",
     "label": "Rondo Rataje",
     "address": "",
@@ -15439,10 +16687,10 @@
     "longitude": "16.9724242820",
     "latitude": "52.4086748457",
     "closestLines": [
-      "184"
+      "100, 184"
     ],
     "popupLines": [
-      "184"
+      "100, 184"
     ]
   },
   {
@@ -15453,10 +16701,10 @@
     "longitude": "16.9727637060",
     "latitude": "52.4086928603",
     "closestLines": [
-      "184"
+      "100, 184"
     ],
     "popupLines": [
-      "184"
+      "100, 184"
     ]
   },
   {
@@ -15467,10 +16715,10 @@
     "longitude": "16.9431600338",
     "latitude": "52.3793913570",
     "closestLines": [
-      "190"
+      "190, T4"
     ],
     "popupLines": [
-      "190"
+      "190, T4"
     ]
   },
   {
@@ -15610,11 +16858,13 @@
     "latitude": "52.3933996000",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -15626,11 +16876,13 @@
     "latitude": "52.3938595300",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -15721,10 +16973,82 @@
     "longitude": "16.7506476194",
     "latitude": "52.4985931340",
     "closestLines": [
-      "833"
+      "Bus: 833",
+      "Night: 259"
     ],
     "popupLines": [
-      "833"
+      "Bus: 833",
+      "Night: 259"
+    ]
+  },
+  {
+    "id": "2951",
+    "label": "Os. Lubczykowa Góra",
+    "address": "",
+    "city": "",
+    "longitude": "16.9405774602",
+    "latitude": "52.4897021710",
+    "closestLines": [
+      "188"
+    ],
+    "popupLines": [
+      "188"
+    ]
+  },
+  {
+    "id": "2952",
+    "label": "Jaśkowiaka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9146980000",
+    "latitude": "52.4886360000",
+    "closestLines": [
+      "188"
+    ],
+    "popupLines": [
+      "188"
+    ]
+  },
+  {
+    "id": "2953",
+    "label": "Jaśkowiaka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9153240000",
+    "latitude": "52.4886400000",
+    "closestLines": [
+      "188"
+    ],
+    "popupLines": [
+      "188"
+    ]
+  },
+  {
+    "id": "2955",
+    "label": "Fort VII",
+    "address": "",
+    "city": "",
+    "longitude": "16.8710693366",
+    "latitude": "52.4164294623",
+    "closestLines": [
+      "102"
+    ],
+    "popupLines": [
+      "102"
+    ]
+  },
+  {
+    "id": "2956",
+    "label": "Fort VII",
+    "address": "",
+    "city": "",
+    "longitude": "16.8707594278",
+    "latitude": "52.4164834966",
+    "closestLines": [
+      "102"
+    ],
+    "popupLines": [
+      "102"
     ]
   },
   {
@@ -15749,10 +17073,12 @@
     "longitude": "16.9201972652",
     "latitude": "52.4501790261",
     "closestLines": [
-      "144"
+      "Tram: T21",
+      "Bus: 144"
     ],
     "popupLines": [
-      "144"
+      "Tram: T21",
+      "Bus: 144"
     ]
   },
   {
@@ -15763,12 +17089,26 @@
     "longitude": "17.0097565300",
     "latitude": "52.5872258100",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
+    ]
+  },
+  {
+    "id": "2992",
+    "label": "Rondo Kaponiera",
+    "address": "",
+    "city": "",
+    "longitude": "16.9116673935",
+    "latitude": "52.4080713515",
+    "closestLines": [
+      "Bus: 100, 102",
+      "Night: 219, 258, 259"
+    ],
+    "popupLines": [
+      "Bus: 100, 102",
+      "Night: 219, 258, 259"
     ]
   },
   {
@@ -15790,6 +17130,20 @@
     ]
   },
   {
+    "id": "3068",
+    "label": "Wzgórze Św.Wojciecha",
+    "address": "",
+    "city": "",
+    "longitude": "16.9314720436",
+    "latitude": "52.4146552975",
+    "closestLines": [
+      "100"
+    ],
+    "popupLines": [
+      "100"
+    ]
+  },
+  {
     "id": "3092",
     "label": "Poznań Główny",
     "address": "",
@@ -15806,6 +17160,38 @@
     ]
   },
   {
+    "id": "3101",
+    "label": "Czerwonak/Szkolna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9832415760",
+    "latitude": "52.4655643502",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 394, 396"
+    ]
+  },
+  {
+    "id": "3102",
+    "label": "Czerwonak/Szkolna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9835662424",
+    "latitude": "52.4657982376",
+    "closestLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 342",
+      "Other bus: 388, 396"
+    ]
+  },
+  {
     "id": "3103",
     "label": "M. Goślina/Poznańska",
     "address": "",
@@ -15813,12 +17199,10 @@
     "longitude": "17.0112957040",
     "latitude": "52.5737213557",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15829,12 +17213,10 @@
     "longitude": "17.0092886754",
     "latitude": "52.5731201221",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15845,12 +17227,10 @@
     "longitude": "17.0177152441",
     "latitude": "52.5782617495",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15861,12 +17241,10 @@
     "longitude": "17.0179513651",
     "latitude": "52.5785757910",
     "closestLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ],
     "popupLines": [
-      "Bus: 348",
-      "Other bus: 341, 342"
+      "341, 342, 348"
     ]
   },
   {
@@ -15878,11 +17256,13 @@
     "latitude": "52.3909629095",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729, 797"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -15893,12 +17273,12 @@
     "longitude": "16.9933209918",
     "latitude": "52.4575844467",
     "closestLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394"
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394"
     ],
     "popupLines": [
-      "Bus: 322",
-      "Other bus: 312, 323, 388, 394"
+      "Bus: 312, 322",
+      "Other bus: 323, 388, 394"
     ]
   },
   {
@@ -15990,11 +17370,11 @@
     "latitude": "52.3903771950",
     "closestLines": [
       "Bus: 162, 181, 196",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ],
     "popupLines": [
       "Bus: 162, 181, 196",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ]
   },
   {
@@ -16006,11 +17386,11 @@
     "latitude": "52.3921703578",
     "closestLines": [
       "Bus: 162, 181, 196",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ],
     "popupLines": [
       "Bus: 162, 181, 196",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ]
   },
   {
@@ -16022,11 +17402,11 @@
     "latitude": "52.3922694752",
     "closestLines": [
       "Bus: 162, 181, 196",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ],
     "popupLines": [
       "Bus: 162, 181, 196",
-      "Night: 212, 222"
+      "Night: 212, 222, 231"
     ]
   },
   {
@@ -16038,11 +17418,13 @@
     "latitude": "52.3953300000",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -16054,11 +17436,13 @@
     "latitude": "52.3950000000",
     "closestLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ],
     "popupLines": [
       "Bus: 727",
-      "Other bus: 729"
+      "Other bus: 729, 797",
+      "Night: 257"
     ]
   },
   {
@@ -16101,11 +17485,11 @@
     "longitude": "16.9420237014",
     "latitude": "52.4915901901",
     "closestLines": [
-      "Bus: 167, 348, 911",
+      "Bus: 167, 188, 348, 911",
       "Night: 214"
     ],
     "popupLines": [
-      "Bus: 167, 348, 911",
+      "Bus: 167, 188, 348, 911",
       "Night: 214"
     ]
   },
@@ -16117,12 +17501,40 @@
     "longitude": "16.9424369132",
     "latitude": "52.4920666774",
     "closestLines": [
-      "Bus: 167, 348, 911",
+      "Bus: 167, 188, 348, 911",
       "Night: 214"
     ],
     "popupLines": [
-      "Bus: 167, 348, 911",
+      "Bus: 167, 188, 348, 911",
       "Night: 214"
+    ]
+  },
+  {
+    "id": "3323",
+    "label": "UAM Wydział Fizyki",
+    "address": "",
+    "city": "",
+    "longitude": "16.9289927730",
+    "latitude": "52.4652405040",
+    "closestLines": [
+      "198"
+    ],
+    "popupLines": [
+      "198"
+    ]
+  },
+  {
+    "id": "3324",
+    "label": "UAM Wydział Fizyki",
+    "address": "",
+    "city": "",
+    "longitude": "16.9294207423",
+    "latitude": "52.4651595421",
+    "closestLines": [
+      "198"
+    ],
+    "popupLines": [
+      "198"
     ]
   },
   {
@@ -16284,11 +17696,27 @@
     ]
   },
   {
+    "id": "3577",
+    "label": "Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9312064075",
+    "latitude": "52.3680872402",
+    "closestLines": [
+      "Bus: T4",
+      "Night: 221"
+    ],
+    "popupLines": [
+      "Bus: T4",
+      "Night: 221"
+    ]
+  },
+  {
     "id": "3588",
     "label": "Uniwersytet Ekonomiczny",
     "address": "",
     "city": "",
-    "longitude": "16.9172309949",
+    "longitude": "16.9173638130",
     "latitude": "52.4057383633",
     "closestLines": [
       "Bus: 171",
@@ -16628,6 +18056,52 @@
     ]
   },
   {
+    "id": "3856",
+    "label": "Meissnera",
+    "address": "",
+    "city": "",
+    "longitude": "16.8654171899",
+    "latitude": "52.4188519375",
+    "closestLines": [
+      "121"
+    ],
+    "popupLines": [
+      "121"
+    ]
+  },
+  {
+    "id": "3857",
+    "label": "Piękna",
+    "address": "",
+    "city": "",
+    "longitude": "16.8761754536",
+    "latitude": "52.4176452192",
+    "closestLines": [
+      "Bus: 121",
+      "Night: 219, 258, 259"
+    ],
+    "popupLines": [
+      "Bus: 121",
+      "Night: 219, 258, 259"
+    ]
+  },
+  {
+    "id": "3872",
+    "label": "Czerwonak/Cmentarz",
+    "address": "",
+    "city": "",
+    "longitude": "16.9961692000",
+    "latitude": "52.4585471500",
+    "closestLines": [
+      "Bus: 312",
+      "Other bus: 323"
+    ],
+    "popupLines": [
+      "Bus: 312",
+      "Other bus: 323"
+    ]
+  },
+  {
     "id": "3874",
     "label": "Folwarczna",
     "address": "",
@@ -16635,12 +18109,12 @@
     "longitude": "17.0093500000",
     "latitude": "52.3886700000",
     "closestLines": [
-      "Bus: 152, 425",
-      "Night: 218, 222"
+      "Bus: 166, 425",
+      "Night: 222"
     ],
     "popupLines": [
-      "Bus: 152, 425",
-      "Night: 218, 222"
+      "Bus: 166, 425",
+      "Night: 222"
     ]
   },
   {
@@ -16651,12 +18125,12 @@
     "longitude": "17.0090200000",
     "latitude": "52.3890100000",
     "closestLines": [
-      "Bus: 152, 425",
-      "Night: 218"
+      "Bus: 166, 425",
+      "Night: 222"
     ],
     "popupLines": [
-      "Bus: 152, 425",
-      "Night: 218"
+      "Bus: 166, 425",
+      "Night: 222"
     ]
   },
   {
@@ -16667,12 +18141,12 @@
     "longitude": "17.0005200000",
     "latitude": "52.3808700000",
     "closestLines": [
-      "Bus: 152, 425",
-      "Night: 218, 222"
+      "Bus: 166, 425",
+      "Night: 222"
     ],
     "popupLines": [
-      "Bus: 152, 425",
-      "Night: 218, 222"
+      "Bus: 166, 425",
+      "Night: 222"
     ]
   },
   {
@@ -16683,10 +18157,10 @@
     "longitude": "17.0000700000",
     "latitude": "52.3815600000",
     "closestLines": [
-      "152, 425"
+      "166, 425"
     ],
     "popupLines": [
-      "152, 425"
+      "166, 425"
     ]
   },
   {
@@ -16773,14 +18247,14 @@
     "longitude": "16.9039205700",
     "latitude": "52.4604586800",
     "closestLines": [
-      "Bus: 190, 193",
+      "Bus: 188, 190, 193",
       "Other bus: 832, 901, 902, 905, 907",
-      "Night: 215"
+      "Night: 215, 253"
     ],
     "popupLines": [
-      "Bus: 190, 193",
+      "Bus: 188, 190, 193",
       "Other bus: 832, 901, 902, 905, 907",
-      "Night: 215"
+      "Night: 215, 253"
     ]
   },
   {
@@ -16791,14 +18265,14 @@
     "longitude": "16.9035075400",
     "latitude": "52.4619896300",
     "closestLines": [
-      "Bus: 190, 193",
+      "Bus: 188, 190, 193",
       "Other bus: 832, 901, 902, 905, 907",
-      "Night: 215"
+      "Night: 215, 253"
     ],
     "popupLines": [
-      "Bus: 190, 193",
+      "Bus: 188, 190, 193",
       "Other bus: 832, 901, 902, 905, 907",
-      "Night: 215"
+      "Night: 215, 253"
     ]
   },
   {
@@ -16809,14 +18283,14 @@
     "longitude": "16.9037033500",
     "latitude": "52.4636457600",
     "closestLines": [
-      "Bus: 190, 193",
+      "Bus: 188, 190, 193",
       "Other bus: 832, 901, 902, 905, 907",
-      "Night: 215"
+      "Night: 215, 253"
     ],
     "popupLines": [
-      "Bus: 190, 193",
+      "Bus: 188, 190, 193",
       "Other bus: 832, 901, 902, 905, 907",
-      "Night: 215"
+      "Night: 215, 253"
     ]
   },
   {
@@ -16899,11 +18373,11 @@
     "longitude": "16.9459751900",
     "latitude": "52.4967973400",
     "closestLines": [
-      "Bus: 167, 348, 911",
+      "Bus: 167, 188, 348, 911",
       "Night: 214"
     ],
     "popupLines": [
-      "Bus: 167, 348, 911",
+      "Bus: 167, 188, 348, 911",
       "Night: 214"
     ]
   },
@@ -16991,13 +18465,13 @@
     "longitude": "16.9800391847",
     "latitude": "52.4348153317",
     "closestLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -17009,13 +18483,13 @@
     "longitude": "16.9803048209",
     "latitude": "52.4352924338",
     "closestLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -17027,13 +18501,13 @@
     "longitude": "16.9788880948",
     "latitude": "52.4303771340",
     "closestLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -17045,13 +18519,13 @@
     "longitude": "16.9795817003",
     "latitude": "52.4319706154",
     "closestLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ],
     "popupLines": [
-      "Bus: 320, 321, 322",
-      "Other bus: 312, 323, 341, 342",
+      "Bus: 312, 320, 321, 322, 341, 342",
+      "Other bus: 323",
       "Night: 227"
     ]
   },
@@ -17063,10 +18537,10 @@
     "longitude": "16.9928965800",
     "latitude": "52.4003671000",
     "closestLines": [
-      "184"
+      "100, 184"
     ],
     "popupLines": [
-      "184"
+      "100, 184"
     ]
   },
   {
@@ -17077,10 +18551,10 @@
     "longitude": "16.9890560560",
     "latitude": "52.4026305232",
     "closestLines": [
-      "184"
+      "100, 184"
     ],
     "popupLines": [
-      "184"
+      "100, 184"
     ]
   },
   {
@@ -17091,10 +18565,10 @@
     "longitude": "16.9894249950",
     "latitude": "52.4024683690",
     "closestLines": [
-      "184"
+      "100, 184"
     ],
     "popupLines": [
-      "184"
+      "100, 184"
     ]
   },
   {
@@ -17172,17 +18646,55 @@
     ]
   },
   {
+    "id": "4090",
+    "label": "Stare Zoo",
+    "address": "",
+    "city": "",
+    "longitude": "16.9087997900",
+    "latitude": "52.4081887500",
+    "closestLines": [
+      "Tram: 2",
+      "Bus: 102",
+      "Night: 219, 258, 259"
+    ],
+    "popupLines": [
+      "Tram: 2",
+      "Bus: 102",
+      "Night: 219, 258, 259"
+    ]
+  },
+  {
+    "id": "4091",
+    "label": "Stare Zoo",
+    "address": "",
+    "city": "",
+    "longitude": "16.9086570300",
+    "latitude": "52.4082919200",
+    "closestLines": [
+      "Tram: 2",
+      "Bus: 100, 102",
+      "Night: 219, 258, 259"
+    ],
+    "popupLines": [
+      "Tram: 2",
+      "Bus: 100, 102",
+      "Night: 219, 258, 259"
+    ]
+  },
+  {
     "id": "4102",
     "label": "Unii Lubelskiej",
     "address": "",
     "city": "",
-    "longitude": "16.9498156949",
-    "latitude": "52.3720358969",
+    "longitude": "16.9498156900",
+    "latitude": "52.3720359000",
     "closestLines": [
-      "174"
+      "Bus: 174, T5",
+      "Night: 231"
     ],
     "popupLines": [
-      "174"
+      "Bus: 174, T5",
+      "Night: 231"
     ]
   },
   {
@@ -17190,13 +18702,15 @@
     "label": "Unii Lubelskiej",
     "address": "",
     "city": "",
-    "longitude": "16.9496976344",
-    "latitude": "52.3723874725",
+    "longitude": "16.9496976300",
+    "latitude": "52.3723874700",
     "closestLines": [
-      "174"
+      "Bus: 174, T5",
+      "Night: 231"
     ],
     "popupLines": [
-      "174"
+      "Bus: 174, T5",
+      "Night: 231"
     ]
   },
   {
@@ -17207,11 +18721,11 @@
     "longitude": "16.9492106348",
     "latitude": "52.3693403909",
     "closestLines": [
-      "Bus: 125, 174",
+      "Bus: 174, T5",
       "Night: 211"
     ],
     "popupLines": [
-      "Bus: 125, 174",
+      "Bus: 174, T5",
       "Night: 211"
     ]
   },
@@ -17223,44 +18737,44 @@
     "longitude": "16.9489007260",
     "latitude": "52.3696378963",
     "closestLines": [
-      "Bus: 174",
+      "Bus: 174, T5",
       "Night: 211"
     ],
     "popupLines": [
-      "Bus: 174",
+      "Bus: 174, T5",
       "Night: 211"
     ]
   },
   {
-    "id": "4109",
-    "label": "Wagrowska",
+    "id": "4123",
+    "label": "Starołęka Mała",
     "address": "",
     "city": "",
-    "longitude": "16.9529000256",
-    "latitude": "52.3740912223",
+    "longitude": "16.9399001600",
+    "latitude": "52.3761813600",
     "closestLines": [
-      "Bus: 125",
-      "Night: 211"
+      "Bus: T4",
+      "Night: 221"
     ],
     "popupLines": [
-      "Bus: 125",
-      "Night: 211"
+      "Bus: T4",
+      "Night: 221"
     ]
   },
   {
-    "id": "4129",
-    "label": "Unii Lubelskiej",
+    "id": "4124",
+    "label": "Starołęka Mała",
     "address": "",
     "city": "",
-    "longitude": "16.9501403613",
-    "latitude": "52.3719006747",
+    "longitude": "16.9399300500",
+    "latitude": "52.3763782000",
     "closestLines": [
-      "Bus: 125",
-      "Night: 211"
+      "Bus: T4",
+      "Night: 221"
     ],
     "popupLines": [
-      "Bus: 125",
-      "Night: 211"
+      "Bus: T4",
+      "Night: 221"
     ]
   },
   {
@@ -17312,6 +18826,50 @@
     ]
   },
   {
+    "id": "4164",
+    "label": "Czerwonak/Szkolna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9811460020",
+    "latitude": "52.4651325548",
+    "closestLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 388, 394, 396"
+    ],
+    "popupLines": [
+      "Bus: 312, 341, 342",
+      "Other bus: 388, 394, 396"
+    ]
+  },
+  {
+    "id": "4165",
+    "label": "Czerwonak/Błękitna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9988698356",
+    "latitude": "52.4644218823",
+    "closestLines": [
+      "312"
+    ],
+    "popupLines": [
+      "312"
+    ]
+  },
+  {
+    "id": "4166",
+    "label": "Czerwonak/Błękitna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9983680785",
+    "latitude": "52.4645028455",
+    "closestLines": [
+      "312"
+    ],
+    "popupLines": [
+      "312"
+    ]
+  },
+  {
     "id": "4181",
     "label": "Wilczak",
     "address": "",
@@ -17319,12 +18877,10 @@
     "longitude": "16.9461853343",
     "latitude": "52.4281443625",
     "closestLines": [
-      "Bus: 167, 174, 190, 911",
-      "Night: 214, 224"
+      "167, 174, 190, 911"
     ],
     "popupLines": [
-      "Bus: 167, 174, 190, 911",
-      "Night: 214, 224"
+      "167, 174, 190, 911"
     ]
   },
   {
@@ -17339,6 +18895,204 @@
     ],
     "popupLines": [
       "183"
+    ]
+  },
+  {
+    "id": "4198",
+    "label": "Strzeszyńska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9030445900",
+    "latitude": "52.4437804400",
+    "closestLines": [
+      "Bus: 168",
+      "Night: 226"
+    ],
+    "popupLines": [
+      "Bus: 168",
+      "Night: 226"
+    ]
+  },
+  {
+    "id": "4199",
+    "label": "Strzeszyńska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9033924900",
+    "latitude": "52.4437428300",
+    "closestLines": [
+      "Bus: 168",
+      "Night: 216"
+    ],
+    "popupLines": [
+      "Bus: 168",
+      "Night: 216"
+    ]
+  },
+  {
+    "id": "4200",
+    "label": "Strzeszyńska Lisner",
+    "address": "",
+    "city": "",
+    "longitude": "16.8952420300",
+    "latitude": "52.4488588600",
+    "closestLines": [
+      "168, 183"
+    ],
+    "popupLines": [
+      "168, 183"
+    ]
+  },
+  {
+    "id": "4201",
+    "label": "Strzeszyńska Lisner",
+    "address": "",
+    "city": "",
+    "longitude": "16.8945655300",
+    "latitude": "52.4489689900",
+    "closestLines": [
+      "168, 183"
+    ],
+    "popupLines": [
+      "168, 183"
+    ]
+  },
+  {
+    "id": "4205",
+    "label": "Stadion Miejski - Punkt Szczepień",
+    "address": "",
+    "city": "",
+    "longitude": "16.8613559400",
+    "latitude": "52.3948915200",
+    "closestLines": [
+      "Bus: 193",
+      "Night: 214, 224"
+    ],
+    "popupLines": [
+      "Bus: 193",
+      "Night: 214, 224"
+    ]
+  },
+  {
+    "id": "4207",
+    "label": "Stadion Miejski - Punkt Szczepień",
+    "address": "",
+    "city": "",
+    "longitude": "16.8624166100",
+    "latitude": "52.3961310000",
+    "closestLines": [
+      "Bus: 145, 163, 191, 193",
+      "Night: 212"
+    ],
+    "popupLines": [
+      "Bus: 145, 163, 191, 193",
+      "Night: 212"
+    ]
+  },
+  {
+    "id": "4208",
+    "label": "Stadion Miejski - Punkt Szczepień",
+    "address": "",
+    "city": "",
+    "longitude": "16.8630307900",
+    "latitude": "52.3949161200",
+    "closestLines": [
+      "Bus: 145, 163, 191",
+      "Night: 212"
+    ],
+    "popupLines": [
+      "Bus: 145, 163, 191",
+      "Night: 212"
+    ]
+  },
+  {
+    "id": "4209",
+    "label": "Sielawy",
+    "address": "",
+    "city": "",
+    "longitude": "16.9473954545",
+    "latitude": "52.4473173028",
+    "closestLines": [
+      "Bus: 144, 146, 167, 911",
+      "Night: 214, 224"
+    ],
+    "popupLines": [
+      "Bus: 144, 146, 167, 911",
+      "Night: 214, 224"
+    ]
+  },
+  {
+    "id": "4210",
+    "label": "Naramowice",
+    "address": "",
+    "city": "",
+    "longitude": "16.9455655166",
+    "latitude": "52.4455713803",
+    "closestLines": [
+      "Bus: 144, 146, 169",
+      "Night: 218"
+    ],
+    "popupLines": [
+      "Bus: 144, 146, 169",
+      "Night: 218"
+    ]
+  },
+  {
+    "id": "4211",
+    "label": "Naramowice",
+    "address": "",
+    "city": "",
+    "longitude": "16.9453884259",
+    "latitude": "52.4451393888",
+    "closestLines": [
+      "Bus: 167, 169, 911",
+      "Night: 214, 218, 224"
+    ],
+    "popupLines": [
+      "Bus: 167, 169, 911",
+      "Night: 214, 218, 224"
+    ]
+  },
+  {
+    "id": "4214",
+    "label": "Muzeum Broni Pancernej",
+    "address": "",
+    "city": "",
+    "longitude": "16.8474719928",
+    "latitude": "52.4271719912",
+    "closestLines": [
+      "102"
+    ],
+    "popupLines": [
+      "102"
+    ]
+  },
+  {
+    "id": "4215",
+    "label": "Uniwersytet Ekonomiczny",
+    "address": "",
+    "city": "",
+    "longitude": "16.9171424495",
+    "latitude": "52.4057383633",
+    "closestLines": [
+      "171"
+    ],
+    "popupLines": [
+      "171"
+    ]
+  },
+  {
+    "id": "4217",
+    "label": "Os. Piastowskie",
+    "address": "",
+    "city": "",
+    "longitude": "16.9471740911",
+    "latitude": "52.3895571818",
+    "closestLines": [
+      "T4"
+    ],
+    "popupLines": [
+      "T4"
     ]
   }
 ]

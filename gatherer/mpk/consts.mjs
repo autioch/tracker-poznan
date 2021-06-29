@@ -1,9 +1,12 @@
 export const MPK_AGENCY = '2';
+
 export const TRAM_ROUTE = '0';
 export const BUS_ROUTE = '3';
-export const TRAM_TOURIST = '0';
-export const BUS_TOURIST = '100';
+
+export const TOURIST_LINES = new Set('0', '100', '102');
+
 export const NIGHT_ROUTE = /^2\d\d$/;
+
 export const AGENCY_COLORS = {
   '2': '#000',
   '4': '#f00',

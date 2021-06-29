@@ -1,23 +1,5 @@
 import { saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
-import { BUS_ROUTE, BUS_TOURIST, MPK_AGENCY, NIGHT_ROUTE, TRAM_ROUTE, TRAM_TOURIST } from './consts.mjs';
-
-const pickRouteId = ({ route_id }) => route_id;
-const pickTripId = ({ trip_id }) => trip_id;
-
-const isDailyRoute = (routeId) => routeId !== TRAM_TOURIST && routeId !== BUS_TOURIST && !NIGHT_ROUTE.test(routeId);
-const isNightlyRoute = (routeId) => routeId !== TRAM_TOURIST && routeId !== BUS_TOURIST && NIGHT_ROUTE.test(routeId);
-
-function uniqStr(strArr) {
-  const n = {};
-
-  for (let i = 0; i < strArr.length; i++) {
-    if (!n[strArr[i]]) {
-      n[strArr[i]] = true;
-    }
-  }
-
-  return Object.keys(n);
-}
+import { getRouteIds, pickTripId, uniqStr } from './utils.mjs';
 
 function getClosestLines(tramRoutes, busRoutes, otherBusRoutes, nightRoutes) {
   // minor int <-> bool conversion trick
@@ -38,10 +20,7 @@ function getClosestLines(tramRoutes, busRoutes, otherBusRoutes, nightRoutes) {
 export default function parseStops(stops, stopTimes, trips, routes) {
   const tripMap = new Map(trips.map((trip) => [trip.trip_id, trip]));
   const getRouteId = (tripId) => tripMap.get(tripId).route_id;
-  const tramRouteIds = new Set(routes.filter((route) => route.route_type === TRAM_ROUTE).map(pickRouteId).filter(isDailyRoute));
-  const mpkBusRouteIds = new Set(routes.filter((route) => route.route_type === BUS_ROUTE && route.agency_id === MPK_AGENCY).map(pickRouteId).filter(isDailyRoute));
-  const otherBusRouteIds = new Set(routes.filter((route) => route.route_type === BUS_ROUTE && route.agency_id !== MPK_AGENCY).map(pickRouteId).filter(isDailyRoute));
-  const nightRouteIds = new Set(routes.map(pickRouteId).filter(isNightlyRoute));
+  const { tramRouteIds, mpkBusRouteIds, otherBusRouteIds, nightRouteIds } = getRouteIds(routes);
 
   console.timeLog('stops', 'prepare');
 
