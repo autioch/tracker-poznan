@@ -1,1 +1,4202 @@
-[{"id":"1","label":"Franowo","address":"","city":"","longitude":"17.0003228700","latitude":"52.3814339100","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92","Night: 201"]},{"id":"2","label":"Os. Sobieskiego","address":"","city":"","longitude":"16.9166601800","latitude":"52.4638000300","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"3","label":"Os. Sobieskiego","address":"","city":"","longitude":"16.9178214900","latitude":"52.4639504200","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"4","label":"Most Teatralny","address":"","city":"","longitude":"16.9126471700","latitude":"52.4107374400","closestLines":["Tram: 17, 18","Night: 216, 226"],"popupLines":["Tram: 17, 18","Night: 216, 226"]},{"id":"5","label":"Most Teatralny","address":"","city":"","longitude":"16.9137425100","latitude":"52.4109651200","closestLines":["3, 10, 11, 15, 16, 99"],"popupLines":["3, 10, 11, 15, 16, 99"]},{"id":"6","label":"Most Teatralny","address":"","city":"","longitude":"16.9143484000","latitude":"52.4103354900","closestLines":["3, 16, 17, 99"],"popupLines":["3, 16, 17, 99"]},{"id":"7","label":"Poznańska","address":"","city":"","longitude":"16.9151929400","latitude":"52.4133151800","closestLines":["3, 10, 11, 99"],"popupLines":["3, 10, 11, 99"]},{"id":"8","label":"Poznańska","address":"","city":"","longitude":"16.9162984600","latitude":"52.4140944800","closestLines":["3, 10, 11, 99"],"popupLines":["3, 10, 11, 99"]},{"id":"9","label":"Sołacz","address":"","city":"","longitude":"16.9034093800","latitude":"52.4235161000","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"10","label":"Sołacz","address":"","city":"","longitude":"16.9036213400","latitude":"52.4230151800","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"11","label":"Uniwersytet Przyrodniczy","address":"","city":"","longitude":"16.9059923800","latitude":"52.4263916700","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"12","label":"Uniwersytet Przyrodniczy","address":"","city":"","longitude":"16.9062196600","latitude":"52.4269057500","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"13","label":"Bonin","address":"","city":"","longitude":"16.9106352900","latitude":"52.4302063000","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"14","label":"Bonin","address":"","city":"","longitude":"16.9108599400","latitude":"52.4303010700","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"15","label":"Słowiańska","address":"","city":"","longitude":"16.9192237100","latitude":"52.4271177700","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"16","label":"Słowiańska","address":"","city":"","longitude":"16.9194629700","latitude":"52.4271586000","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"17","label":"Św. Leonarda","address":"","city":"","longitude":"16.9112600000","latitude":"52.4326700000","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"18","label":"Św. Leonarda","address":"","city":"","longitude":"16.9113300000","latitude":"52.4328200000","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"19","label":"Nad Wierzbakiem","address":"","city":"","longitude":"16.9081035700","latitude":"52.4213126600","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"20","label":"Nad Wierzbakiem","address":"","city":"","longitude":"16.9080444000","latitude":"52.4214233900","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"21","label":"Klin","address":"","city":"","longitude":"16.9140014500","latitude":"52.4186542100","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"22","label":"Klin","address":"","city":"","longitude":"16.9140675600","latitude":"52.4187683300","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"23","label":"Aleje Solidarności","address":"","city":"","longitude":"16.9199740600","latitude":"52.4359820600","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"24","label":"Aleje Solidarności","address":"","city":"","longitude":"16.9202087300","latitude":"52.4359483100","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"25","label":"Lechicka Poznań Plaza","address":"","city":"","longitude":"16.9198205300","latitude":"52.4424734100","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"26","label":"Lechicka Poznań Plaza","address":"","city":"","longitude":"16.9200857100","latitude":"52.4425062700","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"27","label":"Kurpińskiego","address":"","city":"","longitude":"16.9194124100","latitude":"52.4507481400","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"28","label":"Kurpińskiego","address":"","city":"","longitude":"16.9196313300","latitude":"52.4507725100","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"29","label":"Szymanowskiego","address":"","city":"","longitude":"16.9169382500","latitude":"52.4603710300","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"30","label":"Szymanowskiego","address":"","city":"","longitude":"16.9171552600","latitude":"52.4603958500","closestLines":["Tram: 12, 14, 15, 16, 92","Night: 201"],"popupLines":["Tram: 12, 14, 15, 16, 92","Night: 201"]},{"id":"31","label":"Wielkopolska","address":"","city":"","longitude":"16.9182845700","latitude":"52.4155123100","closestLines":["3, 10, 11, 99"],"popupLines":["3, 10, 11, 99"]},{"id":"32","label":"Wielkopolska","address":"","city":"","longitude":"16.9185920900","latitude":"52.4155633900","closestLines":["3, 10, 11, 99"],"popupLines":["3, 10, 11, 99"]},{"id":"33","label":"Armii Poznań","address":"","city":"","longitude":"16.9235154600","latitude":"52.4213487500","closestLines":["3, 10"],"popupLines":["3, 10"]},{"id":"34","label":"Armii Poznań","address":"","city":"","longitude":"16.9236569500","latitude":"52.4213219800","closestLines":["3, 10"],"popupLines":["3, 10"]},{"id":"35","label":"Żniwna","address":"","city":"","longitude":"16.9268332600","latitude":"52.4247660000","closestLines":["3, 10"],"popupLines":["3, 10"]},{"id":"36","label":"Żniwna","address":"","city":"","longitude":"16.9263538700","latitude":"52.4243429100","closestLines":["3, 10"],"popupLines":["3, 10"]},{"id":"37","label":"Pasieka","address":"","city":"","longitude":"16.9311888200","latitude":"52.4261525300","closestLines":["3, 10"],"popupLines":["3, 10"]},{"id":"38","label":"Pasieka","address":"","city":"","longitude":"16.9318731300","latitude":"52.4263859700","closestLines":["3, 10"],"popupLines":["3, 10"]},{"id":"39","label":"Murawa","address":"","city":"","longitude":"16.9358033000","latitude":"52.4268984600","closestLines":["10"],"popupLines":["10"]},{"id":"40","label":"Murawa","address":"","city":"","longitude":"16.9359653500","latitude":"52.4269504200","closestLines":["10"],"popupLines":["10"]},{"id":"43","label":"Przełajowa","address":"","city":"","longitude":"16.9446484800","latitude":"52.4251718300","closestLines":["3"],"popupLines":["3"]},{"id":"44","label":"Przełajowa","address":"","city":"","longitude":"16.9449347600","latitude":"52.4252848000","closestLines":["3"],"popupLines":["3"]},{"id":"45","label":"Wilczak","address":"","city":"","longitude":"16.9467686700","latitude":"52.4271476000","closestLines":["3"],"popupLines":["3"]},{"id":"46","label":"Os. Pod Lipami","address":"","city":"","longitude":"16.9362506500","latitude":"52.4309440500","closestLines":["10"],"popupLines":["10"]},{"id":"47","label":"Os. Pod Lipami","address":"","city":"","longitude":"16.9364029400","latitude":"52.4310010800","closestLines":["10"],"popupLines":["10"]},{"id":"48","label":"Rondo Solidarności","address":"","city":"","longitude":"16.9377328700","latitude":"52.4339380800","closestLines":["10"],"popupLines":["10"]},{"id":"49","label":"Rondo Solidarności","address":"","city":"","longitude":"16.9379315500","latitude":"52.4339826300","closestLines":["10"],"popupLines":["10"]},{"id":"50","label":"Połabska","address":"","city":"","longitude":"16.9323765300","latitude":"52.4348514000","closestLines":["10"],"popupLines":["10"]},{"id":"51","label":"Połabska","address":"","city":"","longitude":"16.9319816600","latitude":"52.4352225400","closestLines":["10"],"popupLines":["10"]},{"id":"52","label":"Os. Winiary","address":"","city":"","longitude":"16.9113141800","latitude":"52.4356506500","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"53","label":"Os. Winiary","address":"","city":"","longitude":"16.9115017500","latitude":"52.4359270900","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"54","label":"Lutycka Szpital","address":"","city":"","longitude":"16.9101567100","latitude":"52.4396789800","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"55","label":"Lutycka Szpital","address":"","city":"","longitude":"16.9099956200","latitude":"52.4397183900","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"56","label":"Piątkowska","address":"","city":"","longitude":"16.9112689393","latitude":"52.4415302943","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"57","label":"Piątkowska","address":"","city":"","longitude":"16.9105875300","latitude":"52.4414917400","closestLines":["11, 99"],"popupLines":["11, 99"]},{"id":"58","label":"Ogrody","address":"","city":"","longitude":"16.8824626700","latitude":"52.4170536400","closestLines":["2, 7, 17, 18"],"popupLines":["2, 7, 17, 18"]},{"id":"59","label":"Ogrody","address":"","city":"","longitude":"16.8829024900","latitude":"52.4163628200","closestLines":["2, 7, 17, 18"],"popupLines":["2, 7, 17, 18"]},{"id":"60","label":"Żeromskiego","address":"","city":"","longitude":"16.8908253300","latitude":"52.4155430100","closestLines":["Tram: 2, 7, 17, 18","Bus: 182, 191, 193, 195","Night: 219"],"popupLines":["Tram: 2, 7, 17, 18","Bus: 182, 191, 193, 195","Night: 219"]},{"id":"61","label":"Żeromskiego","address":"","city":"","longitude":"16.8903614400","latitude":"52.4157411000","closestLines":["Tram: 2, 7, 17, 18","Bus: 182, 191, 193","Night: 219"],"popupLines":["Tram: 2, 7, 17, 18","Bus: 182, 191, 193","Night: 219"]},{"id":"62","label":"Polna","address":"","city":"","longitude":"16.8966975400","latitude":"52.4142414300","closestLines":["Tram: 2, 17, 18","Night: 219"],"popupLines":["Tram: 2, 17, 18","Night: 219"]},{"id":"63","label":"Polna","address":"","city":"","longitude":"16.8972021400","latitude":"52.4142148300","closestLines":["Tram: 2, 17, 18","Night: 219"],"popupLines":["Tram: 2, 17, 18","Night: 219"]},{"id":"64","label":"Rynek Jeżycki","address":"","city":"","longitude":"16.9056406100","latitude":"52.4122250800","closestLines":["Tram: 17, 18","Night: 216, 226"],"popupLines":["Tram: 17, 18","Night: 216, 226"]},{"id":"65","label":"Rynek Jeżycki","address":"","city":"","longitude":"16.9047706000","latitude":"52.4125350800","closestLines":["Tram: 17, 18","Night: 216, 226"],"popupLines":["Tram: 17, 18","Night: 216, 226"]},{"id":"66","label":"Bukowska","address":"","city":"","longitude":"16.8886379300","latitude":"52.4100013000","closestLines":["7"],"popupLines":["7"]},{"id":"67","label":"Bukowska","address":"","city":"","longitude":"16.8888257200","latitude":"52.4100521300","closestLines":["7"],"popupLines":["7"]},{"id":"68","label":"Rondo Nowaka-Jeziorańskiego","address":"","city":"","longitude":"16.8900297700","latitude":"52.4027709300","closestLines":["6, 13, 15"],"popupLines":["6, 13, 15"]},{"id":"69","label":"Rondo Nowaka-Jeziorańskiego","address":"","city":"","longitude":"16.8889925700","latitude":"52.4033902600","closestLines":["Tram: 7","Bus: 145"],"popupLines":["Tram: 7","Bus: 145"]},{"id":"70","label":"Rondo Nowaka-Jeziorańskiego","address":"","city":"","longitude":"16.8882176253","latitude":"52.4023512573","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"71","label":"Rondo Nowaka-Jeziorańskiego","address":"","city":"","longitude":"16.8891387700","latitude":"52.4018848800","closestLines":["Tram: 1, 7, 15","Bus: 145"],"popupLines":["Tram: 1, 7, 15","Bus: 145"]},{"id":"72","label":"Wojskowa","address":"","city":"","longitude":"16.8924793200","latitude":"52.4034107400","closestLines":["6, 13, 15"],"popupLines":["6, 13, 15"]},{"id":"73","label":"Ostroroga","address":"","city":"","longitude":"16.8815419200","latitude":"52.4003363100","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"74","label":"Ostroroga","address":"","city":"","longitude":"16.8823444000","latitude":"52.4006241700","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"75","label":"Grochowska","address":"","city":"","longitude":"16.8758472200","latitude":"52.3989629500","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"76","label":"Grochowska","address":"","city":"","longitude":"16.8760071400","latitude":"52.3988983700","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"77","label":"Drzewieckiego","address":"","city":"","longitude":"16.8668666900","latitude":"52.3965900200","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"78","label":"Drzewieckiego","address":"","city":"","longitude":"16.8675472100","latitude":"52.3968382200","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"79","label":"Stadion Miejski","address":"","city":"","longitude":"16.8623584000","latitude":"52.3953542600","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"80","label":"Stadion Miejski","address":"","city":"","longitude":"16.8632981200","latitude":"52.3957224800","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"81","label":"Węgorka","address":"","city":"","longitude":"16.8578300000","latitude":"52.3920000000","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"82","label":"Węgorka","address":"","city":"","longitude":"16.8580000000","latitude":"52.3923300000","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"83","label":"Matejki","address":"","city":"","longitude":"16.9009328700","latitude":"52.4057875800","closestLines":["6, 13, 15"],"popupLines":["6, 13, 15"]},{"id":"84","label":"Bałtyk","address":"","city":"","longitude":"16.9110520000","latitude":"52.4065890000","closestLines":["Tram: 6, 13, 15","Bus: 148, 159, 163, 169, 177","Night: 212, 222"],"popupLines":["Tram: 6, 13, 15","Bus: 148, 159, 163, 169, 177","Night: 212, 222"]},{"id":"85","label":"Bałtyk","address":"","city":"","longitude":"16.9110600000","latitude":"52.4065000000","closestLines":["6, 13, 15"],"popupLines":["6, 13, 15"]},{"id":"86","label":"Most Dworcowy","address":"","city":"","longitude":"16.9110290500","latitude":"52.4040015200","closestLines":["Tram: 3, 5, 6, 8, 10, 11, 13, 15, 18, 99","Night: 201, 213, 214, 218, 223, 224"],"popupLines":["Tram: 3, 5, 6, 8, 10, 11, 13, 15, 18, 99","Night: 201, 213, 214, 218, 223, 224"]},{"id":"87","label":"Most Dworcowy","address":"","city":"","longitude":"16.9111204500","latitude":"52.4038694800","closestLines":["Tram: 3, 5, 6, 8, 10, 11, 13, 15, 17, 18, 99","Night: 201, 213, 214, 218, 223, 224"],"popupLines":["Tram: 3, 5, 6, 8, 10, 11, 13, 15, 17, 18, 99","Night: 201, 213, 214, 218, 223, 224"]},{"id":"88","label":"Dworzec Zachodni","address":"","city":"","longitude":"16.9088064600","latitude":"52.4017177600","closestLines":["Tram: 2, 3, 5, 6, 8, 10, 11, 12, 13, 15, 17, 18, 92, 99","Night: 201, 213, 214, 218, 223, 224"],"popupLines":["Tram: 2, 3, 5, 6, 8, 10, 11, 12, 13, 15, 17, 18, 92, 99","Night: 201, 213, 214, 218, 223, 224"]},{"id":"89","label":"Dworzec Zachodni","address":"","city":"","longitude":"16.9090824300","latitude":"52.4017716400","closestLines":["Tram: 3, 5, 8, 10, 11, 12, 13, 15, 17, 18, 92, 99","Night: 201, 213, 214, 218, 223, 224"],"popupLines":["Tram: 3, 5, 8, 10, 11, 12, 13, 15, 17, 18, 92, 99","Night: 201, 213, 214, 218, 223, 224"]},{"id":"90","label":"Park Wilsona","address":"","city":"","longitude":"16.9031573100","latitude":"52.3982419000","closestLines":["Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"],"popupLines":["Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"]},{"id":"91","label":"Park Wilsona","address":"","city":"","longitude":"16.9020603600","latitude":"52.3971074100","closestLines":["Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"],"popupLines":["Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"]},{"id":"92","label":"Rynek Łazarski","address":"","city":"","longitude":"16.8985036470","latitude":"52.3939634477","closestLines":["Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"],"popupLines":["Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"]},{"id":"93","label":"Rynek Łazarski","address":"","city":"","longitude":"16.8991462700","latitude":"52.3944540100","closestLines":["Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"],"popupLines":["Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"]},{"id":"94","label":"Głogowska/Hetmańska","address":"","city":"","longitude":"16.8949471800","latitude":"52.3897983100","closestLines":["1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"],"popupLines":["1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"]},{"id":"95","label":"Głogowska/Hetmańska","address":"","city":"","longitude":"16.8946848200","latitude":"52.3899860700","closestLines":["1, 2, 4, 7, 8, 9, 10, 11, 14, 15, 17"],"popupLines":["1, 2, 4, 7, 8, 9, 10, 11, 14, 15, 17"]},{"id":"96","label":"Głogowska/Hetmańska","address":"","city":"","longitude":"16.8944754200","latitude":"52.3905273700","closestLines":["Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"],"popupLines":["Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"]},{"id":"97","label":"Głogowska/Hetmańska","address":"","city":"","longitude":"16.8935347900","latitude":"52.3903874400","closestLines":["7"],"popupLines":["7"]},{"id":"98","label":"Głogowska/Hetmańska","address":"","city":"","longitude":"16.8935651400","latitude":"52.3902737400","closestLines":["6, 7, 13"],"popupLines":["6, 7, 13"]},{"id":"99","label":"Arciszewskiego","address":"","city":"","longitude":"16.8869293500","latitude":"52.3926985000","closestLines":["1, 7, 15"],"popupLines":["1, 7, 15"]},{"id":"100","label":"Arciszewskiego","address":"","city":"","longitude":"16.8867070100","latitude":"52.3928844400","closestLines":["1, 6, 7, 13, 15"],"popupLines":["1, 6, 7, 13, 15"]},{"id":"101","label":"Arena","address":"","city":"","longitude":"16.8883695100","latitude":"52.3972781800","closestLines":["1, 6, 7, 13, 15"],"popupLines":["1, 6, 7, 13, 15"]},{"id":"102","label":"Arena","address":"","city":"","longitude":"16.8884247200","latitude":"52.3977717600","closestLines":["1, 7, 15"],"popupLines":["1, 7, 15"]},{"id":"103","label":"Kolejowa","address":"","city":"","longitude":"16.9028994200","latitude":"52.3870352600","closestLines":["1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"],"popupLines":["1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"]},{"id":"104","label":"Kolejowa","address":"","city":"","longitude":"16.9027620200","latitude":"52.3871894000","closestLines":["1, 2, 4, 7, 8, 9, 10, 11, 14, 15, 17"],"popupLines":["1, 2, 4, 7, 8, 9, 10, 11, 14, 15, 17"]},{"id":"105","label":"Traugutta","address":"","city":"","longitude":"16.9138239700","latitude":"52.3853237900","closestLines":["1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"],"popupLines":["1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"]},{"id":"106","label":"Traugutta","address":"","city":"","longitude":"16.9151159000","latitude":"52.3847652100","closestLines":["1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"],"popupLines":["1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"]},{"id":"107","label":"Kosińskiego","address":"","city":"","longitude":"16.9182392900","latitude":"52.3893013500","closestLines":["2, 9, 10, 12, 18, 92"],"popupLines":["2, 9, 10, 12, 18, 92"]},{"id":"108","label":"Kosińskiego","address":"","city":"","longitude":"16.9187176400","latitude":"52.3894819500","closestLines":["2, 9, 10, 12, 18, 92"],"popupLines":["2, 9, 10, 12, 18, 92"]},{"id":"109","label":"Różana","address":"","city":"","longitude":"16.9249166900","latitude":"52.3969310600","closestLines":["2, 9, 10, 12, 18, 92"],"popupLines":["2, 9, 10, 12, 18, 92"]},{"id":"110","label":"Różana","address":"","city":"","longitude":"16.9245683000","latitude":"52.3965092000","closestLines":["2, 9, 10, 12, 18, 92"],"popupLines":["2, 9, 10, 12, 18, 92"]},{"id":"113","label":"Półwiejska","address":"","city":"","longitude":"16.9281600000","latitude":"52.3999200000","closestLines":["5, 6, 9, 18, 92"],"popupLines":["5, 6, 9, 18, 92"]},{"id":"114","label":"Półwiejska","address":"","city":"","longitude":"16.9279200000","latitude":"52.3999700000","closestLines":["5, 6, 9, 18, 92"],"popupLines":["5, 6, 9, 18, 92"]},{"id":"115","label":"Wierzbięcice","address":"","city":"","longitude":"16.9209242000","latitude":"52.4017301500","closestLines":["2, 5, 6, 10, 12, 18, 92"],"popupLines":["2, 5, 6, 10, 12, 18, 92"]},{"id":"116","label":"Wierzbięcice","address":"","city":"","longitude":"16.9205211600","latitude":"52.4019271300","closestLines":["2, 5, 6, 10, 12, 18, 92"],"popupLines":["2, 5, 6, 10, 12, 18, 92"]},{"id":"117","label":"Fredry","address":"","city":"","longitude":"16.9192700000","latitude":"52.4093200000","closestLines":["3, 16, 17, 99"],"popupLines":["3, 16, 17, 99"]},{"id":"118","label":"Fredry","address":"","city":"","longitude":"16.9184700000","latitude":"52.4094800000","closestLines":["3, 16, 17, 99"],"popupLines":["3, 16, 17, 99"]},{"id":"124","label":"Pl. Ratajskiego","address":"","city":"","longitude":"16.9239237500","latitude":"52.4095986000","closestLines":["Tram: 3, 8, 13, 16, 17, 99","Night: 201"],"popupLines":["Tram: 3, 8, 13, 16, 17, 99","Night: 201"]},{"id":"125","label":"Pl. Ratajskiego","address":"","city":"","longitude":"16.9241997100","latitude":"52.4095816900","closestLines":["Tram: 3, 8, 13, 16, 17, 99","Night: 201"],"popupLines":["Tram: 3, 8, 13, 16, 17, 99","Night: 201"]},{"id":"126","label":"Pl. Wielkopolski","address":"","city":"","longitude":"16.9308266000","latitude":"52.4103531800","closestLines":["Tram: 3, 8, 13, 16, 17, 99","Night: 201"],"popupLines":["Tram: 3, 8, 13, 16, 17, 99","Night: 201"]},{"id":"127","label":"Pl. Wielkopolski","address":"","city":"","longitude":"16.9310187000","latitude":"52.4103158800","closestLines":["Tram: 3, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 8, 13, 16, 17","Night: 201"]},{"id":"128","label":"Małe Garbary","address":"","city":"","longitude":"16.9374709200","latitude":"52.4107493300","closestLines":["Tram: 3, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 8, 13, 16, 17","Night: 201"]},{"id":"129","label":"Małe Garbary","address":"","city":"","longitude":"16.9372306700","latitude":"52.4108894900","closestLines":["Tram: 3, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 8, 13, 16, 17","Night: 201"]},{"id":"130","label":"Katedra","address":"","city":"","longitude":"16.9471314700","latitude":"52.4100987400","closestLines":["Tram: 3, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 8, 13, 16, 17","Night: 201"]},{"id":"131","label":"Katedra","address":"","city":"","longitude":"16.9473154100","latitude":"52.4100296800","closestLines":["Tram: 3, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 8, 13, 16, 17","Night: 201"]},{"id":"132","label":"Rondo Śródka","address":"","city":"","longitude":"16.9557905900","latitude":"52.4100886700","closestLines":["Tram: 3, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 8, 13, 16, 17","Night: 201"]},{"id":"133","label":"Rondo Śródka","address":"","city":"","longitude":"16.9556183400","latitude":"52.4102429400","closestLines":["Tram: 3, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 8, 13, 16, 17","Night: 201"]},{"id":"134","label":"Rondo Śródka","address":"","city":"","longitude":"16.9562091400","latitude":"52.4095338300","closestLines":["Tram: 3, 6, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 6, 8, 13, 16, 17","Night: 201"]},{"id":"135","label":"Rondo Śródka","address":"","city":"","longitude":"16.9564208700","latitude":"52.4095004300","closestLines":["Tram: 3, 6, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 6, 8, 13, 16, 17","Night: 201"]},{"id":"136","label":"Rondo Śródka","address":"","city":"","longitude":"16.9577923900","latitude":"52.4098738000","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"137","label":"Rondo Śródka","address":"","city":"","longitude":"16.9581012000","latitude":"52.4099513800","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"140","label":"Św. Michała","address":"","city":"","longitude":"16.9623295000","latitude":"52.4090145800","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"141","label":"Św. Michała","address":"","city":"","longitude":"16.9619320100","latitude":"52.4091737200","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"142","label":"Termalna","address":"","city":"","longitude":"16.9721856000","latitude":"52.4091574800","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"143","label":"Termalna","address":"","city":"","longitude":"16.9722628600","latitude":"52.4090358700","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"144","label":"Krańcowa","address":"","city":"","longitude":"16.9810464800","latitude":"52.4094277500","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"145","label":"Krańcowa","address":"","city":"","longitude":"16.9812458100","latitude":"52.4093202300","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"146","label":"Łomżyńska","address":"","city":"","longitude":"16.9851960400","latitude":"52.4096310300","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"147","label":"Łomżyńska","address":"","city":"","longitude":"16.9853441700","latitude":"52.4095056700","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"150","label":"Miłostowo","address":"","city":"","longitude":"17.0025350800","latitude":"52.4101993000","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"151","label":"Miłostowo","address":"","city":"","longitude":"17.0029011200","latitude":"52.4096098600","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"152","label":"Baraniaka","address":"","city":"","longitude":"16.9541778000","latitude":"52.4039501500","closestLines":["Tram: 3, 6, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 6, 8, 13, 16, 17","Night: 201"]},{"id":"153","label":"Baraniaka","address":"","city":"","longitude":"16.9543871300","latitude":"52.4037693100","closestLines":["Tram: 3, 6, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 6, 8, 13, 16, 17","Night: 201"]},{"id":"154","label":"Rondo Rataje","address":"","city":"","longitude":"16.9490736500","latitude":"52.3959887100","closestLines":["18, 92"],"popupLines":["18, 92"]},{"id":"157","label":"Rondo Rataje","address":"","city":"","longitude":"16.9488220600","latitude":"52.3961740600","closestLines":["18, 92"],"popupLines":["18, 92"]},{"id":"160","label":"Kórnicka","address":"","city":"","longitude":"16.9534845600","latitude":"52.3990164300","closestLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"]},{"id":"161","label":"Kórnicka","address":"","city":"","longitude":"16.9533801200","latitude":"52.3991553500","closestLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"]},{"id":"162","label":"Kórnicka","address":"","city":"","longitude":"16.9528595100","latitude":"52.3998253300","closestLines":["Tram: 3, 6, 8, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 6, 8, 13, 16, 17","Night: 201"]},{"id":"163","label":"Politechnika","address":"","city":"","longitude":"16.9487672600","latitude":"52.4005864300","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]},{"id":"164","label":"Politechnika","address":"","city":"","longitude":"16.9487645300","latitude":"52.4007011200","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]},{"id":"165","label":"Pl. Bernardyński","address":"","city":"","longitude":"16.9370106900","latitude":"52.4043220400","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]},{"id":"166","label":"Pl. Bernardyński","address":"","city":"","longitude":"16.9367738700","latitude":"52.4044339000","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]},{"id":"169","label":"Łąkowa","address":"","city":"","longitude":"16.9342500000","latitude":"52.4019500000","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]},{"id":"170","label":"Łąkowa","address":"","city":"","longitude":"16.9342900000","latitude":"52.4020600000","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]},{"id":"171","label":"AWF","address":"","city":"","longitude":"16.9355700000","latitude":"52.3998200000","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]},{"id":"172","label":"AWF","address":"","city":"","longitude":"16.9343000000","latitude":"52.3992400000","closestLines":["5, 6, 9, 18, 92"],"popupLines":["5, 6, 9, 18, 92"]},{"id":"173","label":"AWF","address":"","city":"","longitude":"16.9360200000","latitude":"52.3990100000","closestLines":["Tram: 18, 92","Bus: 174, 190"],"popupLines":["Tram: 18, 92","Bus: 174, 190"]},{"id":"174","label":"Gwarna","address":"","city":"","longitude":"16.9211080000","latitude":"52.4073590000","closestLines":["Tram: 8, 13","Night: 201"],"popupLines":["Tram: 8, 13","Night: 201"]},{"id":"175","label":"Serafitek","address":"","city":"","longitude":"16.9457055500","latitude":"52.3969309500","closestLines":["18, 92"],"popupLines":["18, 92"]},{"id":"176","label":"Serafitek","address":"","city":"","longitude":"16.9445062800","latitude":"52.3971256800","closestLines":["18, 92"],"popupLines":["18, 92"]},{"id":"179","label":"Os. Piastowskie","address":"","city":"","longitude":"16.9471468100","latitude":"52.3903419900","closestLines":["4, 7"],"popupLines":["4, 7"]},{"id":"180","label":"Os. Piastowskie","address":"","city":"","longitude":"16.9471448300","latitude":"52.3899918400","closestLines":["4, 7"],"popupLines":["4, 7"]},{"id":"181","label":"Os. Rzeczypospolitej","address":"","city":"","longitude":"16.9448386200","latitude":"52.3853846900","closestLines":["4, 7"],"popupLines":["4, 7"]},{"id":"182","label":"Os. Rzeczypospolitej","address":"","city":"","longitude":"16.9450054200","latitude":"52.3854184000","closestLines":["4, 7"],"popupLines":["4, 7"]},{"id":"183","label":"Hetmańska Wiadukt","address":"","city":"","longitude":"16.9294650500","latitude":"52.3826620500","closestLines":["1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"],"popupLines":["1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"]},{"id":"184","label":"Hetmańska Wiadukt","address":"","city":"","longitude":"16.9292470600","latitude":"52.3827743900","closestLines":["1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"],"popupLines":["1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"]},{"id":"185","label":"Traugutta","address":"","city":"","longitude":"16.9140023000","latitude":"52.3846407200","closestLines":["2, 9, 10"],"popupLines":["2, 9, 10"]},{"id":"186","label":"Traugutta","address":"","city":"","longitude":"16.9142178600","latitude":"52.3846996100","closestLines":["2, 9, 10"],"popupLines":["2, 9, 10"]},{"id":"187","label":"Rolna","address":"","city":"","longitude":"16.9183777900","latitude":"52.3839405700","closestLines":["1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"],"popupLines":["1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"]},{"id":"188","label":"Rolna","address":"","city":"","longitude":"16.9181281100","latitude":"52.3840706900","closestLines":["1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"],"popupLines":["1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"]},{"id":"189","label":"HCP","address":"","city":"","longitude":"16.9119498800","latitude":"52.3824324900","closestLines":["2, 9, 10"],"popupLines":["2, 9, 10"]},{"id":"190","label":"Wspólna","address":"","city":"","longitude":"16.9076140700","latitude":"52.3777846200","closestLines":["2, 9, 10"],"popupLines":["2, 9, 10"]},{"id":"191","label":"Wspólna","address":"","city":"","longitude":"16.9074117500","latitude":"52.3772857100","closestLines":["2, 9, 10"],"popupLines":["2, 9, 10"]},{"id":"192","label":"Dębiec","address":"","city":"","longitude":"16.9031857800","latitude":"52.3728856000","closestLines":["2, 9, 10"],"popupLines":["2, 9, 10"]},{"id":"193","label":"Dębiec","address":"","city":"","longitude":"16.9038313800","latitude":"52.3730591500","closestLines":["2, 9, 10"],"popupLines":["2, 9, 10"]},{"id":"197","label":"Bystra","address":"","city":"","longitude":"16.9345268592","latitude":"52.3709991833","closestLines":["1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"],"popupLines":["1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"]},{"id":"198","label":"Bystra","address":"","city":"","longitude":"16.9349624900","latitude":"52.3714098300","closestLines":["Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17","Night: 201"],"popupLines":["Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17","Night: 201"]},{"id":"199","label":"Starołęka","address":"","city":"","longitude":"16.9316765000","latitude":"52.3684353700","closestLines":["1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"],"popupLines":["1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"]},{"id":"200","label":"Starołęka","address":"","city":"","longitude":"16.9323682800","latitude":"52.3685595700","closestLines":["Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17","Night: 201"],"popupLines":["Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17","Night: 201"]},{"id":"201","label":"Rondo Żegrze","address":"","city":"","longitude":"16.9547300000","latitude":"52.3765200000","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 92","Night: 201"]},{"id":"202","label":"Rondo Żegrze","address":"","city":"","longitude":"16.9542600000","latitude":"52.3767000000","closestLines":["1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 92"],"popupLines":["1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 92"]},{"id":"203","label":"Żegrze I","address":"","city":"","longitude":"16.9611208400","latitude":"52.3789806400","closestLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92","Night: 201"]},{"id":"204","label":"Żegrze I","address":"","city":"","longitude":"16.9614602200","latitude":"52.3789265600","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92","Night: 201"]},{"id":"205","label":"Żegrze II","address":"","city":"","longitude":"16.9659212900","latitude":"52.3807026800","closestLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92","Night: 201"]},{"id":"206","label":"Żegrze II","address":"","city":"","longitude":"16.9661947200","latitude":"52.3807152400","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92","Night: 201"]},{"id":"207","label":"Żegrze III","address":"","city":"","longitude":"16.9691011900","latitude":"52.3832832000","closestLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92","Night: 201"]},{"id":"208","label":"Żegrze III","address":"","city":"","longitude":"16.9693135900","latitude":"52.3833064700","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92","Night: 201"]},{"id":"209","label":"Os. Czecha","address":"","city":"","longitude":"16.9754798600","latitude":"52.3861726200","closestLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92","Bus: 152, 162, 166, 184, 196","Night: 201, 218"],"popupLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92","Bus: 152, 162, 166, 184, 196","Night: 201, 218"]},{"id":"210","label":"Os. Czecha","address":"","city":"","longitude":"16.9756493300","latitude":"52.3861128400","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92","Bus: 152, 162, 166, 184, 196","Night: 201, 218"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92","Bus: 152, 162, 166, 184, 196","Night: 201, 218"]},{"id":"211","label":"Os. Lecha","address":"","city":"","longitude":"16.9776571100","latitude":"52.3898114100","closestLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"]},{"id":"212","label":"Os. Lecha","address":"","city":"","longitude":"16.9778299400","latitude":"52.3900634300","closestLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"]},{"id":"213","label":"Piaśnicka Rynek","address":"","city":"","longitude":"16.9824741827","latitude":"52.3876647854","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92","Night: 201"]},{"id":"214","label":"Piaśnicka Rynek","address":"","city":"","longitude":"16.9820609709","latitude":"52.3877999592","closestLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92","Night: 201"]},{"id":"215","label":"Piaśnicka/Kurlandzka","address":"","city":"","longitude":"16.9874179664","latitude":"52.3850783790","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92","Night: 201"]},{"id":"216","label":"Piaśnicka/Kurlandzka","address":"","city":"","longitude":"16.9871966030","latitude":"52.3852315850","closestLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92","Night: 201"]},{"id":"217","label":"Szwedzka","address":"","city":"","longitude":"16.9908248300","latitude":"52.3821058400","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92","Night: 201"]},{"id":"218","label":"Szwedzka","address":"","city":"","longitude":"16.9909330100","latitude":"52.3821217700","closestLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92","Night: 201"]},{"id":"219","label":"Szwajcarska","address":"","city":"","longitude":"16.9982315400","latitude":"52.3825556800","closestLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92","Night: 201"]},{"id":"220","label":"Szwajcarska","address":"","city":"","longitude":"16.9982370300","latitude":"52.3824818500","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92","Night: 201"]},{"id":"221","label":"Franowo","address":"","city":"","longitude":"17.0014708200","latitude":"52.3816632800","closestLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92","Night: 201"]},{"id":"222","label":"Os. Tysiąclecia","address":"","city":"","longitude":"16.9722808200","latitude":"52.3922581500","closestLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"]},{"id":"223","label":"Os. Tysiąclecia","address":"","city":"","longitude":"16.9720870200","latitude":"52.3923968200","closestLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"]},{"id":"224","label":"Polanka","address":"","city":"","longitude":"16.9636800500","latitude":"52.3960358100","closestLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"]},{"id":"225","label":"Polanka","address":"","city":"","longitude":"16.9637254900","latitude":"52.3961561400","closestLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"],"popupLines":["Tram: 3, 5, 6, 8, 9, 13, 16, 17","Night: 201"]},{"id":"226","label":"HCP","address":"","city":"","longitude":"16.9113663400","latitude":"52.3815242000","closestLines":["2, 9, 10"],"popupLines":["2, 9, 10"]},{"id":"229","label":"Rynek Wildecki","address":"","city":"","longitude":"16.9219171400","latitude":"52.3938791400","closestLines":["2, 9, 10, 12, 18, 92"],"popupLines":["2, 9, 10, 12, 18, 92"]},{"id":"230","label":"Rynek Wildecki","address":"","city":"","longitude":"16.9224455900","latitude":"52.3941049700","closestLines":["2, 9, 10, 12, 18, 92"],"popupLines":["2, 9, 10, 12, 18, 92"]},{"id":"231","label":"Rondo Starołęka","address":"","city":"","longitude":"16.9426679000","latitude":"52.3793126100","closestLines":["1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"],"popupLines":["1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"]},{"id":"232","label":"Rondo Starołęka","address":"","city":"","longitude":"16.9429377900","latitude":"52.3795324100","closestLines":["Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17","Night: 201"],"popupLines":["Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17","Night: 201"]},{"id":"233","label":"Rondo Starołęka","address":"","city":"","longitude":"16.9433080300","latitude":"52.3810631200","closestLines":["4, 7"],"popupLines":["4, 7"]},{"id":"234","label":"Rondo Starołęka","address":"","city":"","longitude":"16.9435005400","latitude":"52.3810055800","closestLines":["4, 7"],"popupLines":["4, 7"]},{"id":"235","label":"Rondo Starołęka","address":"","city":"","longitude":"16.9422208600","latitude":"52.3803896900","closestLines":["1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"],"popupLines":["1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"]},{"id":"236","label":"Rondo Starołęka","address":"","city":"","longitude":"16.9421001900","latitude":"52.3805416700","closestLines":["1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"],"popupLines":["1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"]},{"id":"237","label":"Rondo Starołęka","address":"","city":"","longitude":"16.9443395900","latitude":"52.3797589900","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 92","Night: 201"]},{"id":"238","label":"Rondo Starołęka","address":"","city":"","longitude":"16.9440334600","latitude":"52.3799600900","closestLines":["1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 92"],"popupLines":["1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 92"]},{"id":"239","label":"Most Św. Rocha","address":"","city":"","longitude":"16.9423726100","latitude":"52.4026611500","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]},{"id":"240","label":"Most Św. Rocha","address":"","city":"","longitude":"16.9422831200","latitude":"52.4027711600","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]},{"id":"750","label":"Matejki","address":"","city":"","longitude":"16.8994038000","latitude":"52.4052269000","closestLines":["6, 13, 15"],"popupLines":["6, 13, 15"]},{"id":"1085","label":"Sielska","address":"","city":"","longitude":"16.8870422900","latitude":"52.3840502200","closestLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 223"],"popupLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 223"]},{"id":"1086","label":"Sielska","address":"","city":"","longitude":"16.8867624800","latitude":"52.3840751200","closestLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 223"],"popupLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 223"]},{"id":"1087","label":"Krauthofera","address":"","city":"","longitude":"16.8908748900","latitude":"52.3869666500","closestLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 223"],"popupLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 223"]},{"id":"1088","label":"Krauthofera","address":"","city":"","longitude":"16.8913676500","latitude":"52.3875876200","closestLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 223"],"popupLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 223"]},{"id":"1596","label":"Pamiątkowa","address":"","city":"","longitude":"16.9166088200","latitude":"52.3871448400","closestLines":["Tram: 2, 9, 10, 12, 18, 92","Bus: 171","Night: 215"],"popupLines":["Tram: 2, 9, 10, 12, 18, 92","Bus: 171","Night: 215"]},{"id":"1597","label":"Pamiątkowa","address":"","city":"","longitude":"16.9161885900","latitude":"52.3871000200","closestLines":["Tram: 2, 9, 10, 12, 18, 92","Bus: 171","Night: 215"],"popupLines":["Tram: 2, 9, 10, 12, 18, 92","Bus: 171","Night: 215"]},{"id":"1619","label":"Rynek Jeżycki","address":"","city":"","longitude":"16.9039574100","latitude":"52.4122357000","closestLines":["Tram: 2","Bus: 164","Night: 219"],"popupLines":["Tram: 2","Bus: 164","Night: 219"]},{"id":"1620","label":"Rynek Jeżycki","address":"","city":"","longitude":"16.9035799100","latitude":"52.4120324500","closestLines":["Tram: 2, 17","Bus: 164","Night: 219"],"popupLines":["Tram: 2, 17","Bus: 164","Night: 219"]},{"id":"1631","label":"Głogowska/Hetmańska","address":"","city":"","longitude":"16.8948032700","latitude":"52.3906050800","closestLines":["Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"],"popupLines":["Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201, 213, 218, 223"]},{"id":"1647","label":"Pl. Wielkopolski","address":"","city":"","longitude":"16.9316672700","latitude":"52.4102569400","closestLines":["13, 99"],"popupLines":["13, 99"]},{"id":"1686","label":"Dworzec Zachodni","address":"","city":"","longitude":"16.9100521100","latitude":"52.4011437400","closestLines":["Tram: 12, 14, 92","Night: 201"],"popupLines":["Tram: 12, 14, 92","Night: 201"]},{"id":"1687","label":"Dworzec Zachodni","address":"","city":"","longitude":"16.9102571900","latitude":"52.4011157600","closestLines":["Tram: 12, 14, 92","Night: 201"],"popupLines":["Tram: 12, 14, 92","Night: 201"]},{"id":"1688","label":"Most Teatralny","address":"","city":"","longitude":"16.9144439600","latitude":"52.4116333700","closestLines":["Tram: 12, 14, 92","Night: 201"],"popupLines":["Tram: 12, 14, 92","Night: 201"]},{"id":"1689","label":"Most Teatralny","address":"","city":"","longitude":"16.9147002100","latitude":"52.4115747100","closestLines":["Tram: 12, 14, 92","Night: 201"],"popupLines":["Tram: 12, 14, 92","Night: 201"]},{"id":"1690","label":"Górczyn","address":"","city":"","longitude":"16.8810077200","latitude":"52.3814366000","closestLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201"],"popupLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201"]},{"id":"1691","label":"Górczyn","address":"","city":"","longitude":"16.8812332000","latitude":"52.3810061700","closestLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201"],"popupLines":["Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99","Night: 201"]},{"id":"1692","label":"Towarowa","address":"","city":"","longitude":"16.9170955800","latitude":"52.4067627000","closestLines":["Tram: 2, 5, 17","Bus: 171","Night: 212, 215, 222"],"popupLines":["Tram: 2, 5, 17","Bus: 171","Night: 212, 215, 222"]},{"id":"1693","label":"Towarowa","address":"","city":"","longitude":"16.9172526600","latitude":"52.4067142700","closestLines":["2, 5"],"popupLines":["2, 5"]},{"id":"1694","label":"Kraszewskiego","address":"","city":"","longitude":"16.9033531800","latitude":"52.4089536100","closestLines":["Tram: 2, 17","Night: 219"],"popupLines":["Tram: 2, 17","Night: 219"]},{"id":"1695","label":"Kraszewskiego","address":"","city":"","longitude":"16.9028608300","latitude":"52.4091315800","closestLines":["Tram: 2","Night: 219"],"popupLines":["Tram: 2","Night: 219"]},{"id":"1699","label":"Budziszyńska","address":"","city":"","longitude":"16.8497230600","latitude":"52.3885462000","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"1700","label":"Budziszyńska","address":"","city":"","longitude":"16.8498179200","latitude":"52.3884567400","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"1701","label":"Rondo Skubiszewskiego","address":"","city":"","longitude":"16.8538765600","latitude":"52.3898352000","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"1702","label":"Rondo Skubiszewskiego","address":"","city":"","longitude":"16.8543457700","latitude":"52.3901366400","closestLines":["1, 6, 13, 15"],"popupLines":["1, 6, 13, 15"]},{"id":"1703","label":"Cmentarna","address":"","city":"","longitude":"16.8390540000","latitude":"52.3851815900","closestLines":["1, 6, 13"],"popupLines":["1, 6, 13"]},{"id":"1704","label":"Cmentarna","address":"","city":"","longitude":"16.8391843000","latitude":"52.3850653100","closestLines":["1, 6, 13"],"popupLines":["1, 6, 13"]},{"id":"1705","label":"Grotkowska","address":"","city":"","longitude":"16.8439037400","latitude":"52.3865628400","closestLines":["Tram: 1, 6, 13","Night: 214, 224"],"popupLines":["Tram: 1, 6, 13","Night: 214, 224"]},{"id":"1706","label":"Grotkowska","address":"","city":"","longitude":"16.8441191000","latitude":"52.3865437000","closestLines":["Tram: 1, 6, 13","Night: 214, 224"],"popupLines":["Tram: 1, 6, 13","Night: 214, 224"]},{"id":"1707","label":"Junikowo","address":"","city":"","longitude":"16.8345000000","latitude":"52.3834200000","closestLines":["1, 6, 13"],"popupLines":["1, 6, 13"]},{"id":"1708","label":"Junikowo","address":"","city":"","longitude":"16.8356600000","latitude":"52.3838300000","closestLines":["1, 6, 13"],"popupLines":["1, 6, 13"]},{"id":"1709","label":"Junikowo","address":"","city":"","longitude":"16.8338300000","latitude":"52.3836600000","closestLines":["1, 6, 13"],"popupLines":["1, 6, 13"]},{"id":"1710","label":"Zamek","address":"","city":"","longitude":"16.9191900000","latitude":"52.4072200000","closestLines":["Tram: 8, 13","Night: 201"],"popupLines":["Tram: 8, 13","Night: 201"]},{"id":"1712","label":"Gwarna","address":"","city":"","longitude":"16.9213767300","latitude":"52.4078930200","closestLines":["Tram: 8, 13","Night: 201"],"popupLines":["Tram: 8, 13","Night: 201"]},{"id":"1720","label":"Poznań Główny","address":"","city":"","longitude":"16.9149992700","latitude":"52.4029387600","closestLines":["6, 10, 12, 18, 92"],"popupLines":["6, 10, 12, 18, 92"]},{"id":"1721","label":"Poznań Główny","address":"","city":"","longitude":"16.9150742200","latitude":"52.4030270500","closestLines":["2, 6, 10, 12, 17, 18, 92"],"popupLines":["2, 6, 10, 12, 17, 18, 92"]},{"id":"1722","label":"Poznań Główny","address":"","city":"","longitude":"16.9163628400","latitude":"52.4036499300","closestLines":["Tram: 2, 5, 17","Bus: 171","Night: 212, 215, 222"],"popupLines":["Tram: 2, 5, 17","Bus: 171","Night: 212, 215, 222"]},{"id":"1723","label":"Poznań Główny","address":"","city":"","longitude":"16.9165050900","latitude":"52.4037704900","closestLines":["Tram: 2, 5","Bus: 171","Night: 212, 215, 222"],"popupLines":["Tram: 2, 5","Bus: 171","Night: 212, 215, 222"]},{"id":"1772","label":"Most Teatralny","address":"","city":"","longitude":"16.9131850300","latitude":"52.4100216300","closestLines":["Tram: 3, 10, 11, 15, 18, 99","Night: 212, 213, 214, 215, 218, 222, 223, 224"],"popupLines":["Tram: 3, 10, 11, 15, 18, 99","Night: 212, 213, 214, 215, 218, 222, 223, 224"]},{"id":"1773","label":"Rondo Kaponiera","address":"","city":"","longitude":"16.9136199900","latitude":"52.4077451000","closestLines":["Tram: 2, 5, 8, 13","Bus: 163, 169","Night: 201"],"popupLines":["Tram: 2, 5, 8, 13","Bus: 163, 169","Night: 201"]},{"id":"1774","label":"Rondo Kaponiera","address":"","city":"","longitude":"16.9134023000","latitude":"52.4076135300","closestLines":["Tram: 2, 5, 8, 13, 17","Bus: 163, 169","Night: 201"],"popupLines":["Tram: 2, 5, 8, 13, 17","Bus: 163, 169","Night: 201"]},{"id":"1775","label":"Rondo Kaponiera","address":"","city":"","longitude":"16.9124949600","latitude":"52.4084075000","closestLines":["Tram: 3, 10, 11, 15, 18, 99","Night: 212, 213, 214, 215, 218, 222, 223, 224"],"popupLines":["Tram: 3, 10, 11, 15, 18, 99","Night: 212, 213, 214, 215, 218, 222, 223, 224"]},{"id":"1776","label":"Rondo Kaponiera","address":"","city":"","longitude":"16.9127450800","latitude":"52.4083727700","closestLines":["Tram: 3, 10, 11, 15, 17, 18, 99","Night: 212, 213, 214, 215, 216, 218, 222, 223, 224, 226"],"popupLines":["Tram: 3, 10, 11, 15, 17, 18, 99","Night: 212, 213, 214, 215, 216, 218, 222, 223, 224, 226"]},{"id":"2743","label":"Budziszyńska","address":"","city":"","longitude":"16.8481800000","latitude":"52.3884800000","closestLines":["15"],"popupLines":["15"]},{"id":"2744","label":"Budziszyńska","address":"","city":"","longitude":"16.8477980000","latitude":"52.3882600000","closestLines":["15"],"popupLines":["15"]},{"id":"2934","label":"Półwiejska","address":"","city":"","longitude":"16.9266463204","latitude":"52.3991440769","closestLines":["2, 9, 10, 12, 18, 92"],"popupLines":["2, 9, 10, 12, 18, 92"]},{"id":"3090","label":"Półwiejska","address":"","city":"","longitude":"16.9264692296","latitude":"52.3989368634","closestLines":["2, 9, 10, 12, 18, 92"],"popupLines":["2, 9, 10, 12, 18, 92"]},{"id":"3200","label":"Kórnicka","address":"","city":"","longitude":"16.9516899055","latitude":"52.3995855285","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]},{"id":"3317","label":"Rondo Kaponiera","address":"","city":"","longitude":"16.9130900000","latitude":"52.4078000000","closestLines":["Tram: 12, 14, 92","Night: 201"],"popupLines":["Tram: 12, 14, 92","Night: 201"]},{"id":"3318","label":"Rondo Kaponiera","address":"","city":"","longitude":"16.9135160000","latitude":"52.4077040000","closestLines":["Tram: 12, 14, 92","Night: 201"],"popupLines":["Tram: 12, 14, 92","Night: 201"]},{"id":"3852","label":"Rondo Żegrze","address":"","city":"","longitude":"16.9562000000","latitude":"52.3768100000","closestLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92","Night: 201"]},{"id":"3853","label":"Rondo Żegrze","address":"","city":"","longitude":"16.9565900000","latitude":"52.3770800000","closestLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92","Night: 201"],"popupLines":["Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92","Night: 201"]},{"id":"3854","label":"Wilczak","address":"","city":"","longitude":"16.9458311528","latitude":"52.4271089663","closestLines":["3"],"popupLines":["3"]},{"id":"3879","label":"Mogileńska","address":"","city":"","longitude":"16.9923322400","latitude":"52.4097647200","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"3880","label":"Mogileńska","address":"","city":"","longitude":"16.9925831100","latitude":"52.4097737200","closestLines":["6, 8"],"popupLines":["6, 8"]},{"id":"4090","label":"Stare Zoo","address":"","city":"","longitude":"16.9087997900","latitude":"52.4081887500","closestLines":["Tram: 2, 17","Night: 219"],"popupLines":["Tram: 2, 17","Night: 219"]},{"id":"4091","label":"Stare Zoo","address":"","city":"","longitude":"16.9086570300","latitude":"52.4082919200","closestLines":["Tram: 2","Night: 219"],"popupLines":["Tram: 2","Night: 219"]},{"id":"4096","label":"Unii Lubelskiej","address":"","city":"","longitude":"16.9501551189","latitude":"52.3721260447","closestLines":["Tram: 5, 11","Night: 201"],"popupLines":["Tram: 5, 11","Night: 201"]},{"id":"4097","label":"Wagrowska","address":"","city":"","longitude":"16.9525753593","latitude":"52.3739920640","closestLines":["Tram: 5, 11","Night: 201"],"popupLines":["Tram: 5, 11","Night: 201"]},{"id":"4098","label":"Wagrowska","address":"","city":"","longitude":"16.9528557530","latitude":"52.3741993947","closestLines":["Tram: 5, 11","Night: 201"],"popupLines":["Tram: 5, 11","Night: 201"]},{"id":"4099","label":"Unii Lubelskiej","address":"","city":"","longitude":"16.9500370584","latitude":"52.3725317078","closestLines":["Tram: 5, 11","Night: 201"],"popupLines":["Tram: 5, 11","Night: 201"]},{"id":"4120","label":"Starołęka Mała","address":"","city":"","longitude":"16.9402608900","latitude":"52.3765038800","closestLines":["1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"],"popupLines":["1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"]},{"id":"4122","label":"Starołęka Mała","address":"","city":"","longitude":"16.9399538100","latitude":"52.3760523200","closestLines":["Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17","Night: 201"],"popupLines":["Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17","Night: 201"]},{"id":"4135","label":"Kmieca","address":"","city":"","longitude":"16.9384827300","latitude":"52.4263321700","closestLines":["3"],"popupLines":["3"]},{"id":"4136","label":"Kmieca","address":"","city":"","longitude":"16.9387575900","latitude":"52.4263972600","closestLines":["3"],"popupLines":["3"]},{"id":"4182","label":"Wrocławska","address":"","city":"","longitude":"16.9337299508","latitude":"52.4050717725","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]},{"id":"4183","label":"Wrocławska","address":"","city":"","longitude":"16.9334052844","latitude":"52.4051978851","closestLines":["5, 6, 9"],"popupLines":["5, 6, 9"]}]
+[
+  {
+    "id": "1",
+    "label": "Franowo",
+    "address": "",
+    "city": "",
+    "longitude": "17.0003228700",
+    "latitude": "52.3814339100",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "2",
+    "label": "Os. Sobieskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9166601800",
+    "latitude": "52.4638000300",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "3",
+    "label": "Os. Sobieskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9178214900",
+    "latitude": "52.4639504200",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "4",
+    "label": "Most Teatralny",
+    "address": "",
+    "city": "",
+    "longitude": "16.9126471700",
+    "latitude": "52.4107374400",
+    "closestLines": [
+      "Tram: 17, 18",
+      "Night: 216, 226"
+    ],
+    "popupLines": [
+      "Tram: 17, 18",
+      "Night: 216, 226"
+    ]
+  },
+  {
+    "id": "5",
+    "label": "Most Teatralny",
+    "address": "",
+    "city": "",
+    "longitude": "16.9137425100",
+    "latitude": "52.4109651200",
+    "closestLines": [
+      "3, 10, 11, 15, 16, 99"
+    ],
+    "popupLines": [
+      "3, 10, 11, 15, 16, 99"
+    ]
+  },
+  {
+    "id": "6",
+    "label": "Most Teatralny",
+    "address": "",
+    "city": "",
+    "longitude": "16.9143484000",
+    "latitude": "52.4103354900",
+    "closestLines": [
+      "3, 16, 17, 99"
+    ],
+    "popupLines": [
+      "3, 16, 17, 99"
+    ]
+  },
+  {
+    "id": "7",
+    "label": "Poznańska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9151929400",
+    "latitude": "52.4133151800",
+    "closestLines": [
+      "3, 10, 11, 99"
+    ],
+    "popupLines": [
+      "3, 10, 11, 99"
+    ]
+  },
+  {
+    "id": "8",
+    "label": "Poznańska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9162984600",
+    "latitude": "52.4140944800",
+    "closestLines": [
+      "3, 10, 11, 99"
+    ],
+    "popupLines": [
+      "3, 10, 11, 99"
+    ]
+  },
+  {
+    "id": "9",
+    "label": "Sołacz",
+    "address": "",
+    "city": "",
+    "longitude": "16.9034093800",
+    "latitude": "52.4235161000",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "10",
+    "label": "Sołacz",
+    "address": "",
+    "city": "",
+    "longitude": "16.9036213400",
+    "latitude": "52.4230151800",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "11",
+    "label": "Uniwersytet Przyrodniczy",
+    "address": "",
+    "city": "",
+    "longitude": "16.9059923800",
+    "latitude": "52.4263916700",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "12",
+    "label": "Uniwersytet Przyrodniczy",
+    "address": "",
+    "city": "",
+    "longitude": "16.9062196600",
+    "latitude": "52.4269057500",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "13",
+    "label": "Bonin",
+    "address": "",
+    "city": "",
+    "longitude": "16.9106352900",
+    "latitude": "52.4302063000",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "14",
+    "label": "Bonin",
+    "address": "",
+    "city": "",
+    "longitude": "16.9108599400",
+    "latitude": "52.4303010700",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "15",
+    "label": "Słowiańska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9192237100",
+    "latitude": "52.4271177700",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "16",
+    "label": "Słowiańska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9194629700",
+    "latitude": "52.4271586000",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "17",
+    "label": "Św. Leonarda",
+    "address": "",
+    "city": "",
+    "longitude": "16.9112600000",
+    "latitude": "52.4326700000",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "18",
+    "label": "Św. Leonarda",
+    "address": "",
+    "city": "",
+    "longitude": "16.9113300000",
+    "latitude": "52.4328200000",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "19",
+    "label": "Nad Wierzbakiem",
+    "address": "",
+    "city": "",
+    "longitude": "16.9081035700",
+    "latitude": "52.4213126600",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "20",
+    "label": "Nad Wierzbakiem",
+    "address": "",
+    "city": "",
+    "longitude": "16.9080444000",
+    "latitude": "52.4214233900",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "21",
+    "label": "Klin",
+    "address": "",
+    "city": "",
+    "longitude": "16.9140014500",
+    "latitude": "52.4186542100",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "22",
+    "label": "Klin",
+    "address": "",
+    "city": "",
+    "longitude": "16.9140675600",
+    "latitude": "52.4187683300",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "23",
+    "label": "Aleje Solidarności",
+    "address": "",
+    "city": "",
+    "longitude": "16.9199740600",
+    "latitude": "52.4359820600",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "24",
+    "label": "Aleje Solidarności",
+    "address": "",
+    "city": "",
+    "longitude": "16.9202087300",
+    "latitude": "52.4359483100",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "25",
+    "label": "Lechicka Poznań Plaza",
+    "address": "",
+    "city": "",
+    "longitude": "16.9198205300",
+    "latitude": "52.4424734100",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "26",
+    "label": "Lechicka Poznań Plaza",
+    "address": "",
+    "city": "",
+    "longitude": "16.9200857100",
+    "latitude": "52.4425062700",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "27",
+    "label": "Kurpińskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9194124100",
+    "latitude": "52.4507481400",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "28",
+    "label": "Kurpińskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9196313300",
+    "latitude": "52.4507725100",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "29",
+    "label": "Szymanowskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9169382500",
+    "latitude": "52.4603710300",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "30",
+    "label": "Szymanowskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9171552600",
+    "latitude": "52.4603958500",
+    "closestLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 15, 16, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "31",
+    "label": "Wielkopolska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9182845700",
+    "latitude": "52.4155123100",
+    "closestLines": [
+      "3, 10, 11, 99"
+    ],
+    "popupLines": [
+      "3, 10, 11, 99"
+    ]
+  },
+  {
+    "id": "32",
+    "label": "Wielkopolska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9185920900",
+    "latitude": "52.4155633900",
+    "closestLines": [
+      "3, 10, 11, 99"
+    ],
+    "popupLines": [
+      "3, 10, 11, 99"
+    ]
+  },
+  {
+    "id": "33",
+    "label": "Armii Poznań",
+    "address": "",
+    "city": "",
+    "longitude": "16.9235154600",
+    "latitude": "52.4213487500",
+    "closestLines": [
+      "3, 10"
+    ],
+    "popupLines": [
+      "3, 10"
+    ]
+  },
+  {
+    "id": "34",
+    "label": "Armii Poznań",
+    "address": "",
+    "city": "",
+    "longitude": "16.9236569500",
+    "latitude": "52.4213219800",
+    "closestLines": [
+      "3, 10"
+    ],
+    "popupLines": [
+      "3, 10"
+    ]
+  },
+  {
+    "id": "35",
+    "label": "Żniwna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9268332600",
+    "latitude": "52.4247660000",
+    "closestLines": [
+      "3, 10"
+    ],
+    "popupLines": [
+      "3, 10"
+    ]
+  },
+  {
+    "id": "36",
+    "label": "Żniwna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9263538700",
+    "latitude": "52.4243429100",
+    "closestLines": [
+      "3, 10"
+    ],
+    "popupLines": [
+      "3, 10"
+    ]
+  },
+  {
+    "id": "37",
+    "label": "Pasieka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9311888200",
+    "latitude": "52.4261525300",
+    "closestLines": [
+      "3, 10"
+    ],
+    "popupLines": [
+      "3, 10"
+    ]
+  },
+  {
+    "id": "38",
+    "label": "Pasieka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9318731300",
+    "latitude": "52.4263859700",
+    "closestLines": [
+      "3, 10"
+    ],
+    "popupLines": [
+      "3, 10"
+    ]
+  },
+  {
+    "id": "39",
+    "label": "Murawa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9358033000",
+    "latitude": "52.4268984600",
+    "closestLines": [
+      "10"
+    ],
+    "popupLines": [
+      "10"
+    ]
+  },
+  {
+    "id": "40",
+    "label": "Murawa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9359653500",
+    "latitude": "52.4269504200",
+    "closestLines": [
+      "10"
+    ],
+    "popupLines": [
+      "10"
+    ]
+  },
+  {
+    "id": "43",
+    "label": "Przełajowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9446484800",
+    "latitude": "52.4251718300",
+    "closestLines": [
+      "3"
+    ],
+    "popupLines": [
+      "3"
+    ]
+  },
+  {
+    "id": "44",
+    "label": "Przełajowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9449347600",
+    "latitude": "52.4252848000",
+    "closestLines": [
+      "3"
+    ],
+    "popupLines": [
+      "3"
+    ]
+  },
+  {
+    "id": "45",
+    "label": "Wilczak",
+    "address": "",
+    "city": "",
+    "longitude": "16.9467686700",
+    "latitude": "52.4271476000",
+    "closestLines": [
+      "3"
+    ],
+    "popupLines": [
+      "3"
+    ]
+  },
+  {
+    "id": "46",
+    "label": "Os. Pod Lipami",
+    "address": "",
+    "city": "",
+    "longitude": "16.9362506500",
+    "latitude": "52.4309440500",
+    "closestLines": [
+      "10"
+    ],
+    "popupLines": [
+      "10"
+    ]
+  },
+  {
+    "id": "47",
+    "label": "Os. Pod Lipami",
+    "address": "",
+    "city": "",
+    "longitude": "16.9364029400",
+    "latitude": "52.4310010800",
+    "closestLines": [
+      "10"
+    ],
+    "popupLines": [
+      "10"
+    ]
+  },
+  {
+    "id": "48",
+    "label": "Rondo Solidarności",
+    "address": "",
+    "city": "",
+    "longitude": "16.9377328700",
+    "latitude": "52.4339380800",
+    "closestLines": [
+      "10"
+    ],
+    "popupLines": [
+      "10"
+    ]
+  },
+  {
+    "id": "49",
+    "label": "Rondo Solidarności",
+    "address": "",
+    "city": "",
+    "longitude": "16.9379315500",
+    "latitude": "52.4339826300",
+    "closestLines": [
+      "10"
+    ],
+    "popupLines": [
+      "10"
+    ]
+  },
+  {
+    "id": "50",
+    "label": "Połabska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9323765300",
+    "latitude": "52.4348514000",
+    "closestLines": [
+      "10"
+    ],
+    "popupLines": [
+      "10"
+    ]
+  },
+  {
+    "id": "51",
+    "label": "Połabska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9319816600",
+    "latitude": "52.4352225400",
+    "closestLines": [
+      "10"
+    ],
+    "popupLines": [
+      "10"
+    ]
+  },
+  {
+    "id": "52",
+    "label": "Os. Winiary",
+    "address": "",
+    "city": "",
+    "longitude": "16.9113141800",
+    "latitude": "52.4356506500",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "53",
+    "label": "Os. Winiary",
+    "address": "",
+    "city": "",
+    "longitude": "16.9115017500",
+    "latitude": "52.4359270900",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "54",
+    "label": "Lutycka Szpital",
+    "address": "",
+    "city": "",
+    "longitude": "16.9101567100",
+    "latitude": "52.4396789800",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "55",
+    "label": "Lutycka Szpital",
+    "address": "",
+    "city": "",
+    "longitude": "16.9099956200",
+    "latitude": "52.4397183900",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "56",
+    "label": "Piątkowska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9112689393",
+    "latitude": "52.4415302943",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "57",
+    "label": "Piątkowska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9105875300",
+    "latitude": "52.4414917400",
+    "closestLines": [
+      "11, 99"
+    ],
+    "popupLines": [
+      "11, 99"
+    ]
+  },
+  {
+    "id": "58",
+    "label": "Ogrody",
+    "address": "",
+    "city": "",
+    "longitude": "16.8824626700",
+    "latitude": "52.4170536400",
+    "closestLines": [
+      "2, 7, 17, 18"
+    ],
+    "popupLines": [
+      "2, 7, 17, 18"
+    ]
+  },
+  {
+    "id": "59",
+    "label": "Ogrody",
+    "address": "",
+    "city": "",
+    "longitude": "16.8829024900",
+    "latitude": "52.4163628200",
+    "closestLines": [
+      "2, 7, 17, 18"
+    ],
+    "popupLines": [
+      "2, 7, 17, 18"
+    ]
+  },
+  {
+    "id": "60",
+    "label": "Żeromskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8908253300",
+    "latitude": "52.4155430100",
+    "closestLines": [
+      "Tram: 2, 7, 17, 18",
+      "Bus: 182, 191, 193, 195",
+      "Night: 219"
+    ],
+    "popupLines": [
+      "Tram: 2, 7, 17, 18",
+      "Bus: 182, 191, 193, 195",
+      "Night: 219"
+    ]
+  },
+  {
+    "id": "61",
+    "label": "Żeromskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8903614400",
+    "latitude": "52.4157411000",
+    "closestLines": [
+      "Tram: 2, 7, 17, 18",
+      "Bus: 182, 191, 193",
+      "Night: 219"
+    ],
+    "popupLines": [
+      "Tram: 2, 7, 17, 18",
+      "Bus: 182, 191, 193",
+      "Night: 219"
+    ]
+  },
+  {
+    "id": "62",
+    "label": "Polna",
+    "address": "",
+    "city": "",
+    "longitude": "16.8966975400",
+    "latitude": "52.4142414300",
+    "closestLines": [
+      "Tram: 2, 17, 18",
+      "Night: 219"
+    ],
+    "popupLines": [
+      "Tram: 2, 17, 18",
+      "Night: 219"
+    ]
+  },
+  {
+    "id": "63",
+    "label": "Polna",
+    "address": "",
+    "city": "",
+    "longitude": "16.8972021400",
+    "latitude": "52.4142148300",
+    "closestLines": [
+      "Tram: 2, 17, 18",
+      "Night: 219"
+    ],
+    "popupLines": [
+      "Tram: 2, 17, 18",
+      "Night: 219"
+    ]
+  },
+  {
+    "id": "64",
+    "label": "Rynek Jeżycki",
+    "address": "",
+    "city": "",
+    "longitude": "16.9056406100",
+    "latitude": "52.4122250800",
+    "closestLines": [
+      "Tram: 17, 18",
+      "Night: 216, 226"
+    ],
+    "popupLines": [
+      "Tram: 17, 18",
+      "Night: 216, 226"
+    ]
+  },
+  {
+    "id": "65",
+    "label": "Rynek Jeżycki",
+    "address": "",
+    "city": "",
+    "longitude": "16.9047706000",
+    "latitude": "52.4125350800",
+    "closestLines": [
+      "Tram: 17, 18",
+      "Night: 216, 226"
+    ],
+    "popupLines": [
+      "Tram: 17, 18",
+      "Night: 216, 226"
+    ]
+  },
+  {
+    "id": "66",
+    "label": "Bukowska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8886379300",
+    "latitude": "52.4100013000",
+    "closestLines": [
+      "7"
+    ],
+    "popupLines": [
+      "7"
+    ]
+  },
+  {
+    "id": "67",
+    "label": "Bukowska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8888257200",
+    "latitude": "52.4100521300",
+    "closestLines": [
+      "7"
+    ],
+    "popupLines": [
+      "7"
+    ]
+  },
+  {
+    "id": "68",
+    "label": "Rondo Nowaka-Jeziorańskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8900297700",
+    "latitude": "52.4027709300",
+    "closestLines": [
+      "6, 13, 15"
+    ],
+    "popupLines": [
+      "6, 13, 15"
+    ]
+  },
+  {
+    "id": "69",
+    "label": "Rondo Nowaka-Jeziorańskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8889925700",
+    "latitude": "52.4033902600",
+    "closestLines": [
+      "Tram: 7",
+      "Bus: 145"
+    ],
+    "popupLines": [
+      "Tram: 7",
+      "Bus: 145"
+    ]
+  },
+  {
+    "id": "70",
+    "label": "Rondo Nowaka-Jeziorańskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8882176253",
+    "latitude": "52.4023512573",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "71",
+    "label": "Rondo Nowaka-Jeziorańskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8891387700",
+    "latitude": "52.4018848800",
+    "closestLines": [
+      "Tram: 1, 7, 15",
+      "Bus: 145"
+    ],
+    "popupLines": [
+      "Tram: 1, 7, 15",
+      "Bus: 145"
+    ]
+  },
+  {
+    "id": "72",
+    "label": "Wojskowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.8924793200",
+    "latitude": "52.4034107400",
+    "closestLines": [
+      "6, 13, 15"
+    ],
+    "popupLines": [
+      "6, 13, 15"
+    ]
+  },
+  {
+    "id": "73",
+    "label": "Ostroroga",
+    "address": "",
+    "city": "",
+    "longitude": "16.8815419200",
+    "latitude": "52.4003363100",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "74",
+    "label": "Ostroroga",
+    "address": "",
+    "city": "",
+    "longitude": "16.8823444000",
+    "latitude": "52.4006241700",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "75",
+    "label": "Grochowska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8758472200",
+    "latitude": "52.3989629500",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "76",
+    "label": "Grochowska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8760071400",
+    "latitude": "52.3988983700",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "77",
+    "label": "Drzewieckiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8668666900",
+    "latitude": "52.3965900200",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "78",
+    "label": "Drzewieckiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8675472100",
+    "latitude": "52.3968382200",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "79",
+    "label": "Stadion Miejski",
+    "address": "",
+    "city": "",
+    "longitude": "16.8623584000",
+    "latitude": "52.3953542600",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "80",
+    "label": "Stadion Miejski",
+    "address": "",
+    "city": "",
+    "longitude": "16.8632981200",
+    "latitude": "52.3957224800",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "81",
+    "label": "Węgorka",
+    "address": "",
+    "city": "",
+    "longitude": "16.8578300000",
+    "latitude": "52.3920000000",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "82",
+    "label": "Węgorka",
+    "address": "",
+    "city": "",
+    "longitude": "16.8580000000",
+    "latitude": "52.3923300000",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "83",
+    "label": "Matejki",
+    "address": "",
+    "city": "",
+    "longitude": "16.9009328700",
+    "latitude": "52.4057875800",
+    "closestLines": [
+      "6, 13, 15"
+    ],
+    "popupLines": [
+      "6, 13, 15"
+    ]
+  },
+  {
+    "id": "84",
+    "label": "Bałtyk",
+    "address": "",
+    "city": "",
+    "longitude": "16.9110520000",
+    "latitude": "52.4065890000",
+    "closestLines": [
+      "Tram: 6, 13, 15",
+      "Bus: 148, 159, 163, 169, 177",
+      "Night: 212, 222"
+    ],
+    "popupLines": [
+      "Tram: 6, 13, 15",
+      "Bus: 148, 159, 163, 169, 177",
+      "Night: 212, 222"
+    ]
+  },
+  {
+    "id": "85",
+    "label": "Bałtyk",
+    "address": "",
+    "city": "",
+    "longitude": "16.9110600000",
+    "latitude": "52.4065000000",
+    "closestLines": [
+      "6, 13, 15"
+    ],
+    "popupLines": [
+      "6, 13, 15"
+    ]
+  },
+  {
+    "id": "86",
+    "label": "Most Dworcowy",
+    "address": "",
+    "city": "",
+    "longitude": "16.9110290500",
+    "latitude": "52.4040015200",
+    "closestLines": [
+      "Tram: 3, 5, 6, 8, 10, 11, 13, 15, 18, 99",
+      "Night: 201, 213, 214, 218, 223, 224"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 6, 8, 10, 11, 13, 15, 18, 99",
+      "Night: 201, 213, 214, 218, 223, 224"
+    ]
+  },
+  {
+    "id": "87",
+    "label": "Most Dworcowy",
+    "address": "",
+    "city": "",
+    "longitude": "16.9111204500",
+    "latitude": "52.4038694800",
+    "closestLines": [
+      "Tram: 3, 5, 6, 8, 10, 11, 13, 15, 17, 18, 99",
+      "Night: 201, 213, 214, 218, 223, 224"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 6, 8, 10, 11, 13, 15, 17, 18, 99",
+      "Night: 201, 213, 214, 218, 223, 224"
+    ]
+  },
+  {
+    "id": "88",
+    "label": "Dworzec Zachodni",
+    "address": "",
+    "city": "",
+    "longitude": "16.9088064600",
+    "latitude": "52.4017177600",
+    "closestLines": [
+      "Tram: 2, 3, 5, 6, 8, 10, 11, 12, 13, 15, 17, 18, 92, 99",
+      "Night: 201, 213, 214, 218, 223, 224"
+    ],
+    "popupLines": [
+      "Tram: 2, 3, 5, 6, 8, 10, 11, 12, 13, 15, 17, 18, 92, 99",
+      "Night: 201, 213, 214, 218, 223, 224"
+    ]
+  },
+  {
+    "id": "89",
+    "label": "Dworzec Zachodni",
+    "address": "",
+    "city": "",
+    "longitude": "16.9090824300",
+    "latitude": "52.4017716400",
+    "closestLines": [
+      "Tram: 3, 5, 8, 10, 11, 12, 13, 15, 17, 18, 92, 99",
+      "Night: 201, 213, 214, 218, 223, 224"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 8, 10, 11, 12, 13, 15, 17, 18, 92, 99",
+      "Night: 201, 213, 214, 218, 223, 224"
+    ]
+  },
+  {
+    "id": "90",
+    "label": "Park Wilsona",
+    "address": "",
+    "city": "",
+    "longitude": "16.9031573100",
+    "latitude": "52.3982419000",
+    "closestLines": [
+      "Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ],
+    "popupLines": [
+      "Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ]
+  },
+  {
+    "id": "91",
+    "label": "Park Wilsona",
+    "address": "",
+    "city": "",
+    "longitude": "16.9020603600",
+    "latitude": "52.3971074100",
+    "closestLines": [
+      "Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ]
+  },
+  {
+    "id": "92",
+    "label": "Rynek Łazarski",
+    "address": "",
+    "city": "",
+    "longitude": "16.8985036470",
+    "latitude": "52.3939634477",
+    "closestLines": [
+      "Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ],
+    "popupLines": [
+      "Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ]
+  },
+  {
+    "id": "93",
+    "label": "Rynek Łazarski",
+    "address": "",
+    "city": "",
+    "longitude": "16.8991462700",
+    "latitude": "52.3944540100",
+    "closestLines": [
+      "Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ]
+  },
+  {
+    "id": "94",
+    "label": "Głogowska/Hetmańska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8949471800",
+    "latitude": "52.3897983100",
+    "closestLines": [
+      "1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"
+    ],
+    "popupLines": [
+      "1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"
+    ]
+  },
+  {
+    "id": "95",
+    "label": "Głogowska/Hetmańska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8946848200",
+    "latitude": "52.3899860700",
+    "closestLines": [
+      "1, 2, 4, 7, 8, 9, 10, 11, 14, 15, 17"
+    ],
+    "popupLines": [
+      "1, 2, 4, 7, 8, 9, 10, 11, 14, 15, 17"
+    ]
+  },
+  {
+    "id": "96",
+    "label": "Głogowska/Hetmańska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8944754200",
+    "latitude": "52.3905273700",
+    "closestLines": [
+      "Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ],
+    "popupLines": [
+      "Tram: 2, 3, 5, 6, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ]
+  },
+  {
+    "id": "97",
+    "label": "Głogowska/Hetmańska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8935347900",
+    "latitude": "52.3903874400",
+    "closestLines": [
+      "7"
+    ],
+    "popupLines": [
+      "7"
+    ]
+  },
+  {
+    "id": "98",
+    "label": "Głogowska/Hetmańska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8935651400",
+    "latitude": "52.3902737400",
+    "closestLines": [
+      "6, 7, 13"
+    ],
+    "popupLines": [
+      "6, 7, 13"
+    ]
+  },
+  {
+    "id": "99",
+    "label": "Arciszewskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8869293500",
+    "latitude": "52.3926985000",
+    "closestLines": [
+      "1, 7, 15"
+    ],
+    "popupLines": [
+      "1, 7, 15"
+    ]
+  },
+  {
+    "id": "100",
+    "label": "Arciszewskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8867070100",
+    "latitude": "52.3928844400",
+    "closestLines": [
+      "1, 6, 7, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 7, 13, 15"
+    ]
+  },
+  {
+    "id": "101",
+    "label": "Arena",
+    "address": "",
+    "city": "",
+    "longitude": "16.8883695100",
+    "latitude": "52.3972781800",
+    "closestLines": [
+      "1, 6, 7, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 7, 13, 15"
+    ]
+  },
+  {
+    "id": "102",
+    "label": "Arena",
+    "address": "",
+    "city": "",
+    "longitude": "16.8884247200",
+    "latitude": "52.3977717600",
+    "closestLines": [
+      "1, 7, 15"
+    ],
+    "popupLines": [
+      "1, 7, 15"
+    ]
+  },
+  {
+    "id": "103",
+    "label": "Kolejowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9028994200",
+    "latitude": "52.3870352600",
+    "closestLines": [
+      "1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"
+    ],
+    "popupLines": [
+      "1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"
+    ]
+  },
+  {
+    "id": "104",
+    "label": "Kolejowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9027620200",
+    "latitude": "52.3871894000",
+    "closestLines": [
+      "1, 2, 4, 7, 8, 9, 10, 11, 14, 15, 17"
+    ],
+    "popupLines": [
+      "1, 2, 4, 7, 8, 9, 10, 11, 14, 15, 17"
+    ]
+  },
+  {
+    "id": "105",
+    "label": "Traugutta",
+    "address": "",
+    "city": "",
+    "longitude": "16.9138239700",
+    "latitude": "52.3853237900",
+    "closestLines": [
+      "1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"
+    ],
+    "popupLines": [
+      "1, 2, 4, 5, 7, 8, 10, 11, 14, 15, 17"
+    ]
+  },
+  {
+    "id": "106",
+    "label": "Traugutta",
+    "address": "",
+    "city": "",
+    "longitude": "16.9151159000",
+    "latitude": "52.3847652100",
+    "closestLines": [
+      "1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"
+    ],
+    "popupLines": [
+      "1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"
+    ]
+  },
+  {
+    "id": "107",
+    "label": "Kosińskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9182392900",
+    "latitude": "52.3893013500",
+    "closestLines": [
+      "2, 9, 10, 12, 18, 92"
+    ],
+    "popupLines": [
+      "2, 9, 10, 12, 18, 92"
+    ]
+  },
+  {
+    "id": "108",
+    "label": "Kosińskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9187176400",
+    "latitude": "52.3894819500",
+    "closestLines": [
+      "2, 9, 10, 12, 18, 92"
+    ],
+    "popupLines": [
+      "2, 9, 10, 12, 18, 92"
+    ]
+  },
+  {
+    "id": "109",
+    "label": "Różana",
+    "address": "",
+    "city": "",
+    "longitude": "16.9249166900",
+    "latitude": "52.3969310600",
+    "closestLines": [
+      "2, 9, 10, 12, 18, 92"
+    ],
+    "popupLines": [
+      "2, 9, 10, 12, 18, 92"
+    ]
+  },
+  {
+    "id": "110",
+    "label": "Różana",
+    "address": "",
+    "city": "",
+    "longitude": "16.9245683000",
+    "latitude": "52.3965092000",
+    "closestLines": [
+      "2, 9, 10, 12, 18, 92"
+    ],
+    "popupLines": [
+      "2, 9, 10, 12, 18, 92"
+    ]
+  },
+  {
+    "id": "113",
+    "label": "Półwiejska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9281600000",
+    "latitude": "52.3999200000",
+    "closestLines": [
+      "5, 6, 9, 18, 92"
+    ],
+    "popupLines": [
+      "5, 6, 9, 18, 92"
+    ]
+  },
+  {
+    "id": "114",
+    "label": "Półwiejska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9279200000",
+    "latitude": "52.3999700000",
+    "closestLines": [
+      "5, 6, 9, 18, 92"
+    ],
+    "popupLines": [
+      "5, 6, 9, 18, 92"
+    ]
+  },
+  {
+    "id": "115",
+    "label": "Wierzbięcice",
+    "address": "",
+    "city": "",
+    "longitude": "16.9209242000",
+    "latitude": "52.4017301500",
+    "closestLines": [
+      "2, 5, 6, 10, 12, 18, 92"
+    ],
+    "popupLines": [
+      "2, 5, 6, 10, 12, 18, 92"
+    ]
+  },
+  {
+    "id": "116",
+    "label": "Wierzbięcice",
+    "address": "",
+    "city": "",
+    "longitude": "16.9205211600",
+    "latitude": "52.4019271300",
+    "closestLines": [
+      "2, 5, 6, 10, 12, 18, 92"
+    ],
+    "popupLines": [
+      "2, 5, 6, 10, 12, 18, 92"
+    ]
+  },
+  {
+    "id": "117",
+    "label": "Fredry",
+    "address": "",
+    "city": "",
+    "longitude": "16.9192700000",
+    "latitude": "52.4093200000",
+    "closestLines": [
+      "3, 16, 17, 99"
+    ],
+    "popupLines": [
+      "3, 16, 17, 99"
+    ]
+  },
+  {
+    "id": "118",
+    "label": "Fredry",
+    "address": "",
+    "city": "",
+    "longitude": "16.9184700000",
+    "latitude": "52.4094800000",
+    "closestLines": [
+      "3, 16, 17, 99"
+    ],
+    "popupLines": [
+      "3, 16, 17, 99"
+    ]
+  },
+  {
+    "id": "124",
+    "label": "Pl. Ratajskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9239237500",
+    "latitude": "52.4095986000",
+    "closestLines": [
+      "Tram: 3, 8, 13, 16, 17, 99",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 8, 13, 16, 17, 99",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "125",
+    "label": "Pl. Ratajskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9241997100",
+    "latitude": "52.4095816900",
+    "closestLines": [
+      "Tram: 3, 8, 13, 16, 17, 99",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 8, 13, 16, 17, 99",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "126",
+    "label": "Pl. Wielkopolski",
+    "address": "",
+    "city": "",
+    "longitude": "16.9308266000",
+    "latitude": "52.4103531800",
+    "closestLines": [
+      "Tram: 3, 8, 13, 16, 17, 99",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 8, 13, 16, 17, 99",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "127",
+    "label": "Pl. Wielkopolski",
+    "address": "",
+    "city": "",
+    "longitude": "16.9310187000",
+    "latitude": "52.4103158800",
+    "closestLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "128",
+    "label": "Małe Garbary",
+    "address": "",
+    "city": "",
+    "longitude": "16.9374709200",
+    "latitude": "52.4107493300",
+    "closestLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "129",
+    "label": "Małe Garbary",
+    "address": "",
+    "city": "",
+    "longitude": "16.9372306700",
+    "latitude": "52.4108894900",
+    "closestLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "130",
+    "label": "Katedra",
+    "address": "",
+    "city": "",
+    "longitude": "16.9471314700",
+    "latitude": "52.4100987400",
+    "closestLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "131",
+    "label": "Katedra",
+    "address": "",
+    "city": "",
+    "longitude": "16.9473154100",
+    "latitude": "52.4100296800",
+    "closestLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "132",
+    "label": "Rondo Śródka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9557905900",
+    "latitude": "52.4100886700",
+    "closestLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "133",
+    "label": "Rondo Śródka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9556183400",
+    "latitude": "52.4102429400",
+    "closestLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "134",
+    "label": "Rondo Śródka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9562091400",
+    "latitude": "52.4095338300",
+    "closestLines": [
+      "Tram: 3, 6, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 6, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "135",
+    "label": "Rondo Śródka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9564208700",
+    "latitude": "52.4095004300",
+    "closestLines": [
+      "Tram: 3, 6, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 6, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "136",
+    "label": "Rondo Śródka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9577923900",
+    "latitude": "52.4098738000",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "137",
+    "label": "Rondo Śródka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9581012000",
+    "latitude": "52.4099513800",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "140",
+    "label": "Św. Michała",
+    "address": "",
+    "city": "",
+    "longitude": "16.9623295000",
+    "latitude": "52.4090145800",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "141",
+    "label": "Św. Michała",
+    "address": "",
+    "city": "",
+    "longitude": "16.9619320100",
+    "latitude": "52.4091737200",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "142",
+    "label": "Termalna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9721856000",
+    "latitude": "52.4091574800",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "143",
+    "label": "Termalna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9722628600",
+    "latitude": "52.4090358700",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "144",
+    "label": "Krańcowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9810464800",
+    "latitude": "52.4094277500",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "145",
+    "label": "Krańcowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9812458100",
+    "latitude": "52.4093202300",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "146",
+    "label": "Łomżyńska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9851960400",
+    "latitude": "52.4096310300",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "147",
+    "label": "Łomżyńska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9853441700",
+    "latitude": "52.4095056700",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "150",
+    "label": "Miłostowo",
+    "address": "",
+    "city": "",
+    "longitude": "17.0025350800",
+    "latitude": "52.4101993000",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "151",
+    "label": "Miłostowo",
+    "address": "",
+    "city": "",
+    "longitude": "17.0029011200",
+    "latitude": "52.4096098600",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "152",
+    "label": "Baraniaka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9541778000",
+    "latitude": "52.4039501500",
+    "closestLines": [
+      "Tram: 3, 6, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 6, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "153",
+    "label": "Baraniaka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9543871300",
+    "latitude": "52.4037693100",
+    "closestLines": [
+      "Tram: 3, 6, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 6, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "154",
+    "label": "Rondo Rataje",
+    "address": "",
+    "city": "",
+    "longitude": "16.9490736500",
+    "latitude": "52.3959887100",
+    "closestLines": [
+      "18, 92"
+    ],
+    "popupLines": [
+      "18, 92"
+    ]
+  },
+  {
+    "id": "157",
+    "label": "Rondo Rataje",
+    "address": "",
+    "city": "",
+    "longitude": "16.9488220600",
+    "latitude": "52.3961740600",
+    "closestLines": [
+      "18, 92"
+    ],
+    "popupLines": [
+      "18, 92"
+    ]
+  },
+  {
+    "id": "160",
+    "label": "Kórnicka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9534845600",
+    "latitude": "52.3990164300",
+    "closestLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "161",
+    "label": "Kórnicka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9533801200",
+    "latitude": "52.3991553500",
+    "closestLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "162",
+    "label": "Kórnicka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9528595100",
+    "latitude": "52.3998253300",
+    "closestLines": [
+      "Tram: 3, 6, 8, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 6, 8, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "163",
+    "label": "Politechnika",
+    "address": "",
+    "city": "",
+    "longitude": "16.9487672600",
+    "latitude": "52.4005864300",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  },
+  {
+    "id": "164",
+    "label": "Politechnika",
+    "address": "",
+    "city": "",
+    "longitude": "16.9487645300",
+    "latitude": "52.4007011200",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  },
+  {
+    "id": "165",
+    "label": "Pl. Bernardyński",
+    "address": "",
+    "city": "",
+    "longitude": "16.9370106900",
+    "latitude": "52.4043220400",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  },
+  {
+    "id": "166",
+    "label": "Pl. Bernardyński",
+    "address": "",
+    "city": "",
+    "longitude": "16.9367738700",
+    "latitude": "52.4044339000",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  },
+  {
+    "id": "169",
+    "label": "Łąkowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9342500000",
+    "latitude": "52.4019500000",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  },
+  {
+    "id": "170",
+    "label": "Łąkowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9342900000",
+    "latitude": "52.4020600000",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  },
+  {
+    "id": "171",
+    "label": "AWF",
+    "address": "",
+    "city": "",
+    "longitude": "16.9355700000",
+    "latitude": "52.3998200000",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  },
+  {
+    "id": "172",
+    "label": "AWF",
+    "address": "",
+    "city": "",
+    "longitude": "16.9343000000",
+    "latitude": "52.3992400000",
+    "closestLines": [
+      "5, 6, 9, 18, 92"
+    ],
+    "popupLines": [
+      "5, 6, 9, 18, 92"
+    ]
+  },
+  {
+    "id": "173",
+    "label": "AWF",
+    "address": "",
+    "city": "",
+    "longitude": "16.9360200000",
+    "latitude": "52.3990100000",
+    "closestLines": [
+      "Tram: 18, 92",
+      "Bus: 174, 190"
+    ],
+    "popupLines": [
+      "Tram: 18, 92",
+      "Bus: 174, 190"
+    ]
+  },
+  {
+    "id": "174",
+    "label": "Gwarna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9211080000",
+    "latitude": "52.4073590000",
+    "closestLines": [
+      "Tram: 8, 13",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 8, 13",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "175",
+    "label": "Serafitek",
+    "address": "",
+    "city": "",
+    "longitude": "16.9457055500",
+    "latitude": "52.3969309500",
+    "closestLines": [
+      "18, 92"
+    ],
+    "popupLines": [
+      "18, 92"
+    ]
+  },
+  {
+    "id": "176",
+    "label": "Serafitek",
+    "address": "",
+    "city": "",
+    "longitude": "16.9445062800",
+    "latitude": "52.3971256800",
+    "closestLines": [
+      "18, 92"
+    ],
+    "popupLines": [
+      "18, 92"
+    ]
+  },
+  {
+    "id": "179",
+    "label": "Os. Piastowskie",
+    "address": "",
+    "city": "",
+    "longitude": "16.9471468100",
+    "latitude": "52.3903419900",
+    "closestLines": [
+      "4, 7"
+    ],
+    "popupLines": [
+      "4, 7"
+    ]
+  },
+  {
+    "id": "180",
+    "label": "Os. Piastowskie",
+    "address": "",
+    "city": "",
+    "longitude": "16.9471448300",
+    "latitude": "52.3899918400",
+    "closestLines": [
+      "4, 7"
+    ],
+    "popupLines": [
+      "4, 7"
+    ]
+  },
+  {
+    "id": "181",
+    "label": "Os. Rzeczypospolitej",
+    "address": "",
+    "city": "",
+    "longitude": "16.9448386200",
+    "latitude": "52.3853846900",
+    "closestLines": [
+      "4, 7"
+    ],
+    "popupLines": [
+      "4, 7"
+    ]
+  },
+  {
+    "id": "182",
+    "label": "Os. Rzeczypospolitej",
+    "address": "",
+    "city": "",
+    "longitude": "16.9450054200",
+    "latitude": "52.3854184000",
+    "closestLines": [
+      "4, 7"
+    ],
+    "popupLines": [
+      "4, 7"
+    ]
+  },
+  {
+    "id": "183",
+    "label": "Hetmańska Wiadukt",
+    "address": "",
+    "city": "",
+    "longitude": "16.9294650500",
+    "latitude": "52.3826620500",
+    "closestLines": [
+      "1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"
+    ],
+    "popupLines": [
+      "1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"
+    ]
+  },
+  {
+    "id": "184",
+    "label": "Hetmańska Wiadukt",
+    "address": "",
+    "city": "",
+    "longitude": "16.9292470600",
+    "latitude": "52.3827743900",
+    "closestLines": [
+      "1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"
+    ],
+    "popupLines": [
+      "1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"
+    ]
+  },
+  {
+    "id": "185",
+    "label": "Traugutta",
+    "address": "",
+    "city": "",
+    "longitude": "16.9140023000",
+    "latitude": "52.3846407200",
+    "closestLines": [
+      "2, 9, 10"
+    ],
+    "popupLines": [
+      "2, 9, 10"
+    ]
+  },
+  {
+    "id": "186",
+    "label": "Traugutta",
+    "address": "",
+    "city": "",
+    "longitude": "16.9142178600",
+    "latitude": "52.3846996100",
+    "closestLines": [
+      "2, 9, 10"
+    ],
+    "popupLines": [
+      "2, 9, 10"
+    ]
+  },
+  {
+    "id": "187",
+    "label": "Rolna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9183777900",
+    "latitude": "52.3839405700",
+    "closestLines": [
+      "1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"
+    ],
+    "popupLines": [
+      "1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"
+    ]
+  },
+  {
+    "id": "188",
+    "label": "Rolna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9181281100",
+    "latitude": "52.3840706900",
+    "closestLines": [
+      "1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"
+    ],
+    "popupLines": [
+      "1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"
+    ]
+  },
+  {
+    "id": "189",
+    "label": "HCP",
+    "address": "",
+    "city": "",
+    "longitude": "16.9119498800",
+    "latitude": "52.3824324900",
+    "closestLines": [
+      "2, 9, 10"
+    ],
+    "popupLines": [
+      "2, 9, 10"
+    ]
+  },
+  {
+    "id": "190",
+    "label": "Wspólna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9076140700",
+    "latitude": "52.3777846200",
+    "closestLines": [
+      "2, 9, 10"
+    ],
+    "popupLines": [
+      "2, 9, 10"
+    ]
+  },
+  {
+    "id": "191",
+    "label": "Wspólna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9074117500",
+    "latitude": "52.3772857100",
+    "closestLines": [
+      "2, 9, 10"
+    ],
+    "popupLines": [
+      "2, 9, 10"
+    ]
+  },
+  {
+    "id": "192",
+    "label": "Dębiec",
+    "address": "",
+    "city": "",
+    "longitude": "16.9031857800",
+    "latitude": "52.3728856000",
+    "closestLines": [
+      "2, 9, 10"
+    ],
+    "popupLines": [
+      "2, 9, 10"
+    ]
+  },
+  {
+    "id": "193",
+    "label": "Dębiec",
+    "address": "",
+    "city": "",
+    "longitude": "16.9038313800",
+    "latitude": "52.3730591500",
+    "closestLines": [
+      "2, 9, 10"
+    ],
+    "popupLines": [
+      "2, 9, 10"
+    ]
+  },
+  {
+    "id": "197",
+    "label": "Bystra",
+    "address": "",
+    "city": "",
+    "longitude": "16.9345268592",
+    "latitude": "52.3709991833",
+    "closestLines": [
+      "1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"
+    ],
+    "popupLines": [
+      "1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"
+    ]
+  },
+  {
+    "id": "198",
+    "label": "Bystra",
+    "address": "",
+    "city": "",
+    "longitude": "16.9349624900",
+    "latitude": "52.3714098300",
+    "closestLines": [
+      "Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "199",
+    "label": "Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9316765000",
+    "latitude": "52.3684353700",
+    "closestLines": [
+      "1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"
+    ],
+    "popupLines": [
+      "1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"
+    ]
+  },
+  {
+    "id": "200",
+    "label": "Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9323682800",
+    "latitude": "52.3685595700",
+    "closestLines": [
+      "Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "201",
+    "label": "Rondo Żegrze",
+    "address": "",
+    "city": "",
+    "longitude": "16.9547300000",
+    "latitude": "52.3765200000",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "202",
+    "label": "Rondo Żegrze",
+    "address": "",
+    "city": "",
+    "longitude": "16.9542600000",
+    "latitude": "52.3767000000",
+    "closestLines": [
+      "1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 92"
+    ],
+    "popupLines": [
+      "1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 92"
+    ]
+  },
+  {
+    "id": "203",
+    "label": "Żegrze I",
+    "address": "",
+    "city": "",
+    "longitude": "16.9611208400",
+    "latitude": "52.3789806400",
+    "closestLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "204",
+    "label": "Żegrze I",
+    "address": "",
+    "city": "",
+    "longitude": "16.9614602200",
+    "latitude": "52.3789265600",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "205",
+    "label": "Żegrze II",
+    "address": "",
+    "city": "",
+    "longitude": "16.9659212900",
+    "latitude": "52.3807026800",
+    "closestLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "206",
+    "label": "Żegrze II",
+    "address": "",
+    "city": "",
+    "longitude": "16.9661947200",
+    "latitude": "52.3807152400",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "207",
+    "label": "Żegrze III",
+    "address": "",
+    "city": "",
+    "longitude": "16.9691011900",
+    "latitude": "52.3832832000",
+    "closestLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "208",
+    "label": "Żegrze III",
+    "address": "",
+    "city": "",
+    "longitude": "16.9693135900",
+    "latitude": "52.3833064700",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "209",
+    "label": "Os. Czecha",
+    "address": "",
+    "city": "",
+    "longitude": "16.9754798600",
+    "latitude": "52.3861726200",
+    "closestLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Bus: 152, 162, 166, 184, 196",
+      "Night: 201, 218"
+    ],
+    "popupLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Bus: 152, 162, 166, 184, 196",
+      "Night: 201, 218"
+    ]
+  },
+  {
+    "id": "210",
+    "label": "Os. Czecha",
+    "address": "",
+    "city": "",
+    "longitude": "16.9756493300",
+    "latitude": "52.3861128400",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Bus: 152, 162, 166, 184, 196",
+      "Night: 201, 218"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Bus: 152, 162, 166, 184, 196",
+      "Night: 201, 218"
+    ]
+  },
+  {
+    "id": "211",
+    "label": "Os. Lecha",
+    "address": "",
+    "city": "",
+    "longitude": "16.9776571100",
+    "latitude": "52.3898114100",
+    "closestLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "212",
+    "label": "Os. Lecha",
+    "address": "",
+    "city": "",
+    "longitude": "16.9778299400",
+    "latitude": "52.3900634300",
+    "closestLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "213",
+    "label": "Piaśnicka Rynek",
+    "address": "",
+    "city": "",
+    "longitude": "16.9824741827",
+    "latitude": "52.3876647854",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "214",
+    "label": "Piaśnicka Rynek",
+    "address": "",
+    "city": "",
+    "longitude": "16.9820609709",
+    "latitude": "52.3877999592",
+    "closestLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "215",
+    "label": "Piaśnicka/Kurlandzka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9874179664",
+    "latitude": "52.3850783790",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "216",
+    "label": "Piaśnicka/Kurlandzka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9871966030",
+    "latitude": "52.3852315850",
+    "closestLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "217",
+    "label": "Szwedzka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9908248300",
+    "latitude": "52.3821058400",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "218",
+    "label": "Szwedzka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9909330100",
+    "latitude": "52.3821217700",
+    "closestLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "219",
+    "label": "Szwajcarska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9982315400",
+    "latitude": "52.3825556800",
+    "closestLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "220",
+    "label": "Szwajcarska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9982370300",
+    "latitude": "52.3824818500",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "221",
+    "label": "Franowo",
+    "address": "",
+    "city": "",
+    "longitude": "17.0014708200",
+    "latitude": "52.3816632800",
+    "closestLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "222",
+    "label": "Os. Tysiąclecia",
+    "address": "",
+    "city": "",
+    "longitude": "16.9722808200",
+    "latitude": "52.3922581500",
+    "closestLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "223",
+    "label": "Os. Tysiąclecia",
+    "address": "",
+    "city": "",
+    "longitude": "16.9720870200",
+    "latitude": "52.3923968200",
+    "closestLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "224",
+    "label": "Polanka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9636800500",
+    "latitude": "52.3960358100",
+    "closestLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "225",
+    "label": "Polanka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9637254900",
+    "latitude": "52.3961561400",
+    "closestLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 6, 8, 9, 13, 16, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "226",
+    "label": "HCP",
+    "address": "",
+    "city": "",
+    "longitude": "16.9113663400",
+    "latitude": "52.3815242000",
+    "closestLines": [
+      "2, 9, 10"
+    ],
+    "popupLines": [
+      "2, 9, 10"
+    ]
+  },
+  {
+    "id": "229",
+    "label": "Rynek Wildecki",
+    "address": "",
+    "city": "",
+    "longitude": "16.9219171400",
+    "latitude": "52.3938791400",
+    "closestLines": [
+      "2, 9, 10, 12, 18, 92"
+    ],
+    "popupLines": [
+      "2, 9, 10, 12, 18, 92"
+    ]
+  },
+  {
+    "id": "230",
+    "label": "Rynek Wildecki",
+    "address": "",
+    "city": "",
+    "longitude": "16.9224455900",
+    "latitude": "52.3941049700",
+    "closestLines": [
+      "2, 9, 10, 12, 18, 92"
+    ],
+    "popupLines": [
+      "2, 9, 10, 12, 18, 92"
+    ]
+  },
+  {
+    "id": "231",
+    "label": "Rondo Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9426679000",
+    "latitude": "52.3793126100",
+    "closestLines": [
+      "1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"
+    ],
+    "popupLines": [
+      "1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"
+    ]
+  },
+  {
+    "id": "232",
+    "label": "Rondo Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9429377900",
+    "latitude": "52.3795324100",
+    "closestLines": [
+      "Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "233",
+    "label": "Rondo Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9433080300",
+    "latitude": "52.3810631200",
+    "closestLines": [
+      "4, 7"
+    ],
+    "popupLines": [
+      "4, 7"
+    ]
+  },
+  {
+    "id": "234",
+    "label": "Rondo Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9435005400",
+    "latitude": "52.3810055800",
+    "closestLines": [
+      "4, 7"
+    ],
+    "popupLines": [
+      "4, 7"
+    ]
+  },
+  {
+    "id": "235",
+    "label": "Rondo Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9422208600",
+    "latitude": "52.3803896900",
+    "closestLines": [
+      "1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"
+    ],
+    "popupLines": [
+      "1, 4, 5, 7, 8, 11, 12, 14, 15, 17, 18, 92"
+    ]
+  },
+  {
+    "id": "236",
+    "label": "Rondo Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9421001900",
+    "latitude": "52.3805416700",
+    "closestLines": [
+      "1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"
+    ],
+    "popupLines": [
+      "1, 2, 4, 7, 8, 10, 11, 12, 14, 15, 17, 18, 92"
+    ]
+  },
+  {
+    "id": "237",
+    "label": "Rondo Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9443395900",
+    "latitude": "52.3797589900",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "238",
+    "label": "Rondo Starołęka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9440334600",
+    "latitude": "52.3799600900",
+    "closestLines": [
+      "1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 92"
+    ],
+    "popupLines": [
+      "1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 92"
+    ]
+  },
+  {
+    "id": "239",
+    "label": "Most Św. Rocha",
+    "address": "",
+    "city": "",
+    "longitude": "16.9423726100",
+    "latitude": "52.4026611500",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  },
+  {
+    "id": "240",
+    "label": "Most Św. Rocha",
+    "address": "",
+    "city": "",
+    "longitude": "16.9422831200",
+    "latitude": "52.4027711600",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  },
+  {
+    "id": "750",
+    "label": "Matejki",
+    "address": "",
+    "city": "",
+    "longitude": "16.8994038000",
+    "latitude": "52.4052269000",
+    "closestLines": [
+      "6, 13, 15"
+    ],
+    "popupLines": [
+      "6, 13, 15"
+    ]
+  },
+  {
+    "id": "1085",
+    "label": "Sielska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8870422900",
+    "latitude": "52.3840502200",
+    "closestLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 223"
+    ],
+    "popupLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 223"
+    ]
+  },
+  {
+    "id": "1086",
+    "label": "Sielska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8867624800",
+    "latitude": "52.3840751200",
+    "closestLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 223"
+    ],
+    "popupLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 223"
+    ]
+  },
+  {
+    "id": "1087",
+    "label": "Krauthofera",
+    "address": "",
+    "city": "",
+    "longitude": "16.8908748900",
+    "latitude": "52.3869666500",
+    "closestLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 223"
+    ],
+    "popupLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 223"
+    ]
+  },
+  {
+    "id": "1088",
+    "label": "Krauthofera",
+    "address": "",
+    "city": "",
+    "longitude": "16.8913676500",
+    "latitude": "52.3875876200",
+    "closestLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 223"
+    ],
+    "popupLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 223"
+    ]
+  },
+  {
+    "id": "1596",
+    "label": "Pamiątkowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9166088200",
+    "latitude": "52.3871448400",
+    "closestLines": [
+      "Tram: 2, 9, 10, 12, 18, 92",
+      "Bus: 171",
+      "Night: 215"
+    ],
+    "popupLines": [
+      "Tram: 2, 9, 10, 12, 18, 92",
+      "Bus: 171",
+      "Night: 215"
+    ]
+  },
+  {
+    "id": "1597",
+    "label": "Pamiątkowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9161885900",
+    "latitude": "52.3871000200",
+    "closestLines": [
+      "Tram: 2, 9, 10, 12, 18, 92",
+      "Bus: 171",
+      "Night: 215"
+    ],
+    "popupLines": [
+      "Tram: 2, 9, 10, 12, 18, 92",
+      "Bus: 171",
+      "Night: 215"
+    ]
+  },
+  {
+    "id": "1619",
+    "label": "Rynek Jeżycki",
+    "address": "",
+    "city": "",
+    "longitude": "16.9039574100",
+    "latitude": "52.4122357000",
+    "closestLines": [
+      "Tram: 2",
+      "Bus: 164",
+      "Night: 219"
+    ],
+    "popupLines": [
+      "Tram: 2",
+      "Bus: 164",
+      "Night: 219"
+    ]
+  },
+  {
+    "id": "1620",
+    "label": "Rynek Jeżycki",
+    "address": "",
+    "city": "",
+    "longitude": "16.9035799100",
+    "latitude": "52.4120324500",
+    "closestLines": [
+      "Tram: 2, 17",
+      "Bus: 164",
+      "Night: 219"
+    ],
+    "popupLines": [
+      "Tram: 2, 17",
+      "Bus: 164",
+      "Night: 219"
+    ]
+  },
+  {
+    "id": "1631",
+    "label": "Głogowska/Hetmańska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8948032700",
+    "latitude": "52.3906050800",
+    "closestLines": [
+      "Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ],
+    "popupLines": [
+      "Tram: 3, 5, 8, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201, 213, 218, 223"
+    ]
+  },
+  {
+    "id": "1647",
+    "label": "Pl. Wielkopolski",
+    "address": "",
+    "city": "",
+    "longitude": "16.9316672700",
+    "latitude": "52.4102569400",
+    "closestLines": [
+      "13, 99"
+    ],
+    "popupLines": [
+      "13, 99"
+    ]
+  },
+  {
+    "id": "1686",
+    "label": "Dworzec Zachodni",
+    "address": "",
+    "city": "",
+    "longitude": "16.9100521100",
+    "latitude": "52.4011437400",
+    "closestLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "1687",
+    "label": "Dworzec Zachodni",
+    "address": "",
+    "city": "",
+    "longitude": "16.9102571900",
+    "latitude": "52.4011157600",
+    "closestLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "1688",
+    "label": "Most Teatralny",
+    "address": "",
+    "city": "",
+    "longitude": "16.9144439600",
+    "latitude": "52.4116333700",
+    "closestLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "1689",
+    "label": "Most Teatralny",
+    "address": "",
+    "city": "",
+    "longitude": "16.9147002100",
+    "latitude": "52.4115747100",
+    "closestLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "1690",
+    "label": "Górczyn",
+    "address": "",
+    "city": "",
+    "longitude": "16.8810077200",
+    "latitude": "52.3814366000",
+    "closestLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "1691",
+    "label": "Górczyn",
+    "address": "",
+    "city": "",
+    "longitude": "16.8812332000",
+    "latitude": "52.3810061700",
+    "closestLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, 18, 99",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "1692",
+    "label": "Towarowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9170955800",
+    "latitude": "52.4067627000",
+    "closestLines": [
+      "Tram: 2, 5, 17",
+      "Bus: 171",
+      "Night: 212, 215, 222"
+    ],
+    "popupLines": [
+      "Tram: 2, 5, 17",
+      "Bus: 171",
+      "Night: 212, 215, 222"
+    ]
+  },
+  {
+    "id": "1693",
+    "label": "Towarowa",
+    "address": "",
+    "city": "",
+    "longitude": "16.9172526600",
+    "latitude": "52.4067142700",
+    "closestLines": [
+      "2, 5"
+    ],
+    "popupLines": [
+      "2, 5"
+    ]
+  },
+  {
+    "id": "1694",
+    "label": "Kraszewskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9033531800",
+    "latitude": "52.4089536100",
+    "closestLines": [
+      "Tram: 2, 17",
+      "Night: 219"
+    ],
+    "popupLines": [
+      "Tram: 2, 17",
+      "Night: 219"
+    ]
+  },
+  {
+    "id": "1695",
+    "label": "Kraszewskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.9028608300",
+    "latitude": "52.4091315800",
+    "closestLines": [
+      "Tram: 2",
+      "Night: 219"
+    ],
+    "popupLines": [
+      "Tram: 2",
+      "Night: 219"
+    ]
+  },
+  {
+    "id": "1699",
+    "label": "Budziszyńska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8497230600",
+    "latitude": "52.3885462000",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "1700",
+    "label": "Budziszyńska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8498179200",
+    "latitude": "52.3884567400",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "1701",
+    "label": "Rondo Skubiszewskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8538765600",
+    "latitude": "52.3898352000",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "1702",
+    "label": "Rondo Skubiszewskiego",
+    "address": "",
+    "city": "",
+    "longitude": "16.8543457700",
+    "latitude": "52.3901366400",
+    "closestLines": [
+      "1, 6, 13, 15"
+    ],
+    "popupLines": [
+      "1, 6, 13, 15"
+    ]
+  },
+  {
+    "id": "1703",
+    "label": "Cmentarna",
+    "address": "",
+    "city": "",
+    "longitude": "16.8390540000",
+    "latitude": "52.3851815900",
+    "closestLines": [
+      "1, 6, 13"
+    ],
+    "popupLines": [
+      "1, 6, 13"
+    ]
+  },
+  {
+    "id": "1704",
+    "label": "Cmentarna",
+    "address": "",
+    "city": "",
+    "longitude": "16.8391843000",
+    "latitude": "52.3850653100",
+    "closestLines": [
+      "1, 6, 13"
+    ],
+    "popupLines": [
+      "1, 6, 13"
+    ]
+  },
+  {
+    "id": "1705",
+    "label": "Grotkowska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8439037400",
+    "latitude": "52.3865628400",
+    "closestLines": [
+      "Tram: 1, 6, 13",
+      "Night: 214, 224"
+    ],
+    "popupLines": [
+      "Tram: 1, 6, 13",
+      "Night: 214, 224"
+    ]
+  },
+  {
+    "id": "1706",
+    "label": "Grotkowska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8441191000",
+    "latitude": "52.3865437000",
+    "closestLines": [
+      "Tram: 1, 6, 13",
+      "Night: 214, 224"
+    ],
+    "popupLines": [
+      "Tram: 1, 6, 13",
+      "Night: 214, 224"
+    ]
+  },
+  {
+    "id": "1707",
+    "label": "Junikowo",
+    "address": "",
+    "city": "",
+    "longitude": "16.8345000000",
+    "latitude": "52.3834200000",
+    "closestLines": [
+      "1, 6, 13"
+    ],
+    "popupLines": [
+      "1, 6, 13"
+    ]
+  },
+  {
+    "id": "1708",
+    "label": "Junikowo",
+    "address": "",
+    "city": "",
+    "longitude": "16.8356600000",
+    "latitude": "52.3838300000",
+    "closestLines": [
+      "1, 6, 13"
+    ],
+    "popupLines": [
+      "1, 6, 13"
+    ]
+  },
+  {
+    "id": "1709",
+    "label": "Junikowo",
+    "address": "",
+    "city": "",
+    "longitude": "16.8338300000",
+    "latitude": "52.3836600000",
+    "closestLines": [
+      "1, 6, 13"
+    ],
+    "popupLines": [
+      "1, 6, 13"
+    ]
+  },
+  {
+    "id": "1710",
+    "label": "Zamek",
+    "address": "",
+    "city": "",
+    "longitude": "16.9191900000",
+    "latitude": "52.4072200000",
+    "closestLines": [
+      "Tram: 8, 13",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 8, 13",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "1712",
+    "label": "Gwarna",
+    "address": "",
+    "city": "",
+    "longitude": "16.9213767300",
+    "latitude": "52.4078930200",
+    "closestLines": [
+      "Tram: 8, 13",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 8, 13",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "1720",
+    "label": "Poznań Główny",
+    "address": "",
+    "city": "",
+    "longitude": "16.9149992700",
+    "latitude": "52.4029387600",
+    "closestLines": [
+      "6, 10, 12, 18, 92"
+    ],
+    "popupLines": [
+      "6, 10, 12, 18, 92"
+    ]
+  },
+  {
+    "id": "1721",
+    "label": "Poznań Główny",
+    "address": "",
+    "city": "",
+    "longitude": "16.9150742200",
+    "latitude": "52.4030270500",
+    "closestLines": [
+      "2, 6, 10, 12, 17, 18, 92"
+    ],
+    "popupLines": [
+      "2, 6, 10, 12, 17, 18, 92"
+    ]
+  },
+  {
+    "id": "1722",
+    "label": "Poznań Główny",
+    "address": "",
+    "city": "",
+    "longitude": "16.9163628400",
+    "latitude": "52.4036499300",
+    "closestLines": [
+      "Tram: 2, 5, 17",
+      "Bus: 171",
+      "Night: 212, 215, 222"
+    ],
+    "popupLines": [
+      "Tram: 2, 5, 17",
+      "Bus: 171",
+      "Night: 212, 215, 222"
+    ]
+  },
+  {
+    "id": "1723",
+    "label": "Poznań Główny",
+    "address": "",
+    "city": "",
+    "longitude": "16.9165050900",
+    "latitude": "52.4037704900",
+    "closestLines": [
+      "Tram: 2, 5",
+      "Bus: 171",
+      "Night: 212, 215, 222"
+    ],
+    "popupLines": [
+      "Tram: 2, 5",
+      "Bus: 171",
+      "Night: 212, 215, 222"
+    ]
+  },
+  {
+    "id": "1772",
+    "label": "Most Teatralny",
+    "address": "",
+    "city": "",
+    "longitude": "16.9131850300",
+    "latitude": "52.4100216300",
+    "closestLines": [
+      "Tram: 3, 10, 11, 15, 18, 99",
+      "Night: 212, 213, 214, 215, 218, 222, 223, 224"
+    ],
+    "popupLines": [
+      "Tram: 3, 10, 11, 15, 18, 99",
+      "Night: 212, 213, 214, 215, 218, 222, 223, 224"
+    ]
+  },
+  {
+    "id": "1773",
+    "label": "Rondo Kaponiera",
+    "address": "",
+    "city": "",
+    "longitude": "16.9136199900",
+    "latitude": "52.4077451000",
+    "closestLines": [
+      "Tram: 2, 5, 8, 13",
+      "Bus: 163, 169",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 2, 5, 8, 13",
+      "Bus: 163, 169",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "1774",
+    "label": "Rondo Kaponiera",
+    "address": "",
+    "city": "",
+    "longitude": "16.9134023000",
+    "latitude": "52.4076135300",
+    "closestLines": [
+      "Tram: 2, 5, 8, 13, 17",
+      "Bus: 163, 169",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 2, 5, 8, 13, 17",
+      "Bus: 163, 169",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "1775",
+    "label": "Rondo Kaponiera",
+    "address": "",
+    "city": "",
+    "longitude": "16.9124949600",
+    "latitude": "52.4084075000",
+    "closestLines": [
+      "Tram: 3, 10, 11, 15, 18, 99",
+      "Night: 212, 213, 214, 215, 218, 222, 223, 224"
+    ],
+    "popupLines": [
+      "Tram: 3, 10, 11, 15, 18, 99",
+      "Night: 212, 213, 214, 215, 218, 222, 223, 224"
+    ]
+  },
+  {
+    "id": "1776",
+    "label": "Rondo Kaponiera",
+    "address": "",
+    "city": "",
+    "longitude": "16.9127450800",
+    "latitude": "52.4083727700",
+    "closestLines": [
+      "Tram: 3, 10, 11, 15, 17, 18, 99",
+      "Night: 212, 213, 214, 215, 216, 218, 222, 223, 224, 226"
+    ],
+    "popupLines": [
+      "Tram: 3, 10, 11, 15, 17, 18, 99",
+      "Night: 212, 213, 214, 215, 216, 218, 222, 223, 224, 226"
+    ]
+  },
+  {
+    "id": "2743",
+    "label": "Budziszyńska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8481800000",
+    "latitude": "52.3884800000",
+    "closestLines": [
+      "15"
+    ],
+    "popupLines": [
+      "15"
+    ]
+  },
+  {
+    "id": "2744",
+    "label": "Budziszyńska",
+    "address": "",
+    "city": "",
+    "longitude": "16.8477980000",
+    "latitude": "52.3882600000",
+    "closestLines": [
+      "15"
+    ],
+    "popupLines": [
+      "15"
+    ]
+  },
+  {
+    "id": "2934",
+    "label": "Półwiejska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9266463204",
+    "latitude": "52.3991440769",
+    "closestLines": [
+      "2, 9, 10, 12, 18, 92"
+    ],
+    "popupLines": [
+      "2, 9, 10, 12, 18, 92"
+    ]
+  },
+  {
+    "id": "3090",
+    "label": "Półwiejska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9264692296",
+    "latitude": "52.3989368634",
+    "closestLines": [
+      "2, 9, 10, 12, 18, 92"
+    ],
+    "popupLines": [
+      "2, 9, 10, 12, 18, 92"
+    ]
+  },
+  {
+    "id": "3200",
+    "label": "Kórnicka",
+    "address": "",
+    "city": "",
+    "longitude": "16.9516899055",
+    "latitude": "52.3995855285",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  },
+  {
+    "id": "3317",
+    "label": "Rondo Kaponiera",
+    "address": "",
+    "city": "",
+    "longitude": "16.9130900000",
+    "latitude": "52.4078000000",
+    "closestLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "3318",
+    "label": "Rondo Kaponiera",
+    "address": "",
+    "city": "",
+    "longitude": "16.9135160000",
+    "latitude": "52.4077040000",
+    "closestLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 12, 14, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "3852",
+    "label": "Rondo Żegrze",
+    "address": "",
+    "city": "",
+    "longitude": "16.9562000000",
+    "latitude": "52.3768100000",
+    "closestLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "3853",
+    "label": "Rondo Żegrze",
+    "address": "",
+    "city": "",
+    "longitude": "16.9565900000",
+    "latitude": "52.3770800000",
+    "closestLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 18, 92",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "3854",
+    "label": "Wilczak",
+    "address": "",
+    "city": "",
+    "longitude": "16.9458311528",
+    "latitude": "52.4271089663",
+    "closestLines": [
+      "3"
+    ],
+    "popupLines": [
+      "3"
+    ]
+  },
+  {
+    "id": "3879",
+    "label": "Mogileńska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9923322400",
+    "latitude": "52.4097647200",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "3880",
+    "label": "Mogileńska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9925831100",
+    "latitude": "52.4097737200",
+    "closestLines": [
+      "6, 8"
+    ],
+    "popupLines": [
+      "6, 8"
+    ]
+  },
+  {
+    "id": "4090",
+    "label": "Stare Zoo",
+    "address": "",
+    "city": "",
+    "longitude": "16.9087997900",
+    "latitude": "52.4081887500",
+    "closestLines": [
+      "Tram: 2, 17",
+      "Night: 219"
+    ],
+    "popupLines": [
+      "Tram: 2, 17",
+      "Night: 219"
+    ]
+  },
+  {
+    "id": "4091",
+    "label": "Stare Zoo",
+    "address": "",
+    "city": "",
+    "longitude": "16.9086570300",
+    "latitude": "52.4082919200",
+    "closestLines": [
+      "Tram: 2",
+      "Night: 219"
+    ],
+    "popupLines": [
+      "Tram: 2",
+      "Night: 219"
+    ]
+  },
+  {
+    "id": "4096",
+    "label": "Unii Lubelskiej",
+    "address": "",
+    "city": "",
+    "longitude": "16.9501551189",
+    "latitude": "52.3721260447",
+    "closestLines": [
+      "Tram: 5, 11",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 5, 11",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "4097",
+    "label": "Wagrowska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9525753593",
+    "latitude": "52.3739920640",
+    "closestLines": [
+      "Tram: 5, 11",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 5, 11",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "4098",
+    "label": "Wagrowska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9528557530",
+    "latitude": "52.3741993947",
+    "closestLines": [
+      "Tram: 5, 11",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 5, 11",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "4099",
+    "label": "Unii Lubelskiej",
+    "address": "",
+    "city": "",
+    "longitude": "16.9500370584",
+    "latitude": "52.3725317078",
+    "closestLines": [
+      "Tram: 5, 11",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 5, 11",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "4120",
+    "label": "Starołęka Mała",
+    "address": "",
+    "city": "",
+    "longitude": "16.9402608900",
+    "latitude": "52.3765038800",
+    "closestLines": [
+      "1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"
+    ],
+    "popupLines": [
+      "1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17"
+    ]
+  },
+  {
+    "id": "4122",
+    "label": "Starołęka Mała",
+    "address": "",
+    "city": "",
+    "longitude": "16.9399538100",
+    "latitude": "52.3760523200",
+    "closestLines": [
+      "Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17",
+      "Night: 201"
+    ],
+    "popupLines": [
+      "Tram: 1, 3, 4, 6, 8, 9, 11, 12, 13, 14, 15, 17",
+      "Night: 201"
+    ]
+  },
+  {
+    "id": "4135",
+    "label": "Kmieca",
+    "address": "",
+    "city": "",
+    "longitude": "16.9384827300",
+    "latitude": "52.4263321700",
+    "closestLines": [
+      "3"
+    ],
+    "popupLines": [
+      "3"
+    ]
+  },
+  {
+    "id": "4136",
+    "label": "Kmieca",
+    "address": "",
+    "city": "",
+    "longitude": "16.9387575900",
+    "latitude": "52.4263972600",
+    "closestLines": [
+      "3"
+    ],
+    "popupLines": [
+      "3"
+    ]
+  },
+  {
+    "id": "4182",
+    "label": "Wrocławska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9337299508",
+    "latitude": "52.4050717725",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  },
+  {
+    "id": "4183",
+    "label": "Wrocławska",
+    "address": "",
+    "city": "",
+    "longitude": "16.9334052844",
+    "latitude": "52.4051978851",
+    "closestLines": [
+      "5, 6, 9"
+    ],
+    "popupLines": [
+      "5, 6, 9"
+    ]
+  }
+]
