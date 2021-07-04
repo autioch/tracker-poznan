@@ -1102,34 +1102,6 @@
     ]
   },
   {
-    "id": "79",
-    "label": "Stadion Miejski",
-    "address": "",
-    "city": "",
-    "longitude": "16.8623584000",
-    "latitude": "52.3953542600",
-    "closestLines": [
-      "1, 6, 7, 13, 15"
-    ],
-    "popupLines": [
-      "1, 6, 7, 13, 15"
-    ]
-  },
-  {
-    "id": "80",
-    "label": "Stadion Miejski",
-    "address": "",
-    "city": "",
-    "longitude": "16.8632981200",
-    "latitude": "52.3957224800",
-    "closestLines": [
-      "1, 6, 13, 15"
-    ],
-    "popupLines": [
-      "1, 6, 13, 15"
-    ]
-  },
-  {
     "id": "81",
     "label": "Węgorka",
     "address": "",
@@ -3012,58 +2984,6 @@
     ]
   },
   {
-    "id": "382",
-    "label": "Os. Sobieskiego",
-    "address": "",
-    "city": "",
-    "longitude": "16.9164340865",
-    "latitude": "52.4636932061",
-    "closestLines": [
-      "Tram: T21",
-      "Bus: 174, 191, 198, 348",
-      "Night: 218"
-    ],
-    "popupLines": [
-      "Tram: T21",
-      "Bus: 174, 191, 198, 348",
-      "Night: 218"
-    ]
-  },
-  {
-    "id": "387",
-    "label": "Szymanowskiego",
-    "address": "",
-    "city": "",
-    "longitude": "16.9170346000",
-    "latitude": "52.4605915400",
-    "closestLines": [
-      "Tram: T21",
-      "Bus: 169, 174, 185, 188, 191, 198, 348",
-      "Other bus: 901, 902, 904, 905",
-      "Night: 218, 253"
-    ],
-    "popupLines": [
-      "Tram: T21",
-      "Bus: 169, 174, 185, 188, 191, 198, 348",
-      "Other bus: 901, 902, 904, 905",
-      "Night: 218, 253"
-    ]
-  },
-  {
-    "id": "405",
-    "label": "Kurpińskiego",
-    "address": "",
-    "city": "",
-    "longitude": "16.9205054900",
-    "latitude": "52.4513937900",
-    "closestLines": [
-      "T21"
-    ],
-    "popupLines": [
-      "T21"
-    ]
-  },
-  {
     "id": "750",
     "label": "Matejki",
     "address": "",
@@ -3075,24 +2995,6 @@
     ],
     "popupLines": [
       "6, 13, 15"
-    ]
-  },
-  {
-    "id": "793",
-    "label": "Aleje Solidarności",
-    "address": "",
-    "city": "",
-    "longitude": "16.9207035900",
-    "latitude": "52.4353311700",
-    "closestLines": [
-      "Tram: T21",
-      "Bus: 171",
-      "Night: 215"
-    ],
-    "popupLines": [
-      "Tram: T21",
-      "Bus: 171",
-      "Night: 215"
     ]
   },
   {
@@ -3157,40 +3059,6 @@
     "popupLines": [
       "Tram: 5, 8, 14",
       "Night: 213, 223"
-    ]
-  },
-  {
-    "id": "1113",
-    "label": "Słowiańska",
-    "address": "",
-    "city": "",
-    "longitude": "16.9212802300",
-    "latitude": "52.4270017600",
-    "closestLines": [
-      "Tram: T21",
-      "Bus: 169, 182, 190",
-      "Night: 218"
-    ],
-    "popupLines": [
-      "Tram: T21",
-      "Bus: 169, 182, 190",
-      "Night: 218"
-    ]
-  },
-  {
-    "id": "1116",
-    "label": "Słowiańska",
-    "address": "",
-    "city": "",
-    "longitude": "16.9192608700",
-    "latitude": "52.4273333500",
-    "closestLines": [
-      "Tram: T21",
-      "Bus: 182, 190"
-    ],
-    "popupLines": [
-      "Tram: T21",
-      "Bus: 182, 190"
     ]
   },
   {
@@ -3790,20 +3658,6 @@
     ]
   },
   {
-    "id": "1926",
-    "label": "Szymanowskiego",
-    "address": "",
-    "city": "",
-    "longitude": "16.9176729200",
-    "latitude": "52.4595753200",
-    "closestLines": [
-      "T21"
-    ],
-    "popupLines": [
-      "T21"
-    ]
-  },
-  {
     "id": "2743",
     "label": "Budziszyńska",
     "address": "",
@@ -3843,64 +3697,6 @@
     ],
     "popupLines": [
       "2, 9, 10, 12, 18, 92"
-    ]
-  },
-  {
-    "id": "2966",
-    "label": "Aleje Solidarności",
-    "address": "",
-    "city": "",
-    "longitude": "16.9210679614",
-    "latitude": "52.4364986691",
-    "closestLines": [
-      "T21"
-    ],
-    "popupLines": [
-      "T21"
-    ]
-  },
-  {
-    "id": "2967",
-    "label": "Lechicka Poznań Plaza",
-    "address": "",
-    "city": "",
-    "longitude": "16.9205662043",
-    "latitude": "52.4425203496",
-    "closestLines": [
-      "T21"
-    ],
-    "popupLines": [
-      "T21"
-    ]
-  },
-  {
-    "id": "2968",
-    "label": "Lechicka Poznań Plaza",
-    "address": "",
-    "city": "",
-    "longitude": "16.9205662043",
-    "latitude": "52.4427723602",
-    "closestLines": [
-      "T21"
-    ],
-    "popupLines": [
-      "T21"
-    ]
-  },
-  {
-    "id": "2969",
-    "label": "Kurpińskiego",
-    "address": "",
-    "city": "",
-    "longitude": "16.9201972652",
-    "latitude": "52.4501790261",
-    "closestLines": [
-      "Tram: T21",
-      "Bus: 144"
-    ],
-    "popupLines": [
-      "Tram: T21",
-      "Bus: 144"
     ]
   },
   {
