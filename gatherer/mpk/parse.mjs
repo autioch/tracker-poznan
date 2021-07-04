@@ -1,9 +1,6 @@
-import turf from '@turf/turf';
-import union from '@turf/union';
-import spherical from 'spherical';
-
-import { joinFromCurrentDir, require, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
-import { getRouteIds, pickShapeId, pickTripId, uniqStr } from './utils.mjs';
+import { joinFromCurrentDir, require } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { BUS_ROUTE, MPK_AGENCY, TOURIST_LINES, TRAM_ROUTE } from './consts.mjs';
+import { finalizeGroup, isDailyRoute, isNightlyRoute, pickRouteId, pickTripId, uniqStr } from './utils.mjs';
 
 const join = joinFromCurrentDir(import.meta, 'db');
 
@@ -12,7 +9,6 @@ const stopTimes = require(join('stop_times.json'));
 const trips = require(join('trips.json'));
 const routes = require(join('routes.json'));
 const shapes = require(join('shapes.json'));
-const optimizeShapeGroup = require(joinFromCurrentDir(import.meta)('optimizeShapeGroup.js'));
 
 function getClosestLines(tramRoutes, busRoutes, otherBusRoutes, nightRoutes) {
   // minor int <-> bool conversion trick
@@ -30,31 +26,15 @@ function getClosestLines(tramRoutes, busRoutes, otherBusRoutes, nightRoutes) {
   return [tramText, busText, otherBusText, nightText].filter(Boolean);
 }
 
-const ARCS = 18;
-const ANGLES = new Array(ARCS + 1).fill(null).map((_, i) => (i / ARCS) * 360); // eslint-disable-line no-unused-vars
-
-function stopToCircle(radius) {
-  return ({ latitude, longitude }) => {
-    const center = [longitude, latitude];
-
-    return { // hack for invariant helper from truf
-      coordinates: [ANGLES.map((angle) => spherical.radial(center, angle, radius))]
-    };
-  };
-}
-
-const modes = [100, 200, 300, 400, 500].map((mode) => {
-  const circle = stopToCircle(mode);
-
-  return [mode, (stopList) => turf.cleanCoords(stopList.map(circle).reduce(union.default))];
-});
-
-const sortPoints = ([a], [b]) => a - b;
-const pickLatLng = ([, lat, lng]) => [lat, lng];
-
 const tripMap = new Map(trips.map((trip) => [trip.trip_id, trip]));
 const getRouteId = (tripId) => tripMap.get(tripId).route_id;
-const { tramRouteIds, mpkBusRouteIds, otherBusRouteIds, nightRouteIds } = getRouteIds(routes);
+
+const standardRoutes = routes.filter((route) => !TOURIST_LINES.has(route.route_id));
+
+const tramRouteIds = new Set(standardRoutes.filter((route) => route.route_type === TRAM_ROUTE).map(pickRouteId).filter(isDailyRoute));
+const mpkBusRouteIds = new Set(standardRoutes.filter((route) => route.route_type === BUS_ROUTE && route.agency_id === MPK_AGENCY).map(pickRouteId).filter(isDailyRoute));
+const otherBusRouteIds = new Set(standardRoutes.filter((route) => route.route_type === BUS_ROUTE && route.agency_id !== MPK_AGENCY).map(pickRouteId).filter(isDailyRoute));
+const nightRouteIds = new Set(standardRoutes.map(pickRouteId).filter(isNightlyRoute));
 
 const { mpkBusTripIds, otherBusTripIds, tramTripIds, nightBusTripIds } = trips.reduce((obj, { route_id, trip_id }) => {
   if (tramRouteIds.has(route_id)) {
@@ -140,30 +120,6 @@ const { tramStops, mpkBusStops, otherBusStops, nightStops } = stops.reduce((obj,
   nightStops: []
 });
 
-const parsedStops = {
-  tramStops,
-  mpkBusStops,
-  otherBusStops,
-  nightStops
-};
-
-const allRanges = Object.entries(parsedStops).map(([groupName, stopList]) => {
-  const modeList = modes.map(([mode, fn]) => [mode, fn(stopList)]);
-
-  return [groupName, modeList];
-});
-
-for (let i = 0; i < allRanges.length; i++) {
-  const [groupName, modeList] = allRanges[i];
-
-  saveOutputItems(groupName.replace('Stops', 'Ranges'), modeList, true);
-}
-
-const tramShapeIds = uniqStr(trips.filter((trip) => tramRouteIds.has(trip.route_id)).map(pickShapeId));
-const mpkBusShapeIds = uniqStr(trips.filter((trip) => mpkBusRouteIds.has(trip.route_id)).map(pickShapeId));
-const otherBusShapeIds = uniqStr(trips.filter((trip) => otherBusRouteIds.has(trip.route_id)).map(pickShapeId));
-const nightShapeIds = uniqStr(trips.filter((trip) => nightRouteIds.has(trip.route_id)).map(pickShapeId));
-
 const shapesDict = shapes.reduce((obj, { shape_id, shape_pt_lat, shape_pt_lon, shape_pt_sequence }) => {
   if (!obj[shape_id]) {
     obj[shape_id] = [];
@@ -173,17 +129,9 @@ const shapesDict = shapes.reduce((obj, { shape_id, shape_pt_lat, shape_pt_lon, s
   return obj;
 }, {});
 
-const tramShapes = optimizeShapeGroup(tramShapeIds.map((shapeId) => shapesDict[shapeId].sort(sortPoints).map(pickLatLng)));
-const busShapes = optimizeShapeGroup(mpkBusShapeIds.map((shapeId) => shapesDict[shapeId].sort(sortPoints).map(pickLatLng)));
-const otherBusShapes = optimizeShapeGroup(otherBusShapeIds.map((shapeId) => shapesDict[shapeId].sort(sortPoints).map(pickLatLng)));
-const nightShapes = optimizeShapeGroup(nightShapeIds.map((shapeId) => shapesDict[shapeId].sort(sortPoints).map(pickLatLng)));
-
-saveOutputItems('tram', tramStops, true);
-saveOutputItems('bus', mpkBusStops, true);
-saveOutputItems('otherBus', otherBusStops, true);
-saveOutputItems('night', nightStops, true);
-
-saveOutputItems('tramLines', tramShapes, true);
-saveOutputItems('busLines', busShapes, true);
-saveOutputItems('otherBusLines', otherBusShapes, true);
-saveOutputItems('nightLines', nightShapes, true);
+(async () => {
+  await finalizeGroup('tram', tramStops, shapesDict, trips, tramRouteIds);
+  await finalizeGroup('bus', mpkBusStops, shapesDict, trips, mpkBusRouteIds);
+  await finalizeGroup('otherBus', otherBusStops, shapesDict, trips, otherBusRouteIds);
+  await finalizeGroup('night', nightStops, shapesDict, trips, nightRouteIds);
+})();

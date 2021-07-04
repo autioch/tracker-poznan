@@ -1,11 +1,40 @@
-import { BUS_ROUTE, MPK_AGENCY, NIGHT_ROUTE, TOURIST_LINES, TRAM_ROUTE } from './consts.mjs';
+import turf from '@turf/turf';
+import union from '@turf/union';
+import spherical from 'spherical';
+
+import { joinFromCurrentDir, require, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { NIGHT_ROUTE } from './consts.mjs';
+
+const optimizeShapeGroup = require(joinFromCurrentDir(import.meta)('optimizeShapeGroup.js'));
 
 export const pickRouteId = ({ route_id }) => route_id;
 export const pickTripId = ({ trip_id }) => trip_id;
 export const pickShapeId = ({ shape_id }) => shape_id;
 
+const sortPoints = ([a], [b]) => a - b;
+const pickLatLng = ([, lat, lng]) => [lat, lng];
+
 export const isDailyRoute = (routeId) => !NIGHT_ROUTE.test(routeId);
 export const isNightlyRoute = (routeId) => NIGHT_ROUTE.test(routeId);
+
+const ARCS = 18;
+const ANGLES = new Array(ARCS + 1).fill(null).map((_, i) => (i / ARCS) * 360); // eslint-disable-line no-unused-vars
+
+function stopToCircle(radius) {
+  return ({ latitude, longitude }) => {
+    const center = [longitude, latitude];
+
+    return { // hack for invariant helper from truf
+      coordinates: [ANGLES.map((angle) => spherical.radial(center, angle, radius))]
+    };
+  };
+}
+
+const modes = [100, 200, 300, 400, 500].map((mode) => {
+  const circle = stopToCircle(mode);
+
+  return [mode, (stopList) => turf.cleanCoords(stopList.map(circle).reduce(union.default))];
+});
 
 export function uniqStr(strArr) {
   const n = {};
@@ -19,31 +48,15 @@ export function uniqStr(strArr) {
   return Object.keys(n);
 }
 
-let tramRouteIds;
+export async function finalizeGroup(groupName, stops, shapesDict, trips, routeIds) { // eslint-disable-line max-params
+  await saveOutputItems(`${groupName}`, stops, true);
 
-let mpkBusRouteIds;
+  const shapeIds = uniqStr(trips.filter((trip) => routeIds.has(trip.route_id)).map(pickShapeId));
+  const shapes = optimizeShapeGroup(shapeIds.map((shapeId) => shapesDict[shapeId].sort(sortPoints).map(pickLatLng)));
 
-let otherBusRouteIds;
+  await saveOutputItems(`${groupName}Lines`, shapes, true);
 
-let nightRouteIds;
+  const ranges = modes.map(([mode, fn]) => [mode, fn(stops)]);
 
-let isPrepared = false;
-
-export function getRouteIds(routes) {
-  const standardRoutes = routes.filter((route) => !TOURIST_LINES.has(route.route_id));
-
-  if (!isPrepared) {
-    tramRouteIds = new Set(standardRoutes.filter((route) => route.route_type === TRAM_ROUTE).map(pickRouteId).filter(isDailyRoute));
-    mpkBusRouteIds = new Set(standardRoutes.filter((route) => route.route_type === BUS_ROUTE && route.agency_id === MPK_AGENCY).map(pickRouteId).filter(isDailyRoute));
-    otherBusRouteIds = new Set(standardRoutes.filter((route) => route.route_type === BUS_ROUTE && route.agency_id !== MPK_AGENCY).map(pickRouteId).filter(isDailyRoute));
-    nightRouteIds = new Set(standardRoutes.map(pickRouteId).filter(isNightlyRoute));
-    isPrepared = true;
-  }
-
-  return {
-    tramRouteIds,
-    mpkBusRouteIds,
-    otherBusRouteIds,
-    nightRouteIds
-  };
+  await saveOutputItems(`${groupName}Ranges`, ranges, true);
 }
