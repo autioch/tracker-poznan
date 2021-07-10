@@ -41,7 +41,7 @@ module.exports = {
   devtool: argv.production ? undefined : 'eval',
   output: {
     path: buildPath,
-    filename: `files/[name].[contenthash].js`,
+    filename: `files/[name].js`,
     publicPath: argv.production ? '/tracker-poznan/' : '/',
     pathinfo: false
   },
@@ -144,7 +144,7 @@ module.exports = {
       ]
     }),
     new MiniCssExtractPlugin({
-      filename: `files/[name].[contenthash].css`
+      filename: `files/[name].css`
 
       // insert: function insert(tag) {
       //   tag.type = 'preload';

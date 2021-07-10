@@ -4,10 +4,14 @@ const CACHE_NAME = 'tracker-poznan-v2';
 /* Add relative URL of all the static content you want to store in
  * cache storage (this will help us use our app offline)*/
 const resourcesToCache = [
+  './',
   './favicon.ico',
   './index.html',
-  './',
-  //
+  './files/main.js',
+  './files/main.css',
+  './files/modules.js',
+  './files/modules.css',
+
   './data/atm.json',
   './data/biedronka.json',
   './data/bus.json',
@@ -28,9 +32,7 @@ const resourcesToCache = [
   './data/tramLines.json',
   './data/tramRanges.json',
   './data/zabka.json',
-  //
-  // './files/',
-  //
+
   './images/256.png',
   './images/512.png',
   './images/about.png',
