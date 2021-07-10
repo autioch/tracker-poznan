@@ -29,6 +29,7 @@
       "type": "image/png"
     }
   ],
+  "scope": ".",
   "short_name": "Tracker",
   "shortcuts": [],
   "start_url": "/",
