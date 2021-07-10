@@ -2,6 +2,7 @@ import './favicon.ico';
 import './styles';
 import './512.png';
 import './256.png';
+import './screenshot1.png';
 
 import { loadGroups } from './services/groups';
 import PersistenceService from './services/persistence';

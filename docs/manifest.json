@@ -1,17 +1,36 @@
 {
-    "name": "Tracker Poznan",
-    "short_name": "Tracker Poznan",
-    "start_url": "/",
-    "background_color": "#FFDCB5",
-    "theme_color": "#1E003D",
-    "icons": [
-        {
-            "src": "images/512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable any"
-        }
-    ],
-    "display": "standalone",
-    "orientation":"portrait"
+  "background_color": "#666666",
+  "categories": [
+    "navigation",
+    "shopping",
+    "travel",
+    "utilities"
+  ],
+  "description": "Find nearest shops and other Points Of Interest in Poznań",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "images/512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "lang": "en-US",
+  "name": "Tracker Poznań",
+  "orientation": "portrait",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "screenshots": [
+    {
+      "src": "images/screenshot1.png",
+      "sizes": "886x977",
+      "type": "image/png"
+    }
+  ],
+  "short_name": "Tracker",
+  "shortcuts": [],
+  "start_url": "/",
+  "theme_color": "#666666"
 }
