@@ -1,5 +1,5 @@
 // Installing service worker
-const CACHE_NAME = 'tracker-poznan-v3';
+const CACHE_NAME = 'tracker-poznan-v4';
 
 /* Add relative URL of all the static content you want to store in
  * cache storage (this will help us use our app offline)*/
@@ -56,7 +56,6 @@ const resourcesToCache = [
   './images/otherBus.png',
   './images/pharmacy.png',
   './images/plus.png',
-  './images/screenshot1.png',
   './images/settings.png',
   './images/tram.png',
   './images/zabka.png'

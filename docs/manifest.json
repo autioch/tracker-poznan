@@ -1,5 +1,5 @@
 {
-  "background_color": "#666666",
+  "background_color": "#50BE50",
   "categories": [
     "navigation",
     "shopping",
@@ -24,7 +24,7 @@
   "related_applications": [],
   "screenshots": [
     {
-      "src": "images/screenshot1.png",
+      "src": "images/tracking-settings.png",
       "sizes": "886x977",
       "type": "image/png"
     }
@@ -33,5 +33,5 @@
   "short_name": "Tracker",
   "shortcuts": [],
   "start_url": "https://autioch.github.io/tracker-poznan/",
-  "theme_color": "#666666"
+  "theme_color": "#50BE50"
 }

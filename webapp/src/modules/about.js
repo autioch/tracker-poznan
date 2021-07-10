@@ -88,6 +88,7 @@ Finding closest points would require a payed API, with a lot of requests needed.
         tag('li', 'Button to reset to see all items (selected or not)'),
         tag('li', 'Display inactive mpk stops'),
         tag('li', 'Display only icons visible in the viewport'),
+        tag('li', 'Check PWA updates'),
         tag('li', 'Check items available on ', tag('a', 'interia.pl', {
           href: 'https://promocyjni.interia.pl/duza-mapa',
           target: '_blank',
