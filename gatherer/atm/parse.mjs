@@ -5,10 +5,10 @@ import parseDostepnyBankomat from './parseDostepnyBankomat.mjs';
 import parseMastercard from './parseMastercard.mjs';
 import parsePlanetCash from './parsePlanetCash.mjs';
 
-const bankomat = await parseBankomat();
-const dostepnyBankomat = await parseDostepnyBankomat();
+const bankomat = parseBankomat();
+const dostepnyBankomat = parseDostepnyBankomat();
 const mastercard = await parseMastercard();
-const planetCash = await parsePlanetCash();
+const planetCash = parsePlanetCash();
 
 const atms = [
   ...dostepnyBankomat,
@@ -19,4 +19,4 @@ const atms = [
 
 const cleanedUp = cleanupList(atms);
 
-await saveOutputItems('atm', cleanedUp, true);
+await saveOutputItems('atm', cleanedUp);

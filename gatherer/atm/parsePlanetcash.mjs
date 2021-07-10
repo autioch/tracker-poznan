@@ -30,16 +30,13 @@ export default function parsePlanetCash() {
   // beg  - ?, time
   // end  - ?, time
 
-  const mapped = items.map(({ code, city, lat, lng, stet, buno, desc, desc2 }) => ({
+  return items.map(({ code, city, lat, lng, stet, buno, desc, desc2 }) => ({
     id: code,
     label: desc,
     address: [stet, buno].filter(Boolean).join(' ').trim(),
     city,
     longitude: parseFloat(lng),
     latitude: parseFloat(lat),
-    source: 'planetcash',
     popupLines: [desc2].filter(Boolean)
   }));
-
-  return mapped;
 }

@@ -17,7 +17,7 @@ export default function bankomatPl() {
   // distance - from what?
   // dist - wrapped location?
 
-  const mapped = items.map(({ location: loc, atmId, name: label, addressTxt, description, provider }) => {
+  return items.map(({ location: loc, atmId, name: label, addressTxt, description, provider }) => {
     const { coordinates: [lat1, lng1] } = loc;
     const [city, ...address] = addressTxt.split(',').map((t) => t.trim());
 
@@ -28,10 +28,7 @@ export default function bankomatPl() {
       city,
       longitude: parseFloat(lng1),
       latitude: parseFloat(lat1),
-      source: 'bankomat',
       popupLines: [label.replace('Bankomat ', ''), providerMap.get(provider)].filter(Boolean)
     };
   });
-
-  return mapped;
 }

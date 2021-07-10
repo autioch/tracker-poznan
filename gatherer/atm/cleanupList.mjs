@@ -1,7 +1,4 @@
 /* eslint-disable max-nested-callbacks, no-param-reassign, no-bitwise, max-statements */
-import { isNearPoznanCenter } from '../utils.mjs';
-
-const pad = (item, len = 6) => item.toString().padEnd(len, ' ');
 
 const IGNORED = new Set(['Inny', 'Inny Bank']);
 
@@ -83,7 +80,7 @@ const uniqDiff = (items) => {
     return [first];
   }
 
-  const different = other.filter((item) => levenshtein(item.toLowerCase(), first.toLowerCase()) > 3);
+  const different = other.filter((item) => levenshtein(item.toLowerCase(), first.toLowerCase()) > 4);
 
   return [first, ...different];
 };
@@ -91,33 +88,24 @@ const uniqDiff = (items) => {
 const pick = (items, key) => uniqDiff([...new Set(items.map((item) => item[key]))].sort());
 
 export default function cleanupList(atms) {
-  const nearPoznan = atms.filter((item) => isNearPoznanCenter(item.latitude, item.longitude));
+  const dict = atms.reduce((obj, atm) => {
+    const { longitude, latitude } = atm;
 
-  const dict = nearPoznan
-    .sort((a, b) => a.longitude - b.longitude)
-    .sort((a, b) => a.latitude - b.latitude)
-    .reduce((obj, atm) => {
-      const { longitude, latitude } = atm;
+    const lat = roundNum(latitude);
+    const lng = roundNum(longitude);
 
-      const lat = roundNum(latitude);
-      const lng = roundNum(longitude);
+    ensureDict(ensureDict(obj, lat, {}), lng, []).push(atm);
 
-      ensureDict(ensureDict(obj, lat, {}), lng, []).push(atm);
+    return obj;
+  }, {});
 
-      return obj;
-    }, {});
-
-  const merged = Object.values(dict).flatMap((latDict) => Object.values(latDict).map((lngItems) => ({
+  return Object.values(dict).flatMap((latDict) => Object.values(latDict).map((lngItems) => ({
     id: pick(lngItems, 'id').join(','),
-    label: pick(lngItems, 'label', true).join(', '),
+    label: pick(lngItems, 'label').join(', '),
     address: pick(lngItems, 'address').join(', '),
     city: pick(lngItems, 'city').join(', '),
     longitude: lngItems[0].longitude,
     latitude: lngItems[0].latitude,
     popupLines: uniqDiff([...new Set(lngItems.flatMap((item) => item.popupLines))].filter((line) => !IGNORED.has(line)).sort())
   })));
-
-  console.log('total', pad(atms.length), 'relevant', pad(nearPoznan.length), 'unique', pad(merged.length));
-
-  return merged;
 }

@@ -50,14 +50,13 @@ export default async function mastercard() {
   const { locations: { _children_: locations } } = await parser.parseStringPromise(xml);
   const itemList = locations.map((loc) => Object.fromEntries(flattenXmlNode(loc)));
 
-  const mapped = itemList.map((item) => ({
+  return itemList.map((item) => ({
     id: item['location.attr.id'],
     label: item['attribute#LOC_NAM'],
     address: item['attribute#ADDR_LINE1'],
     city: item['attribute#CITY_NAM'],
     longitude: parseFloat(item['location -> 4#point.attr.longitude']),
     latitude: parseFloat(item['location -> 4#point.attr.latitude']),
-    source: 'mastercard',
     popupLines: [
       item['attribute#LOCATION_TYPE_DESC'],
       item['attribute#LOC_DESC'],
@@ -75,6 +74,4 @@ export default async function mastercard() {
       ].filter((val) => val > 0).sort())].join(' or ')}`
     ].filter(Boolean)
   }));
-
-  return mapped;
 }
