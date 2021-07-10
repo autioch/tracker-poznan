@@ -13,9 +13,17 @@
   <meta content="favicon.ico" name="msapplication-TileImage">
   <meta content="transparent" name="msapplication-TileColor">
   <meta name="theme-color" content="#666666" />
+  <link rel="manifest" href="manifest.json">
   <script type="text/javascript">
     if (self != top) {
       top.location = self.location;
+    }
+  </script>
+  <script>
+    if('serviceWorker' in navigator){
+      navigator.serviceWorker.register('/service-worker.js');
+    } else {
+      console.log("Service worker is not supported");
     }
   </script>
 <link href="/tracker-poznan/files/main.0f2b3460699e39fcfa24.css" rel="stylesheet"></head>
