@@ -3,7 +3,7 @@ import xml2js from 'xml2js';
 
 import { joinFromCurrentDir } from '../../utils/index.mjs';
 
-const join = joinFromCurrentDir(import.meta, 'db');
+const join = joinFromCurrentDir(import.meta, 'manual');
 
 function flattenXmlNode(node, parentTagName, nodeIndex) {
   const {

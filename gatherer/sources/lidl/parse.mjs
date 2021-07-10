@@ -12,4 +12,4 @@ const shopList = data.d.results.map((shop) => ({
   popupLines: shop.OpeningTimes.split(',').map((time) => time.trim())
 }));
 
-saveOutputItems('lidl', shopList);
+await saveOutputItems('lidl', shopList);

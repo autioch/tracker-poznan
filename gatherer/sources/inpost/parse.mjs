@@ -27,4 +27,4 @@ const itemList = data.items.map(({ b, c, d, e, g, h, l, n }) => ({
   popupLines: [h]
 }));
 
-saveOutputItems('inpost', itemList);
+await saveOutputItems('inpost', itemList);

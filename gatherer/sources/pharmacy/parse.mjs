@@ -36,4 +36,4 @@ const tablePromises = fileNames.map((fileName) => fs.readFile(join(fileName), 'u
 const htmls = await Promise.all(tablePromises);
 const itemList = htmls.flatMap(getItemList);
 
-saveOutputItems('pharmacy', itemList);
+await saveOutputItems('pharmacy', itemList);

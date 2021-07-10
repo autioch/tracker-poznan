@@ -53,4 +53,4 @@ const tablePromises = fileNames.map((fileName) => fs.readFile(join(fileName), 'u
 const htmls = await Promise.all(tablePromises);
 const shopList = await Promise.all(htmls.flatMap(getShopList).map(geoLocateShop));
 
-saveOutputItems('biedronka', shopList);
+await saveOutputItems('biedronka', shopList);

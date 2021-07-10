@@ -12,4 +12,4 @@ const itemList = data.map(({ id, lat, lng }) => ({
   popupLines: []
 }));
 
-saveOutputItems('zabka', itemList);
+await saveOutputItems('zabka', itemList);

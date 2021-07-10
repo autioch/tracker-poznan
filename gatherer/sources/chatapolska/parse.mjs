@@ -33,4 +33,4 @@ const shopList = locations
     };
   });
 
-saveOutputItems('chatapolska', shopList);
+await saveOutputItems('chatapolska', shopList);

@@ -12,4 +12,4 @@ const itemList = data.map(({ id, name: label, coordinates: [lng, lat], address: 
   popupLines: [] // todo opening times are mixed up
 }));
 
-saveOutputItems('netto', itemList);
+await saveOutputItems('netto', itemList);

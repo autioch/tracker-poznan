@@ -1,3 +1,4 @@
+import chalk from 'chalk';
 import fs from 'fs/promises';
 
 import joinFromCurrentDir from './joinFromCurrentDir.mjs';
@@ -12,33 +13,50 @@ const MAX_DISTANCE = 20; // distance from poznan center;
 const PREC = 1000000;
 const roundNum = (num) => Math.round(num * PREC) / PREC;
 const outputJoin = joinFromCurrentDir(import.meta, '..', '..', 'docs', 'data');
+const padNum = (num) => num.toString().padStart(6, ' ').padEnd(7, ' ');
 
-function isNearPoznanCenter(lat, lng) { // haversine
-  const latRad = degToRad(lat);
-  const halfLapsAroundGlobe = sqrSinHalf(POZNAN_CENTER_LAT - latRad) + (sqrSinHalf(POZNAN_CENTER_LNG - degToRad(lng)) * Math.cos(latRad) * Math.cos(POZNAN_CENTER_LAT));
+const readFile = (fileName) => fs.readFile(outputJoin(`${fileName}.json`), 'utf8');
+const saveFile = (fileName, items) => fs.writeFile(outputJoin(`${fileName}.json`), JSON.stringify(items, null, 2));
+
+function isNearPoznanCenter({ latitude, longitude }) { // haversine
+  const latRad = degToRad(latitude);
+  const halfLapsAroundGlobe = sqrSinHalf(POZNAN_CENTER_LAT - latRad) + (sqrSinHalf(POZNAN_CENTER_LNG - degToRad(longitude)) * Math.cos(latRad) * Math.cos(POZNAN_CENTER_LAT));
   const c = 2 * Math.asin(Math.sqrt(halfLapsAroundGlobe));
 
   return EARTH_RADIUS_KM * c < MAX_DISTANCE;
 }
 
-export default function saveOutputItems(fileName, items, skipDistanceCheck = false) {
-  if (skipDistanceCheck) {
-    console.log(`${fileName}: ${items.length} saved.`);
+async function showInfo(fileName, current) {
+  const currentJson = JSON.stringify(current, null, 2);
+  const previousJson = await readFile(fileName);
+  const previous = JSON.parse(previousJson);
+  const message = `${fileName.padEnd(15, ' ')}${padNum(previous.length)}${padNum(current.length)}(prev/curr)`;
 
-    return fs.writeFile(outputJoin(`${fileName}.json`), JSON.stringify(items, null, 2));
+  if (currentJson === previousJson) {
+    console.log(chalk.green(message));
+  } else if (previous.length <= current.length) {
+    console.log(chalk.yellow(message));
+  } else {
+    console.log(chalk.red(message));
+  }
+}
+
+export default async function saveOutputItems(fileName, items, skipDistanceCheck = false) {
+  if (skipDistanceCheck) {
+    console.log(chalk.cyan(`${fileName.padEnd(15, ' ')}${padNum(items.length)}${padNum('')}(curr)`));
+
+    return saveFile(fileName, items);
   }
 
-  const nearCenter = items.filter((item) => isNearPoznanCenter(item.latitude, item.longitude));
-
-  nearCenter.sort((a, b) => a.id.localeCompare(b.id));
-
-  console.log(`${fileName}: ${items.length} found, ${nearCenter.length} saved.`);
+  const current = items.filter(isNearPoznanCenter).sort((a, b) => a.id.localeCompare(b.id));
 
   // get rid of centimeter precision, meters are enough.
-  nearCenter.forEach((item) => {
+  current.forEach((item) => {
     item.latitude = roundNum(item.latitude);
     item.longitude = roundNum(item.longitude);
   });
 
-  return fs.writeFile(outputJoin(`${fileName}.json`), JSON.stringify(nearCenter, null, 2));
+  await showInfo(fileName, current);
+
+  return saveFile(fileName, current);
 }
