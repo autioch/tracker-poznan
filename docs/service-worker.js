@@ -1,16 +1,63 @@
 // Installing service worker
-const CACHE_NAME = 'tracker-poznan-v1';
+const CACHE_NAME = 'tracker-poznan-v2';
 
 /* Add relative URL of all the static content you want to store in
  * cache storage (this will help us use our app offline)*/
 const resourcesToCache = [
-  // './data/',
+  './favicon.ico',
+  './index.html',
+  './',
+  //
+  './data/atm.json',
+  './data/biedronka.json',
+  './data/bus.json',
+  './data/busLines.json',
+  './data/busRanges.json',
+  './data/chatapolska.json',
+  './data/inpost.json',
+  './data/lidl.json',
+  './data/netto.json',
+  './data/night.json',
+  './data/nightLines.json',
+  './data/nightRanges.json',
+  './data/otherBus.json',
+  './data/otherBusLines.json',
+  './data/otherBusRanges.json',
+  './data/pharmacy.json',
+  './data/tram.json',
+  './data/tramLines.json',
+  './data/tramRanges.json',
+  './data/zabka.json',
+  //
   // './files/',
+  //
   './images/256.png',
   './images/512.png',
   './images/about.png',
-  './favicon.ico',
-  './index.html'
+  './images/atm.png',
+  './images/biedronka.png',
+  './images/bus.png',
+  './images/center.png',
+  './images/chatapolska.png',
+  './images/close.png',
+  './images/currentLocation.png',
+  './images/custom.png',
+  './images/inpost.png',
+  './images/layers-2x.png',
+  './images/layers.png',
+  './images/lidl.png',
+  './images/marker-icon.png',
+  './images/measure.png',
+  './images/minus.png',
+  './images/netto.png',
+  './images/night.png',
+  './images/otherBus.png',
+  './images/pharmacy.png',
+  './images/plus.png',
+  './images/screenshot1.png',
+  './images/settings.png',
+  './images/tram.png',
+  './images/zabka.png'
 ];
 
 self.addEventListener('install', (ev) => {

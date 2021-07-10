@@ -11,7 +11,8 @@ function addButton(icon, title, clickCallback) {
       title
     },
     tag('img', {
-      src: icon
+      src: icon,
+      alt: title
     }),
     {
       onclick: clickCallback

@@ -35,13 +35,15 @@ function getPanelContents(mapInstance) {
                tag('div.tp-panel__subheader', 'Select a point on map using one of the options:'),
                tag('div.tutorial__item',
                    tag('img.tutorial__icon', {
-                     src: icons.custom
+                     src: icons.custom,
+                     alt: 'Click on map'
                    }),
                    'Click on map to find closest POIs'
                ),
                tag('div.tutorial__item',
                    tag('img.tutorial__icon', {
-                     src: icons.currentLocation
+                     src: icons.currentLocation,
+                     alt: 'Current location'
                    }),
                    'Use current location to find closest POIs'
                )
@@ -53,7 +55,8 @@ function getPanelContents(mapInstance) {
   if (!measuredGroups.length) {
     return tag('div.tutorial__item',
                tag('img.tutorial__icon', {
-                 src: icons.settings
+                 src: icons.settings,
+                 alt: 'Settings'
                }),
                'Set some measured POIs'
     );

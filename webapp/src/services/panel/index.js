@@ -25,7 +25,8 @@ const closeEl = tag(
     }
   },
   tag('img.tp-panel__img', {
-    src: closeIcon
+    src: closeIcon,
+    alt: 'Close panel'
   })
 );
 

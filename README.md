@@ -34,3 +34,7 @@ See it at [autioch.github.io/tracker-poznan](https://autioch.github.io/tracker-p
 - frontend framework, pure vanilla
 - database, this was experimental and turns out, jsons are good enough
 - open street map database, which could potentially be used
+
+## TODO
+- checkout webpack https://www.npmjs.com/package/offline-plugin
+- checkout https://developers.google.com/web/tools/workbox/guides/get-started

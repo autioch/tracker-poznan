@@ -145,6 +145,13 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: `files/[name].[contenthash].css`
+
+      // insert: function insert(tag) {
+      //   tag.type = 'preload';
+      //   tag.as = 'text/css';
+      //   tag.setAttribute('as', 'text/css');
+      //   document.head.appendChild(tag);
+      // }
     }),
     new HtmlWebpackPlugin({
       template: join(sourcePath, 'index.html'),

@@ -38,7 +38,8 @@ function groupRow(group) {
   return tag(
     'div.tp-settings-group',
     tag('img.tp-settings-group__img', {
-      src: group.iconUrl
+      src: group.iconUrl,
+      alt: group.label
     }),
     tag('div.tp-settings-group__info',
         tag('.tp-settings-group__label', group.label, {

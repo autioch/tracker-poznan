@@ -23,49 +23,57 @@ function getPanelContent() {
     tag('div.tutorial',
         tag('div.tutorial__item',
             tag('img.tutorial__icon', {
-              src: icons.plus
+              src: icons.plus,
+              alt: 'Zoom in'
             }),
             'Zoom in'
         ),
         tag('div.tutorial__item',
             tag('img.tutorial__icon', {
-              src: icons.minus
+              src: icons.minus,
+              alt: 'Zoom out'
             }),
             'Zoom out'
         ),
         tag('div.tutorial__item',
             tag('img.tutorial__icon', {
-              src: icons.settings
+              src: icons.settings,
+              alt: 'Settings'
             }),
             'Change displayed and measured POIs'
         ),
         tag('div.tutorial__item',
             tag('img.tutorial__icon', {
-              src: icons.measure
+              src: icons.measure,
+              alt: 'Measure details'
             }),
             'Display details about closest POIs'
         ),
         tag('div.tutorial__item',
             tag('img.tutorial__icon', {
-              src: icons.custom
+              src: icons.custom,
+              alt: 'Click on map'
             }),
             'Click on map to find closest POIs'
         ),
         tag('div.tutorial__item',
             tag('img.tutorial__icon', {
-              src: icons.currentLocation
+              src: icons.currentLocation,
+              alt: 'Current location'
             }),
             'Follow current location to find closest POIs'
         ),
         tag('div.tutorial__item',
             tag('img.tutorial__icon', {
-              src: icons.center
+              src: icons.center,
+              alt: 'Center'
             }),
             'Focus map on the Kaponiera'
         ),
         tag('div.tutorial__item',
             tag('img.tutorial__icon', {
-              src: icons.about
+              src: icons.about,
+              alt: 'About'
             }),
             'Show this panel again'
         )
