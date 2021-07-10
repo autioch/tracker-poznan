@@ -246,8 +246,8 @@
     "label": "Przy Galerii Handlowej",
     "address": "Poznańska 31",
     "city": "Dąbrówka",
-    "longitude": 16.744883,
-    "latitude": 52.381056,
+    "longitude": 16.74488,
+    "latitude": 52.38106,
     "popupLines": [
       "24/7"
     ]
@@ -435,6 +435,17 @@
     "city": "Kicin",
     "longitude": 17.01453,
     "latitude": 52.45586,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "KCI02M",
+    "label": "Przy głównej ulicy Nowe Osiedle",
+    "address": "Nowe Osiedle 53",
+    "city": "Kicin",
+    "longitude": 17.01296,
+    "latitude": 52.467,
     "popupLines": [
       "24/7"
     ]
@@ -803,6 +814,17 @@
     ]
   },
   {
+    "id": "LBO10M",
+    "label": "Przy stacji Shell.",
+    "address": "Żabikowska 68 68",
+    "city": "Luboń",
+    "longitude": 16.88134,
+    "latitude": 52.35057,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "LBO11M",
     "label": "Na parkingu Pączek w Maśle",
     "address": "Dożynkowa 1",
@@ -1159,21 +1181,21 @@
     "label": "Przy sklepie Żabka",
     "address": "Północna 2E",
     "city": "Promnice",
-    "longitude": 16.966374,
-    "latitude": 52.541378,
+    "longitude": 16.96637,
+    "latitude": 52.54138,
     "popupLines": [
       "24/7"
     ]
   },
   {
-    "id": "POP-BWK2",
-    "label": "MINI MARKET AGUSIA",
-    "address": "Lipowa 55",
-    "city": "Bolechówko",
-    "longitude": 16.997042,
-    "latitude": 52.519547,
+    "id": "POP-BAR33",
+    "label": "AL. CAPONE SKLEP BARANOWO",
+    "address": "Szamotulska 26J",
+    "city": "Baranowo",
+    "longitude": 16.78661,
+    "latitude": 52.446188,
     "popupLines": [
-      "PN-PT 10-19"
+      "PN-ND 06-00"
     ]
   },
   {
@@ -1247,8 +1269,8 @@
     "label": "SKLEP ODZIEŻOWY",
     "address": "Sikorskiego 8/4",
     "city": "Luboń",
-    "longitude": 16.874027,
-    "latitude": 52.348969,
+    "longitude": 16.87403,
+    "latitude": 52.34897,
     "popupLines": [
       "PN-PT 10-18 SB 10-14"
     ]
@@ -1269,8 +1291,8 @@
     "label": "EXPRESS-PACZKA",
     "address": "Wschodnia 21B/62",
     "city": "Luboń",
-    "longitude": 16.881303,
-    "latitude": 52.343305,
+    "longitude": 16.8813,
+    "latitude": 52.34331,
     "popupLines": [
       "PN-PT 10-20 SB 10-14"
     ]
@@ -1636,6 +1658,17 @@
     "latitude": 52.409249,
     "popupLines": [
       "PN-PT 10-20 SB-ND 10-18"
+    ]
+  },
+  {
+    "id": "POP-POZ123",
+    "label": "GREENLOFT ",
+    "address": "Cedrowa 12",
+    "city": "Poznań",
+    "longitude": 16.90568,
+    "latitude": 52.365849,
+    "popupLines": [
+      "PN-PT 10-18 SB 10-15"
     ]
   },
   {
@@ -3150,8 +3183,8 @@
     "label": "front posesji od ul. Malwowej",
     "address": "Malwowa 91",
     "city": "Poznań",
-    "longitude": 16.821314,
-    "latitude": 52.385722,
+    "longitude": 16.82131,
+    "latitude": 52.38572,
     "popupLines": [
       "24/7"
     ]
@@ -3185,6 +3218,28 @@
     "city": "Poznań",
     "longitude": 16.89575,
     "latitude": 52.45699,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ145M",
+    "label": "teren prywatnej posesji",
+    "address": "Folwarczna 18",
+    "city": "Poznań",
+    "longitude": 17.00623,
+    "latitude": 52.39036,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "POZ146M",
+    "label": "na tyłach restauracji od ul. Kostrzyńskiej",
+    "address": "Warszawska 133",
+    "city": "Poznań",
+    "longitude": 16.9856,
+    "latitude": 52.41014,
     "popupLines": [
       "24/7"
     ]
@@ -3778,7 +3833,7 @@
     "address": "os. Zwycięstwa 13",
     "city": "Poznań",
     "longitude": 16.92954,
-    "latitude": 52.436,
+    "latitude": 52.435997,
     "popupLines": [
       "24/7"
     ]
@@ -3840,13 +3895,13 @@
   },
   {
     "id": "POZ35A",
-    "label": "Galeria Handlowa Posnania, poziom -1, strefa Premium Lounge PN-SB 10:00-22:00 ND 10:00-21:00, parking różowy, przy słupie A03, wejście -1A, pod ruchomymi schodami",
+    "label": "CH Posnania, poziom -1, parking różowy, przy słupie A03, wejście -1A, pod ruchomymi schodami",
     "address": "Pleszewska 1 1 1",
     "city": "Poznań",
     "longitude": 16.95471,
     "latitude": 52.39832,
     "popupLines": [
-      "24/7"
+      "PN-SB 10-22 ND 10-21"
     ]
   },
   {
@@ -3878,17 +3933,6 @@
     "city": "Poznań",
     "longitude": 16.91585,
     "latitude": 52.38422,
-    "popupLines": [
-      "24/7"
-    ]
-  },
-  {
-    "id": "POZ36M",
-    "label": "Przy parkingu sklepu Lidl",
-    "address": "Wejherowska 4",
-    "city": "Poznań",
-    "longitude": 16.82427,
-    "latitude": 52.43125,
     "popupLines": [
       "24/7"
     ]
@@ -4351,17 +4395,6 @@
     "city": "Poznań",
     "longitude": 16.91072,
     "latitude": 52.43358,
-    "popupLines": [
-      "24/7"
-    ]
-  },
-  {
-    "id": "POZ51N",
-    "label": "Przy supermarkecie Intermarche po prawej stronie",
-    "address": "Umultowska 32",
-    "city": "Poznań",
-    "longitude": 16.92924,
-    "latitude": 52.45161,
     "popupLines": [
       "24/7"
     ]
@@ -5181,6 +5214,17 @@
     ]
   },
   {
+    "id": "ROA01M",
+    "label": "Obok wejścia do sklepu",
+    "address": "Szkola 2A",
+    "city": "Robakowo",
+    "longitude": 17.05297,
+    "latitude": 52.29552,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "ROA01N",
     "label": "Na parkingu za budynkiem Centrum Medycznego KORMED",
     "address": "Szkolna 18",
@@ -5390,6 +5434,17 @@
     ]
   },
   {
+    "id": "SKW05M",
+    "label": "Na parkingu sklepu Żabka",
+    "address": "Poznańska 80",
+    "city": "Skórzewo",
+    "longitude": 16.79726,
+    "latitude": 52.39386,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
     "id": "SLS01A",
     "label": "Parking przed magazynem Grupa Aptekarska",
     "address": "Nektarowa 15",
@@ -5467,17 +5522,6 @@
     ]
   },
   {
-    "id": "SWD01A",
-    "label": "Przy markecie Tesco",
-    "address": "Cieszkowskiego 39",
-    "city": "Swarzędz",
-    "longitude": 17.082818,
-    "latitude": 52.419519,
-    "popupLines": [
-      "24/7"
-    ]
-  },
-  {
     "id": "SWD01B",
     "label": "Stacja paliw BP",
     "address": "Poznańska 45",
@@ -5528,6 +5572,17 @@
     "city": "Swarzędz",
     "longitude": 17.06001,
     "latitude": 52.40132,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "SWD02M",
+    "label": "Przy parkingu sklepu Lidl",
+    "address": "Polna 23",
+    "city": "Swarzędz",
+    "longitude": 17.08367,
+    "latitude": 52.40756,
     "popupLines": [
       "24/7"
     ]
@@ -5715,6 +5770,17 @@
     "city": "Tulce",
     "longitude": 17.07429,
     "latitude": 52.34377,
+    "popupLines": [
+      "24/7"
+    ]
+  },
+  {
+    "id": "WGT01M",
+    "label": "Na parkingu Auto Części",
+    "address": "Wierzbowa 184",
+    "city": "Wysogotowo",
+    "longitude": 16.77396,
+    "latitude": 52.41877,
     "popupLines": [
       "24/7"
     ]

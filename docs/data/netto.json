@@ -72,6 +72,15 @@
     "popupLines": []
   },
   {
+    "id": "5cd7eea8-6745-43c5-bce9-65180adb5d31",
+    "label": "Netto Poznań",
+    "address": "Ul. Hawelańska 2a/48",
+    "city": "Poznań",
+    "longitude": 16.94948,
+    "latitude": 52.43577,
+    "popupLines": []
+  },
+  {
     "id": "63d16f47-8667-47be-80c8-e0a56db4751a",
     "label": "Netto Skórzewo",
     "address": "Poznańska 98",

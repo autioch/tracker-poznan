@@ -1,7 +1,7 @@
 import cheerio from 'cheerio';
 import fs from 'fs/promises';
 
-import { joinFromCurrentDir, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { joinFromCurrentDir, saveOutputItems } from '../utils.mjs';
 
 const join = joinFromCurrentDir(import.meta, 'db');
 
@@ -30,14 +30,10 @@ function getItemList(html) {
   return shopList;
 }
 
-(async () => {
-  const fileNames = await fs.readdir(join());
-  const tablePromises = fileNames.map((fileName) => fs.readFile(join(fileName), 'utf8'));
+const fileNames = await fs.readdir(join());
+const tablePromises = fileNames.map((fileName) => fs.readFile(join(fileName), 'utf8'));
 
-  const htmls = await Promise.all(tablePromises);
-  const itemList = htmls.flatMap(getItemList);
+const htmls = await Promise.all(tablePromises);
+const itemList = htmls.flatMap(getItemList);
 
-  itemList.sort((a, b) => a.id.localeCompare(b.id));
-
-  saveOutputItems('pharmacy', itemList);
-})();
+saveOutputItems('pharmacy', itemList);

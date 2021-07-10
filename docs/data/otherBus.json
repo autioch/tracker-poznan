@@ -11545,10 +11545,10 @@
     "longitude": "16.8348496000",
     "latitude": "52.5080628500",
     "closestLines": [
-      "832, 905, 907"
+      "832"
     ],
     "popupLines": [
-      "832, 905, 907"
+      "832"
     ]
   },
   {
@@ -20954,6 +20954,20 @@
     ]
   },
   {
+    "id": "2681",
+    "label": "Szczodrzykowo/Szkoła",
+    "address": "",
+    "city": "",
+    "longitude": "17.1028057700",
+    "latitude": "52.2852619500",
+    "closestLines": [
+      "502"
+    ],
+    "popupLines": [
+      "502"
+    ]
+  },
+  {
     "id": "2741",
     "label": "Jankowice/Poznańska",
     "address": "",
@@ -20982,26 +20996,12 @@
     ]
   },
   {
-    "id": "2752",
-    "label": "Robakowo/Szkolna Rondo",
+    "id": "2751",
+    "label": "Robakowo/Szkoła",
     "address": "",
     "city": "",
-    "longitude": "17.0704373300",
-    "latitude": "52.3088719400",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "2753",
-    "label": "Robakowo/Szkolna Rondo",
-    "address": "",
-    "city": "",
-    "longitude": "17.0695154800",
-    "latitude": "52.3093387000",
+    "longitude": "17.0563948177",
+    "latitude": "52.3009873219",
     "closestLines": [
       "502"
     ],
@@ -21049,104 +21049,6 @@
     ],
     "popupLines": [
       "501, 502, 560"
-    ]
-  },
-  {
-    "id": "2757",
-    "label": "Robakowo/Szeroka",
-    "address": "",
-    "city": "",
-    "longitude": "17.0756328800",
-    "latitude": "52.3068938600",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "2758",
-    "label": "Robakowo/Szeroka",
-    "address": "",
-    "city": "",
-    "longitude": "17.0746050700",
-    "latitude": "52.3073130000",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "2759",
-    "label": "Dachowa/Kręta",
-    "address": "",
-    "city": "",
-    "longitude": "17.0823806100",
-    "latitude": "52.3041175400",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "2760",
-    "label": "Dachowa/Kręta",
-    "address": "",
-    "city": "",
-    "longitude": "17.0817273900",
-    "latitude": "52.3044238900",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "2763",
-    "label": "Dachowa/Klonowa",
-    "address": "",
-    "city": "",
-    "longitude": "17.0990619100",
-    "latitude": "52.2961681100",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "2765",
-    "label": "Szczodrzykowo/Poznańska",
-    "address": "",
-    "city": "",
-    "longitude": "17.1080833300",
-    "latitude": "52.2927239400",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "2766",
-    "label": "Szczodrzykowo/Poznańska",
-    "address": "",
-    "city": "",
-    "longitude": "17.1068273600",
-    "latitude": "52.2931570100",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
     ]
   },
   {
@@ -22032,8 +21934,8 @@
     "label": "Lisówki/DPS",
     "address": "",
     "city": "",
-    "longitude": "16.6473299180",
-    "latitude": "52.3323078718",
+    "longitude": "16.6469710000",
+    "latitude": "52.3324740000",
     "closestLines": [
       "729"
     ],
@@ -22186,8 +22088,8 @@
     "label": "Konarzewo/Kościelna",
     "address": "",
     "city": "",
-    "longitude": "16.7123517423",
-    "latitude": "52.3350597711",
+    "longitude": "16.7112930000",
+    "latitude": "52.3349070000",
     "closestLines": [
       "Other bus: 729, 791",
       "Night: 257"
@@ -22202,8 +22104,8 @@
     "label": "Konarzewo/Kościelna",
     "address": "",
     "city": "",
-    "longitude": "16.7118499852",
-    "latitude": "52.3349515029",
+    "longitude": "16.7112690000",
+    "latitude": "52.3348080000",
     "closestLines": [
       "729, 791"
     ],
@@ -22666,8 +22568,8 @@
     "label": "Więckowice/Gromadzka",
     "address": "",
     "city": "",
-    "longitude": "16.6383868346",
-    "latitude": "52.3930894381",
+    "longitude": "16.6379850000",
+    "latitude": "52.3955110000",
     "closestLines": [
       "792"
     ],
@@ -22680,8 +22582,8 @@
     "label": "Więckowice/Gromadzka",
     "address": "",
     "city": "",
-    "longitude": "16.6383278044",
-    "latitude": "52.3933507417",
+    "longitude": "16.6383990000",
+    "latitude": "59.3935560000",
     "closestLines": [
       "792"
     ],
@@ -22694,8 +22596,8 @@
     "label": "Więckowice/Szkoła",
     "address": "",
     "city": "",
-    "longitude": "16.6382097439",
-    "latitude": "52.3955041853",
+    "longitude": "16.6378490000",
+    "latitude": "52.3967070000",
     "closestLines": [
       "792"
     ],
@@ -22708,8 +22610,8 @@
     "label": "Więckowice/Szkoła",
     "address": "",
     "city": "",
-    "longitude": "16.6382687741",
-    "latitude": "52.3957744846",
+    "longitude": "16.6380710000",
+    "latitude": "52.3967880000",
     "closestLines": [
       "792"
     ],
@@ -22870,8 +22772,8 @@
     "label": "Konarzewo/Cmentarz",
     "address": "",
     "city": "",
-    "longitude": "16.7060502628",
-    "latitude": "52.3336161732",
+    "longitude": "16.7039650000",
+    "latitude": "52.3332330000",
     "closestLines": [
       "791"
     ],
@@ -22884,8 +22786,8 @@
     "label": "Konarzewo/Cmentarz",
     "address": "",
     "city": "",
-    "longitude": "16.7064339594",
-    "latitude": "52.3337244446",
+    "longitude": "16.7040110000",
+    "latitude": "52.3331360000",
     "closestLines": [
       "791"
     ],
@@ -22968,8 +22870,8 @@
     "label": "Lisówki/Wieś",
     "address": "",
     "city": "",
-    "longitude": "16.6406299843",
-    "latitude": "52.3218039677",
+    "longitude": "16.6433730000",
+    "latitude": "52.3213090000",
     "closestLines": [
       "791"
     ],
@@ -22982,8 +22884,8 @@
     "label": "Trzcielin/",
     "address": "",
     "city": "",
-    "longitude": "16.6798408302",
-    "latitude": "52.3224537661",
+    "longitude": "16.6794880000",
+    "latitude": "52.3222640000",
     "closestLines": [
       "791"
     ],
@@ -23012,8 +22914,8 @@
     "label": "Lisówki/Trzcielińska",
     "address": "",
     "city": "",
-    "longitude": "16.6508127030",
-    "latitude": "52.3210729331",
+    "longitude": "16.6490040000",
+    "latitude": "52.3210430000",
     "closestLines": [
       "791"
     ],
@@ -23026,8 +22928,8 @@
     "label": "Lisówki/Trzcielińska",
     "address": "",
     "city": "",
-    "longitude": "16.6498239463",
-    "latitude": "52.3211000087",
+    "longitude": "16.6489890000",
+    "latitude": "52.3211410000",
     "closestLines": [
       "791"
     ],
@@ -24140,90 +24042,6 @@
     ]
   },
   {
-    "id": "3756",
-    "label": "Dachowa/Wiatrakowa",
-    "address": "",
-    "city": "",
-    "longitude": "17.0878213600",
-    "latitude": "52.3022397800",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "3757",
-    "label": "Dachowa/Wiatrakowa",
-    "address": "",
-    "city": "",
-    "longitude": "17.0880401100",
-    "latitude": "52.3023393500",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "3758",
-    "label": "Dachowa/Okrężna",
-    "address": "",
-    "city": "",
-    "longitude": "17.0980993300",
-    "latitude": "52.3038408100",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "3759",
-    "label": "Dachowa/Okrężna",
-    "address": "",
-    "city": "",
-    "longitude": "17.0977596500",
-    "latitude": "52.3040413400",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "3760",
-    "label": "Dachowa/Klonowa",
-    "address": "",
-    "city": "",
-    "longitude": "17.0984031800",
-    "latitude": "52.2973633200",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
-    "id": "3761",
-    "label": "Dachowa/Klonowa",
-    "address": "",
-    "city": "",
-    "longitude": "17.0984648600",
-    "latitude": "52.2976754900",
-    "closestLines": [
-      "502"
-    ],
-    "popupLines": [
-      "502"
-    ]
-  },
-  {
     "id": "3775",
     "label": "Rabowice/Świerkowe Tarasy",
     "address": "",
@@ -25056,6 +24874,62 @@
     ]
   },
   {
+    "id": "4146",
+    "label": "Dachowa/Cisowa",
+    "address": "",
+    "city": "",
+    "longitude": "17.0796674952",
+    "latitude": "52.2918668007",
+    "closestLines": [
+      "502"
+    ],
+    "popupLines": [
+      "502"
+    ]
+  },
+  {
+    "id": "4147",
+    "label": "Robakowo/Przyjazna",
+    "address": "",
+    "city": "",
+    "longitude": "17.0643196293",
+    "latitude": "52.2979443469",
+    "closestLines": [
+      "502"
+    ],
+    "popupLines": [
+      "502"
+    ]
+  },
+  {
+    "id": "4148",
+    "label": "Robakowo/Szkolna Rondo",
+    "address": "",
+    "city": "",
+    "longitude": "17.0664447184",
+    "latitude": "52.3097809762",
+    "closestLines": [
+      "502"
+    ],
+    "popupLines": [
+      "502"
+    ]
+  },
+  {
+    "id": "4149",
+    "label": "Robakowo/Nowina",
+    "address": "",
+    "city": "",
+    "longitude": "17.0730561068",
+    "latitude": "52.2936729937",
+    "closestLines": [
+      "502"
+    ],
+    "popupLines": [
+      "502"
+    ]
+  },
+  {
     "id": "4151",
     "label": "Dębogóra/Wiązowa",
     "address": "",
@@ -25148,8 +25022,8 @@
     "label": "Dopiewiec/Leśna Polana",
     "address": "",
     "city": "",
-    "longitude": "16.7175906774",
-    "latitude": "52.3739650208",
+    "longitude": "16.7174770000",
+    "latitude": "52.3741050000",
     "closestLines": [
       "799"
     ],
@@ -25232,8 +25106,8 @@
     "label": "Pokrzywnica/Działki",
     "address": "",
     "city": "",
-    "longitude": "16.6846517959",
-    "latitude": "52.3929632909",
+    "longitude": "16.6844040000",
+    "latitude": "59.3929770000",
     "closestLines": [
       "792"
     ],
@@ -25339,6 +25213,34 @@
     ],
     "popupLines": [
       "832"
+    ]
+  },
+  {
+    "id": "4222",
+    "label": "Kobylnica/Stacja",
+    "address": "",
+    "city": "",
+    "longitude": "17.0811432515",
+    "latitude": "52.4457963742",
+    "closestLines": [
+      "492, 494"
+    ],
+    "popupLines": [
+      "492, 494"
+    ]
+  },
+  {
+    "id": "4223",
+    "label": "Swarzędz/Węzeł Przesiadkowy",
+    "address": "",
+    "city": "",
+    "longitude": "17.0733955307",
+    "latitude": "52.4044952535",
+    "closestLines": [
+      "412, 484, 485, 486, 490, 491, 492, 493, 494, 498"
+    ],
+    "popupLines": [
+      "412, 484, 485, 486, 490, 491, 492, 493, 494, 498"
     ]
   }
 ]

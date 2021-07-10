@@ -1,233 +1,13 @@
 [
   {
-    "id": "1816",
-    "label": "ul. Piątkowska",
-    "address": "ul. Piątkowska",
+    "id": "1012",
+    "label": "ul. Bobrzańska 19",
+    "address": "ul. Bobrzańska 19",
     "city": "Poznań",
-    "longitude": 16.9187,
-    "latitude": 52.42528,
+    "longitude": 16.97358,
+    "latitude": 52.38194,
     "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1907",
-    "label": "Mieszka I 38",
-    "address": "Mieszka I 38",
-    "city": "Poznań",
-    "longitude": 16.92137,
-    "latitude": 52.44555,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1884",
-    "label": "ul. Kościelna 40",
-    "address": "ul. Kościelna 40",
-    "city": "Poznań",
-    "longitude": 16.90702,
-    "latitude": 52.41593,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1231",
-    "label": "ul. Obornicka 282-284",
-    "address": "ul. Obornicka 282-284",
-    "city": "Poznań",
-    "longitude": 16.90544,
-    "latitude": 52.45097,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1446",
-    "label": "Naramowicka 142",
-    "address": "Naramowicka 142",
-    "city": "Poznań",
-    "longitude": 16.94645,
-    "latitude": 52.44288,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1893",
-    "label": "ul. Ku Cytadeli 2",
-    "address": "ul. Ku Cytadeli 2",
-    "city": "Poznań",
-    "longitude": 16.93439,
-    "latitude": 52.41537,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1827",
-    "label": "Wilkońskich  1",
-    "address": "Wilkońskich  1",
-    "city": "Poznań",
-    "longitude": 16.89065,
-    "latitude": 52.41687,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1262",
-    "label": "ul. Szymanowskiego 13",
-    "address": "ul. Szymanowskiego 13",
-    "city": "Poznań",
-    "longitude": 16.90746,
-    "latitude": 52.46008,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1708",
-    "label": "ul. Św. Marcin 24",
-    "address": "ul. Św. Marcin 24",
-    "city": "Poznań",
-    "longitude": 16.92829,
-    "latitude": 52.40648,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-18:00"
-    ]
-  },
-  {
-    "id": "1668",
-    "label": "ul. Szarych Szeregów 42",
-    "address": "ul. Szarych Szeregów 42",
-    "city": "Poznań",
-    "longitude": 16.88336,
-    "latitude": 52.46047,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1479",
-    "label": "ul. Główna 28",
-    "address": "ul. Główna 28",
-    "city": "Poznań",
-    "longitude": 16.9688,
-    "latitude": 52.42019,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1426",
-    "label": "ul. Bułgarska 113",
-    "address": "ul. Bułgarska 113",
-    "city": "Poznań",
-    "longitude": 16.86801,
-    "latitude": 52.40885,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1651",
-    "label": "ul. Grunwaldzka 104 b",
-    "address": "ul. Grunwaldzka 104 b",
-    "city": "Poznań",
-    "longitude": 16.87067,
-    "latitude": 52.39685,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1809",
-    "label": "ul. Gdyńska 66",
-    "address": "ul. Gdyńska 66",
-    "city": "Koziegłowy",
-    "longitude": 16.98492,
-    "latitude": 52.45314,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1324",
-    "label": "ul. Fabryczna 23",
-    "address": "ul. Fabryczna 23",
-    "city": "Poznań",
-    "longitude": 16.91022,
-    "latitude": 52.38671,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1780",
-    "label": "ul. Palacza 18",
-    "address": "ul. Palacza 18",
-    "city": "Poznań",
-    "longitude": 16.88758,
-    "latitude": 52.38792,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1245",
-    "label": "ul. Zamenhofa 132",
-    "address": "ul. Zamenhofa 132",
-    "city": "Poznań",
-    "longitude": 16.94432,
-    "latitude": 52.38475,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1704",
-    "label": "ul. Obornicka 127",
-    "address": "ul. Obornicka 127",
-    "city": "Suchy Las",
-    "longitude": 16.86933,
-    "latitude": 52.47792,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1764",
-    "label": "ul. Piłsudskiego 116",
-    "address": "ul. Piłsudskiego 116",
-    "city": "Poznań",
-    "longitude": 16.96082,
-    "latitude": 52.3863,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1754",
-    "label": "ul. Wejherowska 4",
-    "address": "ul. Wejherowska 4",
-    "city": "Poznań",
-    "longitude": 16.82509,
-    "latitude": 52.43134,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1791",
-    "label": "Warszawska 246A",
-    "address": "Warszawska 246A",
-    "city": "Poznań",
-    "longitude": 17.0071,
-    "latitude": 52.41031,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
     ]
   },
   {
@@ -238,29 +18,7 @@
     "longitude": 16.87551,
     "latitude": 52.37833,
     "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1012",
-    "label": "ul. Bobrzańska 19",
-    "address": "ul. Bobrzańska 19",
-    "city": "Poznań",
-    "longitude": 16.97358,
-    "latitude": 52.38194,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1773",
-    "label": "Abp. Dymka",
-    "address": "Abp. Dymka",
-    "city": "Poznań",
-    "longitude": 16.99482,
-    "latitude": 52.39302,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
     ]
   },
   {
@@ -271,62 +29,7 @@
     "longitude": 16.90449,
     "latitude": 52.35925,
     "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1799",
-    "label": "ul. STAROŁĘCKA 109b",
-    "address": "ul. STAROŁĘCKA 109b",
-    "city": "Poznań",
-    "longitude": 16.92459,
-    "latitude": 52.35798,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1761",
-    "label": "ul. Poznańska 100",
-    "address": "ul. Poznańska 100",
-    "city": "Skórzewo",
-    "longitude": 16.80088,
-    "latitude": 52.39638,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1591",
-    "label": "Ostrowska 340",
-    "address": "Ostrowska 340",
-    "city": "Poznań",
-    "longitude": 16.99305,
-    "latitude": 52.36641,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
-    ]
-  },
-  {
-    "id": "1815",
-    "label": "GRUNWALDZKA 533-541",
-    "address": "GRUNWALDZKA 533-541",
-    "city": "PLEWISKA",
-    "longitude": 16.81028,
-    "latitude": 52.3672,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
-    ]
-  },
-  {
-    "id": "1974",
-    "label": "ul. Planetarna 20",
-    "address": "ul. Planetarna 20",
-    "city": "Zalasewo",
-    "longitude": 17.06796,
-    "latitude": 52.39011,
-    "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
     ]
   },
   {
@@ -337,29 +40,84 @@
     "longitude": 17.08423,
     "latitude": 52.40783,
     "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
     ]
   },
   {
-    "id": "1711",
-    "label": "ul. Nowa 2 do 8",
-    "address": "ul. Nowa 2 do 8",
-    "city": "Komorniki",
-    "longitude": 16.81411,
-    "latitude": 52.34012,
+    "id": "1231",
+    "label": "ul. Obornicka 282-284",
+    "address": "ul. Obornicka 282-284",
+    "city": "Poznań",
+    "longitude": 16.90544,
+    "latitude": 52.45097,
     "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00"
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
     ]
   },
   {
-    "id": "1911",
-    "label": "Poznańska 29",
-    "address": "Poznańska 29",
-    "city": "Łęczyca",
-    "longitude": 16.8791,
-    "latitude": 52.31148,
+    "id": "1245",
+    "label": "ul. Zamenhofa 132",
+    "address": "ul. Zamenhofa 132",
+    "city": "Poznań",
+    "longitude": 16.94432,
+    "latitude": 52.38475,
     "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
+    ]
+  },
+  {
+    "id": "1262",
+    "label": "ul. Szymanowskiego 13",
+    "address": "ul. Szymanowskiego 13",
+    "city": "Poznań",
+    "longitude": 16.90746,
+    "latitude": 52.46008,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
+    ]
+  },
+  {
+    "id": "1324",
+    "label": "ul. Fabryczna 23",
+    "address": "ul. Fabryczna 23",
+    "city": "Poznań",
+    "longitude": 16.91022,
+    "latitude": 52.38671,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
+    ]
+  },
+  {
+    "id": "1426",
+    "label": "ul. Bułgarska 113",
+    "address": "ul. Bułgarska 113",
+    "city": "Poznań",
+    "longitude": 16.86801,
+    "latitude": 52.40885,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
+    ]
+  },
+  {
+    "id": "1446",
+    "label": "Naramowicka 142",
+    "address": "Naramowicka 142",
+    "city": "Poznań",
+    "longitude": 16.94645,
+    "latitude": 52.44288,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1479",
+    "label": "ul. Główna 28",
+    "address": "ul. Główna 28",
+    "city": "Poznań",
+    "longitude": 16.9688,
+    "latitude": 52.42019,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
     ]
   },
   {
@@ -370,7 +128,183 @@
     "longitude": 16.6533,
     "latitude": 52.46156,
     "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1591",
+    "label": "Ostrowska 340",
+    "address": "Ostrowska 340",
+    "city": "Poznań",
+    "longitude": 16.99305,
+    "latitude": 52.36641,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
+    ]
+  },
+  {
+    "id": "1651",
+    "label": "ul. Grunwaldzka 104 b",
+    "address": "ul. Grunwaldzka 104 b",
+    "city": "Poznań",
+    "longitude": 16.87067,
+    "latitude": 52.39685,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
+    ]
+  },
+  {
+    "id": "1668",
+    "label": "ul. Szarych Szeregów 42",
+    "address": "ul. Szarych Szeregów 42",
+    "city": "Poznań",
+    "longitude": 16.88336,
+    "latitude": 52.46047,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1704",
+    "label": "ul. Obornicka 127",
+    "address": "ul. Obornicka 127",
+    "city": "Suchy Las",
+    "longitude": 16.86933,
+    "latitude": 52.47792,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1708",
+    "label": "ul. Św. Marcin 24",
+    "address": "ul. Św. Marcin 24",
+    "city": "Poznań",
+    "longitude": 16.92829,
+    "latitude": 52.40648,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-18:00<br/>"
+    ]
+  },
+  {
+    "id": "1711",
+    "label": "ul. Nowa 2 do 8",
+    "address": "ul. Nowa 2 do 8",
+    "city": "Komorniki",
+    "longitude": 16.81411,
+    "latitude": 52.34012,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
+    ]
+  },
+  {
+    "id": "1754",
+    "label": "ul. Wejherowska 4",
+    "address": "ul. Wejherowska 4",
+    "city": "Poznań",
+    "longitude": 16.82509,
+    "latitude": 52.43134,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
+    ]
+  },
+  {
+    "id": "1761",
+    "label": "ul. Poznańska 100",
+    "address": "ul. Poznańska 100",
+    "city": "Skórzewo",
+    "longitude": 16.80088,
+    "latitude": 52.39638,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
+    ]
+  },
+  {
+    "id": "1764",
+    "label": "ul. Piłsudskiego 116",
+    "address": "ul. Piłsudskiego 116",
+    "city": "Poznań",
+    "longitude": 16.96082,
+    "latitude": 52.3863,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1773",
+    "label": "Abp. Dymka",
+    "address": "Abp. Dymka",
+    "city": "Poznań",
+    "longitude": 16.99482,
+    "latitude": 52.39302,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1780",
+    "label": "ul. Palacza 18",
+    "address": "ul. Palacza 18",
+    "city": "Poznań",
+    "longitude": 16.88758,
+    "latitude": 52.38792,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
+    ]
+  },
+  {
+    "id": "1791",
+    "label": "Warszawska 246A",
+    "address": "Warszawska 246A",
+    "city": "Poznań",
+    "longitude": 17.0071,
+    "latitude": 52.41031,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1799",
+    "label": "ul. STAROŁĘCKA 109b",
+    "address": "ul. STAROŁĘCKA 109b",
+    "city": "Poznań",
+    "longitude": 16.92459,
+    "latitude": 52.35798,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1809",
+    "label": "ul. Gdyńska 66",
+    "address": "ul. Gdyńska 66",
+    "city": "Koziegłowy",
+    "longitude": 16.98492,
+    "latitude": 52.45314,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1815",
+    "label": "GRUNWALDZKA 533-541",
+    "address": "GRUNWALDZKA 533-541",
+    "city": "PLEWISKA",
+    "longitude": 16.81028,
+    "latitude": 52.3672,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1816",
+    "label": "ul. Piątkowska",
+    "address": "ul. Piątkowska",
+    "city": "Poznań",
+    "longitude": 16.9187,
+    "latitude": 52.42528,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-20:00<br/>"
     ]
   },
   {
@@ -381,7 +315,73 @@
     "longitude": 16.84402,
     "latitude": 52.24507,
     "popupLines": [
-      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00"
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1827",
+    "label": "Wilkońskich  1",
+    "address": "Wilkońskich  1",
+    "city": "Poznań",
+    "longitude": 16.89065,
+    "latitude": 52.41687,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1884",
+    "label": "ul. Kościelna 40",
+    "address": "ul. Kościelna 40",
+    "city": "Poznań",
+    "longitude": 16.90702,
+    "latitude": 52.41593,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1893",
+    "label": "ul. Ku Cytadeli 2",
+    "address": "ul. Ku Cytadeli 2",
+    "city": "Poznań",
+    "longitude": 16.93439,
+    "latitude": 52.41537,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1907",
+    "label": "Mieszka I 38",
+    "address": "Mieszka I 38",
+    "city": "Poznań",
+    "longitude": 16.92137,
+    "latitude": 52.44555,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1911",
+    "label": "Poznańska 29",
+    "address": "Poznańska 29",
+    "city": "Łęczyca",
+    "longitude": 16.8791,
+    "latitude": 52.31148,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
+    ]
+  },
+  {
+    "id": "1974",
+    "label": "ul. Planetarna 20",
+    "address": "ul. Planetarna 20",
+    "city": "Zalasewo",
+    "longitude": 17.06796,
+    "latitude": 52.39011,
+    "popupLines": [
+      "po 06:00-22:00<br>wt 06:00-22:00<br>śr 06:00-22:00<br>cz 06:00-22:00<br>pi 06:00-22:00<br>so 06:00-22:00<br>ni 09:00-19:00<br/>"
     ]
   }
 ]

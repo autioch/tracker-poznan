@@ -135,6 +135,15 @@
     "popupLines": []
   },
   {
+    "id": "ID00684",
+    "label": "ID00684",
+    "address": "",
+    "city": "",
+    "longitude": 16.905581,
+    "latitude": 52.415875,
+    "popupLines": []
+  },
+  {
     "id": "ID00685",
     "label": "ID00685",
     "address": "",
@@ -285,15 +294,6 @@
     "city": "",
     "longitude": 16.909022,
     "latitude": 52.414025,
-    "popupLines": []
-  },
-  {
-    "id": "ID01047",
-    "label": "ID01047",
-    "address": "",
-    "city": "",
-    "longitude": 16.919313,
-    "latitude": 52.39228,
     "popupLines": []
   },
   {
@@ -1035,6 +1035,15 @@
     "popupLines": []
   },
   {
+    "id": "ID03125",
+    "label": "ID03125",
+    "address": "",
+    "city": "",
+    "longitude": 16.933825,
+    "latitude": 52.39948,
+    "popupLines": []
+  },
+  {
     "id": "ID03129",
     "label": "ID03129",
     "address": "",
@@ -1278,15 +1287,6 @@
     "popupLines": []
   },
   {
-    "id": "ID03522",
-    "label": "ID03522",
-    "address": "",
-    "city": "",
-    "longitude": 16.892131,
-    "latitude": 52.384519,
-    "popupLines": []
-  },
-  {
     "id": "ID03523",
     "label": "ID03523",
     "address": "",
@@ -1374,15 +1374,6 @@
     "city": "",
     "longitude": 16.925172,
     "latitude": 52.407847,
-    "popupLines": []
-  },
-  {
-    "id": "ID03627",
-    "label": "ID03627",
-    "address": "",
-    "city": "",
-    "longitude": 16.872287,
-    "latitude": 52.404098,
     "popupLines": []
   },
   {
@@ -1518,6 +1509,15 @@
     "city": "",
     "longitude": 16.901979,
     "latitude": 52.395214,
+    "popupLines": []
+  },
+  {
+    "id": "ID03843",
+    "label": "ID03843",
+    "address": "",
+    "city": "",
+    "longitude": 16.874763,
+    "latitude": 52.349445,
     "popupLines": []
   },
   {
@@ -3186,15 +3186,6 @@
     "popupLines": []
   },
   {
-    "id": "ID08381",
-    "label": "ID08381",
-    "address": "",
-    "city": "",
-    "longitude": 16.880646,
-    "latitude": 52.359464,
-    "popupLines": []
-  },
-  {
     "id": "ID08404",
     "label": "ID08404",
     "address": "",
@@ -3516,6 +3507,15 @@
     "city": "",
     "longitude": 16.94579,
     "latitude": 52.43293,
+    "popupLines": []
+  },
+  {
+    "id": "ID09372",
+    "label": "ID09372",
+    "address": "",
+    "city": "",
+    "longitude": 17.032227,
+    "latitude": 52.442507,
     "popupLines": []
   },
   {

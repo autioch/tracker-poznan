@@ -1,4 +1,4 @@
-import { saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { saveOutputItems } from '../utils.mjs';
 import tmp from './tmp.mjs';
 
 const shopList = tmp
@@ -8,7 +8,7 @@ const shopList = tmp
     const [label, address, city] = text.split('<br>').map((text2) => text2.trim());
 
     return {
-      id: index,
+      id: index.toString(),
       label,
       address,
       city,

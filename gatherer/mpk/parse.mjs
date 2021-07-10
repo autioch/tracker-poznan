@@ -129,9 +129,7 @@ const shapesDict = shapes.reduce((obj, { shape_id, shape_pt_lat, shape_pt_lon, s
   return obj;
 }, {});
 
-(async () => {
-  await finalizeGroup('tram', tramStops, shapesDict, trips, tramRouteIds);
-  await finalizeGroup('bus', mpkBusStops, shapesDict, trips, mpkBusRouteIds);
-  await finalizeGroup('otherBus', otherBusStops, shapesDict, trips, otherBusRouteIds);
-  await finalizeGroup('night', nightStops, shapesDict, trips, nightRouteIds);
-})();
+await finalizeGroup('tram', tramStops, shapesDict, trips, tramRouteIds);
+await finalizeGroup('bus', mpkBusStops, shapesDict, trips, mpkBusRouteIds);
+await finalizeGroup('otherBus', otherBusStops, shapesDict, trips, otherBusRouteIds);
+await finalizeGroup('night', nightStops, shapesDict, trips, nightRouteIds);

@@ -2,10 +2,9 @@ import turf from '@turf/turf';
 import union from '@turf/union';
 import spherical from 'spherical';
 
-import { joinFromCurrentDir, require, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { saveOutputItems } from '../utils.mjs';
 import { NIGHT_ROUTE } from './consts.mjs';
-
-const optimizeShapeGroup = require(joinFromCurrentDir(import.meta)('optimizeShapeGroup.js'));
+import optimizeShapeGroup from './optimizeShapeGroup.mjs';
 
 export const pickRouteId = ({ route_id }) => route_id;
 export const pickTripId = ({ trip_id }) => trip_id;

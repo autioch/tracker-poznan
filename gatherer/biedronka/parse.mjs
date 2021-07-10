@@ -1,7 +1,7 @@
 import cheerio from 'cheerio';
 import fs from 'fs/promises';
 
-import { forwardGeocode, joinFromCurrentDir, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { forwardGeocode, joinFromCurrentDir, saveOutputItems } from '../utils.mjs';
 
 const join = joinFromCurrentDir(import.meta, 'db');
 
@@ -17,7 +17,7 @@ function getShopId($shop, pageIndex, shopIndex) {
 function getShopList(html, pageIndex) {
   const $ = cheerio.load(html);
 
-  const shopList = $('.shopListElement').get().map((el, shopIndex) => {
+  return $('.shopListElement').get().map((el, shopIndex) => {
     const $shop = $(el);
     const addressWithPostalCode = $shop.find('.shopAddress').text();
     const address = addressWithPostalCode.split('\n').pop().trim();
@@ -32,8 +32,6 @@ function getShopList(html, pageIndex) {
       popupLines: [$shop.find('p').html().split('<br>').map((text) => $(text.trim()).text()).slice(1, -1).join('<br/>')]
     };
   });
-
-  return shopList;
 }
 
 async function geoLocateShop(shop) {
@@ -49,17 +47,13 @@ async function geoLocateShop(shop) {
   shop.longitude = lng;
 }
 
-(async () => {
-  const fileNames = await fs.readdir(join());
-  const tablePromises = fileNames.map((fileName) => fs.readFile(join(fileName), 'utf8'));
+const fileNames = await fs.readdir(join());
+const tablePromises = fileNames.map((fileName) => fs.readFile(join(fileName), 'utf8'));
 
-  const htmls = await Promise.all(tablePromises);
-  const shopList = htmls.flatMap(getShopList);
-  const geocodeReqs = shopList.map(geoLocateShop);
+const htmls = await Promise.all(tablePromises);
+const shopList = htmls.flatMap(getShopList);
+const geocodeReqs = shopList.map(geoLocateShop);
 
-  await Promise.all(geocodeReqs);
+await Promise.all(geocodeReqs);
 
-  shopList.sort((a, b) => a.id.localeCompare(b.id));
-
-  saveOutputItems('biedronka', shopList);
-})();
+saveOutputItems('biedronka', shopList);

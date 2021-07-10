@@ -13,12 +13,6 @@ const join = joinFromCurrentDir(import.meta, 'db');
 // https://www.mastercard.pl/pl-pl/klient-indywidualny/pomoc/lokalizator-bankomatow.html
 const url = 'https://www.mastercard.pl/locator/NearestLocationsService/?latitude=52.406374&longitude=16.9251681&radius=5&distanceUnit=&locationType=atm&maxLocations=100&MERCH_ATTR_1=&instName=&supportEMV=&customAttr1=&locationTypeId=';
 
-(async () => {
-  if (!fs.existsSync(join())) {
-    await fs.promises.mkdir(join());
-  }
+const xml = await getPage(url);
 
-  const xml = await getPage(url);
-
-  await fs.promises.writeFile(join('mastercard.xml'), xml);
-})();
+await fs.promises.writeFile(join('mastercard.xml'), xml);

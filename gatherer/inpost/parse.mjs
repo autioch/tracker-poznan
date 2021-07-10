@@ -1,6 +1,3 @@
-/* eslint-disable no-param-reassign */
-/* eslint-disable max-len */
-
 import { require, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
 
 const data = require('./inpost/db/points.json');

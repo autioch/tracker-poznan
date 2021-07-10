@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import xml2js from 'xml2js';
 
-import { joinFromCurrentDir } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { joinFromCurrentDir } from '../utils.mjs';
 
 const join = joinFromCurrentDir(import.meta, 'db');
 

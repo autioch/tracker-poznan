@@ -143,12 +143,12 @@
     "longitude": "16.9756493300",
     "latitude": "52.3861128400",
     "closestLines": [
-      "Tram: 1, 5, 7, 11, 12, 14, 15, 16, 17, 18, 92",
+      "Tram: 1, 5, 7, 11, 12, 14, 15, 17, 18, 92",
       "Bus: 152, 162, 166, 184, 196",
       "Night: 201, 218, 231"
     ],
     "popupLines": [
-      "Tram: 1, 5, 7, 11, 12, 14, 15, 16, 17, 18, 92",
+      "Tram: 1, 5, 7, 11, 12, 14, 15, 17, 18, 92",
       "Bus: 152, 162, 166, 184, 196",
       "Night: 201, 218, 231"
     ]
@@ -8984,70 +8984,6 @@
     ]
   },
   {
-    "id": "1179",
-    "label": "Janikowska",
-    "address": "",
-    "city": "",
-    "longitude": "17.0020624300",
-    "latitude": "52.4317080300",
-    "closestLines": [
-      "Bus: 173",
-      "Night: 227"
-    ],
-    "popupLines": [
-      "Bus: 173",
-      "Night: 227"
-    ]
-  },
-  {
-    "id": "1180",
-    "label": "Janikowska",
-    "address": "",
-    "city": "",
-    "longitude": "17.0027201500",
-    "latitude": "52.4321270000",
-    "closestLines": [
-      "Bus: 173",
-      "Night: 227"
-    ],
-    "popupLines": [
-      "Bus: 173",
-      "Night: 227"
-    ]
-  },
-  {
-    "id": "1181",
-    "label": "Prząśniczki",
-    "address": "",
-    "city": "",
-    "longitude": "17.0086279000",
-    "latitude": "52.4338518300",
-    "closestLines": [
-      "Bus: 173",
-      "Night: 227"
-    ],
-    "popupLines": [
-      "Bus: 173",
-      "Night: 227"
-    ]
-  },
-  {
-    "id": "1182",
-    "label": "Prząśniczki",
-    "address": "",
-    "city": "",
-    "longitude": "17.0081972900",
-    "latitude": "52.4338584900",
-    "closestLines": [
-      "Bus: 173",
-      "Night: 227"
-    ],
-    "popupLines": [
-      "Bus: 173",
-      "Night: 227"
-    ]
-  },
-  {
     "id": "1183",
     "label": "Janikowo",
     "address": "",
@@ -9055,28 +8991,10 @@
     "longitude": "17.0178593100",
     "latitude": "52.4365520000",
     "closestLines": [
-      "Bus: 173",
-      "Night: 227"
+      "173"
     ],
     "popupLines": [
-      "Bus: 173",
-      "Night: 227"
-    ]
-  },
-  {
-    "id": "1184",
-    "label": "Janikowo",
-    "address": "",
-    "city": "",
-    "longitude": "17.0183890100",
-    "latitude": "52.4364344700",
-    "closestLines": [
-      "Bus: 173",
-      "Night: 227"
-    ],
-    "popupLines": [
-      "Bus: 173",
-      "Night: 227"
+      "173"
     ]
   },
   {
@@ -16443,20 +16361,6 @@
     ],
     "popupLines": [
       "148"
-    ]
-  },
-  {
-    "id": "2857",
-    "label": "Jawornicka",
-    "address": "",
-    "city": "",
-    "longitude": "16.8575366510",
-    "latitude": "52.3881153633",
-    "closestLines": [
-      "193"
-    ],
-    "popupLines": [
-      "193"
     ]
   },
   {

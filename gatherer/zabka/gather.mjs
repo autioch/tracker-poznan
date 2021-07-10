@@ -1,18 +1,9 @@
-import fs from 'fs';
+import fs from 'fs/promises';
 
-import { getPage, joinFromCurrentDir } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { getPage, joinFromCurrentDir } from '../utils.mjs';
 
 const join = joinFromCurrentDir(import.meta, 'db');
+const url = `https://www.zabka.pl/ajax/shop-clusters.json`; // https://www.zabka.pl/znajdz-sklep
+const rawJson = await getPage(url);
 
-// https://www.zabka.pl/znajdz-sklep
-const url = `https://www.zabka.pl/ajax/shop-clusters.json`;
-
-(async () => {
-  if (!fs.existsSync(join())) {
-    await fs.promises.mkdir(join());
-  }
-
-  const rawJson = await getPage(url);
-
-  await fs.promises.writeFile(join(`raw.json`), rawJson);
-})();
+await fs.writeFile(join(`raw.json`), rawJson);

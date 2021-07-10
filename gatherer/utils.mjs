@@ -1,4 +1,3 @@
-/* eslint-disable no-underscore-dangle */
 import fs from 'fs/promises';
 import https from 'https';
 import { createRequire } from 'module';
@@ -46,7 +45,9 @@ export function saveOutputItems(fileName, items, skipDistanceCheck = false) {
     return saveOutput(fileName, items, true);
   }
 
-  const nearCenter = items.filter((item) => isNearPoznanCenter(item.latitude, item.longitude)); // eslint-disable-line no-use-before-define
+  const nearCenter = items.filter((item) => isNearPoznanCenter(item.latitude, item.longitude));
+
+  nearCenter.sort((a, b) => a.id.localeCompare(b.id));
 
   console.log(`${fileName}: ${items.length} found, ${nearCenter.length} saved.`);
 

@@ -1,5 +1,5 @@
 /* eslint-disable max-nested-callbacks, no-param-reassign, no-bitwise, max-statements */
-import { isNearPoznanCenter } from '../utils.mjs'; // eslint-disable-line no-shadow
+import { isNearPoznanCenter } from '../utils.mjs';
 
 const pad = (item, len = 6) => item.toString().padEnd(len, ' ');
 
