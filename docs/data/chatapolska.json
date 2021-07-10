@@ -2,6 +2,24 @@
   {
     "id": "100",
     "label": "Chata Polska",
+    "address": "DĄBRÓWKI 1",
+    "city": "61-501 POZNAŃ",
+    "longitude": 16.920321,
+    "latitude": 52.387665,
+    "popupLines": []
+  },
+  {
+    "id": "101",
+    "label": "Chata Polska",
+    "address": "ul. Pokrzywno 26B",
+    "city": "61-316 POZNAŃ",
+    "longitude": 16.981059,
+    "latitude": 52.352157,
+    "popupLines": []
+  },
+  {
+    "id": "102",
+    "label": "Chata Polska",
     "address": "OS. JANA III SOBIESKIEGO 52/110",
     "city": "61-688 POZNAŃ",
     "longitude": 16.911916,
@@ -9,7 +27,7 @@
     "popupLines": []
   },
   {
-    "id": "101",
+    "id": "103",
     "label": "Chata Polska",
     "address": "OS. PIASTOWSKIE 78",
     "city": "61-156 POZNAŃ",
@@ -18,7 +36,7 @@
     "popupLines": []
   },
   {
-    "id": "102",
+    "id": "104",
     "label": "Chata Polska",
     "address": "OS BOLESŁAWA ŚMIAŁEGO 1",
     "city": "60-682 POZNAŃ",
@@ -27,7 +45,7 @@
     "popupLines": []
   },
   {
-    "id": "103",
+    "id": "105",
     "label": "Chata Polska",
     "address": "OS.POWST.NARODOWYCH 33",
     "city": "61-215 POZNAŃ",
@@ -36,7 +54,7 @@
     "popupLines": []
   },
   {
-    "id": "104",
+    "id": "106",
     "label": "Chata Polska",
     "address": "WARSZAWSKA 93",
     "city": "61-031 POZNAŃ",
@@ -45,7 +63,7 @@
     "popupLines": []
   },
   {
-    "id": "105",
+    "id": "107",
     "label": "Chata Polska",
     "address": "LITERACKA 34",
     "city": "60-641 POZNAŃ",
@@ -54,7 +72,7 @@
     "popupLines": []
   },
   {
-    "id": "106",
+    "id": "108",
     "label": "Chata Polska",
     "address": "KRASZEWSKIEGO 5",
     "city": "60-501 POZNAŃ",
@@ -63,7 +81,7 @@
     "popupLines": []
   },
   {
-    "id": "107",
+    "id": "109",
     "label": "Chata Polska",
     "address": "ZŁOTOWSKA 45",
     "city": "60-189 POZNAŃ",
@@ -72,7 +90,7 @@
     "popupLines": []
   },
   {
-    "id": "108",
+    "id": "110",
     "label": "Chata Polska",
     "address": "OS. POD LIPAMI 104",
     "city": "61-638 POZNAŃ",
@@ -81,7 +99,7 @@
     "popupLines": []
   },
   {
-    "id": "109",
+    "id": "111",
     "label": "Chata Polska",
     "address": "GARBARY 57",
     "city": "61-249 POZNAŃ",
@@ -90,7 +108,7 @@
     "popupLines": []
   },
   {
-    "id": "110",
+    "id": "112",
     "label": "Chata Polska",
     "address": "OS. BOLESŁAWA CHROBREGO 119",
     "city": "60-681 POZNAŃ",
@@ -99,7 +117,7 @@
     "popupLines": []
   },
   {
-    "id": "111",
+    "id": "113",
     "label": "Chata Polska",
     "address": "OS PRZYJAŹNI 132A",
     "city": "61-690 POZNAŃ",
@@ -108,7 +126,7 @@
     "popupLines": []
   },
   {
-    "id": "112",
+    "id": "114",
     "label": "Chata Polska",
     "address": "STRÓŻYŃSKIEGO 29",
     "city": "60-688 POZNAŃ",
@@ -117,7 +135,7 @@
     "popupLines": []
   },
   {
-    "id": "113",
+    "id": "115",
     "label": "Chata Polska",
     "address": "NARAMOWICKA 232/BOŻYDARA",
     "city": "61-611 POZNAŃ",
@@ -126,7 +144,7 @@
     "popupLines": []
   },
   {
-    "id": "114",
+    "id": "116",
     "label": "Chata Polska",
     "address": "NARAMOWICKA 170",
     "city": "61-611 POZNAŃ",
@@ -135,7 +153,7 @@
     "popupLines": []
   },
   {
-    "id": "115",
+    "id": "117",
     "label": "Chata Polska",
     "address": "MUSZKOWSKA 2",
     "city": "60-443 POZNAŃ",
@@ -144,7 +162,7 @@
     "popupLines": []
   },
   {
-    "id": "116",
+    "id": "118",
     "label": "Chata Polska",
     "address": "os. Wichrowe Wzgórze 101",
     "city": "60-101 POZNAŃ",
@@ -153,7 +171,7 @@
     "popupLines": []
   },
   {
-    "id": "117",
+    "id": "119",
     "label": "Chata Polska",
     "address": "BONIN 8",
     "city": "60-658 POZNAŃ",
@@ -162,7 +180,7 @@
     "popupLines": []
   },
   {
-    "id": "118",
+    "id": "120",
     "label": "Chata Polska",
     "address": "BŁĘKITNA 1/7",
     "city": "60-462 POZNAŃ",
@@ -171,7 +189,7 @@
     "popupLines": []
   },
   {
-    "id": "121",
+    "id": "123",
     "label": "Chata Polska",
     "address": "RYNKOWA 142/144",
     "city": "62-081 PRZEŹMIEROWO",
@@ -180,7 +198,7 @@
     "popupLines": []
   },
   {
-    "id": "122",
+    "id": "124",
     "label": "Chata Polska",
     "address": "RYNKOWA 75 C",
     "city": "62-081 PRZEŹMIEROWO",
@@ -189,7 +207,7 @@
     "popupLines": []
   },
   {
-    "id": "128",
+    "id": "131",
     "label": "Chata Polska",
     "address": "OS. TYGRYSIE 26A",
     "city": "ROBAKOWO",
@@ -198,7 +216,7 @@
     "popupLines": []
   },
   {
-    "id": "133",
+    "id": "136",
     "label": "Chata Polska",
     "address": "ul. Trakt Napoleoński 11",
     "city": "62-090 ROKIETNICA",
@@ -207,7 +225,7 @@
     "popupLines": []
   },
   {
-    "id": "138",
+    "id": "142",
     "label": "Chata Polska",
     "address": "POZNAŃSKA 74",
     "city": "60-185 SKÓRZEWO",
@@ -216,7 +234,7 @@
     "popupLines": []
   },
   {
-    "id": "139",
+    "id": "143",
     "label": "Chata Polska",
     "address": "BRATNIA 1",
     "city": "60-185 SKÓRZEWO",
@@ -225,7 +243,7 @@
     "popupLines": []
   },
   {
-    "id": "146",
+    "id": "150",
     "label": "Chata Polska",
     "address": "BOGUSŁAWSKIEGO 16",
     "city": "62-002 SUCHY LAS",
@@ -234,7 +252,7 @@
     "popupLines": []
   },
   {
-    "id": "147",
+    "id": "151",
     "label": "Sklep Partnerski",
     "address": "PLAC HANDLOWY 1",
     "city": "62-020 SWARZĘDZ",
@@ -243,7 +261,7 @@
     "popupLines": []
   },
   {
-    "id": "148",
+    "id": "152",
     "label": "Chata Polska",
     "address": "OS. CEGIELSKIEGO 31",
     "city": "62-020 SWARZĘDZ",
@@ -252,7 +270,7 @@
     "popupLines": []
   },
   {
-    "id": "149",
+    "id": "153",
     "label": "Chata Polska",
     "address": "Cieszkowskiego 9-11",
     "city": "62-020 SWARZĘDZ",
@@ -261,7 +279,7 @@
     "popupLines": []
   },
   {
-    "id": "160",
+    "id": "164",
     "label": "Chata Polska",
     "address": "23-GO PAŹDZIERNIKA 32",
     "city": "62-080 TARNOWO PODGÓRNE",
@@ -270,7 +288,7 @@
     "popupLines": []
   },
   {
-    "id": "161",
+    "id": "165",
     "label": "Chata Polska",
     "address": "RABOWICKA 1, GOWARZEWO",
     "city": "63-004 TULCE",
@@ -279,7 +297,7 @@
     "popupLines": []
   },
   {
-    "id": "17",
+    "id": "18",
     "label": "Chata Polska",
     "address": "GDYŃSKA 120",
     "city": "62-004 CZERWONAK",
@@ -288,7 +306,7 @@
     "popupLines": []
   },
   {
-    "id": "18",
+    "id": "19",
     "label": "Chata Polska",
     "address": "SZAFIROWA 1 A",
     "city": "62-069 DĄBROWA",
@@ -306,7 +324,7 @@
     "popupLines": []
   },
   {
-    "id": "22",
+    "id": "23",
     "label": "Chata Polska",
     "address": "MŁYŃSKA 9",
     "city": "62-070 DOPIEWO",
@@ -315,7 +333,7 @@
     "popupLines": []
   },
   {
-    "id": "33",
+    "id": "34",
     "label": "Chata Polska",
     "address": "SIEKIERECKA 24B/1",
     "city": "63-004 GOWARZEWO",
@@ -324,7 +342,7 @@
     "popupLines": []
   },
   {
-    "id": "47",
+    "id": "49",
     "label": "Chata Polska",
     "address": "POZNAŃSKA 37",
     "city": "62-025 KOSTRZYN",
@@ -333,7 +351,7 @@
     "popupLines": []
   },
   {
-    "id": "48",
+    "id": "50",
     "label": "Chata Polska",
     "address": "POZNAŃSKA 15C",
     "city": "62-028 KOZIEGŁOWY",
@@ -342,7 +360,7 @@
     "popupLines": []
   },
   {
-    "id": "49",
+    "id": "51",
     "label": "Chata Polska",
     "address": "OSIEDLE LEŚNE 21 A",
     "city": "62-028 KOZIEGŁOWY",
@@ -360,7 +378,7 @@
     "popupLines": []
   },
   {
-    "id": "61",
+    "id": "63",
     "label": "Sklep Partnerski",
     "address": "3 MAJA 14",
     "city": "62-030 LUBOŃ",
@@ -369,7 +387,7 @@
     "popupLines": []
   },
   {
-    "id": "62",
+    "id": "64",
     "label": "Chata Polska",
     "address": "11 LISTOPADA 51",
     "city": "62-030 LUBOŃ",
@@ -378,7 +396,7 @@
     "popupLines": []
   },
   {
-    "id": "82",
+    "id": "84",
     "label": "Chata Polska",
     "address": "PLAC PRZEMYSŁAWA 1C",
     "city": "62-005 OWIŃSKA",
@@ -387,7 +405,7 @@
     "popupLines": []
   },
   {
-    "id": "90",
+    "id": "92",
     "label": "Chata Polska",
     "address": "SZARYCH SZEREGÓW 12",
     "city": "60-462 POZNAŃ",
@@ -396,7 +414,7 @@
     "popupLines": []
   },
   {
-    "id": "91",
+    "id": "93",
     "label": "Chata Polska",
     "address": "JANA KEPLERA 1/2A",
     "city": "60-158 POZNAŃ",
@@ -405,7 +423,7 @@
     "popupLines": []
   },
   {
-    "id": "92",
+    "id": "94",
     "label": "Sklep Partnerski",
     "address": "GŁUSZYNA 273",
     "city": "61-329 POZNAŃ",
@@ -414,7 +432,7 @@
     "popupLines": []
   },
   {
-    "id": "93",
+    "id": "95",
     "label": "Chata Polska",
     "address": "LESZCZYŃSKA 3/5",
     "city": "60-115 POZNAŃ",
@@ -423,7 +441,7 @@
     "popupLines": []
   },
   {
-    "id": "94",
+    "id": "96",
     "label": "Chata Polska",
     "address": "STRZESZYŃSKA 63",
     "city": "60-479 POZNAŃ",
@@ -432,7 +450,7 @@
     "popupLines": []
   },
   {
-    "id": "95",
+    "id": "97",
     "label": "Chata Polska",
     "address": "WOJSKA POLSKIEGO 6/8",
     "city": "60-637 POZNAŃ",
@@ -441,7 +459,7 @@
     "popupLines": []
   },
   {
-    "id": "96",
+    "id": "98",
     "label": "Chata Polska",
     "address": "JANA KEPLERA 1",
     "city": "60-158 POZNAŃ",
@@ -450,30 +468,12 @@
     "popupLines": []
   },
   {
-    "id": "97",
+    "id": "99",
     "label": "Sklep Partnerski",
     "address": "OS. LECHA 43",
     "city": "61-294 POZNAŃ",
     "longitude": 16.975096,
     "latitude": 52.390565,
-    "popupLines": []
-  },
-  {
-    "id": "98",
-    "label": "Chata Polska",
-    "address": "DĄBRÓWKI 1",
-    "city": "61-501 POZNAŃ",
-    "longitude": 16.920321,
-    "latitude": 52.387665,
-    "popupLines": []
-  },
-  {
-    "id": "99",
-    "label": "Chata Polska",
-    "address": "ul. Pokrzywno 26B",
-    "city": "61-316 POZNAŃ",
-    "longitude": 16.981059,
-    "latitude": 52.352157,
     "popupLines": []
   }
 ]
