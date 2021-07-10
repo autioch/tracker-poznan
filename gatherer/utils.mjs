@@ -28,12 +28,9 @@ export function joinFromCurrentDir(importMeta, ...subfolders) {
   return join.bind(null, basePath);
 }
 
-export const outputJoin = joinFromCurrentDir(import.meta, '..', 'docs', 'data');
-export const require = createRequire(import.meta.url); // eslint-disable-line no-shadow
+const outputJoin = joinFromCurrentDir(import.meta, '..', 'docs', 'data');
 
-export function saveOutput(fileName, fileContent, debug = false) {
-  return fs.writeFile(outputJoin(`${fileName}.json`), JSON.stringify(fileContent, null, debug ? 2 : undefined)); // eslint-disable-line no-undefined
-}
+export const require = createRequire(import.meta.url); // eslint-disable-line no-shadow
 
 const PREC = 1000000;
 const roundNum = (num) => Math.round(num * PREC) / PREC;
@@ -42,7 +39,7 @@ export function saveOutputItems(fileName, items, skipDistanceCheck = false) {
   if (skipDistanceCheck) {
     console.log(`${fileName}: ${items.length} saved.`);
 
-    return saveOutput(fileName, items, true);
+    return fs.writeFile(outputJoin(`${fileName}.json`), JSON.stringify(items, null, 2));
   }
 
   const nearCenter = items.filter((item) => isNearPoznanCenter(item.latitude, item.longitude));
@@ -52,12 +49,12 @@ export function saveOutputItems(fileName, items, skipDistanceCheck = false) {
   console.log(`${fileName}: ${items.length} found, ${nearCenter.length} saved.`);
 
   // get rid of centimeter precision, meters are enough.
-  items.forEach((item) => {
+  nearCenter.forEach((item) => {
     item.latitude = roundNum(item.latitude);
     item.longitude = roundNum(item.longitude);
   });
 
-  return saveOutput(fileName, nearCenter, true);
+  return fs.writeFile(outputJoin(`${fileName}.json`), JSON.stringify(nearCenter, null, 2));
 }
 
 export function getPage(url) {
@@ -76,30 +73,6 @@ export function getPage(url) {
     req.end();
   });
 }
-
-// todo
-// export function postRequest(url) {
-//   let content = '';
-//   const options = {
-//     // hostname: 'encrypted.google.com',
-//     port: 443,
-//     path: '/',
-//     method: 'POST'
-//   };
-//
-//   return new Promise((res) => {
-//     const req = https.request(url, options, (resp) => {
-//       resp.setEncoding('utf8');
-//       resp.on('data', (chunk) => {
-//         content += chunk;
-//       });
-//
-//       resp.on('end', () => res(content));
-//     });
-//
-//     req.end();
-//   });
-// }
 
 // https://opencagedata.com/api#forward
 // https://opencagedata.com/tutorials/geocode-in-javascript
@@ -130,22 +103,4 @@ export async function forwardGeocode(address, city) {
   }
 
   return results[0].geometry;
-}
-
-export async function debugList(arr, fileName) {
-  const grouped = arr.reduce((obj, item) => {
-    Object.entries(item).forEach(([key, value]) => {
-      if (!obj[key]) {
-        obj[key] = new Set();
-      }
-
-      obj[key].add(JSON.stringify(value));
-    });
-
-    return obj;
-  }, {});
-
-  const final = Object.entries(grouped).map(([key, set]) => [key, [...set].sort().map((str) => JSON.parse(str))]);
-
-  await fs.writeFile(fileName, JSON.stringify(final, null, '  '));
 }

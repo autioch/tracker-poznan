@@ -1,14 +1,9 @@
-// https://inpost.pl/sites/default/files/points.json
-// https://inpost.pl/en/find-location
-
 import fs from 'fs';
 
 import { getPage, joinFromCurrentDir } from '../utils.mjs';
 
-const join = joinFromCurrentDir(import.meta, 'db');
-
+// https://inpost.pl/sites/default/files/points.json
 // https://inpost.pl/en/find-location
-const url = `https://inpost.pl/sites/default/files/points.json`;
-const points = await getPage(url);
+const points = await getPage('https://inpost.pl/sites/default/files/points.json');
 
-await fs.promises.writeFile(join(`points.json`), points);
+await fs.promises.writeFile(joinFromCurrentDir(import.meta, 'db', 'raw.json')(), points);

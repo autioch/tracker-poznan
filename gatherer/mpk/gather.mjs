@@ -12,30 +12,6 @@ const join = joinFromCurrentDir(import.meta, 'db');
 const url = 'https://www.ztm.poznan.pl/en/dla-deweloperow/getGTFSFile';
 const zipLocation = join('ZTMPoznanGTFS.zip');
 
-function getZip() {
-  return new Promise((res) => {
-    https.get(url, (resp) => {
-      const filePath = fs.createWriteStream(zipLocation);
-
-      resp.pipe(filePath);
-      filePath.on('finish', () => {
-        filePath.close();
-        res();
-      });
-    });
-  });
-}
-
-async function extractZip() {
-  try {
-    await extract(zipLocation, {
-      dir: join()
-    });
-  } catch (err) {
-    console.log(err.message);
-  }
-}
-
 function csvToJson(tableName) {
   return new Promise((res) => {
     const tableContent = [];
@@ -54,8 +30,21 @@ function csvToJson(tableName) {
   });
 }
 
-await getZip();
-await extractZip();
+await new Promise((res) => {
+  https.get(url, (resp) => {
+    const filePath = fs.createWriteStream(zipLocation);
+
+    resp.pipe(filePath);
+    filePath.on('finish', () => {
+      filePath.close();
+      res();
+    });
+  });
+});
+
+await extract(zipLocation, {
+  dir: join()
+});
 
 const tableNames = await fs.promises.readdir(join());
 const tablePromises = tableNames.filter((tableName) => tableName.endsWith('.txt')).map(csvToJson);

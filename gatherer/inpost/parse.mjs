@@ -1,6 +1,6 @@
 import { require, saveOutputItems } from '../utils.mjs'; // eslint-disable-line no-shadow
 
-const data = require('./inpost/db/points.json');
+const data = require('./inpost/db/raw.json');
 
 // b - place
 // c - city
@@ -17,15 +17,14 @@ const data = require('./inpost/db/points.json');
 // s - ?
 // t - ?
 
-const itemList = data.items
-  .map(({ b, c, d, e, g, h, l, n }) => ({
-    id: n,
-    label: d,
-    address: [e, b].map((t = '') => t.trim()).join(' ').trim(),
-    city: (c || g || '').trim(),
-    longitude: l.o,
-    latitude: l.a,
-    popupLines: [h]
-  }));
+const itemList = data.items.map(({ b, c, d, e, g, h, l, n }) => ({
+  id: n,
+  label: d,
+  address: [e, b].map((t = '') => t.trim()).join(' ').trim(),
+  city: (c || g || '').trim(),
+  longitude: l.o,
+  latitude: l.a,
+  popupLines: [h]
+}));
 
 saveOutputItems('inpost', itemList);

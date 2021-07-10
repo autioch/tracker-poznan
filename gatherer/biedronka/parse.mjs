@@ -37,23 +37,20 @@ function getShopList(html, pageIndex) {
 async function geoLocateShop(shop) {
   const result = await forwardGeocode(shop.address, shop.city);
 
-  if (!result) {
-    return;
+  if (result) {
+    const { lat, lng } = result;
+
+    shop.latitude = lat;
+    shop.longitude = lng;
   }
 
-  const { lat, lng } = result;
-
-  shop.latitude = lat;
-  shop.longitude = lng;
+  return shop;
 }
 
 const fileNames = await fs.readdir(join());
 const tablePromises = fileNames.map((fileName) => fs.readFile(join(fileName), 'utf8'));
 
 const htmls = await Promise.all(tablePromises);
-const shopList = htmls.flatMap(getShopList);
-const geocodeReqs = shopList.map(geoLocateShop);
-
-await Promise.all(geocodeReqs);
+const shopList = await Promise.all(htmls.flatMap(getShopList).map(geoLocateShop));
 
 saveOutputItems('biedronka', shopList);
