@@ -7,11 +7,12 @@ import PanelService from 'services/panel';
 import icons from './icons';
 
 const LS_KEY = 'tracker-poznan-about1';
+const LAST_UPDATE = '2021.07.10';
 
 function getPanelContent() {
   return [
     tag('p', `Find closest communication, shops and other POI (Points Of Interest).`),
-    tag('p', `Last updated 2021.07.05`),
+    tag('p', `Last updated ${LAST_UPDATE}`),
     tag('div.tp-panel__header', 'Terms of use'),
     tag('ol',
         tag('li', 'You\'re using this application on your own.'),
@@ -88,7 +89,6 @@ Finding closest points would require a payed API, with a lot of requests needed.
         tag('li', 'Button to reset to see all items (selected or not)'),
         tag('li', 'Display inactive mpk stops'),
         tag('li', 'Display only icons visible in the viewport'),
-        tag('li', 'Check PWA updates'),
         tag('li', 'Check items available on ', tag('a', 'interia.pl', {
           href: 'https://promocyjni.interia.pl/duza-mapa',
           target: '_blank',

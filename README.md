@@ -38,3 +38,10 @@ See it at [autioch.github.io/tracker-poznan](https://autioch.github.io/tracker-p
 ## TODO
 - checkout webpack https://www.npmjs.com/package/offline-plugin
 - checkout https://developers.google.com/web/tools/workbox/guides/get-started
+
+
+## Update steps
+Those are very raw, will be refined at some point.
+1. In folder `gatherer`, run `npm run gather`, then `npm run parse`.
+2. In file `webapp/src/modules/about.js`, update `LAST_UPDATE` const.
+3. In file `docs/service-worker.js`, update `CACHE_NAME` version. 
