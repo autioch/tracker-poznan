@@ -1,5 +1,5 @@
-*/db/*.json
-*/db/*.txt
-*/db/*.html
-*/db/*.zip
-*/db/*.xml
+sources/*/db/*.json
+sources/*/db/*.txt
+sources/*/db/*.html
+sources/*/db/*.zip
+sources/*/db/*.xml
