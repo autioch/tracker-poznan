@@ -32,6 +32,6 @@
   "scope": "https://autioch.github.io/tracker-poznan/",
   "short_name": "Tracker",
   "shortcuts": [],
-  "start_url": "/",
+  "start_url": "https://autioch.github.io/tracker-poznan/",
   "theme_color": "#666666"
 }
