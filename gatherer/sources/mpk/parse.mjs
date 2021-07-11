@@ -1,6 +1,6 @@
 import { joinFromCurrentDir, require } from '../../utils/index.mjs'; // eslint-disable-line no-shadow
 import { BUS_ROUTE, MPK_AGENCY, TOURIST_LINES, TRAM_ROUTE } from './consts.mjs';
-import { finalizeGroup, isDailyRoute, isNightlyRoute, pickRouteId, pickTripId, uniqStr } from './utils.mjs';
+import { finalizeGroup, isDailyRoute, isNightlyRoute, pickRouteId, uniqStr } from './utils.mjs';
 
 const join = joinFromCurrentDir(import.meta, 'db');
 
@@ -35,6 +35,25 @@ const tramRouteIds = new Set(standardRoutes.filter((route) => route.route_type =
 const mpkBusRouteIds = new Set(standardRoutes.filter((route) => route.route_type === BUS_ROUTE && route.agency_id === MPK_AGENCY).map(pickRouteId).filter(isDailyRoute));
 const otherBusRouteIds = new Set(standardRoutes.filter((route) => route.route_type === BUS_ROUTE && route.agency_id !== MPK_AGENCY).map(pickRouteId).filter(isDailyRoute));
 const nightRouteIds = new Set(standardRoutes.map(pickRouteId).filter(isNightlyRoute));
+
+const stopIdToTripId = stopTimes.reduce((obj, { stop_id, trip_id }) => {
+  if (obj[stop_id]) {
+    obj[stop_id].push(trip_id);
+  } else {
+    obj[stop_id] = [trip_id];
+  }
+
+  return obj;
+}, {});
+
+const shapesDict = shapes.reduce((obj, { shape_id, shape_pt_lat, shape_pt_lon, shape_pt_sequence }) => {
+  if (!obj[shape_id]) {
+    obj[shape_id] = [];
+  }
+  obj[shape_id].push([shape_pt_sequence, shape_pt_lat, shape_pt_lon]);
+
+  return obj;
+}, {});
 
 const { mpkBusTripIds, otherBusTripIds, tramTripIds, nightBusTripIds } = trips.reduce((obj, { route_id, trip_id }) => {
   if (tramRouteIds.has(route_id)) {
@@ -80,7 +99,7 @@ const { tramStopIds, mpkBusStopIds, otherBusStopIds, nightBusStopIds } = stopTim
 const { tramStops, mpkBusStops, otherBusStops, nightStops } = stops.reduce((obj, stopItem) => {
   const { stop_id, stop_name, stop_lat, stop_lon } = stopItem;
 
-  const tripIds = uniqStr(stopTimes.filter((stopTime) => stopTime.stop_id === stop_id).map(pickTripId));
+  const tripIds = uniqStr(stopIdToTripId[stop_id]);
 
   const tramRoutes = uniqStr(tripIds.filter((tripId) => tramTripIds.has(tripId)).map(getRouteId));
   const busRoutes = uniqStr(tripIds.filter((tripId) => mpkBusTripIds.has(tripId)).map(getRouteId));
@@ -119,15 +138,6 @@ const { tramStops, mpkBusStops, otherBusStops, nightStops } = stops.reduce((obj,
   otherBusStops: [],
   nightStops: []
 });
-
-const shapesDict = shapes.reduce((obj, { shape_id, shape_pt_lat, shape_pt_lon, shape_pt_sequence }) => {
-  if (!obj[shape_id]) {
-    obj[shape_id] = [];
-  }
-  obj[shape_id].push([shape_pt_sequence, shape_pt_lat, shape_pt_lon]);
-
-  return obj;
-}, {});
 
 await finalizeGroup('tram', tramStops, shapesDict, trips, tramRouteIds);
 await finalizeGroup('bus', mpkBusStops, shapesDict, trips, mpkBusRouteIds);

@@ -67,8 +67,9 @@ export default function loadData() {
   const dataPromises = itemsToLoad
     .map(({ key, label, color }) => {
       const progressEl = tag('div.loader-item__progress');
+      const progressBarEl = tag('div.loader-item__progress-bar', progressEl);
       const labelEl = tag('div.loader-item__label', label);
-      const itemEl = tag('div.loader-item', labelEl, tag('div.loader-item__progress-bar', progressEl));
+      const itemEl = tag('div.loader-item', labelEl, progressBarEl);
 
       progressEl.style.backgroundColor = color;
       window.tpSlashList.append(itemEl);
@@ -82,7 +83,7 @@ export default function loadData() {
             progressEl.style.width = `${percent}%`;
           })
             .then(({ chunks, receivedLength }) => {
-              itemEl.classList.add('is-loaded');
+              labelEl.classList.add('is-loaded');
 
               return [key, jsonFromBytes(chunks, receivedLength)];
             });
@@ -107,8 +108,9 @@ export default function loadData() {
         });
       });
 
-      setTimeout(() => document.body.removeChild(window.tpSplash), 1000);
-
-      return definitions;
+      return new Promise((res) => {
+        setTimeout(() => document.body.removeChild(window.tpSplash), 100);
+        setTimeout(() => res(definitions), 200);
+      });
     });
 }

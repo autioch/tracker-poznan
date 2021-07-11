@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "postinstall": "node ./postInstall.mjs",
-    "test": "node ./node_modules/mocha/bin/mocha mpk/*.spec.mjs",
+    "test": "node ./node_modules/mocha/bin/mocha **/*.spec.mjs",
     "lint": "eslint . --fix --ext .mjs",
     "gather": "node ./gather.mjs",
     "gather:atm": "node ./sources/atm/gather.mjs",
@@ -22,7 +22,7 @@
     "parse:chatapolska": "node ./sources/chatapolska/parse.mjs",
     "parse:inpost": "node ./sources/inpost/parse.mjs",
     "parse:lidl": "node ./sources/lidl/parse.mjs",
-    "parse:mpk": "node  --max-old-space-size=4096 ./mpk/parse.mjs",
+    "parse:mpk": "node  --max-old-space-size=4096 ./sources/mpk/parse.mjs",
     "parse:netto": "node ./sources/netto/parse.mjs",
     "parse:pharmacy": "node ./sources/pharmacy/parse.mjs",
     "parse:zabka": "node ./sources/zabka/parse.mjs"
@@ -33,6 +33,7 @@
     "cheerio": "1.0.0-rc.10",
     "csv-parser": "2.3.3",
     "extract-zip": "2.0.1",
+    "polygon-clipping": "^0.15.3",
     "spherical": "0.2.0",
     "xml2js": "0.4.23"
   },

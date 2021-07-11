@@ -11,7 +11,8 @@ const sqrSinHalf = (val) => Math.sin(val / 2) * Math.sin(val / 2);
 const MAX_DISTANCE = 20; // distance from poznan center;
 
 const PREC = 1000000;
-const roundNum = (num) => Math.round(num * PREC) / PREC;
+
+export const roundToMeters = (coord) => Math.round(coord * PREC) / PREC;
 const outputJoin = joinFromCurrentDir(import.meta, '..', '..', 'docs', 'data');
 const padNum = (num) => num.toString().padStart(6, ' ').padEnd(7, ' ');
 
@@ -30,10 +31,9 @@ export default async function saveOutputItems(fileName, items, skipDistanceCheck
     current.sort((a, b) => a.id.localeCompare(b.id));
   }
 
-  // get rid of centimeter precision, meters are enough.
   current.forEach((item) => {
-    item.latitude = roundNum(item.latitude);
-    item.longitude = roundNum(item.longitude);
+    item.latitude = roundToMeters(item.latitude);
+    item.longitude = roundToMeters(item.longitude);
   });
 
   const currentJson = JSON.stringify(current);

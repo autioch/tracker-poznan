@@ -12,7 +12,7 @@
 
 #tpSplashContent {
   background: rgba(255,255,255,0.9);
-  width: 60vw;
+  width: 40vw;
   max-width: calc(100% - 20px);
   border-radius: 5px;
   box-shadow: 0 0 4px #555;
@@ -46,18 +46,16 @@
  max-height: 100px;
  overflow: hidden;
  box-sizing: border-box;
-
-  &.is-loaded {
-    transition: max-height 500ms, padding 500ms;
-    max-height: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
 }
 
 .loader-item__label {
   font-size: 11px;
   margin-bottom: 2px;
+
+  &.is-loaded {
+    color: #50BE50;
+  }
+
   &.is-error {
     color: #f00;
   }
