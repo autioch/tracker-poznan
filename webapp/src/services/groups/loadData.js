@@ -4,31 +4,6 @@ import { getLabel, jsonFromBytes, readBytes } from 'utils';
 
 import definitions from './definitions';
 
-const items = [
-  'tram',
-  'tramLines',
-  'tramRanges',
-  'bus',
-  'busLines',
-  'busRanges',
-  'otherBus',
-  'otherBusLines',
-  'otherBusRanges',
-  'night',
-  'nightLines',
-  'nightRanges',
-
-  'biedronka',
-  'chatapolska',
-  'lidl',
-  'netto',
-
-  'atm',
-  'zabka',
-  'inpost',
-  'pharmacy'
-];
-
 const dataKeys = {
   commune_tram: {
     items: 'tram',
@@ -78,16 +53,27 @@ const dataKeys = {
   }
 };
 
+const definitionColors = Object.fromEntries(definitions.map(({ id, color }) => [id, color]));
+
+const itemsToLoad = Object.entries(dataKeys).flatMap(([dataKey, dicts]) => Object.values(dicts).map((key) => ({
+  key,
+  label: getLabel(key),
+  color: definitionColors[dataKey]
+})));
+
 export default function loadData() {
-  const dataPromises = items
-    .map((item) => {
+  window.tpSlashList.innerHTML = '';
+
+  const dataPromises = itemsToLoad
+    .map(({ key, label, color }) => {
       const progressEl = tag('div.loader-item__progress');
-      const labelEl = tag('div.loader-item__label', getLabel(item));
+      const labelEl = tag('div.loader-item__label', label);
       const itemEl = tag('div.loader-item', labelEl, tag('div.loader-item__progress-bar', progressEl));
 
-      window.tpSplashContent.append(itemEl);
+      progressEl.style.backgroundColor = color;
+      window.tpSlashList.append(itemEl);
 
-      return fetch(`data/${item}.json`)
+      return fetch(`data/${key}.json`)
         .then((resp) => {
           const reader = resp.body.getReader();
           const contentLength = Number(resp.headers.get('Content-Length') || 2000000);
@@ -95,12 +81,16 @@ export default function loadData() {
           return readBytes(reader, contentLength, (percent) => {
             progressEl.style.width = `${percent}%`;
           })
-            .then(({ chunks, receivedLength }) => [item, jsonFromBytes(chunks, receivedLength)]);
+            .then(({ chunks, receivedLength }) => {
+              itemEl.classList.add('is-loaded');
+
+              return [key, jsonFromBytes(chunks, receivedLength)];
+            });
         })
         .catch(() => {
           labelEl.classList.add('is-error');
 
-          return [item, [] ];
+          return [key, [] ];
         });
     });
 

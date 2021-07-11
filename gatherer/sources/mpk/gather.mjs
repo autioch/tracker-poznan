@@ -24,7 +24,7 @@ function csvToJson(tableName) {
       .on('data', (data) => tableContent.push(data))
       .on('end', () => {
         fs.promises
-          .writeFile(join(`${basename(tableName, '.txt')}.json`), JSON.stringify(tableContent, null, '  '))
+          .writeFile(join(`${basename(tableName, '.txt')}.json`), JSON.stringify(tableContent))
           .then(res);
       });
   });

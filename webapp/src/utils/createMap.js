@@ -21,7 +21,7 @@ export function createMap(elementId) {
       id: tileTypeId,
       tileSize,
       zoomOffset,
-      zoomSnap: 0.5
+      zoomSnap: 0
     })
     .addTo(mapInstance);
 

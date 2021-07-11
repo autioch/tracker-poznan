@@ -1,9 +1,9 @@
 #tpSplash {
   position: fixed;
-  top: 0;
+  top: 10px;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,11 +12,20 @@
 
 #tpSplashContent {
   background: rgba(255,255,255,0.9);
-  width: max(60vw, 400px);
   width: 60vw;
-  width: 400px;
+  max-width: calc(100% - 20px);
   border-radius: 5px;
   box-shadow: 0 0 4px #555;
+  max-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#tpSlashList {
+  overflow: auto;
+  height: 100%;
+  margin: 5px;
 }
 
 @supports (backdrop-filter: blur(5px)) {
@@ -34,10 +43,20 @@
 
 .loader-item {
  padding: 5px 5px;
+ max-height: 100px;
+ overflow: hidden;
+ box-sizing: border-box;
+
+  &.is-loaded {
+    transition: max-height 500ms, padding 500ms;
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .loader-item__label {
-
+  font-size: 11px;
   margin-bottom: 2px;
   &.is-error {
     color: #f00;
@@ -57,6 +76,5 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: rgba(80, 190, 80, 1);
   transition: width 250ms;
 }
