@@ -1,3 +1,5 @@
+import './styles.scss';
+
 import loadData from './loadData';
 import parseData from './parseData';
 

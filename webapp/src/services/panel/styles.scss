@@ -12,6 +12,8 @@
   display: flex;
   flex-direction: column;
   background: rgba(255,255,255,0.9);
+  max-width: calc(100% - 20px);
+  max-height: calc(100% - 80px);
 
   &.is-hidden {
     top: 100%;
@@ -27,15 +29,21 @@
 
 @media (orientation: landscape) {
   .tp-panel {
+    max-width: calc(100% - 20px);
+    max-height: calc(100% - 80px);
+  }
+  .tp-panel--partial {
     max-width: calc(50% - 20px);
-    height: calc(100% - 80px);
   }
 }
 
 @media (orientation: portrait) {
   .tp-panel {
+    max-height: calc(100% - 80px);
+    max-width: calc(100% - 20px);
+  }
+  .tp-panel--partial {
     max-height: calc(50% - 80px);
-    width: calc(100% - 20px);
   }
 }
 
@@ -73,7 +81,7 @@
   width: 16px;
   height: 16px;
   padding: 10px;
-  margin: -10px -10px 0 auto;
+  margin: -10px -6px 0 auto;
   cursor: pointer;
 }
 

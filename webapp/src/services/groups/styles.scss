@@ -1,0 +1,62 @@
+#tpSplash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#tpSplashContent {
+  background: rgba(255,255,255,0.9);
+  width: max(60vw, 400px);
+  width: 60vw;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #555;
+}
+
+@supports (backdrop-filter: blur(5px)) {
+  #tpSplashContent {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(5px);
+  }
+}
+
+.loader-header {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.loader-item {
+ padding: 5px 5px;
+}
+
+.loader-item__label {
+
+  margin-bottom: 2px;
+  &.is-error {
+    color: #f00;
+  }
+}
+
+.loader-item__progress-bar {
+  position: relative;
+  overflow: hidden;
+  height: 4px;
+  border-radius: 2px;
+  background: #e1e1e1;
+}
+
+.loader-item__progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(80, 190, 80, 1);
+  transition: width 250ms;
+}

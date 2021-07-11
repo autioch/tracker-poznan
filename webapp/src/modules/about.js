@@ -82,19 +82,6 @@ function getPanelContent() {
     tag('div.tp-panel__header', 'Measuring distances'),
     tag('p', `Distances are measured in straight line - no obstacles are taken into account (rivers, roads, etc.).
 Finding closest points would require a payed API, with a lot of requests needed.`),
-    tag('div.tp-panel__header', 'Potential next features'),
-    tag('ul',
-        tag('li', 'Search by address'),
-        tag('li', 'Translating current location to an address'),
-        tag('li', 'Button to reset to see all items (selected or not)'),
-        tag('li', 'Display inactive mpk stops'),
-        tag('li', 'Display only icons visible in the viewport'),
-        tag('li', 'Check items available on ', tag('a', 'interia.pl', {
-          href: 'https://promocyjni.interia.pl/duza-mapa',
-          target: '_blank',
-          rel: 'noreferrer'
-        }))
-    ),
     tag('div.tp-panel__header', 'Have fun!')
   ];
 }

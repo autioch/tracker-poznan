@@ -36,7 +36,7 @@ panelEl.append(headlineEl, contentEl);
 
 document.body.append(panelEl);
 
-function show(title, closeCallback, contentEls) {
+function show(title, closeCallback, contentEls, isPartial = false) {
   const newContent = Array.isArray(contentEls) ? contentEls : [contentEls];
 
   if (currentCallback !== closeCallback) {
@@ -45,6 +45,7 @@ function show(title, closeCallback, contentEls) {
   currentCallback = closeCallback;
   headerEl.textContent = title;
   panelEl.classList.remove('is-hidden');
+  panelEl.classList.toggle('tp-panel--partial', isPartial);
   contentEl.replaceChildren(...newContent);
 }
 

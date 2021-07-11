@@ -82,33 +82,23 @@ export default function loadData() {
   const dataPromises = items
     .map((item) => {
       const progressEl = tag('div.loader-item__progress');
-      const itemEl = tag(
-        'div.loader-item',
-        progressEl,
-        tag('div.loader-item__label', getLabel(item))
-      );
+      const labelEl = tag('div.loader-item__label', getLabel(item));
+      const itemEl = tag('div.loader-item', labelEl, tag('div.loader-item__progress-bar', progressEl));
 
       window.tpSplashContent.append(itemEl);
 
       return fetch(`data/${item}.json`)
         .then((resp) => {
           const reader = resp.body.getReader();
-
           const contentLength = Number(resp.headers.get('Content-Length') || 2000000);
 
           return readBytes(reader, contentLength, (percent) => {
             progressEl.style.width = `${percent}%`;
           })
-            .then(({ chunks, receivedLength }) => {
-              const data = jsonFromBytes(chunks, receivedLength);
-
-              itemEl.classList.add('is-loaded');
-
-              return [item, data];
-            });
+            .then(({ chunks, receivedLength }) => [item, jsonFromBytes(chunks, receivedLength)]);
         })
         .catch(() => {
-          itemEl.classList.add('is-error');
+          labelEl.classList.add('is-error');
 
           return [item, [] ];
         });

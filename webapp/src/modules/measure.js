@@ -83,7 +83,8 @@ export default function measure(mapInstance) {
     PanelService.show(
       `Closest points`,
       () => buttonEl.classList.remove('is-active'),
-      content
+      content,
+      true
     );
 
     buttonEl.classList.add('is-active');
