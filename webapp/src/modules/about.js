@@ -7,7 +7,7 @@ import PanelService from 'services/panel';
 import icons from './icons';
 
 const LS_KEY = 'tracker-poznan-about1';
-const LAST_UPDATE = '2021.07.10';
+const LAST_UPDATE = '2021.08.15';
 
 function getPanelContent() {
   return [

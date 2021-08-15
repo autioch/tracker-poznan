@@ -1,5 +1,5 @@
 // Installing service worker
-const CACHE_NAME = 'tracker-poznan-v8';
+const CACHE_NAME = 'tracker-poznan-v9';
 
 /* Add relative URL of all the static content you want to store in
  * cache storage (this will help us use our app offline)*/
@@ -68,12 +68,6 @@ self.addEventListener('install', (ev) => {
 });
 
 // Cache and return requests
-self.addEventListener('fetch', (ev) => {
-  ev.respondWith(
-    caches.match(ev.request).then((response) => response || fetch(ev.request))
-  );
-});
-
 self.addEventListener('fetch', (ev) => {
   ev.respondWith(
     caches
