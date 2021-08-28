@@ -7,3 +7,11 @@ import './sources/mpk/parse.mjs';
 import './sources/netto/parse.mjs';
 import './sources/pharmacy/parse.mjs';
 import './sources/zabka/parse.mjs';
+
+import { saveOutputItems } from './utils/index.mjs';
+
+const date = new Date();
+
+await saveOutputItems('info', {
+  dataUpdate: `${date.getFullYear()}.${date.getMonth() + 1}.${date.getDate()}`
+}, true);

@@ -14,7 +14,7 @@ const PREC = 1000000;
 
 export const roundToMeters = (coord) => Math.round(coord * PREC) / PREC;
 const outputJoin = joinFromCurrentDir(import.meta, '..', '..', 'docs', 'data');
-const padNum = (num) => num.toString().padStart(6, ' ').padEnd(7, ' ');
+const padNum = (num = 0) => num.toString().padStart(6, ' ').padEnd(7, ' ');
 
 function isNearPoznanCenter({ latitude, longitude }) { // haversine
   const latRad = degToRad(latitude);
@@ -31,7 +31,7 @@ export default async function saveOutputItems(fileName, items, skipDistanceCheck
     current.sort((a, b) => a.id.localeCompare(b.id));
   }
 
-  current.forEach((item) => {
+  current.forEach?.((item) => {
     item.latitude = roundToMeters(item.latitude);
     item.longitude = roundToMeters(item.longitude);
   });

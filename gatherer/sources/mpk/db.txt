@@ -1,0 +1,5 @@
+routes			routeId, agencyId, routeShortName, routeLongName, routeDesc, routeType, routeColor, routeTextColor
+trips			routeId, serviceId, tripId, tripHeadsign, directionId, shapeId
+shapes			shapeId, shapePtLat, shapePtLon, shapePtSequence
+stopTimes		tripId, arrivalTime, departureTime, stopId, stopSequence, stopHeadsign, pickupType, dropOffType
+stops			stopId, stopCode, stopName, stopLat, stopLon, zoneId
