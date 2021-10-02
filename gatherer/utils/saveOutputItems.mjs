@@ -37,16 +37,25 @@ export default async function saveOutputItems(fileName, items, skipDistanceCheck
   });
 
   const currentJson = JSON.stringify(current);
+
+  // todo check if the file already exists.
   const previousJson = await fs.readFile(outputJoin(`${fileName}.json`), 'utf8');
+
   const previous = JSON.parse(previousJson);
   const message = `${fileName.padEnd(15, ' ')}${padNum(previous.length)}${padNum(current.length)}(prev/curr)`;
 
+  if (current.length === 0) {
+    console.log(chalk.red(`${fileName.padEnd(15, ' ')}No items to save, aborting overwrite.`));
+
+    return Promise.resolve();
+  }
+
   if (currentJson === previousJson) {
-    console.log(chalk.green(message));
+    console.log(chalk.cyan(message));
   } else if (previous.length <= current.length) {
-    console.log(chalk.yellow(message));
+    console.log(chalk.green(message));
   } else {
-    console.log(chalk.red(message));
+    console.log(chalk.yellow(message));
   }
 
   return fs.writeFile(outputJoin(`${fileName}.json`), currentJson);

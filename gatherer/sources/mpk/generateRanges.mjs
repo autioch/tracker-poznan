@@ -19,9 +19,7 @@ export default function generateRanges(stops, modeList = MODE_LIST, arcCount = A
   const angles = new Array(arcCount + 1).fill(null).map((_, i) => (i / arcCount) * 360); // eslint-disable-line no-unused-vars
 
   return modeList.map((mode) => {
-    const circle = ({ latitude, longitude }) => [angles.map((angle) => radial([longitude, latitude], angle, mode))];
-
-    const circles = stops.map(circle);
+    const circles = stops.map(({ latitude, longitude }) => [angles.map((angle) => radial([longitude, latitude], angle, mode))]);
     const unioned = polygonClipping.union(...circles);
 
     const feature = {

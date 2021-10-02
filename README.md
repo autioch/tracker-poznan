@@ -48,5 +48,6 @@ See it at [autioch.github.io/tracker-poznan](https://autioch.github.io/tracker-p
 ## Update steps
 Those are very raw, will be refined at some point.
 1. In folder `gatherer`, run `npm run gather`, then `npm run parse`.
-2. In file `webapp/src/modules/about.js`, update `LAST_UPDATE` const.
 3. In file `docs/service-worker.js`, update `CACHE_NAME` version.
+3. In folder `webapp`, run `npm run build`.
+4. Push changes.
