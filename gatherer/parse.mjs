@@ -4,7 +4,7 @@ import './sources/chatapolska/parse.mjs';
 import './sources/inpost/parse.mjs';
 import './sources/lidl/parse.mjs';
 import './sources/mpk/parse.mjs';
-import './sources/netto/parse.mjs';
+// import './sources/netto/parse.mjs'; // netto resource moved 301
 import './sources/pharmacy/parse.mjs';
 import './sources/zabka/parse.mjs';
 
