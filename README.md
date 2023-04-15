@@ -27,7 +27,6 @@ See it at [autioch.github.io/tracker-poznan](https://autioch.github.io/tracker-p
 ## What's being used
 - https://leafletjs.com
 - https://www.openstreetmap.org
-- https://www.mapbox.com
 - https://opencagedata.com
 
 ## What's not being used

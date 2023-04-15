@@ -2,12 +2,10 @@ import 'leaflet/dist/leaflet.css';
 
 import L from 'leaflet';
 
-const mapbox = `https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw`;
-const maxZoom = 18;
-const attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-  '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-  'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
-const tileTypeId = 'mapbox/streets-v11'; // 'mapbox/satellite-v9'
+const source = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+const maxZoom = 19;
+const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+
 const tileSize = 512;
 const zoomOffset = -1;
 
@@ -15,10 +13,11 @@ export function createMap(elementId) {
   const mapInstance = L.map(elementId);
 
   L
-    .tileLayer(mapbox, {
+    .tileLayer(source, {
       maxZoom,
       attribution,
-      id: tileTypeId,
+
+      id: 'a',
       tileSize,
       zoomOffset,
       zoomSnap: 0
